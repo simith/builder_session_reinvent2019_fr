@@ -1,0 +1,5 @@
+key,type,encoding,value
+creds,namespace,,
+P11_Cert,file,binary,testdata/9.crt.der
+P11_Key,file,binary,testdata/9.key.der
+P11_CSK,file,binary,testdata/csk.der

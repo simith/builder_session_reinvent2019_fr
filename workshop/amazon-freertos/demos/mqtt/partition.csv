@@ -1,0 +1,4 @@
+key,type,encoding,value
+storage,namespace,,
+certificate,file,binary,testdata/certificate.pem
+privatekey,file,binary,testdata/private.key
