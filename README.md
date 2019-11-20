@@ -18,7 +18,7 @@ Cakematic (change name and slide) is a modern oven which has state-of-the-art fe
 The workshop build environment is setup on a Cloud9 environment and will be provided to you by the instructor. ESP-IDF and the xtensa toolchain will be already setup. Login to your Cloud9 environment using the information provided by the instructor. Follow instructions for setting up the required software on the Laptop by clicking [here]() 
 
 ### 2. AWS IoT Setup
-In this step you will create the Certificates, Keys and code signing certificate required for Over-the-Air updates. Get started by [clicking here for Step 2]()
+In this step you will create the Certificates, Keys and code signing certificate required for Over-the-Air updates. Get started by [clicking here for Step 2](docs/02_AWS_IOT_SETUP.md)
 
 ### 3. Factory setup and Production firmware build on Cloud9
 In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3]()
