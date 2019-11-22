@@ -9,3 +9,10 @@ builder_session_reinvent2019_fr/workshop/tools$./create_keys_and_certificate.sh
 161202e390728e4544cdc969b35b60b358c5dedc2f36f11108633c24a5fc0233
 Not printing Private key, stored in privatekey.pem
 ```
+
+The script creates 3 files in the tools directory, 
+
+1. cert.pem
+2. privatekey.pem
+3. certificateId
+
