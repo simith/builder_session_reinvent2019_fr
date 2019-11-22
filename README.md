@@ -30,6 +30,6 @@ In this step we are going to create the required assets and production firmware 
 In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4]()
 
 ### 5. OTA update
-Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5]()
+Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5]() 
 
 
