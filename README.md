@@ -8,8 +8,11 @@ ESP32 Devkit-C boards configured with AWS IoT certificates, endpoints will be pr
 
 ## Where are we?
 
-Cakematic (change name and slide) is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through thier pilot and have sent out 1000+ appliances to customers across the US.  
+Cakematic (change name and slide) is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through thier pilot and have sent out 1000+ appliances to customers across the US.
+
 ![where?](docs/where_are_we.png)
+
+The Marketing team has received feedback from Customers that what is said in the User Manual and the actual Appliance LED's do not match up. The Firmware development team has come up with a new image tht need to be deployed to the Wireless module. In this workshop you are going to lear how this is done in the real world using Amazon FreeRTOS and AWS IoT Core.
 
 
 # Workshop contents
