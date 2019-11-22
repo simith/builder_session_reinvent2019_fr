@@ -21,7 +21,7 @@ The script creates 3 files in the tools directory by making calls to AWS IoT Cor
 ## 2. Activate the AWS IoT Device certificate
 Head to the AWS IoT Console (us-west-2), and from the sidebar, select Secure, copy the Certificate Id from the output of the **create_keys_and_certificate.sh** and paste it into the searchbox,
 
-!(find_certificate.png)
+![](find_certificate.png)
 
 
 
