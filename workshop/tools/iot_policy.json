@@ -1,7 +1,6 @@
 {
   "Version": "2012-10-17",
-  "Statement": [
-    {
+  "Statement": [{
       "Effect": "Allow",
       "Action": "iot:Connect",
       "Resource": "arn:aws:iot:us-west-2:486194218822:client/${iot:Connection.Thing.ThingName}",
@@ -17,32 +16,21 @@
       "Effect": "Allow",
       "Action": "iot:Publish",
       "Resource": [
-        "arn:aws:iot:us-west-2:486194218822:topic/app/BMC800/${iot:Connection.Thing.ThingName}/uniquecode/request",
-        "arn:aws:iot:us-west-2:486194218822:topic/$aws/things/${iot:Connection.Thing.ThingName}/jobs/*",
-        "arn:aws:iot:us-west-2:486194218822:topic/cdf/certificates/${iot:Connection.Thing.ThingName}/*",
-        "arn:aws:iot:us-west-2:486194218822:topic/app/BMC800/${iot:Connection.Thing.ThingName}/consent/response",
-        "arn:aws:iot:us-west-2:486194218822:topicfilter/$aws/rules/Breville_telemetry/app/BMC800/${iot:Connection.Thing.ThingName}/telemetry/event"
+        "arn:aws:iot:us-west-2:486194218822:topic/$aws/things/${iot:Connection.Thing.ThingName}/jobs/*"
       ]
     },
     {
       "Effect": "Allow",
       "Action": "iot:Subscribe",
       "Resource": [
-        "arn:aws:iot:us-west-2:486194218822:topicfilter/app/BMC800/${iot:Connection.Thing.ThingName}/uniquecode/response",
-        "arn:aws:iot:us-west-2:486194218822:topicfilter/app/BMC800/${iot:Connection.Thing.ThingName}/usermapped/event",
-        "arn:aws:iot:us-west-2:486194218822:topicfilter/$aws/things/${iot:Connection.Thing.ThingName}/jobs/*",
-        "arn:aws:iot:us-west-2:486194218822:topicfilter/cdf/certificates/${iot:Connection.Thing.ThingName}/*"
+        "arn:aws:iot:us-west-2:486194218822:topicfilter/$aws/things/${iot:Connection.Thing.ThingName}/jobs/*"
       ]
     },
     {
       "Effect": "Allow",
       "Action": "iot:Receive",
       "Resource": [
-        "arn:aws:iot:us-west-2:486194218822:topic/app/BMC800/${iot:Connection.Thing.ThingName}/uniquecode/response",
-        "arn:aws:iot:us-west-2:486194218822:topic/app/BMC800/${iot:Connection.Thing.ThingName}/consent/request",
-        "arn:aws:iot:us-west-2:486194218822:topic/app/BMC800/${iot:Connection.Thing.ThingName}/usermapped/event",
-        "arn:aws:iot:us-west-2:486194218822:topic/$aws/things/${iot:Connection.Thing.ThingName}/jobs/*",
-        "arn:aws:iot:us-west-2:486194218822:topic/cdf/certificates/${iot:Connection.Thing.ThingName}/*"
+        "arn:aws:iot:us-west-2:486194218822:topic/$aws/things/${iot:Connection.Thing.ThingName}/jobs/*"
       ]
     }
   ]
