@@ -1,4 +1,4 @@
-## 1. X.509 Device certificate and keys to connect to AWS IoT
+## 1. X.509 Device certificate,keys,IoT Policy,Thing and Code signing keys
 
 In order to connect succesfully to AWS IoT, a X.509 certificate, Private key and an IoT Policy attached to the Certificate is required. We will create this first.
 
@@ -18,7 +18,12 @@ The script creates 3 files in the tools directory by making calls to AWS IoT Cor
 2. privatekey.pem (Private Key)
 3. certificateId (Certificate Id)
 
-The script also activates the certificate, creates an IoT policy, attaches an IoT Policy to the Certificate, creates a Thing and associates the Thing with the Certificate.
+The script also activates the certificate, creates an IoT policy, attaches an IoT Policy to the Certificate, creates a Thing and associates the Thing with the Certificate. The following are also created during the script execution,
 
-IoT Policy: {certificate-id}-policy
-Thing name: {certificate-id}-thing
+1. IoT Policy: {certificate-id}-policy
+2. Thing name: {certificate-id}-thing
+
+##2. Code signing keys
+To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS. 
+
+
