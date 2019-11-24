@@ -23,7 +23,7 @@ The script also activates the certificate, creates an IoT policy, attaches an Io
 1. IoT Policy: {certificate-id}-policy
 2. Thing name: {certificate-id}-thing
 
-##2. Code signing keys
+## 2. Code signing keys
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS. 
 
 
