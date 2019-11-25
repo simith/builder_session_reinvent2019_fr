@@ -1,0 +1,2 @@
+/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc afr_platform.a  CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj
+/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib afr_platform.a

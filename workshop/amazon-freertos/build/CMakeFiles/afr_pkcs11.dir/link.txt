@@ -1,0 +1,2 @@
+/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc afr_pkcs11.a  CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj
+/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib afr_pkcs11.a

@@ -1,0 +1,60 @@
+{
+    "thingName": "a032ba9ea5b0d55244efa951b9df64fecdc7a2102f3fad3fcb5c3ae88e592187",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/a032ba9ea5b0d55244efa951b9df64fecdc7a2102f3fad3fcb5c3ae88e592187",
+    "thingId": "3c1d5e9c-e18e-4358-868b-57f37d1b2e9a"
+}
+{
+    "thingName": "78dfc8f197f869ec317d7b18d3d1d5a2c26657bde80235d0a32695ab92ac8bf4",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/78dfc8f197f869ec317d7b18d3d1d5a2c26657bde80235d0a32695ab92ac8bf4",
+    "thingId": "467236e2-cdcc-4dc2-92ab-b1ca7884a66f"
+}
+{
+    "thingName": "8c80434d54de938df5008f9b3e05a2d041979c8302e4f2b08d21a0ee9a68b8a4-thing",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/8c80434d54de938df5008f9b3e05a2d041979c8302e4f2b08d21a0ee9a68b8a4-thing",
+    "thingId": "d187f4a3-d55b-455b-9a58-6953e5a6dd92"
+}
+{
+    "thingName": "1949bba8ba7929de9efe712cf4750d205631abc74a5a95c1f3ac5c1ccc71b1f4-thing",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/1949bba8ba7929de9efe712cf4750d205631abc74a5a95c1f3ac5c1ccc71b1f4-thing",
+    "thingId": "1b0c35ec-6dbf-4aaf-96b7-c89ead419062"
+}
+{
+    "thingName": "553b2741f8ef13cbd5eedfe1a59e25bbbdc5e43beb3765dbeefb91739c0cc5b3-thing",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/553b2741f8ef13cbd5eedfe1a59e25bbbdc5e43beb3765dbeefb91739c0cc5b3-thing",
+    "thingId": "47a38073-9c9d-4d5d-929b-4b4ce697bc4a"
+}
+{
+    "thingName": "7cee15a499d8f69528e915ff0988af40a3c3da95a7eed9dd5cf0be3d4918c340-thing",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/7cee15a499d8f69528e915ff0988af40a3c3da95a7eed9dd5cf0be3d4918c340-thing",
+    "thingId": "2b989ddb-4a25-4a1d-b341-46216176ceeb"
+}
+{
+    "thingName": "3ed63643fe2591746cf2e2cb405bc461d4f0021866d562bd180694e62e0e5d4b-thing",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/3ed63643fe2591746cf2e2cb405bc461d4f0021866d562bd180694e62e0e5d4b-thing",
+    "thingId": "24422c0d-e281-485c-b4cb-1ca8d6f9e483"
+}
+{
+    "thingName": "8ffba684b7b8b8b85d038cc465a027a9d41ebb467ddf55a7ed3391d5e72dcc00-thing",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/8ffba684b7b8b8b85d038cc465a027a9d41ebb467ddf55a7ed3391d5e72dcc00-thing",
+    "thingId": "4699a20a-af4a-43a6-9c98-322e2a9a6788"
+}
+{
+    "thingName": "6E60941500",
+    "thingArn": "arn:aws:iot:us-west-2:833254562002:thing/6E60941500",
+    "thingId": "45886646-55cf-4fbf-b3b1-2c47a2583f90"
+}
+{
+    "thingName": "485E429A03",
+    "thingArn": "arn:aws:iot:us-west-2:833254562002:thing/485E429A03",
+    "thingId": "3725b46c-b636-424e-b418-f3044a9e4928"
+}
+{
+    "thingName": "37271537D0",
+    "thingArn": "arn:aws:iot:us-west-2:833254562002:thing/37271537D0",
+    "thingId": "622ef6dd-bca6-44fc-98fb-a84ac51195b5"
+}
+{
+    "thingName": "7B857B17DC",
+    "thingArn": "arn:aws:iot:us-west-2:833254562002:thing/7B857B17DC",
+    "thingId": "7dee0ebe-459d-4341-8545-f2d02e5a48bc"
+}

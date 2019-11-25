@@ -33,7 +33,9 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a1bb7j6i5uiivh-ats.i
 
 /* Use of a "define" and not a "static const" here to be able to
 * use pre-compile concatenation on the string. */
-#define clientcredentialIOT_THING_NAME "esp32-reinvent"
+//#define clientcredentialIOT_THING_NAME "esp32-reinvent"
+
+#define clientcredentialIOT_THING_NAME "8ffba684b7b8b8b85d038cc465a027a9d41ebb467ddf55a7ed3391d5e72dcc00-thing"
 
 /*
  * Port number the MQTT broker is using.
@@ -50,14 +52,14 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a1bb7j6i5uiivh-ats.i
  *
  * @todo If you are using Wi-Fi, set this to your network name.
  */
-#define clientcredentialWIFI_SSID "sammy"
+#define clientcredentialWIFI_SSID "Guest"
 
 /*
  * @brief Password needed to join Wi-Fi network.
  *
  * @todo If you are using WPA, set this to your network password.
  */
-#define clientcredentialWIFI_PASSWORD "Huntingdale2010"
+#define clientcredentialWIFI_PASSWORD "BrokenWires@@2019"
 
 /*
  * @brief Wi-Fi network security type.

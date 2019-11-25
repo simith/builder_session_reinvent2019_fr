@@ -1,0 +1,5 @@
+{
+    "thingName": "gama",
+    "thingArn": "arn:aws:iot:ap-southeast-2:833254562002:thing/gama",
+    "thingId": "9205485b-3b0a-44f1-b9ff-0ee6f74072de"
+}

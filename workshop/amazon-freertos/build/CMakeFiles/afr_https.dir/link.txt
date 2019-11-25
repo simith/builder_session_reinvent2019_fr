@@ -1,0 +1,2 @@
+/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc afr_https.a  CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj CMakeFiles/afr_https.dir/libraries/3rdparty/http_parser/http_parser.c.obj
+/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib afr_https.a
