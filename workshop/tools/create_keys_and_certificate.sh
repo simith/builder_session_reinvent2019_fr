@@ -49,7 +49,7 @@ $(aws iot create-policy --policy-name "${certificateIdVar}-iot-policy" --policy-
 echo "Attaching IoT Policy [${certificateIdVar}-iot-policy] to certificate ${certificateArnVar}"
 
 $(aws iot attach-policy --policy-name "${certificateIdVar}-iot-policy" --target "${certificateArnVar}")
-echo "Creating Thing with thing name"
+echo "Creating Thing with thing name: ${thingName}"
 $(aws iot create-thing --thing-name ${thingName} >> create_thing.log)
 echo "Attaching Thing with thing name ${thingName} to to certificate ${certificateIdVar}"
 $(aws iot attach-thing-principal --thing-name "${thingName}" --principal "${certificateArnVar}")
