@@ -1,4 +1,4 @@
-## 1 Setup the Cloud environment by logging in to the AWS Console
+## 1. Setup the Cloud environment by logging in to the AWS Console
 
 Using the provided username,password and AWS Console URL,login to the AWS Console. 
 [ws_console_login.png]
@@ -22,7 +22,7 @@ Finally, click on the Open IDE button to go straight into your Cloud9 environmen
 The above Cloud9 interface has a Text editor at the top and a terminal at the bottom!
 
 
-## Downloading the repository for the workshop
+## 2. Downloading the repository for the workshop
 
 Git repository: https://github.com/simith/builder_session_reinvent2019_fr
 
