@@ -1,2 +1,0 @@
-/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libconsole.a  CMakeFiles/idf_component_console.dir/commands.c.obj CMakeFiles/idf_component_console.dir/split_argv.c.obj CMakeFiles/idf_component_console.dir/argtable3/argtable3.c.obj CMakeFiles/idf_component_console.dir/linenoise/linenoise.c.obj
-/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libconsole.a
