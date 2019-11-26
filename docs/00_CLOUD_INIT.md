@@ -26,7 +26,7 @@ The above Cloud9 interface has a Text editor at the top and a terminal at the bo
 
 Git repository: https://github.com/simith/builder_session_reinvent2019_fr
 
-$git clone https://github.com/simith/builder_session_reinvent2019_frå
+$git clone https://github.com/simith/builder_session_reinvent2019_fr
 
 [ws_git_clone.png]
 
