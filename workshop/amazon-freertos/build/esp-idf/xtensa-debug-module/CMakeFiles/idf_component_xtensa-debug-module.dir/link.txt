@@ -1,2 +1,0 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libxtensa-debug-module.a  CMakeFiles/idf_component_xtensa-debug-module.dir/eri.c.obj CMakeFiles/idf_component_xtensa-debug-module.dir/trax.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libxtensa-debug-module.a

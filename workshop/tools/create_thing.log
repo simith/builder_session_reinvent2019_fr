@@ -58,3 +58,8 @@
     "thingArn": "arn:aws:iot:us-west-2:833254562002:thing/7B857B17DC",
     "thingId": "7dee0ebe-459d-4341-8545-f2d02e5a48bc"
 }
+{
+    "thingName": "5A029AA76C",
+    "thingArn": "arn:aws:iot:us-west-2:247866947534:thing/5A029AA76C",
+    "thingId": "7161d7e4-9109-493c-818c-70b43becc82e"
+}

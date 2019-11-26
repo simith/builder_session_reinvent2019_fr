@@ -1,2 +1,0 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libmicro-ecc.a  CMakeFiles/idf_component_micro-ecc.dir/micro-ecc/uECC.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libmicro-ecc.a
