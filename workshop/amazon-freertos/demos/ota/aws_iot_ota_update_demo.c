@@ -447,9 +447,9 @@ static void pBlinkOnCakeReady(void *pParam)
     uint32_t xGpioPin = GPIO_GREEN;
 
     vTaskDelay(10000 / portTICK_PERIOD_MS);
-    gpio_pad_select_gpio(GPIO_RED);
+    gpio_pad_select_gpio(XGpioPin);
     /* Set the GPIO as a push/pull output */
-    gpio_set_direction(GPIO_RED, GPIO_MODE_OUTPUT);
+    gpio_set_direction(XGpioPin, GPIO_MODE_OUTPUT);
 
     while (1)
     {
