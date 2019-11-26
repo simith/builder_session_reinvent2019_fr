@@ -7,6 +7,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kerne
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/gpio.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -99,6 +100,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2c.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -204,6 +206,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/i2s.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -320,6 +323,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kerne
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/ledc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -420,6 +424,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kern
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/mcpwm.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -519,6 +524,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kerne
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/pcnt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -617,6 +623,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freerto
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/periph_ctrl.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -710,6 +717,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rmt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -813,6 +821,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/rtc_module.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -919,6 +928,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdio_slave.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1026,6 +1036,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_host.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1131,6 +1142,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../f
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdmmc_transaction.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1241,6 +1253,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_host.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1351,6 +1364,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../f
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/include/queue.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/sdspi_transaction.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1512,6 +1526,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_common.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1616,6 +1631,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_master.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1726,6 +1742,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/spi_slave.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1833,6 +1850,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kern
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/timer.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1932,6 +1950,7 @@ esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kerne
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/include/task.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/driver/CMakeFiles/idf_component_driver.dir/uart.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

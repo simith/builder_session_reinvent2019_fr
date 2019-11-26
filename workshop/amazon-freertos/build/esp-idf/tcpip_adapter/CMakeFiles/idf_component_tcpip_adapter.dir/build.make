@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 # Include any dependencies generated for this target.
 include esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/depend.make
@@ -59,16 +59,16 @@ include esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/flags.m
 
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/flags.make
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c
 
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c > CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c > CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.i
 
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c -o CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c -o CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.s
 
 # Object files for target idf_component_tcpip_adapter
 idf_component_tcpip_adapter_OBJECTS = \
@@ -80,9 +80,9 @@ idf_component_tcpip_adapter_EXTERNAL_OBJECTS =
 esp-idf/tcpip_adapter/libtcpip_adapter.a: esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj
 esp-idf/tcpip_adapter/libtcpip_adapter.a: esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/build.make
 esp-idf/tcpip_adapter/libtcpip_adapter.a: esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtcpip_adapter.a"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_tcpip_adapter.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_tcpip_adapter.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtcpip_adapter.a"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_tcpip_adapter.dir/cmake_clean_target.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_tcpip_adapter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/build: esp-idf/tcpip_adapter/libtcpip_adapter.a
@@ -90,10 +90,10 @@ esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/build: esp-idf/
 .PHONY : esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/build
 
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_tcpip_adapter.dir/cmake_clean.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_tcpip_adapter.dir/cmake_clean.cmake
 .PHONY : esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/clean
 
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/depend
 

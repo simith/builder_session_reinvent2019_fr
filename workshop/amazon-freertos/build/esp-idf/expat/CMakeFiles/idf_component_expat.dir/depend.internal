@@ -35,7 +35,7 @@ esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/unistd.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmlparse.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmlparse.c
  config/sdkconfig.h
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.obj
  ../vendors/espressif/esp-idf/components/expat/include/expat/ascii.h
@@ -44,7 +44,7 @@ esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.obj
  ../vendors/espressif/esp-idf/components/expat/include/expat/internal.h
  ../vendors/espressif/esp-idf/components/expat/include/expat/xmlrole.h
  ../vendors/espressif/esp-idf/components/expat/include/expat/xmltok.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmlrole.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmlrole.c
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.obj
  ../vendors/espressif/esp-idf/components/expat/include/expat/ascii.h
  ../vendors/espressif/esp-idf/components/expat/include/expat/asciitab.h
@@ -57,13 +57,13 @@ esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.obj
  ../vendors/espressif/esp-idf/components/expat/include/expat/utf8tab.h
  ../vendors/espressif/esp-idf/components/expat/include/expat/xmltok.h
  ../vendors/espressif/esp-idf/components/expat/include/expat/xmltok_impl.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_impl.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_ns.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_impl.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_ns.c
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.obj
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_impl.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_impl.c
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.obj
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_ns.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/library/xmltok_ns.c
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
  ../vendors/espressif/esp-idf/components/expat/include/expat/expat.h
@@ -94,7 +94,7 @@ esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/port/chardata.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/port/chardata.c
  config/sdkconfig.h
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -123,7 +123,7 @@ esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/port/expat_element.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/port/expat_element.c
  config/sdkconfig.h
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -155,5 +155,5 @@ esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/stdio.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/port/minicheck.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/expat/port/minicheck.c
  config/sdkconfig.h

@@ -14,6 +14,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.o
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -111,6 +112,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../fre
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -211,6 +213,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_comm
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -307,6 +310,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -401,6 +405,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_ta
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/include/queue.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -491,6 +496,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -594,6 +600,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

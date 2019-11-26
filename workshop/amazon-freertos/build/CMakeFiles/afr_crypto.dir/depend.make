@@ -11,6 +11,7 @@ CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto
 CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_crypto.dir/libraries/freertos_plus/standard/crypto/src/iot_crypto.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -129,6 +130,7 @@ CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_c
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -415,6 +417,7 @@ CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_c
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

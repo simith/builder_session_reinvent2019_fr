@@ -13,6 +13,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_ARP.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -120,6 +121,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DHCP.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -226,6 +228,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_DNS.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -333,6 +336,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_IP.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -440,6 +444,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Sockets.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -544,6 +549,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_Stream_Buffer.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -646,6 +652,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_IP.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -754,6 +761,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_TCP_WIN.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -857,6 +865,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/FreeRTOS_UDP_IP.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -964,6 +973,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1068,6 +1078,7 @@ CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_p
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_freertos_plus_tcp.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_cert.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_cert.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_lib.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_lib.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_methods.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_methods.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_pkey.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_pkey.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_stack.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_stack.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_x509.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_x509.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_pm.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_pm.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_port.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_port.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_cert.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_cert.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_lib.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_lib.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_methods.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_methods.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_pkey.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_pkey.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_stack.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_stack.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_x509.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_x509.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_pm.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_pm.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_port.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_port.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "GCC_NOT_5_2_0=0"
   "HAVE_CONFIG_H"
   "IDF_VER=\"v3.1.5-105-g7313c836a5\""
-  "MBEDTLS_CONFIG_FILE=\"/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/include/mbedtls/esp_config.h\""
+  "MBEDTLS_CONFIG_FILE=\"/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/include/mbedtls/esp_config.h\""
   "PROJECT_NAME=\"esp-idf\""
   )
 

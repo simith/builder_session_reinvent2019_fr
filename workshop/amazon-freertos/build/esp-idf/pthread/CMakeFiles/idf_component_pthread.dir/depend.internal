@@ -12,6 +12,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -102,8 +103,8 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_internal.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_internal.h
  config/sdkconfig.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -116,6 +117,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -208,7 +210,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_cond_var.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_cond_var.c
  config/sdkconfig.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -219,6 +221,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -307,6 +310,6 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_internal.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_local_storage.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_internal.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/pthread/pthread_local_storage.c
  config/sdkconfig.h

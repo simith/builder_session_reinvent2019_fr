@@ -11,6 +11,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/include/task.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -115,6 +116,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/include/task.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -218,6 +220,7 @@ esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/include/task.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

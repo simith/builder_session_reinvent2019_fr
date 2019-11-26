@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/xtensa-debug-module/eri.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/xtensa-debug-module/CMakeFiles/idf_component_xtensa-debug-module.dir/eri.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/xtensa-debug-module/trax.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/xtensa-debug-module/CMakeFiles/idf_component_xtensa-debug-module.dir/trax.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/xtensa-debug-module/eri.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/xtensa-debug-module/CMakeFiles/idf_component_xtensa-debug-module.dir/eri.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/xtensa-debug-module/trax.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/xtensa-debug-module/CMakeFiles/idf_component_xtensa-debug-module.dir/trax.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

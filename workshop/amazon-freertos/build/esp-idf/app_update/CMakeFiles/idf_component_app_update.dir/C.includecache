@@ -156,6 +156,8 @@ list.h
 
 ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
 
+../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
+
 ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 
 ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
@@ -826,7 +828,7 @@ esp_err.h
 sdkconfig.h
 ../vendors/espressif/esp-idf/components/spi_flash/include/sdkconfig.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c
 stdint.h
 -
 stdbool.h
@@ -846,31 +848,31 @@ freertos/FreeRTOS.h
 freertos/task.h
 -
 esp_err.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_err.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_err.h
 esp_partition.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_partition.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_partition.h
 esp_spi_flash.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_spi_flash.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_spi_flash.h
 esp_image_format.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_image_format.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_image_format.h
 esp_secure_boot.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_secure_boot.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_secure_boot.h
 esp_flash_encrypt.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_flash_encrypt.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_flash_encrypt.h
 esp_spi_flash.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_spi_flash.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_spi_flash.h
 sdkconfig.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/sdkconfig.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/sdkconfig.h
 esp_ota_ops.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.h
 rom/queue.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/rom/queue.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/rom/queue.h
 rom/crc.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/rom/crc.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/rom/crc.h
 soc/dport_reg.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/soc/dport_reg.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/soc/dport_reg.h
 esp_log.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_log.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_log.h
 
 config/sdkconfig.h
 

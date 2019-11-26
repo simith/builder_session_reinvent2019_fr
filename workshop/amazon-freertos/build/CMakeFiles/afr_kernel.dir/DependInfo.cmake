@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/event_groups.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/list.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/queue.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/stream_buffer.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/tasks.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/timers.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/event_groups.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/list.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/queue.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/stream_buffer.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/tasks.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/timers.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

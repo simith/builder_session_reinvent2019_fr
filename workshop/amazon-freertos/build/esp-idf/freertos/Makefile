@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/freertos/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/freertos/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/rule
 .PHONY : esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_freertos: esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/r
 
 # fast build rule for target.
 idf_component_freertos/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build
 .PHONY : idf_component_freertos/fast
 
 __/__/__/freertos_kernel/croutine.obj: __/__/__/freertos_kernel/croutine.c.obj
@@ -132,7 +132,7 @@ __/__/__/freertos_kernel/croutine.obj: __/__/__/freertos_kernel/croutine.c.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/croutine.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.obj
 .PHONY : __/__/__/freertos_kernel/croutine.c.obj
 
 __/__/__/freertos_kernel/croutine.i: __/__/__/freertos_kernel/croutine.c.i
@@ -141,7 +141,7 @@ __/__/__/freertos_kernel/croutine.i: __/__/__/freertos_kernel/croutine.c.i
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/croutine.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.i
 .PHONY : __/__/__/freertos_kernel/croutine.c.i
 
 __/__/__/freertos_kernel/croutine.s: __/__/__/freertos_kernel/croutine.c.s
@@ -150,7 +150,7 @@ __/__/__/freertos_kernel/croutine.s: __/__/__/freertos_kernel/croutine.c.s
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/croutine.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.s
 .PHONY : __/__/__/freertos_kernel/croutine.c.s
 
 __/__/__/freertos_kernel/event_groups.obj: __/__/__/freertos_kernel/event_groups.c.obj
@@ -159,7 +159,7 @@ __/__/__/freertos_kernel/event_groups.obj: __/__/__/freertos_kernel/event_groups
 
 # target to build an object file
 __/__/__/freertos_kernel/event_groups.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.obj
 .PHONY : __/__/__/freertos_kernel/event_groups.c.obj
 
 __/__/__/freertos_kernel/event_groups.i: __/__/__/freertos_kernel/event_groups.c.i
@@ -168,7 +168,7 @@ __/__/__/freertos_kernel/event_groups.i: __/__/__/freertos_kernel/event_groups.c
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/event_groups.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.i
 .PHONY : __/__/__/freertos_kernel/event_groups.c.i
 
 __/__/__/freertos_kernel/event_groups.s: __/__/__/freertos_kernel/event_groups.c.s
@@ -177,7 +177,7 @@ __/__/__/freertos_kernel/event_groups.s: __/__/__/freertos_kernel/event_groups.c
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/event_groups.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.s
 .PHONY : __/__/__/freertos_kernel/event_groups.c.s
 
 __/__/__/freertos_kernel/list.obj: __/__/__/freertos_kernel/list.c.obj
@@ -186,7 +186,7 @@ __/__/__/freertos_kernel/list.obj: __/__/__/freertos_kernel/list.c.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/list.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.obj
 .PHONY : __/__/__/freertos_kernel/list.c.obj
 
 __/__/__/freertos_kernel/list.i: __/__/__/freertos_kernel/list.c.i
@@ -195,7 +195,7 @@ __/__/__/freertos_kernel/list.i: __/__/__/freertos_kernel/list.c.i
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/list.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.i
 .PHONY : __/__/__/freertos_kernel/list.c.i
 
 __/__/__/freertos_kernel/list.s: __/__/__/freertos_kernel/list.c.s
@@ -204,7 +204,7 @@ __/__/__/freertos_kernel/list.s: __/__/__/freertos_kernel/list.c.s
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/list.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.s
 .PHONY : __/__/__/freertos_kernel/list.c.s
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.obj
@@ -213,7 +213,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.o
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.i: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.i
@@ -222,7 +222,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.i
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.i
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.i
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.s: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.s
@@ -231,7 +231,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.s
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.s
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.s
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.obj
@@ -240,7 +240,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.obj: __/__/__
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.i: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.i
@@ -249,7 +249,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.i: __/__/__/f
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.i
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.i
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.s: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.s
@@ -258,7 +258,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.s: __/__/__/f
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.s
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.s
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S.obj
@@ -267,7 +267,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.obj: __/__
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S.obj
@@ -276,7 +276,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.obj
@@ -285,7 +285,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.obj: _
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.i: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.i
@@ -294,7 +294,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.i: __/
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.i
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.i
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.s: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.s
@@ -303,7 +303,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.s: __/
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.s
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.s
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.obj
@@ -312,7 +312,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.obj: _
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.i: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.i
@@ -321,7 +321,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.i: __/
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.i
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.i
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.s: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.s
@@ -330,7 +330,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.s: __/
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.s
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.s
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S.obj
@@ -339,7 +339,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.ob
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.obj
@@ -348,7 +348,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.i: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.i
@@ -357,7 +357,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.i
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.i
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.s: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.s
@@ -366,7 +366,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.s
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.s
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S.obj
@@ -375,7 +375,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defa
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S.obj
 
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.obj: __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S.obj
@@ -384,7 +384,7 @@ __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S.obj
 .PHONY : __/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S.obj
 
 __/__/__/freertos_kernel/queue.obj: __/__/__/freertos_kernel/queue.c.obj
@@ -393,7 +393,7 @@ __/__/__/freertos_kernel/queue.obj: __/__/__/freertos_kernel/queue.c.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/queue.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.obj
 .PHONY : __/__/__/freertos_kernel/queue.c.obj
 
 __/__/__/freertos_kernel/queue.i: __/__/__/freertos_kernel/queue.c.i
@@ -402,7 +402,7 @@ __/__/__/freertos_kernel/queue.i: __/__/__/freertos_kernel/queue.c.i
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/queue.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.i
 .PHONY : __/__/__/freertos_kernel/queue.c.i
 
 __/__/__/freertos_kernel/queue.s: __/__/__/freertos_kernel/queue.c.s
@@ -411,7 +411,7 @@ __/__/__/freertos_kernel/queue.s: __/__/__/freertos_kernel/queue.c.s
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/queue.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.s
 .PHONY : __/__/__/freertos_kernel/queue.c.s
 
 __/__/__/freertos_kernel/stream_buffer.obj: __/__/__/freertos_kernel/stream_buffer.c.obj
@@ -420,7 +420,7 @@ __/__/__/freertos_kernel/stream_buffer.obj: __/__/__/freertos_kernel/stream_buff
 
 # target to build an object file
 __/__/__/freertos_kernel/stream_buffer.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.obj
 .PHONY : __/__/__/freertos_kernel/stream_buffer.c.obj
 
 __/__/__/freertos_kernel/stream_buffer.i: __/__/__/freertos_kernel/stream_buffer.c.i
@@ -429,7 +429,7 @@ __/__/__/freertos_kernel/stream_buffer.i: __/__/__/freertos_kernel/stream_buffer
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/stream_buffer.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.i
 .PHONY : __/__/__/freertos_kernel/stream_buffer.c.i
 
 __/__/__/freertos_kernel/stream_buffer.s: __/__/__/freertos_kernel/stream_buffer.c.s
@@ -438,7 +438,7 @@ __/__/__/freertos_kernel/stream_buffer.s: __/__/__/freertos_kernel/stream_buffer
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/stream_buffer.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.s
 .PHONY : __/__/__/freertos_kernel/stream_buffer.c.s
 
 __/__/__/freertos_kernel/tasks.obj: __/__/__/freertos_kernel/tasks.c.obj
@@ -447,7 +447,7 @@ __/__/__/freertos_kernel/tasks.obj: __/__/__/freertos_kernel/tasks.c.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/tasks.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.obj
 .PHONY : __/__/__/freertos_kernel/tasks.c.obj
 
 __/__/__/freertos_kernel/tasks.i: __/__/__/freertos_kernel/tasks.c.i
@@ -456,7 +456,7 @@ __/__/__/freertos_kernel/tasks.i: __/__/__/freertos_kernel/tasks.c.i
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/tasks.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.i
 .PHONY : __/__/__/freertos_kernel/tasks.c.i
 
 __/__/__/freertos_kernel/tasks.s: __/__/__/freertos_kernel/tasks.c.s
@@ -465,7 +465,7 @@ __/__/__/freertos_kernel/tasks.s: __/__/__/freertos_kernel/tasks.c.s
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/tasks.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.s
 .PHONY : __/__/__/freertos_kernel/tasks.c.s
 
 __/__/__/freertos_kernel/timers.obj: __/__/__/freertos_kernel/timers.c.obj
@@ -474,7 +474,7 @@ __/__/__/freertos_kernel/timers.obj: __/__/__/freertos_kernel/timers.c.obj
 
 # target to build an object file
 __/__/__/freertos_kernel/timers.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.obj
 .PHONY : __/__/__/freertos_kernel/timers.c.obj
 
 __/__/__/freertos_kernel/timers.i: __/__/__/freertos_kernel/timers.c.i
@@ -483,7 +483,7 @@ __/__/__/freertos_kernel/timers.i: __/__/__/freertos_kernel/timers.c.i
 
 # target to preprocess a source file
 __/__/__/freertos_kernel/timers.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.i
 .PHONY : __/__/__/freertos_kernel/timers.c.i
 
 __/__/__/freertos_kernel/timers.s: __/__/__/freertos_kernel/timers.c.s
@@ -492,7 +492,7 @@ __/__/__/freertos_kernel/timers.s: __/__/__/freertos_kernel/timers.c.s
 
 # target to generate assembly for a file
 __/__/__/freertos_kernel/timers.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.s
 .PHONY : __/__/__/freertos_kernel/timers.c.s
 
 extra.obj: extra.c.obj
@@ -501,7 +501,7 @@ extra.obj: extra.c.obj
 
 # target to build an object file
 extra.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.obj
 .PHONY : extra.c.obj
 
 extra.i: extra.c.i
@@ -510,7 +510,7 @@ extra.i: extra.c.i
 
 # target to preprocess a source file
 extra.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.i
 .PHONY : extra.c.i
 
 extra.s: extra.c.s
@@ -519,7 +519,7 @@ extra.s: extra.c.s
 
 # target to generate assembly for a file
 extra.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.s
 .PHONY : extra.c.s
 
 ringbuf.obj: ringbuf.c.obj
@@ -528,7 +528,7 @@ ringbuf.obj: ringbuf.c.obj
 
 # target to build an object file
 ringbuf.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.obj
 .PHONY : ringbuf.c.obj
 
 ringbuf.i: ringbuf.c.i
@@ -537,7 +537,7 @@ ringbuf.i: ringbuf.c.i
 
 # target to preprocess a source file
 ringbuf.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.i
 .PHONY : ringbuf.c.i
 
 ringbuf.s: ringbuf.c.s
@@ -546,7 +546,7 @@ ringbuf.s: ringbuf.c.s
 
 # target to generate assembly for a file
 ringbuf.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/build.make esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.s
 .PHONY : ringbuf.c.s
 
 # Help Target
@@ -556,8 +556,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_freertos"
 	@echo "... edit_cache"
+	@echo "... idf_component_freertos"
 	@echo "... __/__/__/freertos_kernel/croutine.obj"
 	@echo "... __/__/__/freertos_kernel/croutine.i"
 	@echo "... __/__/__/freertos_kernel/croutine.s"
@@ -616,7 +616,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

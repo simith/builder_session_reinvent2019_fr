@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 # Include any dependencies generated for this target.
 include esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/depend.make
@@ -59,16 +59,16 @@ include esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/flags.make
 
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj: esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/flags.make
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj: ../vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c
 
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c > CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c > CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.i
 
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c -o CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update/esp_ota_ops.c -o CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.s
 
 # Object files for target idf_component_app_update
 idf_component_app_update_OBJECTS = \
@@ -80,9 +80,9 @@ idf_component_app_update_EXTERNAL_OBJECTS =
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/esp_ota_ops.c.obj
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build.make
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libapp_update.a"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_app_update.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_app_update.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libapp_update.a"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_app_update.dir/cmake_clean_target.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_app_update.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build: esp-idf/app_update/libapp_update.a
@@ -90,10 +90,10 @@ esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build: esp-idf/app_up
 .PHONY : esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build
 
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_app_update.dir/cmake_clean.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_app_update.dir/cmake_clean.cmake
 .PHONY : esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/clean
 
 esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/app_update /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/depend
 

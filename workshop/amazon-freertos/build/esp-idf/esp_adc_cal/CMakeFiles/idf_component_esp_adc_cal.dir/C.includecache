@@ -296,21 +296,21 @@ soc/gpio_reg.h
 soc/gpio_sig_map.h
 ../vendors/espressif/esp-idf/components/soc/include/soc/soc/gpio_sig_map.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.c
 stdint.h
 -
 esp_types.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_types.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_types.h
 driver/adc.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/driver/adc.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/driver/adc.h
 soc/efuse_reg.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/soc/efuse_reg.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/soc/efuse_reg.h
 esp_err.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_err.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_err.h
 assert.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/assert.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/assert.h
 esp_adc_cal.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.h
 
 config/sdkconfig.h
 

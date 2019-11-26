@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/http_parser/http_parser.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_https.dir/libraries/3rdparty/http_parser/http_parser.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_client.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/http_parser/http_parser.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_https.dir/libraries/3rdparty/http_parser/http_parser.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_client.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -46,16 +46,16 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_common.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_platform.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_secure_sockets.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_tls.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_pkcs11.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_pkcs11_implementation.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_freertos_plus_tcp.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_crypto.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_common.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_platform.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_secure_sockets.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_tls.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_pkcs11.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_pkcs11_implementation.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_freertos_plus_tcp.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_crypto.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

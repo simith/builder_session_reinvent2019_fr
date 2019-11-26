@@ -37,8 +37,8 @@ esp-idf/console/CMakeFiles/idf_component_console.dir/argtable3/argtable3.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/include/time.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/argtable3/argtable3.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/argtable3/argtable3.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/argtable3/argtable3.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/argtable3/argtable3.h
  config/sdkconfig.h
 esp-idf/console/CMakeFiles/idf_component_console.dir/commands.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -82,10 +82,10 @@ esp-idf/console/CMakeFiles/idf_component_console.dir/commands.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/time.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/argtable3/argtable3.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/commands.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/esp_console.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/linenoise/linenoise.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/argtable3/argtable3.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/commands.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/esp_console.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/linenoise/linenoise.h
  config/sdkconfig.h
 esp-idf/console/CMakeFiles/idf_component_console.dir/linenoise/linenoise.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -126,8 +126,8 @@ esp-idf/console/CMakeFiles/idf_component_console.dir/linenoise/linenoise.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/unistd.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/linenoise/linenoise.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/linenoise/linenoise.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/linenoise/linenoise.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/linenoise/linenoise.h
  config/sdkconfig.h
 esp-idf/console/CMakeFiles/idf_component_console.dir/split_argv.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -155,5 +155,5 @@ esp-idf/console/CMakeFiles/idf_component_console.dir/split_argv.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/split_argv.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/console/split_argv.c
  config/sdkconfig.h

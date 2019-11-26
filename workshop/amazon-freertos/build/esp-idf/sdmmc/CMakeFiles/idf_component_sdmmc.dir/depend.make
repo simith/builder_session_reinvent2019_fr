@@ -9,6 +9,7 @@ esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_ke
 esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/include/task.h
 esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/sdmmc/CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

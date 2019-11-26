@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/soc/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/soc/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/CMakeFiles/idf_component_soc.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/soc/CMakeFiles/idf_component_soc.dir/rule
 .PHONY : esp-idf/soc/CMakeFiles/idf_component_soc.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_soc: esp-idf/soc/CMakeFiles/idf_component_soc.dir/rule
 
 # fast build rule for target.
 idf_component_soc/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/build
 .PHONY : idf_component_soc/fast
 
 esp32/cpu_util.obj: esp32/cpu_util.c.obj
@@ -132,7 +132,7 @@ esp32/cpu_util.obj: esp32/cpu_util.c.obj
 
 # target to build an object file
 esp32/cpu_util.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.obj
 .PHONY : esp32/cpu_util.c.obj
 
 esp32/cpu_util.i: esp32/cpu_util.c.i
@@ -141,7 +141,7 @@ esp32/cpu_util.i: esp32/cpu_util.c.i
 
 # target to preprocess a source file
 esp32/cpu_util.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.i
 .PHONY : esp32/cpu_util.c.i
 
 esp32/cpu_util.s: esp32/cpu_util.c.s
@@ -150,7 +150,7 @@ esp32/cpu_util.s: esp32/cpu_util.c.s
 
 # target to generate assembly for a file
 esp32/cpu_util.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.s
 .PHONY : esp32/cpu_util.c.s
 
 esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
@@ -159,7 +159,7 @@ esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
 
 # target to build an object file
 esp32/gpio_periph.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.obj
 .PHONY : esp32/gpio_periph.c.obj
 
 esp32/gpio_periph.i: esp32/gpio_periph.c.i
@@ -168,7 +168,7 @@ esp32/gpio_periph.i: esp32/gpio_periph.c.i
 
 # target to preprocess a source file
 esp32/gpio_periph.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.i
 .PHONY : esp32/gpio_periph.c.i
 
 esp32/gpio_periph.s: esp32/gpio_periph.c.s
@@ -177,7 +177,7 @@ esp32/gpio_periph.s: esp32/gpio_periph.c.s
 
 # target to generate assembly for a file
 esp32/gpio_periph.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.s
 .PHONY : esp32/gpio_periph.c.s
 
 esp32/rtc_clk.obj: esp32/rtc_clk.c.obj
@@ -186,7 +186,7 @@ esp32/rtc_clk.obj: esp32/rtc_clk.c.obj
 
 # target to build an object file
 esp32/rtc_clk.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.obj
 .PHONY : esp32/rtc_clk.c.obj
 
 esp32/rtc_clk.i: esp32/rtc_clk.c.i
@@ -195,7 +195,7 @@ esp32/rtc_clk.i: esp32/rtc_clk.c.i
 
 # target to preprocess a source file
 esp32/rtc_clk.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.i
 .PHONY : esp32/rtc_clk.c.i
 
 esp32/rtc_clk.s: esp32/rtc_clk.c.s
@@ -204,7 +204,7 @@ esp32/rtc_clk.s: esp32/rtc_clk.c.s
 
 # target to generate assembly for a file
 esp32/rtc_clk.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.s
 .PHONY : esp32/rtc_clk.c.s
 
 esp32/rtc_init.obj: esp32/rtc_init.c.obj
@@ -213,7 +213,7 @@ esp32/rtc_init.obj: esp32/rtc_init.c.obj
 
 # target to build an object file
 esp32/rtc_init.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.obj
 .PHONY : esp32/rtc_init.c.obj
 
 esp32/rtc_init.i: esp32/rtc_init.c.i
@@ -222,7 +222,7 @@ esp32/rtc_init.i: esp32/rtc_init.c.i
 
 # target to preprocess a source file
 esp32/rtc_init.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.i
 .PHONY : esp32/rtc_init.c.i
 
 esp32/rtc_init.s: esp32/rtc_init.c.s
@@ -231,7 +231,7 @@ esp32/rtc_init.s: esp32/rtc_init.c.s
 
 # target to generate assembly for a file
 esp32/rtc_init.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.s
 .PHONY : esp32/rtc_init.c.s
 
 esp32/rtc_periph.obj: esp32/rtc_periph.c.obj
@@ -240,7 +240,7 @@ esp32/rtc_periph.obj: esp32/rtc_periph.c.obj
 
 # target to build an object file
 esp32/rtc_periph.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.obj
 .PHONY : esp32/rtc_periph.c.obj
 
 esp32/rtc_periph.i: esp32/rtc_periph.c.i
@@ -249,7 +249,7 @@ esp32/rtc_periph.i: esp32/rtc_periph.c.i
 
 # target to preprocess a source file
 esp32/rtc_periph.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.i
 .PHONY : esp32/rtc_periph.c.i
 
 esp32/rtc_periph.s: esp32/rtc_periph.c.s
@@ -258,7 +258,7 @@ esp32/rtc_periph.s: esp32/rtc_periph.c.s
 
 # target to generate assembly for a file
 esp32/rtc_periph.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.s
 .PHONY : esp32/rtc_periph.c.s
 
 esp32/rtc_pm.obj: esp32/rtc_pm.c.obj
@@ -267,7 +267,7 @@ esp32/rtc_pm.obj: esp32/rtc_pm.c.obj
 
 # target to build an object file
 esp32/rtc_pm.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.obj
 .PHONY : esp32/rtc_pm.c.obj
 
 esp32/rtc_pm.i: esp32/rtc_pm.c.i
@@ -276,7 +276,7 @@ esp32/rtc_pm.i: esp32/rtc_pm.c.i
 
 # target to preprocess a source file
 esp32/rtc_pm.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.i
 .PHONY : esp32/rtc_pm.c.i
 
 esp32/rtc_pm.s: esp32/rtc_pm.c.s
@@ -285,7 +285,7 @@ esp32/rtc_pm.s: esp32/rtc_pm.c.s
 
 # target to generate assembly for a file
 esp32/rtc_pm.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.s
 .PHONY : esp32/rtc_pm.c.s
 
 esp32/rtc_sleep.obj: esp32/rtc_sleep.c.obj
@@ -294,7 +294,7 @@ esp32/rtc_sleep.obj: esp32/rtc_sleep.c.obj
 
 # target to build an object file
 esp32/rtc_sleep.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.obj
 .PHONY : esp32/rtc_sleep.c.obj
 
 esp32/rtc_sleep.i: esp32/rtc_sleep.c.i
@@ -303,7 +303,7 @@ esp32/rtc_sleep.i: esp32/rtc_sleep.c.i
 
 # target to preprocess a source file
 esp32/rtc_sleep.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.i
 .PHONY : esp32/rtc_sleep.c.i
 
 esp32/rtc_sleep.s: esp32/rtc_sleep.c.s
@@ -312,7 +312,7 @@ esp32/rtc_sleep.s: esp32/rtc_sleep.c.s
 
 # target to generate assembly for a file
 esp32/rtc_sleep.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.s
 .PHONY : esp32/rtc_sleep.c.s
 
 esp32/rtc_time.obj: esp32/rtc_time.c.obj
@@ -321,7 +321,7 @@ esp32/rtc_time.obj: esp32/rtc_time.c.obj
 
 # target to build an object file
 esp32/rtc_time.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.obj
 .PHONY : esp32/rtc_time.c.obj
 
 esp32/rtc_time.i: esp32/rtc_time.c.i
@@ -330,7 +330,7 @@ esp32/rtc_time.i: esp32/rtc_time.c.i
 
 # target to preprocess a source file
 esp32/rtc_time.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.i
 .PHONY : esp32/rtc_time.c.i
 
 esp32/rtc_time.s: esp32/rtc_time.c.s
@@ -339,7 +339,7 @@ esp32/rtc_time.s: esp32/rtc_time.c.s
 
 # target to generate assembly for a file
 esp32/rtc_time.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.s
 .PHONY : esp32/rtc_time.c.s
 
 esp32/soc_memory_layout.obj: esp32/soc_memory_layout.c.obj
@@ -348,7 +348,7 @@ esp32/soc_memory_layout.obj: esp32/soc_memory_layout.c.obj
 
 # target to build an object file
 esp32/soc_memory_layout.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.obj
 .PHONY : esp32/soc_memory_layout.c.obj
 
 esp32/soc_memory_layout.i: esp32/soc_memory_layout.c.i
@@ -357,7 +357,7 @@ esp32/soc_memory_layout.i: esp32/soc_memory_layout.c.i
 
 # target to preprocess a source file
 esp32/soc_memory_layout.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.i
 .PHONY : esp32/soc_memory_layout.c.i
 
 esp32/soc_memory_layout.s: esp32/soc_memory_layout.c.s
@@ -366,7 +366,7 @@ esp32/soc_memory_layout.s: esp32/soc_memory_layout.c.s
 
 # target to generate assembly for a file
 esp32/soc_memory_layout.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.s
 .PHONY : esp32/soc_memory_layout.c.s
 
 esp32/spi_periph.obj: esp32/spi_periph.c.obj
@@ -375,7 +375,7 @@ esp32/spi_periph.obj: esp32/spi_periph.c.obj
 
 # target to build an object file
 esp32/spi_periph.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.obj
 .PHONY : esp32/spi_periph.c.obj
 
 esp32/spi_periph.i: esp32/spi_periph.c.i
@@ -384,7 +384,7 @@ esp32/spi_periph.i: esp32/spi_periph.c.i
 
 # target to preprocess a source file
 esp32/spi_periph.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.i
 .PHONY : esp32/spi_periph.c.i
 
 esp32/spi_periph.s: esp32/spi_periph.c.s
@@ -393,7 +393,7 @@ esp32/spi_periph.s: esp32/spi_periph.c.s
 
 # target to generate assembly for a file
 esp32/spi_periph.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/soc/CMakeFiles/idf_component_soc.dir/build.make esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.s
 .PHONY : esp32/spi_periph.c.s
 
 # Help Target
@@ -403,8 +403,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_soc"
 	@echo "... edit_cache"
+	@echo "... idf_component_soc"
 	@echo "... esp32/cpu_util.obj"
 	@echo "... esp32/cpu_util.i"
 	@echo "... esp32/cpu_util.s"
@@ -446,7 +446,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

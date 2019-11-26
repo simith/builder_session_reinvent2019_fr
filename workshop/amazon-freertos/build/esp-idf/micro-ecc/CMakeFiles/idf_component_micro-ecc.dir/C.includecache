@@ -228,27 +228,27 @@ stdlib.h
 
 ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm.inc
 asm_arm_mult_square_umaal.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square_umaal.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square_umaal.inc
 asm_arm_mult_square.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square_umaal.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm_mult_square_umaal.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr.inc
 asm_avr_mult_square.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr_mult_square.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr_mult_square.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr_mult_square.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr_mult_square.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/curve-specific.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/curve-specific.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/platform-specific.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/platform-specific.inc
 types.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/types.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/types.h
 windows.h
 -
 wincrypt.h
@@ -260,31 +260,31 @@ fcntl.h
 unistd.h
 -
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/types.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/types.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.c
 uECC.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.h
 uECC_vli.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC_vli.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC_vli.h
 platform-specific.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/platform-specific.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/platform-specific.inc
 asm_arm.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_arm.inc
 asm_avr.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/asm_avr.inc
 curve-specific.inc
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/curve-specific.inc
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/curve-specific.inc
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.h
 stdint.h
 -
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC_vli.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC_vli.h
 uECC.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.h
 types.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/types.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/types.h
 
 config/sdkconfig.h
 

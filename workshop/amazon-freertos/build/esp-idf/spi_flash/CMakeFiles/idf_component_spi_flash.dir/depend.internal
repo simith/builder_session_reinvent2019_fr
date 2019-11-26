@@ -12,6 +12,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -100,7 +101,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/cache_utils.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/cache_utils.c
  config/sdkconfig.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -113,6 +114,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -205,8 +207,8 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/cache_utils.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/flash_mmap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/cache_utils.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/flash_mmap.c
  config/sdkconfig.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -219,6 +221,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -316,8 +319,8 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_partition.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/cache_utils.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/flash_ops.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/cache_utils.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/flash_ops.c
  config/sdkconfig.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h
@@ -360,7 +363,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_partition.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/partition.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/partition.c
  config/sdkconfig.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -394,5 +397,5 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.o
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/gpio_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c
  config/sdkconfig.h

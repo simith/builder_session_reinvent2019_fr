@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -42,8 +42,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/DependInfo.cmake"
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_freertos_plus_tcp.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_kernel.dir/DependInfo.cmake"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_freertos_plus_tcp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

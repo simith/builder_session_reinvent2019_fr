@@ -1,2 +1,2 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libnewlib.a  CMakeFiles/idf_component_newlib.dir/locks.c.obj CMakeFiles/idf_component_newlib.dir/reent_init.c.obj CMakeFiles/idf_component_newlib.dir/select.c.obj CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj CMakeFiles/idf_component_newlib.dir/syscalls.c.obj CMakeFiles/idf_component_newlib.dir/time.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libnewlib.a
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libnewlib.a  CMakeFiles/idf_component_newlib.dir/locks.c.obj CMakeFiles/idf_component_newlib.dir/reent_init.c.obj CMakeFiles/idf_component_newlib.dir/select.c.obj CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj CMakeFiles/idf_component_newlib.dir/syscalls.c.obj CMakeFiles/idf_component_newlib.dir/time.c.obj
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libnewlib.a

@@ -1,2 +1,2 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp_adc_cal.a  CMakeFiles/idf_component_esp_adc_cal.dir/esp_adc_cal.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp_adc_cal.a
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp_adc_cal.a  CMakeFiles/idf_component_esp_adc_cal.dir/esp_adc_cal.c.obj
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp_adc_cal.a

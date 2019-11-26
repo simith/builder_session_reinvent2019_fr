@@ -25,8 +25,8 @@ CMakeFiles/afr_https.dir/libraries/3rdparty/http_parser/http_parser.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/sched.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/http_parser/http_parser.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/http_parser/http_parser.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/http_parser/http_parser.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/http_parser/http_parser.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj
  ../demos/include/aws_clientcredential.h
  ../demos/include/aws_clientcredential_keys.h
@@ -40,6 +40,7 @@ CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.o
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -130,8 +131,8 @@ CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.o
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_client.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_client.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
  config/sdkconfig.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj
  ../demos/include/aws_clientcredential.h
@@ -146,6 +147,7 @@ CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.ob
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -237,6 +239,6 @@ CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.ob
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
  config/sdkconfig.h

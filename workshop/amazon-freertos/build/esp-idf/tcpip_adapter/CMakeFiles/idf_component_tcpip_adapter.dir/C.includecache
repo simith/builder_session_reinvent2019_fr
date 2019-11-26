@@ -152,6 +152,8 @@ mpu_wrappers.h
 
 ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
 
+../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
+
 ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 
 ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
@@ -770,17 +772,17 @@ sdkconfig.h
 esp_attr.h
 ../vendors/espressif/esp-idf/components/soc/include/soc/esp_attr.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.c
 stdio.h
 -
 string.h
 -
 tcpip_adapter.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/tcpip_adapter.h
 esp_event.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/esp_event.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/esp_event.h
 esp_log.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/esp_log.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/tcpip_adapter/esp_log.h
 
 config/sdkconfig.h
 

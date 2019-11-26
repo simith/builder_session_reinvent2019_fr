@@ -40,7 +40,7 @@ esp-idf/ulp/CMakeFiles/idf_component_ulp.dir/ulp.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/sens_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/ulp/include/esp32/ulp.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/ulp/ulp.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/ulp/ulp.c
  config/sdkconfig.h
 esp-idf/ulp/CMakeFiles/idf_component_ulp.dir/ulp_macro.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -79,5 +79,5 @@ esp-idf/ulp/CMakeFiles/idf_component_ulp.dir/ulp_macro.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/sens_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/ulp/include/esp32/ulp.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/ulp/ulp_macro.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/ulp/ulp_macro.c
  config/sdkconfig.h

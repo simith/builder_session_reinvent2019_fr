@@ -11,6 +11,7 @@ CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -296,6 +297,7 @@ CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -422,6 +424,7 @@ CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_common_gap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -582,6 +585,7 @@ CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -738,6 +742,7 @@ CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/ports/ble/iot_ble_hal_gatt_server.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/micro-ecc/CMakeFiles/idf_component_micro-ecc.dir/micro-ecc/uECC.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc/uECC.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/micro-ecc/CMakeFiles/idf_component_micro-ecc.dir/micro-ecc/uECC.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -20,12 +20,12 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/micro-ecc/micro-ecc"
   "config"
-  "/home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/log/include"
-  "/home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/esp32/include"
-  "/home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/include"
-  "/home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/soc/include"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/log/include"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp32/include"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/include"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/include"
   )
 
 # Targets to which this target links.

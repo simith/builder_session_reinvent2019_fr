@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/heap/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/heap/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/heap/CMakeFiles/idf_component_heap.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/CMakeFiles/idf_component_heap.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/CMakeFiles/idf_component_heap.dir/rule
 .PHONY : esp-idf/heap/CMakeFiles/idf_component_heap.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_heap: esp-idf/heap/CMakeFiles/idf_component_heap.dir/rule
 
 # fast build rule for target.
 idf_component_heap/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/build
 .PHONY : idf_component_heap/fast
 
 heap_caps.obj: heap_caps.c.obj
@@ -132,7 +132,7 @@ heap_caps.obj: heap_caps.c.obj
 
 # target to build an object file
 heap_caps.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps.c.obj
 .PHONY : heap_caps.c.obj
 
 heap_caps.i: heap_caps.c.i
@@ -141,7 +141,7 @@ heap_caps.i: heap_caps.c.i
 
 # target to preprocess a source file
 heap_caps.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps.c.i
 .PHONY : heap_caps.c.i
 
 heap_caps.s: heap_caps.c.s
@@ -150,7 +150,7 @@ heap_caps.s: heap_caps.c.s
 
 # target to generate assembly for a file
 heap_caps.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps.c.s
 .PHONY : heap_caps.c.s
 
 heap_caps_init.obj: heap_caps_init.c.obj
@@ -159,7 +159,7 @@ heap_caps_init.obj: heap_caps_init.c.obj
 
 # target to build an object file
 heap_caps_init.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps_init.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps_init.c.obj
 .PHONY : heap_caps_init.c.obj
 
 heap_caps_init.i: heap_caps_init.c.i
@@ -168,7 +168,7 @@ heap_caps_init.i: heap_caps_init.c.i
 
 # target to preprocess a source file
 heap_caps_init.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps_init.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps_init.c.i
 .PHONY : heap_caps_init.c.i
 
 heap_caps_init.s: heap_caps_init.c.s
@@ -177,7 +177,7 @@ heap_caps_init.s: heap_caps_init.c.s
 
 # target to generate assembly for a file
 heap_caps_init.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps_init.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_caps_init.c.s
 .PHONY : heap_caps_init.c.s
 
 heap_trace.obj: heap_trace.c.obj
@@ -186,7 +186,7 @@ heap_trace.obj: heap_trace.c.obj
 
 # target to build an object file
 heap_trace.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_trace.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_trace.c.obj
 .PHONY : heap_trace.c.obj
 
 heap_trace.i: heap_trace.c.i
@@ -195,7 +195,7 @@ heap_trace.i: heap_trace.c.i
 
 # target to preprocess a source file
 heap_trace.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_trace.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_trace.c.i
 .PHONY : heap_trace.c.i
 
 heap_trace.s: heap_trace.c.s
@@ -204,7 +204,7 @@ heap_trace.s: heap_trace.c.s
 
 # target to generate assembly for a file
 heap_trace.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_trace.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/heap_trace.c.s
 .PHONY : heap_trace.c.s
 
 multi_heap.obj: multi_heap.c.obj
@@ -213,7 +213,7 @@ multi_heap.obj: multi_heap.c.obj
 
 # target to build an object file
 multi_heap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/multi_heap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/multi_heap.c.obj
 .PHONY : multi_heap.c.obj
 
 multi_heap.i: multi_heap.c.i
@@ -222,7 +222,7 @@ multi_heap.i: multi_heap.c.i
 
 # target to preprocess a source file
 multi_heap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/multi_heap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/multi_heap.c.i
 .PHONY : multi_heap.c.i
 
 multi_heap.s: multi_heap.c.s
@@ -231,7 +231,7 @@ multi_heap.s: multi_heap.c.s
 
 # target to generate assembly for a file
 multi_heap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/multi_heap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/heap/CMakeFiles/idf_component_heap.dir/build.make esp-idf/heap/CMakeFiles/idf_component_heap.dir/multi_heap.c.s
 .PHONY : multi_heap.c.s
 
 # Help Target
@@ -241,8 +241,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_heap"
 	@echo "... edit_cache"
+	@echo "... idf_component_heap"
 	@echo "... heap_caps.obj"
 	@echo "... heap_caps.i"
 	@echo "... heap_caps.s"
@@ -266,7 +266,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

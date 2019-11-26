@@ -13,6 +13,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_ble_mqtt_serialize.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -125,6 +126,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: 
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_agent.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -236,6 +238,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ..
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_api.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -342,6 +345,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_network.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -447,6 +451,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.o
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_operation.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -554,6 +559,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.o
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_serialize.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -660,6 +666,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_static_memory.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -763,6 +770,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_subscription.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -868,6 +876,7 @@ CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.ob
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/libraries/c_sdk/standard/mqtt/src/iot_mqtt_validate.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -968,6 +977,7 @@ CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_cod
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1253,6 +1263,7 @@ CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_cod
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

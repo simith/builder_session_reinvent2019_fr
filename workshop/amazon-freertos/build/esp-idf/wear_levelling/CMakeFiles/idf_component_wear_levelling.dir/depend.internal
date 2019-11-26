@@ -36,7 +36,7 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/Flash_Access.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/Partition.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/Partition.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/Partition.cpp
  config/sdkconfig.h
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -72,7 +72,7 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/Flash_Access.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/SPI_Flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/SPI_Flash.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/SPI_Flash.cpp
  config/sdkconfig.h
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -111,7 +111,7 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.c
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Ext_Perf.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_State.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp
  config/sdkconfig.h
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -151,7 +151,7 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.c
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Ext_Safe.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_State.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp
  config/sdkconfig.h
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -190,8 +190,8 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Config.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_State.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/WL_Flash.cpp
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/crc32.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/WL_Flash.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/crc32.h
  config/sdkconfig.h
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.obj
  ../vendors/espressif/esp-idf/components/esp32/include/rom/crc.h
@@ -199,8 +199,8 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.obj
  ../vendors/espressif/esp-idf/components/newlib/include/stdint.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/_intsup.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/features.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/crc32.cpp
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/crc32.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/crc32.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/crc32.h
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
  ../vendors/espressif/esp-idf/components/esp32/include/esp_err.h
@@ -244,5 +244,5 @@ esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levellin
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Ext_Safe.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_Flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/private_include/WL_State.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/wear_levelling.cpp
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wear_levelling/wear_levelling.cpp
  config/sdkconfig.h

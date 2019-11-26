@@ -11,6 +11,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel
 CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -93,6 +94,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/include
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/include/portable.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -178,6 +180,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/includ
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/include/queue.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -264,6 +267,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kerne
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/include/stream_buffer.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -351,6 +355,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/includ
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -439,6 +444,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/inclu
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

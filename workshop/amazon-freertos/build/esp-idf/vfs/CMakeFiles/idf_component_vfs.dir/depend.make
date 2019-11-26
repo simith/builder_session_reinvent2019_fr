@@ -11,6 +11,7 @@ esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/inclu
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/include/task.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -121,6 +122,7 @@ esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/include/task.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

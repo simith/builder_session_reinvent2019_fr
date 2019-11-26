@@ -11,6 +11,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_k
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -116,6 +117,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../f
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -221,6 +223,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../free
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -321,6 +324,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freerto
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -427,6 +431,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kerne
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -525,6 +530,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -619,6 +625,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freerto
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -713,6 +720,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -829,6 +837,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../fre
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -956,6 +965,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/include/task.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

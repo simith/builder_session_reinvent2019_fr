@@ -12,6 +12,7 @@ esp-idf/bt/CMakeFiles/idf_component_bt.dir/bt.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -110,5 +111,5 @@ esp-idf/bt/CMakeFiles/idf_component_bt.dir/bt.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bt/bt.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bt/bt.c
  config/sdkconfig.h

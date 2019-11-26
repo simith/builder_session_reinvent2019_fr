@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/afr_secure_sockets.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/afr_secure_sockets.dir/flags.make
 
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: CMakeFiles/afr_secure_sockets.dir/flags.make
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c
 
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c > CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c > CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.i
 
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c -o CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c -o CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.s
 
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: CMakeFiles/afr_secure_sockets.dir/flags.make
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c
 
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c > CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c > CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.i
 
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.s
 
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: CMakeFiles/afr_secure_sockets.dir/flags.make
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c
 
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c > CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c > CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.i
 
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c -o CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.s
 
 # Object files for target afr_secure_sockets
 afr_secure_sockets_OBJECTS = \
@@ -110,7 +110,7 @@ afr_secure_sockets.a: CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/
 afr_secure_sockets.a: CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj
 afr_secure_sockets.a: CMakeFiles/afr_secure_sockets.dir/build.make
 afr_secure_sockets.a: CMakeFiles/afr_secure_sockets.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library afr_secure_sockets.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library afr_secure_sockets.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/afr_secure_sockets.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/afr_secure_sockets.dir/link.txt --verbose=$(VERBOSE)
 
@@ -124,6 +124,6 @@ CMakeFiles/afr_secure_sockets.dir/clean:
 .PHONY : CMakeFiles/afr_secure_sockets.dir/clean
 
 CMakeFiles/afr_secure_sockets.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_secure_sockets.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_secure_sockets.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/afr_secure_sockets.dir/depend
 

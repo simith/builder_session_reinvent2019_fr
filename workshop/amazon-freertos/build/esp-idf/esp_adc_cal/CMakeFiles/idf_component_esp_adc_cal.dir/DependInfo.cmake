@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.c" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/esp_adc_cal/CMakeFiles/idf_component_esp_adc_cal.dir/esp_adc_cal.c.obj"
+  "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.c" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/esp_adc_cal/CMakeFiles/idf_component_esp_adc_cal.dir/esp_adc_cal.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

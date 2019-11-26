@@ -74,7 +74,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/port/os_xtens
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/port/os_xtensa.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/port/os_xtensa.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/aes-cbc.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -127,7 +127,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ae
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-cbc.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-cbc.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/aes-internal-dec.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -181,7 +181,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ae
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-internal-dec.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-internal-dec.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/aes-internal-enc.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -235,7 +235,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ae
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-internal-enc.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-internal-enc.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/aes-internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -289,7 +289,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ae
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -342,7 +342,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ae
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -395,7 +395,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ae
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/bignum.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -450,9 +450,9 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/bi
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/bignum.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/bignum.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/libtommath.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/bignum.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/bignum.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/libtommath.h
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/crypto_internal-cipher.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -494,7 +494,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/cr
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal-cipher.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal-cipher.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/crypto_internal-modexp.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -546,8 +546,8 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/cr
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/bignum.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal-modexp.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/bignum.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal-modexp.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/crypto_internal-rsa.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -597,7 +597,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/cr
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal-rsa.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal-rsa.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/crypto_internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -651,7 +651,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/cr
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/crypto_internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/des-internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -698,7 +698,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/de
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/dh_group5.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -752,7 +752,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/dh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/dh_groups.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -811,7 +811,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/dh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/md4-internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -863,7 +863,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/md
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/md5-internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -917,7 +917,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/md
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/md5-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/md5-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/md5.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -970,7 +970,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/md
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/md5.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/md5.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1019,7 +1019,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/ms
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/rc4.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1071,7 +1071,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/rc
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/rc4.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/rc4.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sha1-internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1126,7 +1126,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha1-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha1-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sha1-pbkdf2.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1180,7 +1180,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha1-pbkdf2.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha1-pbkdf2.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sha1.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1233,7 +1233,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha1.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha1.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sha256-internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1286,7 +1286,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha256-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha256-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sha256.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1339,7 +1339,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/crypto/sh
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha256.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/crypto/sha256.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_aes-cbc.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/aes.h
@@ -1399,7 +1399,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_aes-cbc.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_aes-cbc.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_aes-unwrap.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/aes.h
@@ -1457,7 +1457,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_aes-unwrap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_aes-unwrap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_aes-wrap.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/aes.h
@@ -1517,7 +1517,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_aes-wrap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_aes-wrap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_crypto_internal-cipher.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/aes.h
@@ -1566,7 +1566,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_crypto_internal-modexp.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/bignum.h
@@ -1622,7 +1622,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal-modexp.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal-modexp.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_crypto_internal.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/check_config.h
@@ -1681,7 +1681,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_sha256-internal.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/check_config.h
@@ -1737,7 +1737,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_sha256-internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_sha256-internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_crypto/fast_sha256.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1790,7 +1790,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/fast_cryp
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_sha256.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/fast_crypto/fast_sha256.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/chap.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1837,7 +1837,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/chap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/chap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1899,7 +1899,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_common.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -1945,7 +1945,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_common.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_mschapv2.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2005,7 +2005,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_mschapv2.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_mschapv2.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_peap.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2063,7 +2063,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_peap.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_peap.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_peap_common.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2109,7 +2109,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_peap_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_peap_common.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_tls.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2164,7 +2164,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_tls.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_tls.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_tls_common.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2220,7 +2220,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_tls_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_tls_common.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/eap_ttls.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2279,7 +2279,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_ttls.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/eap_ttls.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_peer/mschapv2.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2325,7 +2325,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/eap_
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/mschapv2.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/eap_peer/mschapv2.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/asn1.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2370,7 +2370,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/asn1.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/asn1.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/bignum.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2427,7 +2427,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/bignum.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/bignum.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/pkcs1.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2473,7 +2473,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/pkcs1.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/pkcs1.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/pkcs5.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2531,7 +2531,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/pkcs5.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/pkcs5.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/pkcs8.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2580,7 +2580,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/pkcs8.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/pkcs8.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/rsa.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2643,7 +2643,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/rsa.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/rsa.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tls_internal.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2693,7 +2693,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tls_internal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tls_internal.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_client.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2747,7 +2747,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_client.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_client.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_client_read.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2813,7 +2813,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_client_read.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_client_read.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_client_write.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2880,7 +2880,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_client_write.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_client_write.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_common.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2941,7 +2941,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_common.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_cred.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -2992,7 +2992,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_cred.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_cred.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_record.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3052,7 +3052,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_record.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_record.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_server.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3106,7 +3106,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_server.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_server.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_server_read.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3172,7 +3172,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_server_read.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_server_read.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/tlsv1_server_write.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3239,7 +3239,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_server_write.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/tlsv1_server_write.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/x509v3.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3296,7 +3296,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/tls/
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/x509v3.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/tls/x509v3.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/utils/base64.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3333,7 +3333,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/util
  ../vendors/espressif/esp-idf/components/wpa_supplicant/include/wpa/includes.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/include/wpa2/utils/base64.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/utils/base64.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/utils/base64.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/utils/ext_password.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3379,7 +3379,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wpa2/util
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/utils/ext_password.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wpa2/utils/ext_password.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/eap_common.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3425,7 +3425,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/eap_c
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/eap_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/eap_common.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/uuid.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3470,7 +3470,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/uuid.
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/uuid.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/uuid.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3532,7 +3532,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps.c
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3609,7 +3609,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_a
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3660,7 +3660,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_a
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3714,7 +3714,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_a
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_common.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3775,7 +3775,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_c
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_common.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3829,7 +3829,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_d
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3904,7 +3904,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_e
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_registrar.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -3967,7 +3967,7 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_r
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_registrar.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_registrar.c
  config/sdkconfig.h
 esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_validate.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -4020,5 +4020,5 @@ esp-idf/wpa_supplicant/CMakeFiles/idf_component_wpa_supplicant.dir/src/wps/wps_v
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/byteswap.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/endian.h
  ../vendors/espressif/esp-idf/components/wpa_supplicant/port/include/os.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_validate.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/wpa_supplicant/src/wps/wps_validate.c
  config/sdkconfig.h

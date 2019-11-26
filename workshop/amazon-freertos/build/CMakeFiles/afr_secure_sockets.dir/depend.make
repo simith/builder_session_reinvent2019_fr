@@ -13,6 +13,7 @@ CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/abstractions/secure_sockets/freertos_plus_tcp/iot_secure_sockets.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -121,6 +122,7 @@ CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -225,6 +227,7 @@ CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_secure_sockets.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

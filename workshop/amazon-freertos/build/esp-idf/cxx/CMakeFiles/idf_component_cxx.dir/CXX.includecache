@@ -164,6 +164,8 @@ list.h
 
 ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
 
+../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
+
 ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 
 ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
@@ -694,7 +696,7 @@ sdkconfig.h
 esp_attr.h
 ../vendors/espressif/esp-idf/components/soc/include/soc/esp_attr.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp
 cstdlib
 -
 cstdio
@@ -706,7 +708,7 @@ bits/functexcept.h
 sdkconfig.h
 -
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp
 stdlib.h
 -
 assert.h
@@ -722,11 +724,11 @@ algorithm
 sys/lock.h
 -
 freertos/FreeRTOS.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/freertos/FreeRTOS.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/freertos/FreeRTOS.h
 freertos/semphr.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/freertos/semphr.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/freertos/semphr.h
 freertos/task.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/freertos/task.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/freertos/task.h
 
 config/sdkconfig.h
 

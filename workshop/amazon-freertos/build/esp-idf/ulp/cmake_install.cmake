@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/ulp
+# Install script for directory: /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/ulp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

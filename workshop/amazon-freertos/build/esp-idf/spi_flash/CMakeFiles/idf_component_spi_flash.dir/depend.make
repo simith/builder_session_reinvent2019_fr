@@ -11,6 +11,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../f
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/include/task.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -112,6 +113,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../fr
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/include/task.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -218,6 +220,7 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../fre
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/include/task.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

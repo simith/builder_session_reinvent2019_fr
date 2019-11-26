@@ -12,6 +12,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -100,11 +101,11 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -117,6 +118,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -204,12 +206,12 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_partition.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_rawflash.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_rawflash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_rawflash.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_rawflash.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -222,6 +224,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -305,11 +308,11 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_sdmmc.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_sdmmc.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -322,6 +325,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -410,12 +414,12 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_partition.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
  ../vendors/espressif/esp-idf/components/wear_levelling/include/wear_levelling.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_wl.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_wl.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_wl.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_wl.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -428,6 +432,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -509,11 +514,11 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -526,6 +531,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -604,10 +610,10 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffsystem.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffsystem.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -620,6 +626,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -698,10 +705,10 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffunicode.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffunicode.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -714,6 +721,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -813,11 +821,11 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat.c
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -830,6 +838,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -938,13 +947,13 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
  ../vendors/espressif/esp-idf/components/wear_levelling/include/wear_levelling.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/esp_vfs_fat.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_internal.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_sdmmc.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/esp_vfs_fat.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_internal.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_sdmmc.c
  config/sdkconfig.h
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -957,6 +966,7 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1065,13 +1075,13 @@ esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
  ../vendors/espressif/esp-idf/components/wear_levelling/include/wear_levelling.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_rawflash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_wl.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/esp_vfs_fat.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_internal.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_spiflash.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_rawflash.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/diskio_wl.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/esp_vfs_fat.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ff.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/ffconf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/integer.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_internal.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/fatfs/src/vfs_fat_spiflash.c
  config/sdkconfig.h

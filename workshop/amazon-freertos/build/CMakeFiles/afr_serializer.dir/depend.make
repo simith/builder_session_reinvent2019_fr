@@ -13,6 +13,7 @@ CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_s
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -110,6 +111,7 @@ CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_s
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -207,6 +209,7 @@ CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_u
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_json_utils.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -300,6 +303,7 @@ CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serial
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/iot_serializer_static_memory.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -397,6 +401,7 @@ CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_s
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_decoder.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -492,6 +497,7 @@ CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_s
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/libraries/c_sdk/standard/serializer/src/json/iot_serializer_json_encoder.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -585,6 +591,7 @@ CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/applicati
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -870,6 +877,7 @@ CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/applicati
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

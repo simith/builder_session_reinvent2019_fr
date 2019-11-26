@@ -48,6 +48,11 @@
 #include "task.h"
 #include "semphr.h"
 
+/*For the LED task - Start*/
+
+#include "driver/gpio.h"
+/* For the LED task -End*/
+
 /* Demo network handling */
 #include "aws_iot_demo_network.h"
 
@@ -71,6 +76,13 @@ static void prvNetworkStateChangeCallback(uint32_t ulNetworkType,
                                           AwsIotNetworkState_t xNetworkState,
                                           void *pvContext);
 
+/* For the LED task routine - START*/
+static void pBlinkOnCakeReady(void *);
+static void pGpioSetAllLow();
+#define GPIO_RED 14
+#define GPIO_GREEN 15
+
+/*For the LED task routine Task- END*/
 /*-----------------------------------------------------------*/
 
 #define otaDemoCONN_TIMEOUT_MS (2000UL)
@@ -197,6 +209,10 @@ void vRunOTAUpdateDemo(void)
 {
     IotMqttConnectInfo_t xConnectInfo = IOT_MQTT_CONNECT_INFO_INITIALIZER;
     OTA_State_t eState;
+    BaseType_t xReturned;
+    TaskHandle_t xHandle = NULL;
+
+    pGpioSetAllLow();
 
     configPRINTF(("OTA demo version %u.%u.%u\r\n",
                   xAppFirmwareVersion.u.x.ucMajor,
@@ -237,7 +253,12 @@ void vRunOTAUpdateDemo(void)
             {
                 configPRINTF(("Connected to broker.\r\n"));
                 OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0);
-
+                xTaskCreate(pBlinkOnCakeReady,
+                            "REd Blinker Task",
+                            democonfigDEMO_STACKSIZE,
+                            (void *)NULL,
+                            democonfigDEMO_PRIORITY,
+                            &xHandle);
                 while ((eState = OTA_GetAgentState()) != eOTA_AgentState_NotReady)
                 {
                     /* Wait forever for OTA traffic but allow other tasks to run and output statistics only once per second. */
@@ -408,4 +429,37 @@ int vStartOTAUpdateDemoTask(bool awsIotMqttMode,
     }
 
     return xRet;
+}
+
+static void pGpioSetAllLow()
+{
+    /*Set the GPIO to 0*/
+    gpio_pad_select_gpio(GPIO_RED);
+    gpio_pad_select_gpio(GPIO_GREEN);
+    gpio_set_direction(GPIO_RED, GPIO_MODE_OUTPUT);
+    gpio_set_direction(GPIO_GREEN, GPIO_MODE_OUTPUT);
+    gpio_set_level(GPIO_RED, 0);
+    gpio_set_level(GPIO_GREEN, 0);
+}
+
+static void pBlinkOnCakeReady(void *pParam)
+{
+    uint32_t xGpioPin = GPIO_GREEN;
+
+    vTaskDelay(10000 / portTICK_PERIOD_MS);
+    gpio_pad_select_gpio(GPIO_RED);
+    /* Set the GPIO as a push/pull output */
+    gpio_set_direction(GPIO_RED, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        /* Blink off (output low) */
+        printf("Turning off the LED\n");
+        gpio_set_level(xGpioPin, 0);
+        vTaskDelay(500 / portTICK_PERIOD_MS);
+        /* Blink on (output high) */
+        printf("Turning on the LED\n");
+        gpio_set_level(xGpioPin, 1);
+        vTaskDelay(500 / portTICK_PERIOD_MS);
+    }
 }

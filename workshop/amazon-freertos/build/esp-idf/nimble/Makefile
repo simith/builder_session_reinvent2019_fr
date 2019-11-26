@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/nimble/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/nimble/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/rule
 .PHONY : esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_nimble: esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/rule
 
 # fast build rule for target.
 idf_component_nimble/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build
 .PHONY : idf_component_nimble/fast
 
 esp-hci/src/esp_nimble_hci.obj: esp-hci/src/esp_nimble_hci.c.obj
@@ -132,7 +132,7 @@ esp-hci/src/esp_nimble_hci.obj: esp-hci/src/esp_nimble_hci.c.obj
 
 # target to build an object file
 esp-hci/src/esp_nimble_hci.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj
 .PHONY : esp-hci/src/esp_nimble_hci.c.obj
 
 esp-hci/src/esp_nimble_hci.i: esp-hci/src/esp_nimble_hci.c.i
@@ -141,7 +141,7 @@ esp-hci/src/esp_nimble_hci.i: esp-hci/src/esp_nimble_hci.c.i
 
 # target to preprocess a source file
 esp-hci/src/esp_nimble_hci.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.i
 .PHONY : esp-hci/src/esp_nimble_hci.c.i
 
 esp-hci/src/esp_nimble_hci.s: esp-hci/src/esp_nimble_hci.c.s
@@ -150,7 +150,7 @@ esp-hci/src/esp_nimble_hci.s: esp-hci/src/esp_nimble_hci.c.s
 
 # target to generate assembly for a file
 esp-hci/src/esp_nimble_hci.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.s
 .PHONY : esp-hci/src/esp_nimble_hci.c.s
 
 nimble/nimble/host/services/ans/src/ble_svc_ans.obj: nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
@@ -159,7 +159,7 @@ nimble/nimble/host/services/ans/src/ble_svc_ans.obj: nimble/nimble/host/services
 
 # target to build an object file
 nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
 .PHONY : nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
 
 nimble/nimble/host/services/ans/src/ble_svc_ans.i: nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
@@ -168,7 +168,7 @@ nimble/nimble/host/services/ans/src/ble_svc_ans.i: nimble/nimble/host/services/a
 
 # target to preprocess a source file
 nimble/nimble/host/services/ans/src/ble_svc_ans.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
 .PHONY : nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
 
 nimble/nimble/host/services/ans/src/ble_svc_ans.s: nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
@@ -177,7 +177,7 @@ nimble/nimble/host/services/ans/src/ble_svc_ans.s: nimble/nimble/host/services/a
 
 # target to generate assembly for a file
 nimble/nimble/host/services/ans/src/ble_svc_ans.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
 .PHONY : nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
 
 nimble/nimble/host/services/bas/src/ble_svc_bas.obj: nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
@@ -186,7 +186,7 @@ nimble/nimble/host/services/bas/src/ble_svc_bas.obj: nimble/nimble/host/services
 
 # target to build an object file
 nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
 .PHONY : nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
 
 nimble/nimble/host/services/bas/src/ble_svc_bas.i: nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
@@ -195,7 +195,7 @@ nimble/nimble/host/services/bas/src/ble_svc_bas.i: nimble/nimble/host/services/b
 
 # target to preprocess a source file
 nimble/nimble/host/services/bas/src/ble_svc_bas.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
 .PHONY : nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
 
 nimble/nimble/host/services/bas/src/ble_svc_bas.s: nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
@@ -204,7 +204,7 @@ nimble/nimble/host/services/bas/src/ble_svc_bas.s: nimble/nimble/host/services/b
 
 # target to generate assembly for a file
 nimble/nimble/host/services/bas/src/ble_svc_bas.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
 .PHONY : nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
 
 nimble/nimble/host/services/gap/src/ble_svc_gap.obj: nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
@@ -213,7 +213,7 @@ nimble/nimble/host/services/gap/src/ble_svc_gap.obj: nimble/nimble/host/services
 
 # target to build an object file
 nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
 .PHONY : nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
 
 nimble/nimble/host/services/gap/src/ble_svc_gap.i: nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
@@ -222,7 +222,7 @@ nimble/nimble/host/services/gap/src/ble_svc_gap.i: nimble/nimble/host/services/g
 
 # target to preprocess a source file
 nimble/nimble/host/services/gap/src/ble_svc_gap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
 .PHONY : nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
 
 nimble/nimble/host/services/gap/src/ble_svc_gap.s: nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
@@ -231,7 +231,7 @@ nimble/nimble/host/services/gap/src/ble_svc_gap.s: nimble/nimble/host/services/g
 
 # target to generate assembly for a file
 nimble/nimble/host/services/gap/src/ble_svc_gap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
 .PHONY : nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
 
 nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj: nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
@@ -240,7 +240,7 @@ nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj: nimble/nimble/host/servic
 
 # target to build an object file
 nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
 .PHONY : nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
 
 nimble/nimble/host/services/gatt/src/ble_svc_gatt.i: nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
@@ -249,7 +249,7 @@ nimble/nimble/host/services/gatt/src/ble_svc_gatt.i: nimble/nimble/host/services
 
 # target to preprocess a source file
 nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
 .PHONY : nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
 
 nimble/nimble/host/services/gatt/src/ble_svc_gatt.s: nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
@@ -258,7 +258,7 @@ nimble/nimble/host/services/gatt/src/ble_svc_gatt.s: nimble/nimble/host/services
 
 # target to generate assembly for a file
 nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
 .PHONY : nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
 
 nimble/nimble/host/services/ias/src/ble_svc_ias.obj: nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
@@ -267,7 +267,7 @@ nimble/nimble/host/services/ias/src/ble_svc_ias.obj: nimble/nimble/host/services
 
 # target to build an object file
 nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
 .PHONY : nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
 
 nimble/nimble/host/services/ias/src/ble_svc_ias.i: nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
@@ -276,7 +276,7 @@ nimble/nimble/host/services/ias/src/ble_svc_ias.i: nimble/nimble/host/services/i
 
 # target to preprocess a source file
 nimble/nimble/host/services/ias/src/ble_svc_ias.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
 .PHONY : nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
 
 nimble/nimble/host/services/ias/src/ble_svc_ias.s: nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
@@ -285,7 +285,7 @@ nimble/nimble/host/services/ias/src/ble_svc_ias.s: nimble/nimble/host/services/i
 
 # target to generate assembly for a file
 nimble/nimble/host/services/ias/src/ble_svc_ias.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
 .PHONY : nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
 
 nimble/nimble/host/services/lls/src/ble_svc_lls.obj: nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
@@ -294,7 +294,7 @@ nimble/nimble/host/services/lls/src/ble_svc_lls.obj: nimble/nimble/host/services
 
 # target to build an object file
 nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
 .PHONY : nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
 
 nimble/nimble/host/services/lls/src/ble_svc_lls.i: nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
@@ -303,7 +303,7 @@ nimble/nimble/host/services/lls/src/ble_svc_lls.i: nimble/nimble/host/services/l
 
 # target to preprocess a source file
 nimble/nimble/host/services/lls/src/ble_svc_lls.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
 .PHONY : nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
 
 nimble/nimble/host/services/lls/src/ble_svc_lls.s: nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
@@ -312,7 +312,7 @@ nimble/nimble/host/services/lls/src/ble_svc_lls.s: nimble/nimble/host/services/l
 
 # target to generate assembly for a file
 nimble/nimble/host/services/lls/src/ble_svc_lls.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
 .PHONY : nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
 
 nimble/nimble/host/services/tps/src/ble_svc_tps.obj: nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
@@ -321,7 +321,7 @@ nimble/nimble/host/services/tps/src/ble_svc_tps.obj: nimble/nimble/host/services
 
 # target to build an object file
 nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
 .PHONY : nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
 
 nimble/nimble/host/services/tps/src/ble_svc_tps.i: nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
@@ -330,7 +330,7 @@ nimble/nimble/host/services/tps/src/ble_svc_tps.i: nimble/nimble/host/services/t
 
 # target to preprocess a source file
 nimble/nimble/host/services/tps/src/ble_svc_tps.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
 .PHONY : nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
 
 nimble/nimble/host/services/tps/src/ble_svc_tps.s: nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
@@ -339,7 +339,7 @@ nimble/nimble/host/services/tps/src/ble_svc_tps.s: nimble/nimble/host/services/t
 
 # target to generate assembly for a file
 nimble/nimble/host/services/tps/src/ble_svc_tps.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
 .PHONY : nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
 
 nimble/nimble/host/src/ble_att.obj: nimble/nimble/host/src/ble_att.c.obj
@@ -348,7 +348,7 @@ nimble/nimble/host/src/ble_att.obj: nimble/nimble/host/src/ble_att.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_att.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj
 .PHONY : nimble/nimble/host/src/ble_att.c.obj
 
 nimble/nimble/host/src/ble_att.i: nimble/nimble/host/src/ble_att.c.i
@@ -357,7 +357,7 @@ nimble/nimble/host/src/ble_att.i: nimble/nimble/host/src/ble_att.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_att.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.i
 .PHONY : nimble/nimble/host/src/ble_att.c.i
 
 nimble/nimble/host/src/ble_att.s: nimble/nimble/host/src/ble_att.c.s
@@ -366,7 +366,7 @@ nimble/nimble/host/src/ble_att.s: nimble/nimble/host/src/ble_att.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_att.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.s
 .PHONY : nimble/nimble/host/src/ble_att.c.s
 
 nimble/nimble/host/src/ble_att_clt.obj: nimble/nimble/host/src/ble_att_clt.c.obj
@@ -375,7 +375,7 @@ nimble/nimble/host/src/ble_att_clt.obj: nimble/nimble/host/src/ble_att_clt.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_att_clt.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj
 .PHONY : nimble/nimble/host/src/ble_att_clt.c.obj
 
 nimble/nimble/host/src/ble_att_clt.i: nimble/nimble/host/src/ble_att_clt.c.i
@@ -384,7 +384,7 @@ nimble/nimble/host/src/ble_att_clt.i: nimble/nimble/host/src/ble_att_clt.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_att_clt.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.i
 .PHONY : nimble/nimble/host/src/ble_att_clt.c.i
 
 nimble/nimble/host/src/ble_att_clt.s: nimble/nimble/host/src/ble_att_clt.c.s
@@ -393,7 +393,7 @@ nimble/nimble/host/src/ble_att_clt.s: nimble/nimble/host/src/ble_att_clt.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_att_clt.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.s
 .PHONY : nimble/nimble/host/src/ble_att_clt.c.s
 
 nimble/nimble/host/src/ble_att_cmd.obj: nimble/nimble/host/src/ble_att_cmd.c.obj
@@ -402,7 +402,7 @@ nimble/nimble/host/src/ble_att_cmd.obj: nimble/nimble/host/src/ble_att_cmd.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_att_cmd.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj
 .PHONY : nimble/nimble/host/src/ble_att_cmd.c.obj
 
 nimble/nimble/host/src/ble_att_cmd.i: nimble/nimble/host/src/ble_att_cmd.c.i
@@ -411,7 +411,7 @@ nimble/nimble/host/src/ble_att_cmd.i: nimble/nimble/host/src/ble_att_cmd.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_att_cmd.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.i
 .PHONY : nimble/nimble/host/src/ble_att_cmd.c.i
 
 nimble/nimble/host/src/ble_att_cmd.s: nimble/nimble/host/src/ble_att_cmd.c.s
@@ -420,7 +420,7 @@ nimble/nimble/host/src/ble_att_cmd.s: nimble/nimble/host/src/ble_att_cmd.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_att_cmd.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.s
 .PHONY : nimble/nimble/host/src/ble_att_cmd.c.s
 
 nimble/nimble/host/src/ble_att_svr.obj: nimble/nimble/host/src/ble_att_svr.c.obj
@@ -429,7 +429,7 @@ nimble/nimble/host/src/ble_att_svr.obj: nimble/nimble/host/src/ble_att_svr.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_att_svr.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj
 .PHONY : nimble/nimble/host/src/ble_att_svr.c.obj
 
 nimble/nimble/host/src/ble_att_svr.i: nimble/nimble/host/src/ble_att_svr.c.i
@@ -438,7 +438,7 @@ nimble/nimble/host/src/ble_att_svr.i: nimble/nimble/host/src/ble_att_svr.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_att_svr.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.i
 .PHONY : nimble/nimble/host/src/ble_att_svr.c.i
 
 nimble/nimble/host/src/ble_att_svr.s: nimble/nimble/host/src/ble_att_svr.c.s
@@ -447,7 +447,7 @@ nimble/nimble/host/src/ble_att_svr.s: nimble/nimble/host/src/ble_att_svr.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_att_svr.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.s
 .PHONY : nimble/nimble/host/src/ble_att_svr.c.s
 
 nimble/nimble/host/src/ble_eddystone.obj: nimble/nimble/host/src/ble_eddystone.c.obj
@@ -456,7 +456,7 @@ nimble/nimble/host/src/ble_eddystone.obj: nimble/nimble/host/src/ble_eddystone.c
 
 # target to build an object file
 nimble/nimble/host/src/ble_eddystone.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj
 .PHONY : nimble/nimble/host/src/ble_eddystone.c.obj
 
 nimble/nimble/host/src/ble_eddystone.i: nimble/nimble/host/src/ble_eddystone.c.i
@@ -465,7 +465,7 @@ nimble/nimble/host/src/ble_eddystone.i: nimble/nimble/host/src/ble_eddystone.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_eddystone.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.i
 .PHONY : nimble/nimble/host/src/ble_eddystone.c.i
 
 nimble/nimble/host/src/ble_eddystone.s: nimble/nimble/host/src/ble_eddystone.c.s
@@ -474,7 +474,7 @@ nimble/nimble/host/src/ble_eddystone.s: nimble/nimble/host/src/ble_eddystone.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_eddystone.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.s
 .PHONY : nimble/nimble/host/src/ble_eddystone.c.s
 
 nimble/nimble/host/src/ble_gap.obj: nimble/nimble/host/src/ble_gap.c.obj
@@ -483,7 +483,7 @@ nimble/nimble/host/src/ble_gap.obj: nimble/nimble/host/src/ble_gap.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_gap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj
 .PHONY : nimble/nimble/host/src/ble_gap.c.obj
 
 nimble/nimble/host/src/ble_gap.i: nimble/nimble/host/src/ble_gap.c.i
@@ -492,7 +492,7 @@ nimble/nimble/host/src/ble_gap.i: nimble/nimble/host/src/ble_gap.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_gap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.i
 .PHONY : nimble/nimble/host/src/ble_gap.c.i
 
 nimble/nimble/host/src/ble_gap.s: nimble/nimble/host/src/ble_gap.c.s
@@ -501,7 +501,7 @@ nimble/nimble/host/src/ble_gap.s: nimble/nimble/host/src/ble_gap.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_gap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.s
 .PHONY : nimble/nimble/host/src/ble_gap.c.s
 
 nimble/nimble/host/src/ble_gattc.obj: nimble/nimble/host/src/ble_gattc.c.obj
@@ -510,7 +510,7 @@ nimble/nimble/host/src/ble_gattc.obj: nimble/nimble/host/src/ble_gattc.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_gattc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj
 .PHONY : nimble/nimble/host/src/ble_gattc.c.obj
 
 nimble/nimble/host/src/ble_gattc.i: nimble/nimble/host/src/ble_gattc.c.i
@@ -519,7 +519,7 @@ nimble/nimble/host/src/ble_gattc.i: nimble/nimble/host/src/ble_gattc.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_gattc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.i
 .PHONY : nimble/nimble/host/src/ble_gattc.c.i
 
 nimble/nimble/host/src/ble_gattc.s: nimble/nimble/host/src/ble_gattc.c.s
@@ -528,7 +528,7 @@ nimble/nimble/host/src/ble_gattc.s: nimble/nimble/host/src/ble_gattc.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_gattc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.s
 .PHONY : nimble/nimble/host/src/ble_gattc.c.s
 
 nimble/nimble/host/src/ble_gatts.obj: nimble/nimble/host/src/ble_gatts.c.obj
@@ -537,7 +537,7 @@ nimble/nimble/host/src/ble_gatts.obj: nimble/nimble/host/src/ble_gatts.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_gatts.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj
 .PHONY : nimble/nimble/host/src/ble_gatts.c.obj
 
 nimble/nimble/host/src/ble_gatts.i: nimble/nimble/host/src/ble_gatts.c.i
@@ -546,7 +546,7 @@ nimble/nimble/host/src/ble_gatts.i: nimble/nimble/host/src/ble_gatts.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_gatts.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.i
 .PHONY : nimble/nimble/host/src/ble_gatts.c.i
 
 nimble/nimble/host/src/ble_gatts.s: nimble/nimble/host/src/ble_gatts.c.s
@@ -555,7 +555,7 @@ nimble/nimble/host/src/ble_gatts.s: nimble/nimble/host/src/ble_gatts.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_gatts.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.s
 .PHONY : nimble/nimble/host/src/ble_gatts.c.s
 
 nimble/nimble/host/src/ble_gatts_lcl.obj: nimble/nimble/host/src/ble_gatts_lcl.c.obj
@@ -564,7 +564,7 @@ nimble/nimble/host/src/ble_gatts_lcl.obj: nimble/nimble/host/src/ble_gatts_lcl.c
 
 # target to build an object file
 nimble/nimble/host/src/ble_gatts_lcl.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj
 .PHONY : nimble/nimble/host/src/ble_gatts_lcl.c.obj
 
 nimble/nimble/host/src/ble_gatts_lcl.i: nimble/nimble/host/src/ble_gatts_lcl.c.i
@@ -573,7 +573,7 @@ nimble/nimble/host/src/ble_gatts_lcl.i: nimble/nimble/host/src/ble_gatts_lcl.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_gatts_lcl.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.i
 .PHONY : nimble/nimble/host/src/ble_gatts_lcl.c.i
 
 nimble/nimble/host/src/ble_gatts_lcl.s: nimble/nimble/host/src/ble_gatts_lcl.c.s
@@ -582,7 +582,7 @@ nimble/nimble/host/src/ble_gatts_lcl.s: nimble/nimble/host/src/ble_gatts_lcl.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_gatts_lcl.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.s
 .PHONY : nimble/nimble/host/src/ble_gatts_lcl.c.s
 
 nimble/nimble/host/src/ble_hs.obj: nimble/nimble/host/src/ble_hs.c.obj
@@ -591,7 +591,7 @@ nimble/nimble/host/src/ble_hs.obj: nimble/nimble/host/src/ble_hs.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs.c.obj
 
 nimble/nimble/host/src/ble_hs.i: nimble/nimble/host/src/ble_hs.c.i
@@ -600,7 +600,7 @@ nimble/nimble/host/src/ble_hs.i: nimble/nimble/host/src/ble_hs.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.i
 .PHONY : nimble/nimble/host/src/ble_hs.c.i
 
 nimble/nimble/host/src/ble_hs.s: nimble/nimble/host/src/ble_hs.c.s
@@ -609,7 +609,7 @@ nimble/nimble/host/src/ble_hs.s: nimble/nimble/host/src/ble_hs.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.s
 .PHONY : nimble/nimble/host/src/ble_hs.c.s
 
 nimble/nimble/host/src/ble_hs_adv.obj: nimble/nimble/host/src/ble_hs_adv.c.obj
@@ -618,7 +618,7 @@ nimble/nimble/host/src/ble_hs_adv.obj: nimble/nimble/host/src/ble_hs_adv.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_adv.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_adv.c.obj
 
 nimble/nimble/host/src/ble_hs_adv.i: nimble/nimble/host/src/ble_hs_adv.c.i
@@ -627,7 +627,7 @@ nimble/nimble/host/src/ble_hs_adv.i: nimble/nimble/host/src/ble_hs_adv.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_adv.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_adv.c.i
 
 nimble/nimble/host/src/ble_hs_adv.s: nimble/nimble/host/src/ble_hs_adv.c.s
@@ -636,7 +636,7 @@ nimble/nimble/host/src/ble_hs_adv.s: nimble/nimble/host/src/ble_hs_adv.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_adv.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_adv.c.s
 
 nimble/nimble/host/src/ble_hs_atomic.obj: nimble/nimble/host/src/ble_hs_atomic.c.obj
@@ -645,7 +645,7 @@ nimble/nimble/host/src/ble_hs_atomic.obj: nimble/nimble/host/src/ble_hs_atomic.c
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_atomic.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_atomic.c.obj
 
 nimble/nimble/host/src/ble_hs_atomic.i: nimble/nimble/host/src/ble_hs_atomic.c.i
@@ -654,7 +654,7 @@ nimble/nimble/host/src/ble_hs_atomic.i: nimble/nimble/host/src/ble_hs_atomic.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_atomic.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_atomic.c.i
 
 nimble/nimble/host/src/ble_hs_atomic.s: nimble/nimble/host/src/ble_hs_atomic.c.s
@@ -663,7 +663,7 @@ nimble/nimble/host/src/ble_hs_atomic.s: nimble/nimble/host/src/ble_hs_atomic.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_atomic.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_atomic.c.s
 
 nimble/nimble/host/src/ble_hs_cfg.obj: nimble/nimble/host/src/ble_hs_cfg.c.obj
@@ -672,7 +672,7 @@ nimble/nimble/host/src/ble_hs_cfg.obj: nimble/nimble/host/src/ble_hs_cfg.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_cfg.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_cfg.c.obj
 
 nimble/nimble/host/src/ble_hs_cfg.i: nimble/nimble/host/src/ble_hs_cfg.c.i
@@ -681,7 +681,7 @@ nimble/nimble/host/src/ble_hs_cfg.i: nimble/nimble/host/src/ble_hs_cfg.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_cfg.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_cfg.c.i
 
 nimble/nimble/host/src/ble_hs_cfg.s: nimble/nimble/host/src/ble_hs_cfg.c.s
@@ -690,7 +690,7 @@ nimble/nimble/host/src/ble_hs_cfg.s: nimble/nimble/host/src/ble_hs_cfg.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_cfg.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_cfg.c.s
 
 nimble/nimble/host/src/ble_hs_conn.obj: nimble/nimble/host/src/ble_hs_conn.c.obj
@@ -699,7 +699,7 @@ nimble/nimble/host/src/ble_hs_conn.obj: nimble/nimble/host/src/ble_hs_conn.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_conn.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_conn.c.obj
 
 nimble/nimble/host/src/ble_hs_conn.i: nimble/nimble/host/src/ble_hs_conn.c.i
@@ -708,7 +708,7 @@ nimble/nimble/host/src/ble_hs_conn.i: nimble/nimble/host/src/ble_hs_conn.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_conn.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_conn.c.i
 
 nimble/nimble/host/src/ble_hs_conn.s: nimble/nimble/host/src/ble_hs_conn.c.s
@@ -717,7 +717,7 @@ nimble/nimble/host/src/ble_hs_conn.s: nimble/nimble/host/src/ble_hs_conn.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_conn.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_conn.c.s
 
 nimble/nimble/host/src/ble_hs_dbg.obj: nimble/nimble/host/src/ble_hs_dbg.c.obj
@@ -726,7 +726,7 @@ nimble/nimble/host/src/ble_hs_dbg.obj: nimble/nimble/host/src/ble_hs_dbg.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_dbg.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_dbg.c.obj
 
 nimble/nimble/host/src/ble_hs_dbg.i: nimble/nimble/host/src/ble_hs_dbg.c.i
@@ -735,7 +735,7 @@ nimble/nimble/host/src/ble_hs_dbg.i: nimble/nimble/host/src/ble_hs_dbg.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_dbg.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_dbg.c.i
 
 nimble/nimble/host/src/ble_hs_dbg.s: nimble/nimble/host/src/ble_hs_dbg.c.s
@@ -744,7 +744,7 @@ nimble/nimble/host/src/ble_hs_dbg.s: nimble/nimble/host/src/ble_hs_dbg.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_dbg.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_dbg.c.s
 
 nimble/nimble/host/src/ble_hs_flow.obj: nimble/nimble/host/src/ble_hs_flow.c.obj
@@ -753,7 +753,7 @@ nimble/nimble/host/src/ble_hs_flow.obj: nimble/nimble/host/src/ble_hs_flow.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_flow.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_flow.c.obj
 
 nimble/nimble/host/src/ble_hs_flow.i: nimble/nimble/host/src/ble_hs_flow.c.i
@@ -762,7 +762,7 @@ nimble/nimble/host/src/ble_hs_flow.i: nimble/nimble/host/src/ble_hs_flow.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_flow.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_flow.c.i
 
 nimble/nimble/host/src/ble_hs_flow.s: nimble/nimble/host/src/ble_hs_flow.c.s
@@ -771,7 +771,7 @@ nimble/nimble/host/src/ble_hs_flow.s: nimble/nimble/host/src/ble_hs_flow.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_flow.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_flow.c.s
 
 nimble/nimble/host/src/ble_hs_hci.obj: nimble/nimble/host/src/ble_hs_hci.c.obj
@@ -780,7 +780,7 @@ nimble/nimble/host/src/ble_hs_hci.obj: nimble/nimble/host/src/ble_hs_hci.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_hci.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_hci.c.obj
 
 nimble/nimble/host/src/ble_hs_hci.i: nimble/nimble/host/src/ble_hs_hci.c.i
@@ -789,7 +789,7 @@ nimble/nimble/host/src/ble_hs_hci.i: nimble/nimble/host/src/ble_hs_hci.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_hci.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_hci.c.i
 
 nimble/nimble/host/src/ble_hs_hci.s: nimble/nimble/host/src/ble_hs_hci.c.s
@@ -798,7 +798,7 @@ nimble/nimble/host/src/ble_hs_hci.s: nimble/nimble/host/src/ble_hs_hci.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_hci.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_hci.c.s
 
 nimble/nimble/host/src/ble_hs_hci_cmd.obj: nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
@@ -807,7 +807,7 @@ nimble/nimble/host/src/ble_hs_hci_cmd.obj: nimble/nimble/host/src/ble_hs_hci_cmd
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_hci_cmd.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
 
 nimble/nimble/host/src/ble_hs_hci_cmd.i: nimble/nimble/host/src/ble_hs_hci_cmd.c.i
@@ -816,7 +816,7 @@ nimble/nimble/host/src/ble_hs_hci_cmd.i: nimble/nimble/host/src/ble_hs_hci_cmd.c
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_hci_cmd.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_hci_cmd.c.i
 
 nimble/nimble/host/src/ble_hs_hci_cmd.s: nimble/nimble/host/src/ble_hs_hci_cmd.c.s
@@ -825,7 +825,7 @@ nimble/nimble/host/src/ble_hs_hci_cmd.s: nimble/nimble/host/src/ble_hs_hci_cmd.c
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_hci_cmd.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_hci_cmd.c.s
 
 nimble/nimble/host/src/ble_hs_hci_evt.obj: nimble/nimble/host/src/ble_hs_hci_evt.c.obj
@@ -834,7 +834,7 @@ nimble/nimble/host/src/ble_hs_hci_evt.obj: nimble/nimble/host/src/ble_hs_hci_evt
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_hci_evt.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_hci_evt.c.obj
 
 nimble/nimble/host/src/ble_hs_hci_evt.i: nimble/nimble/host/src/ble_hs_hci_evt.c.i
@@ -843,7 +843,7 @@ nimble/nimble/host/src/ble_hs_hci_evt.i: nimble/nimble/host/src/ble_hs_hci_evt.c
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_hci_evt.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_hci_evt.c.i
 
 nimble/nimble/host/src/ble_hs_hci_evt.s: nimble/nimble/host/src/ble_hs_hci_evt.c.s
@@ -852,7 +852,7 @@ nimble/nimble/host/src/ble_hs_hci_evt.s: nimble/nimble/host/src/ble_hs_hci_evt.c
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_hci_evt.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_hci_evt.c.s
 
 nimble/nimble/host/src/ble_hs_hci_util.obj: nimble/nimble/host/src/ble_hs_hci_util.c.obj
@@ -861,7 +861,7 @@ nimble/nimble/host/src/ble_hs_hci_util.obj: nimble/nimble/host/src/ble_hs_hci_ut
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_hci_util.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_hci_util.c.obj
 
 nimble/nimble/host/src/ble_hs_hci_util.i: nimble/nimble/host/src/ble_hs_hci_util.c.i
@@ -870,7 +870,7 @@ nimble/nimble/host/src/ble_hs_hci_util.i: nimble/nimble/host/src/ble_hs_hci_util
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_hci_util.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_hci_util.c.i
 
 nimble/nimble/host/src/ble_hs_hci_util.s: nimble/nimble/host/src/ble_hs_hci_util.c.s
@@ -879,7 +879,7 @@ nimble/nimble/host/src/ble_hs_hci_util.s: nimble/nimble/host/src/ble_hs_hci_util
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_hci_util.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_hci_util.c.s
 
 nimble/nimble/host/src/ble_hs_id.obj: nimble/nimble/host/src/ble_hs_id.c.obj
@@ -888,7 +888,7 @@ nimble/nimble/host/src/ble_hs_id.obj: nimble/nimble/host/src/ble_hs_id.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_id.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_id.c.obj
 
 nimble/nimble/host/src/ble_hs_id.i: nimble/nimble/host/src/ble_hs_id.c.i
@@ -897,7 +897,7 @@ nimble/nimble/host/src/ble_hs_id.i: nimble/nimble/host/src/ble_hs_id.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_id.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_id.c.i
 
 nimble/nimble/host/src/ble_hs_id.s: nimble/nimble/host/src/ble_hs_id.c.s
@@ -906,7 +906,7 @@ nimble/nimble/host/src/ble_hs_id.s: nimble/nimble/host/src/ble_hs_id.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_id.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_id.c.s
 
 nimble/nimble/host/src/ble_hs_log.obj: nimble/nimble/host/src/ble_hs_log.c.obj
@@ -915,7 +915,7 @@ nimble/nimble/host/src/ble_hs_log.obj: nimble/nimble/host/src/ble_hs_log.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_log.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_log.c.obj
 
 nimble/nimble/host/src/ble_hs_log.i: nimble/nimble/host/src/ble_hs_log.c.i
@@ -924,7 +924,7 @@ nimble/nimble/host/src/ble_hs_log.i: nimble/nimble/host/src/ble_hs_log.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_log.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_log.c.i
 
 nimble/nimble/host/src/ble_hs_log.s: nimble/nimble/host/src/ble_hs_log.c.s
@@ -933,7 +933,7 @@ nimble/nimble/host/src/ble_hs_log.s: nimble/nimble/host/src/ble_hs_log.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_log.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_log.c.s
 
 nimble/nimble/host/src/ble_hs_mbuf.obj: nimble/nimble/host/src/ble_hs_mbuf.c.obj
@@ -942,7 +942,7 @@ nimble/nimble/host/src/ble_hs_mbuf.obj: nimble/nimble/host/src/ble_hs_mbuf.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_mbuf.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_mbuf.c.obj
 
 nimble/nimble/host/src/ble_hs_mbuf.i: nimble/nimble/host/src/ble_hs_mbuf.c.i
@@ -951,7 +951,7 @@ nimble/nimble/host/src/ble_hs_mbuf.i: nimble/nimble/host/src/ble_hs_mbuf.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_mbuf.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_mbuf.c.i
 
 nimble/nimble/host/src/ble_hs_mbuf.s: nimble/nimble/host/src/ble_hs_mbuf.c.s
@@ -960,7 +960,7 @@ nimble/nimble/host/src/ble_hs_mbuf.s: nimble/nimble/host/src/ble_hs_mbuf.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_mbuf.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_mbuf.c.s
 
 nimble/nimble/host/src/ble_hs_misc.obj: nimble/nimble/host/src/ble_hs_misc.c.obj
@@ -969,7 +969,7 @@ nimble/nimble/host/src/ble_hs_misc.obj: nimble/nimble/host/src/ble_hs_misc.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_misc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_misc.c.obj
 
 nimble/nimble/host/src/ble_hs_misc.i: nimble/nimble/host/src/ble_hs_misc.c.i
@@ -978,7 +978,7 @@ nimble/nimble/host/src/ble_hs_misc.i: nimble/nimble/host/src/ble_hs_misc.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_misc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_misc.c.i
 
 nimble/nimble/host/src/ble_hs_misc.s: nimble/nimble/host/src/ble_hs_misc.c.s
@@ -987,7 +987,7 @@ nimble/nimble/host/src/ble_hs_misc.s: nimble/nimble/host/src/ble_hs_misc.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_misc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_misc.c.s
 
 nimble/nimble/host/src/ble_hs_mqueue.obj: nimble/nimble/host/src/ble_hs_mqueue.c.obj
@@ -996,7 +996,7 @@ nimble/nimble/host/src/ble_hs_mqueue.obj: nimble/nimble/host/src/ble_hs_mqueue.c
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_mqueue.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_mqueue.c.obj
 
 nimble/nimble/host/src/ble_hs_mqueue.i: nimble/nimble/host/src/ble_hs_mqueue.c.i
@@ -1005,7 +1005,7 @@ nimble/nimble/host/src/ble_hs_mqueue.i: nimble/nimble/host/src/ble_hs_mqueue.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_mqueue.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_mqueue.c.i
 
 nimble/nimble/host/src/ble_hs_mqueue.s: nimble/nimble/host/src/ble_hs_mqueue.c.s
@@ -1014,7 +1014,7 @@ nimble/nimble/host/src/ble_hs_mqueue.s: nimble/nimble/host/src/ble_hs_mqueue.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_mqueue.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_mqueue.c.s
 
 nimble/nimble/host/src/ble_hs_pvcy.obj: nimble/nimble/host/src/ble_hs_pvcy.c.obj
@@ -1023,7 +1023,7 @@ nimble/nimble/host/src/ble_hs_pvcy.obj: nimble/nimble/host/src/ble_hs_pvcy.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_pvcy.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_pvcy.c.obj
 
 nimble/nimble/host/src/ble_hs_pvcy.i: nimble/nimble/host/src/ble_hs_pvcy.c.i
@@ -1032,7 +1032,7 @@ nimble/nimble/host/src/ble_hs_pvcy.i: nimble/nimble/host/src/ble_hs_pvcy.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_pvcy.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_pvcy.c.i
 
 nimble/nimble/host/src/ble_hs_pvcy.s: nimble/nimble/host/src/ble_hs_pvcy.c.s
@@ -1041,7 +1041,7 @@ nimble/nimble/host/src/ble_hs_pvcy.s: nimble/nimble/host/src/ble_hs_pvcy.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_pvcy.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_pvcy.c.s
 
 nimble/nimble/host/src/ble_hs_shutdown.obj: nimble/nimble/host/src/ble_hs_shutdown.c.obj
@@ -1050,7 +1050,7 @@ nimble/nimble/host/src/ble_hs_shutdown.obj: nimble/nimble/host/src/ble_hs_shutdo
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_shutdown.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_shutdown.c.obj
 
 nimble/nimble/host/src/ble_hs_shutdown.i: nimble/nimble/host/src/ble_hs_shutdown.c.i
@@ -1059,7 +1059,7 @@ nimble/nimble/host/src/ble_hs_shutdown.i: nimble/nimble/host/src/ble_hs_shutdown
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_shutdown.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_shutdown.c.i
 
 nimble/nimble/host/src/ble_hs_shutdown.s: nimble/nimble/host/src/ble_hs_shutdown.c.s
@@ -1068,7 +1068,7 @@ nimble/nimble/host/src/ble_hs_shutdown.s: nimble/nimble/host/src/ble_hs_shutdown
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_shutdown.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_shutdown.c.s
 
 nimble/nimble/host/src/ble_hs_startup.obj: nimble/nimble/host/src/ble_hs_startup.c.obj
@@ -1077,7 +1077,7 @@ nimble/nimble/host/src/ble_hs_startup.obj: nimble/nimble/host/src/ble_hs_startup
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_startup.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_startup.c.obj
 
 nimble/nimble/host/src/ble_hs_startup.i: nimble/nimble/host/src/ble_hs_startup.c.i
@@ -1086,7 +1086,7 @@ nimble/nimble/host/src/ble_hs_startup.i: nimble/nimble/host/src/ble_hs_startup.c
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_startup.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_startup.c.i
 
 nimble/nimble/host/src/ble_hs_startup.s: nimble/nimble/host/src/ble_hs_startup.c.s
@@ -1095,7 +1095,7 @@ nimble/nimble/host/src/ble_hs_startup.s: nimble/nimble/host/src/ble_hs_startup.c
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_startup.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_startup.c.s
 
 nimble/nimble/host/src/ble_hs_stop.obj: nimble/nimble/host/src/ble_hs_stop.c.obj
@@ -1104,7 +1104,7 @@ nimble/nimble/host/src/ble_hs_stop.obj: nimble/nimble/host/src/ble_hs_stop.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_hs_stop.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj
 .PHONY : nimble/nimble/host/src/ble_hs_stop.c.obj
 
 nimble/nimble/host/src/ble_hs_stop.i: nimble/nimble/host/src/ble_hs_stop.c.i
@@ -1113,7 +1113,7 @@ nimble/nimble/host/src/ble_hs_stop.i: nimble/nimble/host/src/ble_hs_stop.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_hs_stop.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.i
 .PHONY : nimble/nimble/host/src/ble_hs_stop.c.i
 
 nimble/nimble/host/src/ble_hs_stop.s: nimble/nimble/host/src/ble_hs_stop.c.s
@@ -1122,7 +1122,7 @@ nimble/nimble/host/src/ble_hs_stop.s: nimble/nimble/host/src/ble_hs_stop.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_hs_stop.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.s
 .PHONY : nimble/nimble/host/src/ble_hs_stop.c.s
 
 nimble/nimble/host/src/ble_ibeacon.obj: nimble/nimble/host/src/ble_ibeacon.c.obj
@@ -1131,7 +1131,7 @@ nimble/nimble/host/src/ble_ibeacon.obj: nimble/nimble/host/src/ble_ibeacon.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_ibeacon.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj
 .PHONY : nimble/nimble/host/src/ble_ibeacon.c.obj
 
 nimble/nimble/host/src/ble_ibeacon.i: nimble/nimble/host/src/ble_ibeacon.c.i
@@ -1140,7 +1140,7 @@ nimble/nimble/host/src/ble_ibeacon.i: nimble/nimble/host/src/ble_ibeacon.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_ibeacon.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.i
 .PHONY : nimble/nimble/host/src/ble_ibeacon.c.i
 
 nimble/nimble/host/src/ble_ibeacon.s: nimble/nimble/host/src/ble_ibeacon.c.s
@@ -1149,7 +1149,7 @@ nimble/nimble/host/src/ble_ibeacon.s: nimble/nimble/host/src/ble_ibeacon.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_ibeacon.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.s
 .PHONY : nimble/nimble/host/src/ble_ibeacon.c.s
 
 nimble/nimble/host/src/ble_l2cap.obj: nimble/nimble/host/src/ble_l2cap.c.obj
@@ -1158,7 +1158,7 @@ nimble/nimble/host/src/ble_l2cap.obj: nimble/nimble/host/src/ble_l2cap.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_l2cap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj
 .PHONY : nimble/nimble/host/src/ble_l2cap.c.obj
 
 nimble/nimble/host/src/ble_l2cap.i: nimble/nimble/host/src/ble_l2cap.c.i
@@ -1167,7 +1167,7 @@ nimble/nimble/host/src/ble_l2cap.i: nimble/nimble/host/src/ble_l2cap.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_l2cap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.i
 .PHONY : nimble/nimble/host/src/ble_l2cap.c.i
 
 nimble/nimble/host/src/ble_l2cap.s: nimble/nimble/host/src/ble_l2cap.c.s
@@ -1176,7 +1176,7 @@ nimble/nimble/host/src/ble_l2cap.s: nimble/nimble/host/src/ble_l2cap.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_l2cap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.s
 .PHONY : nimble/nimble/host/src/ble_l2cap.c.s
 
 nimble/nimble/host/src/ble_l2cap_coc.obj: nimble/nimble/host/src/ble_l2cap_coc.c.obj
@@ -1185,7 +1185,7 @@ nimble/nimble/host/src/ble_l2cap_coc.obj: nimble/nimble/host/src/ble_l2cap_coc.c
 
 # target to build an object file
 nimble/nimble/host/src/ble_l2cap_coc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj
 .PHONY : nimble/nimble/host/src/ble_l2cap_coc.c.obj
 
 nimble/nimble/host/src/ble_l2cap_coc.i: nimble/nimble/host/src/ble_l2cap_coc.c.i
@@ -1194,7 +1194,7 @@ nimble/nimble/host/src/ble_l2cap_coc.i: nimble/nimble/host/src/ble_l2cap_coc.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_l2cap_coc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.i
 .PHONY : nimble/nimble/host/src/ble_l2cap_coc.c.i
 
 nimble/nimble/host/src/ble_l2cap_coc.s: nimble/nimble/host/src/ble_l2cap_coc.c.s
@@ -1203,7 +1203,7 @@ nimble/nimble/host/src/ble_l2cap_coc.s: nimble/nimble/host/src/ble_l2cap_coc.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_l2cap_coc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.s
 .PHONY : nimble/nimble/host/src/ble_l2cap_coc.c.s
 
 nimble/nimble/host/src/ble_l2cap_sig.obj: nimble/nimble/host/src/ble_l2cap_sig.c.obj
@@ -1212,7 +1212,7 @@ nimble/nimble/host/src/ble_l2cap_sig.obj: nimble/nimble/host/src/ble_l2cap_sig.c
 
 # target to build an object file
 nimble/nimble/host/src/ble_l2cap_sig.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj
 .PHONY : nimble/nimble/host/src/ble_l2cap_sig.c.obj
 
 nimble/nimble/host/src/ble_l2cap_sig.i: nimble/nimble/host/src/ble_l2cap_sig.c.i
@@ -1221,7 +1221,7 @@ nimble/nimble/host/src/ble_l2cap_sig.i: nimble/nimble/host/src/ble_l2cap_sig.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_l2cap_sig.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.i
 .PHONY : nimble/nimble/host/src/ble_l2cap_sig.c.i
 
 nimble/nimble/host/src/ble_l2cap_sig.s: nimble/nimble/host/src/ble_l2cap_sig.c.s
@@ -1230,7 +1230,7 @@ nimble/nimble/host/src/ble_l2cap_sig.s: nimble/nimble/host/src/ble_l2cap_sig.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_l2cap_sig.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.s
 .PHONY : nimble/nimble/host/src/ble_l2cap_sig.c.s
 
 nimble/nimble/host/src/ble_l2cap_sig_cmd.obj: nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
@@ -1239,7 +1239,7 @@ nimble/nimble/host/src/ble_l2cap_sig_cmd.obj: nimble/nimble/host/src/ble_l2cap_s
 
 # target to build an object file
 nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
 .PHONY : nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
 
 nimble/nimble/host/src/ble_l2cap_sig_cmd.i: nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
@@ -1248,7 +1248,7 @@ nimble/nimble/host/src/ble_l2cap_sig_cmd.i: nimble/nimble/host/src/ble_l2cap_sig
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
 .PHONY : nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
 
 nimble/nimble/host/src/ble_l2cap_sig_cmd.s: nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
@@ -1257,7 +1257,7 @@ nimble/nimble/host/src/ble_l2cap_sig_cmd.s: nimble/nimble/host/src/ble_l2cap_sig
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
 .PHONY : nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
 
 nimble/nimble/host/src/ble_monitor.obj: nimble/nimble/host/src/ble_monitor.c.obj
@@ -1266,7 +1266,7 @@ nimble/nimble/host/src/ble_monitor.obj: nimble/nimble/host/src/ble_monitor.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_monitor.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj
 .PHONY : nimble/nimble/host/src/ble_monitor.c.obj
 
 nimble/nimble/host/src/ble_monitor.i: nimble/nimble/host/src/ble_monitor.c.i
@@ -1275,7 +1275,7 @@ nimble/nimble/host/src/ble_monitor.i: nimble/nimble/host/src/ble_monitor.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_monitor.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.i
 .PHONY : nimble/nimble/host/src/ble_monitor.c.i
 
 nimble/nimble/host/src/ble_monitor.s: nimble/nimble/host/src/ble_monitor.c.s
@@ -1284,7 +1284,7 @@ nimble/nimble/host/src/ble_monitor.s: nimble/nimble/host/src/ble_monitor.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_monitor.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.s
 .PHONY : nimble/nimble/host/src/ble_monitor.c.s
 
 nimble/nimble/host/src/ble_sm.obj: nimble/nimble/host/src/ble_sm.c.obj
@@ -1293,7 +1293,7 @@ nimble/nimble/host/src/ble_sm.obj: nimble/nimble/host/src/ble_sm.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_sm.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj
 .PHONY : nimble/nimble/host/src/ble_sm.c.obj
 
 nimble/nimble/host/src/ble_sm.i: nimble/nimble/host/src/ble_sm.c.i
@@ -1302,7 +1302,7 @@ nimble/nimble/host/src/ble_sm.i: nimble/nimble/host/src/ble_sm.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_sm.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.i
 .PHONY : nimble/nimble/host/src/ble_sm.c.i
 
 nimble/nimble/host/src/ble_sm.s: nimble/nimble/host/src/ble_sm.c.s
@@ -1311,7 +1311,7 @@ nimble/nimble/host/src/ble_sm.s: nimble/nimble/host/src/ble_sm.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_sm.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.s
 .PHONY : nimble/nimble/host/src/ble_sm.c.s
 
 nimble/nimble/host/src/ble_sm_alg.obj: nimble/nimble/host/src/ble_sm_alg.c.obj
@@ -1320,7 +1320,7 @@ nimble/nimble/host/src/ble_sm_alg.obj: nimble/nimble/host/src/ble_sm_alg.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_sm_alg.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj
 .PHONY : nimble/nimble/host/src/ble_sm_alg.c.obj
 
 nimble/nimble/host/src/ble_sm_alg.i: nimble/nimble/host/src/ble_sm_alg.c.i
@@ -1329,7 +1329,7 @@ nimble/nimble/host/src/ble_sm_alg.i: nimble/nimble/host/src/ble_sm_alg.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_sm_alg.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.i
 .PHONY : nimble/nimble/host/src/ble_sm_alg.c.i
 
 nimble/nimble/host/src/ble_sm_alg.s: nimble/nimble/host/src/ble_sm_alg.c.s
@@ -1338,7 +1338,7 @@ nimble/nimble/host/src/ble_sm_alg.s: nimble/nimble/host/src/ble_sm_alg.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_sm_alg.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.s
 .PHONY : nimble/nimble/host/src/ble_sm_alg.c.s
 
 nimble/nimble/host/src/ble_sm_cmd.obj: nimble/nimble/host/src/ble_sm_cmd.c.obj
@@ -1347,7 +1347,7 @@ nimble/nimble/host/src/ble_sm_cmd.obj: nimble/nimble/host/src/ble_sm_cmd.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_sm_cmd.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj
 .PHONY : nimble/nimble/host/src/ble_sm_cmd.c.obj
 
 nimble/nimble/host/src/ble_sm_cmd.i: nimble/nimble/host/src/ble_sm_cmd.c.i
@@ -1356,7 +1356,7 @@ nimble/nimble/host/src/ble_sm_cmd.i: nimble/nimble/host/src/ble_sm_cmd.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_sm_cmd.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.i
 .PHONY : nimble/nimble/host/src/ble_sm_cmd.c.i
 
 nimble/nimble/host/src/ble_sm_cmd.s: nimble/nimble/host/src/ble_sm_cmd.c.s
@@ -1365,7 +1365,7 @@ nimble/nimble/host/src/ble_sm_cmd.s: nimble/nimble/host/src/ble_sm_cmd.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_sm_cmd.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.s
 .PHONY : nimble/nimble/host/src/ble_sm_cmd.c.s
 
 nimble/nimble/host/src/ble_sm_lgcy.obj: nimble/nimble/host/src/ble_sm_lgcy.c.obj
@@ -1374,7 +1374,7 @@ nimble/nimble/host/src/ble_sm_lgcy.obj: nimble/nimble/host/src/ble_sm_lgcy.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_sm_lgcy.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj
 .PHONY : nimble/nimble/host/src/ble_sm_lgcy.c.obj
 
 nimble/nimble/host/src/ble_sm_lgcy.i: nimble/nimble/host/src/ble_sm_lgcy.c.i
@@ -1383,7 +1383,7 @@ nimble/nimble/host/src/ble_sm_lgcy.i: nimble/nimble/host/src/ble_sm_lgcy.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_sm_lgcy.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.i
 .PHONY : nimble/nimble/host/src/ble_sm_lgcy.c.i
 
 nimble/nimble/host/src/ble_sm_lgcy.s: nimble/nimble/host/src/ble_sm_lgcy.c.s
@@ -1392,7 +1392,7 @@ nimble/nimble/host/src/ble_sm_lgcy.s: nimble/nimble/host/src/ble_sm_lgcy.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_sm_lgcy.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.s
 .PHONY : nimble/nimble/host/src/ble_sm_lgcy.c.s
 
 nimble/nimble/host/src/ble_sm_sc.obj: nimble/nimble/host/src/ble_sm_sc.c.obj
@@ -1401,7 +1401,7 @@ nimble/nimble/host/src/ble_sm_sc.obj: nimble/nimble/host/src/ble_sm_sc.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_sm_sc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj
 .PHONY : nimble/nimble/host/src/ble_sm_sc.c.obj
 
 nimble/nimble/host/src/ble_sm_sc.i: nimble/nimble/host/src/ble_sm_sc.c.i
@@ -1410,7 +1410,7 @@ nimble/nimble/host/src/ble_sm_sc.i: nimble/nimble/host/src/ble_sm_sc.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_sm_sc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.i
 .PHONY : nimble/nimble/host/src/ble_sm_sc.c.i
 
 nimble/nimble/host/src/ble_sm_sc.s: nimble/nimble/host/src/ble_sm_sc.c.s
@@ -1419,7 +1419,7 @@ nimble/nimble/host/src/ble_sm_sc.s: nimble/nimble/host/src/ble_sm_sc.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_sm_sc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.s
 .PHONY : nimble/nimble/host/src/ble_sm_sc.c.s
 
 nimble/nimble/host/src/ble_store.obj: nimble/nimble/host/src/ble_store.c.obj
@@ -1428,7 +1428,7 @@ nimble/nimble/host/src/ble_store.obj: nimble/nimble/host/src/ble_store.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_store.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj
 .PHONY : nimble/nimble/host/src/ble_store.c.obj
 
 nimble/nimble/host/src/ble_store.i: nimble/nimble/host/src/ble_store.c.i
@@ -1437,7 +1437,7 @@ nimble/nimble/host/src/ble_store.i: nimble/nimble/host/src/ble_store.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_store.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.i
 .PHONY : nimble/nimble/host/src/ble_store.c.i
 
 nimble/nimble/host/src/ble_store.s: nimble/nimble/host/src/ble_store.c.s
@@ -1446,7 +1446,7 @@ nimble/nimble/host/src/ble_store.s: nimble/nimble/host/src/ble_store.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_store.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.s
 .PHONY : nimble/nimble/host/src/ble_store.c.s
 
 nimble/nimble/host/src/ble_store_util.obj: nimble/nimble/host/src/ble_store_util.c.obj
@@ -1455,7 +1455,7 @@ nimble/nimble/host/src/ble_store_util.obj: nimble/nimble/host/src/ble_store_util
 
 # target to build an object file
 nimble/nimble/host/src/ble_store_util.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj
 .PHONY : nimble/nimble/host/src/ble_store_util.c.obj
 
 nimble/nimble/host/src/ble_store_util.i: nimble/nimble/host/src/ble_store_util.c.i
@@ -1464,7 +1464,7 @@ nimble/nimble/host/src/ble_store_util.i: nimble/nimble/host/src/ble_store_util.c
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_store_util.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.i
 .PHONY : nimble/nimble/host/src/ble_store_util.c.i
 
 nimble/nimble/host/src/ble_store_util.s: nimble/nimble/host/src/ble_store_util.c.s
@@ -1473,7 +1473,7 @@ nimble/nimble/host/src/ble_store_util.s: nimble/nimble/host/src/ble_store_util.c
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_store_util.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.s
 .PHONY : nimble/nimble/host/src/ble_store_util.c.s
 
 nimble/nimble/host/src/ble_uuid.obj: nimble/nimble/host/src/ble_uuid.c.obj
@@ -1482,7 +1482,7 @@ nimble/nimble/host/src/ble_uuid.obj: nimble/nimble/host/src/ble_uuid.c.obj
 
 # target to build an object file
 nimble/nimble/host/src/ble_uuid.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj
 .PHONY : nimble/nimble/host/src/ble_uuid.c.obj
 
 nimble/nimble/host/src/ble_uuid.i: nimble/nimble/host/src/ble_uuid.c.i
@@ -1491,7 +1491,7 @@ nimble/nimble/host/src/ble_uuid.i: nimble/nimble/host/src/ble_uuid.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/src/ble_uuid.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.i
 .PHONY : nimble/nimble/host/src/ble_uuid.c.i
 
 nimble/nimble/host/src/ble_uuid.s: nimble/nimble/host/src/ble_uuid.c.s
@@ -1500,7 +1500,7 @@ nimble/nimble/host/src/ble_uuid.s: nimble/nimble/host/src/ble_uuid.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/src/ble_uuid.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.s
 .PHONY : nimble/nimble/host/src/ble_uuid.c.s
 
 nimble/nimble/host/store/config/src/ble_store_config.obj: nimble/nimble/host/store/config/src/ble_store_config.c.obj
@@ -1509,7 +1509,7 @@ nimble/nimble/host/store/config/src/ble_store_config.obj: nimble/nimble/host/sto
 
 # target to build an object file
 nimble/nimble/host/store/config/src/ble_store_config.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj
 .PHONY : nimble/nimble/host/store/config/src/ble_store_config.c.obj
 
 nimble/nimble/host/store/config/src/ble_store_config.i: nimble/nimble/host/store/config/src/ble_store_config.c.i
@@ -1518,7 +1518,7 @@ nimble/nimble/host/store/config/src/ble_store_config.i: nimble/nimble/host/store
 
 # target to preprocess a source file
 nimble/nimble/host/store/config/src/ble_store_config.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.i
 .PHONY : nimble/nimble/host/store/config/src/ble_store_config.c.i
 
 nimble/nimble/host/store/config/src/ble_store_config.s: nimble/nimble/host/store/config/src/ble_store_config.c.s
@@ -1527,7 +1527,7 @@ nimble/nimble/host/store/config/src/ble_store_config.s: nimble/nimble/host/store
 
 # target to generate assembly for a file
 nimble/nimble/host/store/config/src/ble_store_config.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.s
 .PHONY : nimble/nimble/host/store/config/src/ble_store_config.c.s
 
 nimble/nimble/host/store/config/src/ble_store_nvs.obj: nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
@@ -1536,7 +1536,7 @@ nimble/nimble/host/store/config/src/ble_store_nvs.obj: nimble/nimble/host/store/
 
 # target to build an object file
 nimble/nimble/host/store/config/src/ble_store_nvs.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
 .PHONY : nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
 
 nimble/nimble/host/store/config/src/ble_store_nvs.i: nimble/nimble/host/store/config/src/ble_store_nvs.c.i
@@ -1545,7 +1545,7 @@ nimble/nimble/host/store/config/src/ble_store_nvs.i: nimble/nimble/host/store/co
 
 # target to preprocess a source file
 nimble/nimble/host/store/config/src/ble_store_nvs.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
 .PHONY : nimble/nimble/host/store/config/src/ble_store_nvs.c.i
 
 nimble/nimble/host/store/config/src/ble_store_nvs.s: nimble/nimble/host/store/config/src/ble_store_nvs.c.s
@@ -1554,7 +1554,7 @@ nimble/nimble/host/store/config/src/ble_store_nvs.s: nimble/nimble/host/store/co
 
 # target to generate assembly for a file
 nimble/nimble/host/store/config/src/ble_store_nvs.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
 .PHONY : nimble/nimble/host/store/config/src/ble_store_nvs.c.s
 
 nimble/nimble/host/store/ram/src/ble_store_ram.obj: nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
@@ -1563,7 +1563,7 @@ nimble/nimble/host/store/ram/src/ble_store_ram.obj: nimble/nimble/host/store/ram
 
 # target to build an object file
 nimble/nimble/host/store/ram/src/ble_store_ram.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
 .PHONY : nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
 
 nimble/nimble/host/store/ram/src/ble_store_ram.i: nimble/nimble/host/store/ram/src/ble_store_ram.c.i
@@ -1572,7 +1572,7 @@ nimble/nimble/host/store/ram/src/ble_store_ram.i: nimble/nimble/host/store/ram/s
 
 # target to preprocess a source file
 nimble/nimble/host/store/ram/src/ble_store_ram.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
 .PHONY : nimble/nimble/host/store/ram/src/ble_store_ram.c.i
 
 nimble/nimble/host/store/ram/src/ble_store_ram.s: nimble/nimble/host/store/ram/src/ble_store_ram.c.s
@@ -1581,7 +1581,7 @@ nimble/nimble/host/store/ram/src/ble_store_ram.s: nimble/nimble/host/store/ram/s
 
 # target to generate assembly for a file
 nimble/nimble/host/store/ram/src/ble_store_ram.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
 .PHONY : nimble/nimble/host/store/ram/src/ble_store_ram.c.s
 
 nimble/nimble/host/util/src/addr.obj: nimble/nimble/host/util/src/addr.c.obj
@@ -1590,7 +1590,7 @@ nimble/nimble/host/util/src/addr.obj: nimble/nimble/host/util/src/addr.c.obj
 
 # target to build an object file
 nimble/nimble/host/util/src/addr.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj
 .PHONY : nimble/nimble/host/util/src/addr.c.obj
 
 nimble/nimble/host/util/src/addr.i: nimble/nimble/host/util/src/addr.c.i
@@ -1599,7 +1599,7 @@ nimble/nimble/host/util/src/addr.i: nimble/nimble/host/util/src/addr.c.i
 
 # target to preprocess a source file
 nimble/nimble/host/util/src/addr.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.i
 .PHONY : nimble/nimble/host/util/src/addr.c.i
 
 nimble/nimble/host/util/src/addr.s: nimble/nimble/host/util/src/addr.c.s
@@ -1608,7 +1608,7 @@ nimble/nimble/host/util/src/addr.s: nimble/nimble/host/util/src/addr.c.s
 
 # target to generate assembly for a file
 nimble/nimble/host/util/src/addr.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.s
 .PHONY : nimble/nimble/host/util/src/addr.c.s
 
 nimble/nimble/src/ble_util.obj: nimble/nimble/src/ble_util.c.obj
@@ -1617,7 +1617,7 @@ nimble/nimble/src/ble_util.obj: nimble/nimble/src/ble_util.c.obj
 
 # target to build an object file
 nimble/nimble/src/ble_util.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj
 .PHONY : nimble/nimble/src/ble_util.c.obj
 
 nimble/nimble/src/ble_util.i: nimble/nimble/src/ble_util.c.i
@@ -1626,7 +1626,7 @@ nimble/nimble/src/ble_util.i: nimble/nimble/src/ble_util.c.i
 
 # target to preprocess a source file
 nimble/nimble/src/ble_util.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.i
 .PHONY : nimble/nimble/src/ble_util.c.i
 
 nimble/nimble/src/ble_util.s: nimble/nimble/src/ble_util.c.s
@@ -1635,7 +1635,7 @@ nimble/nimble/src/ble_util.s: nimble/nimble/src/ble_util.c.s
 
 # target to generate assembly for a file
 nimble/nimble/src/ble_util.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.s
 .PHONY : nimble/nimble/src/ble_util.c.s
 
 nimble/porting/nimble/src/endian.obj: nimble/porting/nimble/src/endian.c.obj
@@ -1644,7 +1644,7 @@ nimble/porting/nimble/src/endian.obj: nimble/porting/nimble/src/endian.c.obj
 
 # target to build an object file
 nimble/porting/nimble/src/endian.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/endian.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/endian.c.obj
 .PHONY : nimble/porting/nimble/src/endian.c.obj
 
 nimble/porting/nimble/src/endian.i: nimble/porting/nimble/src/endian.c.i
@@ -1653,7 +1653,7 @@ nimble/porting/nimble/src/endian.i: nimble/porting/nimble/src/endian.c.i
 
 # target to preprocess a source file
 nimble/porting/nimble/src/endian.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/endian.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/endian.c.i
 .PHONY : nimble/porting/nimble/src/endian.c.i
 
 nimble/porting/nimble/src/endian.s: nimble/porting/nimble/src/endian.c.s
@@ -1662,7 +1662,7 @@ nimble/porting/nimble/src/endian.s: nimble/porting/nimble/src/endian.c.s
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/endian.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/endian.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/endian.c.s
 .PHONY : nimble/porting/nimble/src/endian.c.s
 
 nimble/porting/nimble/src/hal_timer.obj: nimble/porting/nimble/src/hal_timer.c.obj
@@ -1671,7 +1671,7 @@ nimble/porting/nimble/src/hal_timer.obj: nimble/porting/nimble/src/hal_timer.c.o
 
 # target to build an object file
 nimble/porting/nimble/src/hal_timer.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj
 .PHONY : nimble/porting/nimble/src/hal_timer.c.obj
 
 nimble/porting/nimble/src/hal_timer.i: nimble/porting/nimble/src/hal_timer.c.i
@@ -1680,7 +1680,7 @@ nimble/porting/nimble/src/hal_timer.i: nimble/porting/nimble/src/hal_timer.c.i
 
 # target to preprocess a source file
 nimble/porting/nimble/src/hal_timer.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.i
 .PHONY : nimble/porting/nimble/src/hal_timer.c.i
 
 nimble/porting/nimble/src/hal_timer.s: nimble/porting/nimble/src/hal_timer.c.s
@@ -1689,7 +1689,7 @@ nimble/porting/nimble/src/hal_timer.s: nimble/porting/nimble/src/hal_timer.c.s
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/hal_timer.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.s
 .PHONY : nimble/porting/nimble/src/hal_timer.c.s
 
 nimble/porting/nimble/src/mem.obj: nimble/porting/nimble/src/mem.c.obj
@@ -1698,7 +1698,7 @@ nimble/porting/nimble/src/mem.obj: nimble/porting/nimble/src/mem.c.obj
 
 # target to build an object file
 nimble/porting/nimble/src/mem.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj
 .PHONY : nimble/porting/nimble/src/mem.c.obj
 
 nimble/porting/nimble/src/mem.i: nimble/porting/nimble/src/mem.c.i
@@ -1707,7 +1707,7 @@ nimble/porting/nimble/src/mem.i: nimble/porting/nimble/src/mem.c.i
 
 # target to preprocess a source file
 nimble/porting/nimble/src/mem.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.i
 .PHONY : nimble/porting/nimble/src/mem.c.i
 
 nimble/porting/nimble/src/mem.s: nimble/porting/nimble/src/mem.c.s
@@ -1716,7 +1716,7 @@ nimble/porting/nimble/src/mem.s: nimble/porting/nimble/src/mem.c.s
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/mem.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.s
 .PHONY : nimble/porting/nimble/src/mem.c.s
 
 nimble/porting/nimble/src/nimble_port.obj: nimble/porting/nimble/src/nimble_port.c.obj
@@ -1725,7 +1725,7 @@ nimble/porting/nimble/src/nimble_port.obj: nimble/porting/nimble/src/nimble_port
 
 # target to build an object file
 nimble/porting/nimble/src/nimble_port.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj
 .PHONY : nimble/porting/nimble/src/nimble_port.c.obj
 
 nimble/porting/nimble/src/nimble_port.i: nimble/porting/nimble/src/nimble_port.c.i
@@ -1734,7 +1734,7 @@ nimble/porting/nimble/src/nimble_port.i: nimble/porting/nimble/src/nimble_port.c
 
 # target to preprocess a source file
 nimble/porting/nimble/src/nimble_port.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.i
 .PHONY : nimble/porting/nimble/src/nimble_port.c.i
 
 nimble/porting/nimble/src/nimble_port.s: nimble/porting/nimble/src/nimble_port.c.s
@@ -1743,7 +1743,7 @@ nimble/porting/nimble/src/nimble_port.s: nimble/porting/nimble/src/nimble_port.c
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/nimble_port.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.s
 .PHONY : nimble/porting/nimble/src/nimble_port.c.s
 
 nimble/porting/nimble/src/os_cputime.obj: nimble/porting/nimble/src/os_cputime.c.obj
@@ -1752,7 +1752,7 @@ nimble/porting/nimble/src/os_cputime.obj: nimble/porting/nimble/src/os_cputime.c
 
 # target to build an object file
 nimble/porting/nimble/src/os_cputime.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj
 .PHONY : nimble/porting/nimble/src/os_cputime.c.obj
 
 nimble/porting/nimble/src/os_cputime.i: nimble/porting/nimble/src/os_cputime.c.i
@@ -1761,7 +1761,7 @@ nimble/porting/nimble/src/os_cputime.i: nimble/porting/nimble/src/os_cputime.c.i
 
 # target to preprocess a source file
 nimble/porting/nimble/src/os_cputime.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.i
 .PHONY : nimble/porting/nimble/src/os_cputime.c.i
 
 nimble/porting/nimble/src/os_cputime.s: nimble/porting/nimble/src/os_cputime.c.s
@@ -1770,7 +1770,7 @@ nimble/porting/nimble/src/os_cputime.s: nimble/porting/nimble/src/os_cputime.c.s
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/os_cputime.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.s
 .PHONY : nimble/porting/nimble/src/os_cputime.c.s
 
 nimble/porting/nimble/src/os_cputime_pwr2.obj: nimble/porting/nimble/src/os_cputime_pwr2.c.obj
@@ -1779,7 +1779,7 @@ nimble/porting/nimble/src/os_cputime_pwr2.obj: nimble/porting/nimble/src/os_cput
 
 # target to build an object file
 nimble/porting/nimble/src/os_cputime_pwr2.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj
 .PHONY : nimble/porting/nimble/src/os_cputime_pwr2.c.obj
 
 nimble/porting/nimble/src/os_cputime_pwr2.i: nimble/porting/nimble/src/os_cputime_pwr2.c.i
@@ -1788,7 +1788,7 @@ nimble/porting/nimble/src/os_cputime_pwr2.i: nimble/porting/nimble/src/os_cputim
 
 # target to preprocess a source file
 nimble/porting/nimble/src/os_cputime_pwr2.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.i
 .PHONY : nimble/porting/nimble/src/os_cputime_pwr2.c.i
 
 nimble/porting/nimble/src/os_cputime_pwr2.s: nimble/porting/nimble/src/os_cputime_pwr2.c.s
@@ -1797,7 +1797,7 @@ nimble/porting/nimble/src/os_cputime_pwr2.s: nimble/porting/nimble/src/os_cputim
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/os_cputime_pwr2.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.s
 .PHONY : nimble/porting/nimble/src/os_cputime_pwr2.c.s
 
 nimble/porting/nimble/src/os_mbuf.obj: nimble/porting/nimble/src/os_mbuf.c.obj
@@ -1806,7 +1806,7 @@ nimble/porting/nimble/src/os_mbuf.obj: nimble/porting/nimble/src/os_mbuf.c.obj
 
 # target to build an object file
 nimble/porting/nimble/src/os_mbuf.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj
 .PHONY : nimble/porting/nimble/src/os_mbuf.c.obj
 
 nimble/porting/nimble/src/os_mbuf.i: nimble/porting/nimble/src/os_mbuf.c.i
@@ -1815,7 +1815,7 @@ nimble/porting/nimble/src/os_mbuf.i: nimble/porting/nimble/src/os_mbuf.c.i
 
 # target to preprocess a source file
 nimble/porting/nimble/src/os_mbuf.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.i
 .PHONY : nimble/porting/nimble/src/os_mbuf.c.i
 
 nimble/porting/nimble/src/os_mbuf.s: nimble/porting/nimble/src/os_mbuf.c.s
@@ -1824,7 +1824,7 @@ nimble/porting/nimble/src/os_mbuf.s: nimble/porting/nimble/src/os_mbuf.c.s
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/os_mbuf.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.s
 .PHONY : nimble/porting/nimble/src/os_mbuf.c.s
 
 nimble/porting/nimble/src/os_mempool.obj: nimble/porting/nimble/src/os_mempool.c.obj
@@ -1833,7 +1833,7 @@ nimble/porting/nimble/src/os_mempool.obj: nimble/porting/nimble/src/os_mempool.c
 
 # target to build an object file
 nimble/porting/nimble/src/os_mempool.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj
 .PHONY : nimble/porting/nimble/src/os_mempool.c.obj
 
 nimble/porting/nimble/src/os_mempool.i: nimble/porting/nimble/src/os_mempool.c.i
@@ -1842,7 +1842,7 @@ nimble/porting/nimble/src/os_mempool.i: nimble/porting/nimble/src/os_mempool.c.i
 
 # target to preprocess a source file
 nimble/porting/nimble/src/os_mempool.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.i
 .PHONY : nimble/porting/nimble/src/os_mempool.c.i
 
 nimble/porting/nimble/src/os_mempool.s: nimble/porting/nimble/src/os_mempool.c.s
@@ -1851,7 +1851,7 @@ nimble/porting/nimble/src/os_mempool.s: nimble/porting/nimble/src/os_mempool.c.s
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/os_mempool.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.s
 .PHONY : nimble/porting/nimble/src/os_mempool.c.s
 
 nimble/porting/nimble/src/os_msys_init.obj: nimble/porting/nimble/src/os_msys_init.c.obj
@@ -1860,7 +1860,7 @@ nimble/porting/nimble/src/os_msys_init.obj: nimble/porting/nimble/src/os_msys_in
 
 # target to build an object file
 nimble/porting/nimble/src/os_msys_init.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj
 .PHONY : nimble/porting/nimble/src/os_msys_init.c.obj
 
 nimble/porting/nimble/src/os_msys_init.i: nimble/porting/nimble/src/os_msys_init.c.i
@@ -1869,7 +1869,7 @@ nimble/porting/nimble/src/os_msys_init.i: nimble/porting/nimble/src/os_msys_init
 
 # target to preprocess a source file
 nimble/porting/nimble/src/os_msys_init.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.i
 .PHONY : nimble/porting/nimble/src/os_msys_init.c.i
 
 nimble/porting/nimble/src/os_msys_init.s: nimble/porting/nimble/src/os_msys_init.c.s
@@ -1878,7 +1878,7 @@ nimble/porting/nimble/src/os_msys_init.s: nimble/porting/nimble/src/os_msys_init
 
 # target to generate assembly for a file
 nimble/porting/nimble/src/os_msys_init.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.s
 .PHONY : nimble/porting/nimble/src/os_msys_init.c.s
 
 nimble/porting/npl/freertos/src/nimble_port_freertos.obj: nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
@@ -1887,7 +1887,7 @@ nimble/porting/npl/freertos/src/nimble_port_freertos.obj: nimble/porting/npl/fre
 
 # target to build an object file
 nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
 .PHONY : nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
 
 nimble/porting/npl/freertos/src/nimble_port_freertos.i: nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
@@ -1896,7 +1896,7 @@ nimble/porting/npl/freertos/src/nimble_port_freertos.i: nimble/porting/npl/freer
 
 # target to preprocess a source file
 nimble/porting/npl/freertos/src/nimble_port_freertos.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
 .PHONY : nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
 
 nimble/porting/npl/freertos/src/nimble_port_freertos.s: nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
@@ -1905,7 +1905,7 @@ nimble/porting/npl/freertos/src/nimble_port_freertos.s: nimble/porting/npl/freer
 
 # target to generate assembly for a file
 nimble/porting/npl/freertos/src/nimble_port_freertos.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
 .PHONY : nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
 
 nimble/porting/npl/freertos/src/npl_os_freertos.obj: nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
@@ -1914,7 +1914,7 @@ nimble/porting/npl/freertos/src/npl_os_freertos.obj: nimble/porting/npl/freertos
 
 # target to build an object file
 nimble/porting/npl/freertos/src/npl_os_freertos.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
 .PHONY : nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
 
 nimble/porting/npl/freertos/src/npl_os_freertos.i: nimble/porting/npl/freertos/src/npl_os_freertos.c.i
@@ -1923,7 +1923,7 @@ nimble/porting/npl/freertos/src/npl_os_freertos.i: nimble/porting/npl/freertos/s
 
 # target to preprocess a source file
 nimble/porting/npl/freertos/src/npl_os_freertos.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
 .PHONY : nimble/porting/npl/freertos/src/npl_os_freertos.c.i
 
 nimble/porting/npl/freertos/src/npl_os_freertos.s: nimble/porting/npl/freertos/src/npl_os_freertos.c.s
@@ -1932,7 +1932,7 @@ nimble/porting/npl/freertos/src/npl_os_freertos.s: nimble/porting/npl/freertos/s
 
 # target to generate assembly for a file
 nimble/porting/npl/freertos/src/npl_os_freertos.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/build.make esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
 .PHONY : nimble/porting/npl/freertos/src/npl_os_freertos.c.s
 
 # Help Target
@@ -1942,8 +1942,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_nimble"
 	@echo "... edit_cache"
+	@echo "... idf_component_nimble"
 	@echo "... esp-hci/src/esp_nimble_hci.obj"
 	@echo "... esp-hci/src/esp_nimble_hci.i"
 	@echo "... esp-hci/src/esp_nimble_hci.s"
@@ -2156,7 +2156,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

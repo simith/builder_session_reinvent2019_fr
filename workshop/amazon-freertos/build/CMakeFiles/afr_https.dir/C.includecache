@@ -176,6 +176,8 @@ task.h
 
 ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
 
+../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
+
 ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 
 ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
@@ -834,27 +836,27 @@ sdkconfig.h
 esp_attr.h
 ../vendors/espressif/esp-idf/components/soc/include/soc/esp_attr.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_client.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_client.c
 iot_config.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_config.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_config.h
 private/iot_https_internal.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
 iot_test_access_https_client.c
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_test_access_https_client.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_test_access_https_client.c
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.c
 iot_config.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_config.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_config.h
 iot_https_utils.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/iot_https_utils.h
 http_parser.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/http_parser.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/http_parser.h
 private/iot_https_internal.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_internal.h
 iot_config.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_config.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_config.h
 string.h
 -
 stdbool.h
@@ -864,25 +866,25 @@ stdlib.h
 stdio.h
 -
 http_parser.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/http_parser.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/http_parser.h
 iot_https_client.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_client.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_https_client.h
 iot_taskpool.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_taskpool.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_taskpool.h
 iot_linear_containers.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_linear_containers.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_linear_containers.h
 types/iot_taskpool_types.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/types/iot_taskpool_types.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/types/iot_taskpool_types.h
 platform/iot_threads.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/platform/iot_threads.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/platform/iot_threads.h
 platform/iot_network.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/platform/iot_network.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/platform/iot_network.h
 private/iot_error.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/private/iot_error.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/private/iot_error.h
 iot_logging_setup.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_logging_setup.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/iot_logging_setup.h
 private/iot_static_memory.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/private/iot_static_memory.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/https/src/private/private/iot_static_memory.h
 
 config/sdkconfig.h
 

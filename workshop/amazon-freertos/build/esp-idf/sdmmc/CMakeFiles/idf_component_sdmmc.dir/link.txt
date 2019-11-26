@@ -1,2 +1,2 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libsdmmc.a  CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libsdmmc.a
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libsdmmc.a  CMakeFiles/idf_component_sdmmc.dir/sdmmc_cmd.c.obj
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libsdmmc.a

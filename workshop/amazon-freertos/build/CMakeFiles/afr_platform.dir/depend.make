@@ -13,6 +13,7 @@ CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_f
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_clock_freertos.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -108,6 +109,7 @@ CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_metrics.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -212,6 +214,7 @@ CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_network_freertos.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -316,6 +319,7 @@ CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_platform.dir/libraries/abstractions/platform/freertos/iot_threads_freertos.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

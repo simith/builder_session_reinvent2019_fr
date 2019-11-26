@@ -39,6 +39,7 @@ CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.o
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_client.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -145,6 +146,7 @@ CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.ob
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_https.dir/libraries/c_sdk/standard/https/src/iot_https_utils.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

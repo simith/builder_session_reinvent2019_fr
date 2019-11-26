@@ -360,51 +360,51 @@ esp_assert.h
 soc.h
 ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S
 xtensa_rtos.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
 sdkconfig.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/sdkconfig.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/sdkconfig.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S
 xtensa_rtos.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
 xtensa_context.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.h
 xtensa/overlay_os_asm.h
 -
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S
 xtensa/hal.h
 -
 xtensa/config/core.h
 -
 xtensa_context.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.h
 FreeRTOSConfig.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOSConfig.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOSConfig.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S
 xtensa_rtos.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
 esp_panic.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/esp_panic.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/esp_panic.h
 sdkconfig.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/sdkconfig.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/sdkconfig.h
 soc/soc.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/soc/soc.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/soc/soc.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S
 xtensa_rtos.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_rtos.h
 esp_panic.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/esp_panic.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/esp_panic.h
 sdkconfig.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/sdkconfig.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/sdkconfig.h
 soc/soc.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/soc/soc.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/soc/soc.h
 soc/dport_reg.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/soc/dport_reg.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/soc/dport_reg.h
 
 config/sdkconfig.h
 

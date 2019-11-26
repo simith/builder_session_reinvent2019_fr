@@ -13,6 +13,7 @@ CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/sourc
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/BufferManagement/BufferAllocation_2.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -117,6 +118,7 @@ CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/sourc
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_wifi.dir/libraries/freertos_plus/standard/freertos_plus_tcp/source/portable/NetworkInterface/esp32/NetworkInterface.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -236,6 +238,7 @@ CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj
 CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_wifi.dir/vendors/espressif/boards/esp32/ports/wifi/iot_wifi.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

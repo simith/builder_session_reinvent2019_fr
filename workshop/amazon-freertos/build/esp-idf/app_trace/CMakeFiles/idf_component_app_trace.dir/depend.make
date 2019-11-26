@@ -7,6 +7,7 @@ esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../fre
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -110,6 +111,7 @@ esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: .
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/include/task.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/app_trace_util.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -197,6 +199,7 @@ esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: .
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/include/task.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/gcov/gcov_rtio.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -289,6 +292,7 @@ esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/app_trace/CMakeFiles/idf_component_app_trace.dir/host_file_io.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

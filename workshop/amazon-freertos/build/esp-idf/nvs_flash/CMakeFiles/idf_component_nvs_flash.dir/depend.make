@@ -11,6 +11,7 @@ esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ..
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/include/semphr.h
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/include/task.h
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

@@ -12,6 +12,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -91,7 +92,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/locks.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/locks.c
  config/sdkconfig.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/reent_init.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_attr.h
@@ -117,7 +118,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/reent_init.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/include/xtensa/config/core-isa.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/reent_init.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/reent_init.c
  config/sdkconfig.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -130,6 +131,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -221,7 +223,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/select.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/select.c
  config/sdkconfig.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -234,6 +236,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -326,7 +329,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/syscall_table.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/syscall_table.c
  config/sdkconfig.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -335,6 +338,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -415,7 +419,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/syscalls.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/syscalls.c
  config/sdkconfig.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -426,6 +430,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -517,5 +522,5 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/time.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/newlib/time.c
  config/sdkconfig.h

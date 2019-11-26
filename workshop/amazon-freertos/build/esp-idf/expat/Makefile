@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/expat/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/expat/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/expat/CMakeFiles/idf_component_expat.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/CMakeFiles/idf_component_expat.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/CMakeFiles/idf_component_expat.dir/rule
 .PHONY : esp-idf/expat/CMakeFiles/idf_component_expat.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_expat: esp-idf/expat/CMakeFiles/idf_component_expat.dir/rule
 
 # fast build rule for target.
 idf_component_expat/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/build
 .PHONY : idf_component_expat/fast
 
 library/xmlparse.obj: library/xmlparse.c.obj
@@ -132,7 +132,7 @@ library/xmlparse.obj: library/xmlparse.c.obj
 
 # target to build an object file
 library/xmlparse.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.obj
 .PHONY : library/xmlparse.c.obj
 
 library/xmlparse.i: library/xmlparse.c.i
@@ -141,7 +141,7 @@ library/xmlparse.i: library/xmlparse.c.i
 
 # target to preprocess a source file
 library/xmlparse.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.i
 .PHONY : library/xmlparse.c.i
 
 library/xmlparse.s: library/xmlparse.c.s
@@ -150,7 +150,7 @@ library/xmlparse.s: library/xmlparse.c.s
 
 # target to generate assembly for a file
 library/xmlparse.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlparse.c.s
 .PHONY : library/xmlparse.c.s
 
 library/xmlrole.obj: library/xmlrole.c.obj
@@ -159,7 +159,7 @@ library/xmlrole.obj: library/xmlrole.c.obj
 
 # target to build an object file
 library/xmlrole.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.obj
 .PHONY : library/xmlrole.c.obj
 
 library/xmlrole.i: library/xmlrole.c.i
@@ -168,7 +168,7 @@ library/xmlrole.i: library/xmlrole.c.i
 
 # target to preprocess a source file
 library/xmlrole.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.i
 .PHONY : library/xmlrole.c.i
 
 library/xmlrole.s: library/xmlrole.c.s
@@ -177,7 +177,7 @@ library/xmlrole.s: library/xmlrole.c.s
 
 # target to generate assembly for a file
 library/xmlrole.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmlrole.c.s
 .PHONY : library/xmlrole.c.s
 
 library/xmltok.obj: library/xmltok.c.obj
@@ -186,7 +186,7 @@ library/xmltok.obj: library/xmltok.c.obj
 
 # target to build an object file
 library/xmltok.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.obj
 .PHONY : library/xmltok.c.obj
 
 library/xmltok.i: library/xmltok.c.i
@@ -195,7 +195,7 @@ library/xmltok.i: library/xmltok.c.i
 
 # target to preprocess a source file
 library/xmltok.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.i
 .PHONY : library/xmltok.c.i
 
 library/xmltok.s: library/xmltok.c.s
@@ -204,7 +204,7 @@ library/xmltok.s: library/xmltok.c.s
 
 # target to generate assembly for a file
 library/xmltok.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok.c.s
 .PHONY : library/xmltok.c.s
 
 library/xmltok_impl.obj: library/xmltok_impl.c.obj
@@ -213,7 +213,7 @@ library/xmltok_impl.obj: library/xmltok_impl.c.obj
 
 # target to build an object file
 library/xmltok_impl.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.obj
 .PHONY : library/xmltok_impl.c.obj
 
 library/xmltok_impl.i: library/xmltok_impl.c.i
@@ -222,7 +222,7 @@ library/xmltok_impl.i: library/xmltok_impl.c.i
 
 # target to preprocess a source file
 library/xmltok_impl.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.i
 .PHONY : library/xmltok_impl.c.i
 
 library/xmltok_impl.s: library/xmltok_impl.c.s
@@ -231,7 +231,7 @@ library/xmltok_impl.s: library/xmltok_impl.c.s
 
 # target to generate assembly for a file
 library/xmltok_impl.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_impl.c.s
 .PHONY : library/xmltok_impl.c.s
 
 library/xmltok_ns.obj: library/xmltok_ns.c.obj
@@ -240,7 +240,7 @@ library/xmltok_ns.obj: library/xmltok_ns.c.obj
 
 # target to build an object file
 library/xmltok_ns.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.obj
 .PHONY : library/xmltok_ns.c.obj
 
 library/xmltok_ns.i: library/xmltok_ns.c.i
@@ -249,7 +249,7 @@ library/xmltok_ns.i: library/xmltok_ns.c.i
 
 # target to preprocess a source file
 library/xmltok_ns.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.i
 .PHONY : library/xmltok_ns.c.i
 
 library/xmltok_ns.s: library/xmltok_ns.c.s
@@ -258,7 +258,7 @@ library/xmltok_ns.s: library/xmltok_ns.c.s
 
 # target to generate assembly for a file
 library/xmltok_ns.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/library/xmltok_ns.c.s
 .PHONY : library/xmltok_ns.c.s
 
 port/chardata.obj: port/chardata.c.obj
@@ -267,7 +267,7 @@ port/chardata.obj: port/chardata.c.obj
 
 # target to build an object file
 port/chardata.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.obj
 .PHONY : port/chardata.c.obj
 
 port/chardata.i: port/chardata.c.i
@@ -276,7 +276,7 @@ port/chardata.i: port/chardata.c.i
 
 # target to preprocess a source file
 port/chardata.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.i
 .PHONY : port/chardata.c.i
 
 port/chardata.s: port/chardata.c.s
@@ -285,7 +285,7 @@ port/chardata.s: port/chardata.c.s
 
 # target to generate assembly for a file
 port/chardata.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/chardata.c.s
 .PHONY : port/chardata.c.s
 
 port/expat_element.obj: port/expat_element.c.obj
@@ -294,7 +294,7 @@ port/expat_element.obj: port/expat_element.c.obj
 
 # target to build an object file
 port/expat_element.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.obj
 .PHONY : port/expat_element.c.obj
 
 port/expat_element.i: port/expat_element.c.i
@@ -303,7 +303,7 @@ port/expat_element.i: port/expat_element.c.i
 
 # target to preprocess a source file
 port/expat_element.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.i
 .PHONY : port/expat_element.c.i
 
 port/expat_element.s: port/expat_element.c.s
@@ -312,7 +312,7 @@ port/expat_element.s: port/expat_element.c.s
 
 # target to generate assembly for a file
 port/expat_element.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/expat_element.c.s
 .PHONY : port/expat_element.c.s
 
 port/minicheck.obj: port/minicheck.c.obj
@@ -321,7 +321,7 @@ port/minicheck.obj: port/minicheck.c.obj
 
 # target to build an object file
 port/minicheck.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.obj
 .PHONY : port/minicheck.c.obj
 
 port/minicheck.i: port/minicheck.c.i
@@ -330,7 +330,7 @@ port/minicheck.i: port/minicheck.c.i
 
 # target to preprocess a source file
 port/minicheck.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.i
 .PHONY : port/minicheck.c.i
 
 port/minicheck.s: port/minicheck.c.s
@@ -339,7 +339,7 @@ port/minicheck.s: port/minicheck.c.s
 
 # target to generate assembly for a file
 port/minicheck.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/expat/CMakeFiles/idf_component_expat.dir/build.make esp-idf/expat/CMakeFiles/idf_component_expat.dir/port/minicheck.c.s
 .PHONY : port/minicheck.c.s
 
 # Help Target
@@ -349,8 +349,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_expat"
 	@echo "... edit_cache"
+	@echo "... idf_component_expat"
 	@echo "... library/xmlparse.obj"
 	@echo "... library/xmlparse.i"
 	@echo "... library/xmlparse.s"
@@ -386,7 +386,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/wear_levelling/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/wear_levelling/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/rule
 .PHONY : esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_wear_levelling: esp-idf/wear_levelling/CMakeFiles/idf_component_we
 
 # fast build rule for target.
 idf_component_wear_levelling/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build
 .PHONY : idf_component_wear_levelling/fast
 
 Partition.obj: Partition.cpp.obj
@@ -132,7 +132,7 @@ Partition.obj: Partition.cpp.obj
 
 # target to build an object file
 Partition.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp.obj
 .PHONY : Partition.cpp.obj
 
 Partition.i: Partition.cpp.i
@@ -141,7 +141,7 @@ Partition.i: Partition.cpp.i
 
 # target to preprocess a source file
 Partition.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp.i
 .PHONY : Partition.cpp.i
 
 Partition.s: Partition.cpp.s
@@ -150,7 +150,7 @@ Partition.s: Partition.cpp.s
 
 # target to generate assembly for a file
 Partition.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/Partition.cpp.s
 .PHONY : Partition.cpp.s
 
 SPI_Flash.obj: SPI_Flash.cpp.obj
@@ -159,7 +159,7 @@ SPI_Flash.obj: SPI_Flash.cpp.obj
 
 # target to build an object file
 SPI_Flash.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.obj
 .PHONY : SPI_Flash.cpp.obj
 
 SPI_Flash.i: SPI_Flash.cpp.i
@@ -168,7 +168,7 @@ SPI_Flash.i: SPI_Flash.cpp.i
 
 # target to preprocess a source file
 SPI_Flash.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.i
 .PHONY : SPI_Flash.cpp.i
 
 SPI_Flash.s: SPI_Flash.cpp.s
@@ -177,7 +177,7 @@ SPI_Flash.s: SPI_Flash.cpp.s
 
 # target to generate assembly for a file
 SPI_Flash.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/SPI_Flash.cpp.s
 .PHONY : SPI_Flash.cpp.s
 
 WL_Ext_Perf.obj: WL_Ext_Perf.cpp.obj
@@ -186,7 +186,7 @@ WL_Ext_Perf.obj: WL_Ext_Perf.cpp.obj
 
 # target to build an object file
 WL_Ext_Perf.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.obj
 .PHONY : WL_Ext_Perf.cpp.obj
 
 WL_Ext_Perf.i: WL_Ext_Perf.cpp.i
@@ -195,7 +195,7 @@ WL_Ext_Perf.i: WL_Ext_Perf.cpp.i
 
 # target to preprocess a source file
 WL_Ext_Perf.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.i
 .PHONY : WL_Ext_Perf.cpp.i
 
 WL_Ext_Perf.s: WL_Ext_Perf.cpp.s
@@ -204,7 +204,7 @@ WL_Ext_Perf.s: WL_Ext_Perf.cpp.s
 
 # target to generate assembly for a file
 WL_Ext_Perf.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Perf.cpp.s
 .PHONY : WL_Ext_Perf.cpp.s
 
 WL_Ext_Safe.obj: WL_Ext_Safe.cpp.obj
@@ -213,7 +213,7 @@ WL_Ext_Safe.obj: WL_Ext_Safe.cpp.obj
 
 # target to build an object file
 WL_Ext_Safe.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.obj
 .PHONY : WL_Ext_Safe.cpp.obj
 
 WL_Ext_Safe.i: WL_Ext_Safe.cpp.i
@@ -222,7 +222,7 @@ WL_Ext_Safe.i: WL_Ext_Safe.cpp.i
 
 # target to preprocess a source file
 WL_Ext_Safe.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.i
 .PHONY : WL_Ext_Safe.cpp.i
 
 WL_Ext_Safe.s: WL_Ext_Safe.cpp.s
@@ -231,7 +231,7 @@ WL_Ext_Safe.s: WL_Ext_Safe.cpp.s
 
 # target to generate assembly for a file
 WL_Ext_Safe.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Ext_Safe.cpp.s
 .PHONY : WL_Ext_Safe.cpp.s
 
 WL_Flash.obj: WL_Flash.cpp.obj
@@ -240,7 +240,7 @@ WL_Flash.obj: WL_Flash.cpp.obj
 
 # target to build an object file
 WL_Flash.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.obj
 .PHONY : WL_Flash.cpp.obj
 
 WL_Flash.i: WL_Flash.cpp.i
@@ -249,7 +249,7 @@ WL_Flash.i: WL_Flash.cpp.i
 
 # target to preprocess a source file
 WL_Flash.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.i
 .PHONY : WL_Flash.cpp.i
 
 WL_Flash.s: WL_Flash.cpp.s
@@ -258,7 +258,7 @@ WL_Flash.s: WL_Flash.cpp.s
 
 # target to generate assembly for a file
 WL_Flash.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/WL_Flash.cpp.s
 .PHONY : WL_Flash.cpp.s
 
 crc32.obj: crc32.cpp.obj
@@ -267,7 +267,7 @@ crc32.obj: crc32.cpp.obj
 
 # target to build an object file
 crc32.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.obj
 .PHONY : crc32.cpp.obj
 
 crc32.i: crc32.cpp.i
@@ -276,7 +276,7 @@ crc32.i: crc32.cpp.i
 
 # target to preprocess a source file
 crc32.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.i
 .PHONY : crc32.cpp.i
 
 crc32.s: crc32.cpp.s
@@ -285,7 +285,7 @@ crc32.s: crc32.cpp.s
 
 # target to generate assembly for a file
 crc32.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/crc32.cpp.s
 .PHONY : crc32.cpp.s
 
 wear_levelling.obj: wear_levelling.cpp.obj
@@ -294,7 +294,7 @@ wear_levelling.obj: wear_levelling.cpp.obj
 
 # target to build an object file
 wear_levelling.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.obj
 .PHONY : wear_levelling.cpp.obj
 
 wear_levelling.i: wear_levelling.cpp.i
@@ -303,7 +303,7 @@ wear_levelling.i: wear_levelling.cpp.i
 
 # target to preprocess a source file
 wear_levelling.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.i
 .PHONY : wear_levelling.cpp.i
 
 wear_levelling.s: wear_levelling.cpp.s
@@ -312,7 +312,7 @@ wear_levelling.s: wear_levelling.cpp.s
 
 # target to generate assembly for a file
 wear_levelling.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/build.make esp-idf/wear_levelling/CMakeFiles/idf_component_wear_levelling.dir/wear_levelling.cpp.s
 .PHONY : wear_levelling.cpp.s
 
 # Help Target
@@ -322,8 +322,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_wear_levelling"
 	@echo "... edit_cache"
+	@echo "... idf_component_wear_levelling"
 	@echo "... Partition.obj"
 	@echo "... Partition.i"
 	@echo "... Partition.s"
@@ -356,7 +356,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -7,6 +7,7 @@ CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11
 CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/include/portable.h
 CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11.dir/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

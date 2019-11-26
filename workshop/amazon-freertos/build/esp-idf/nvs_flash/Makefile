@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/nvs_flash/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/nvs_flash/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/rule
 .PHONY : esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_nvs_flash: esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.di
 
 # fast build rule for target.
 idf_component_nvs_flash/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build
 .PHONY : idf_component_nvs_flash/fast
 
 src/nvs_api.obj: src/nvs_api.cpp.obj
@@ -132,7 +132,7 @@ src/nvs_api.obj: src/nvs_api.cpp.obj
 
 # target to build an object file
 src/nvs_api.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.obj
 .PHONY : src/nvs_api.cpp.obj
 
 src/nvs_api.i: src/nvs_api.cpp.i
@@ -141,7 +141,7 @@ src/nvs_api.i: src/nvs_api.cpp.i
 
 # target to preprocess a source file
 src/nvs_api.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.i
 .PHONY : src/nvs_api.cpp.i
 
 src/nvs_api.s: src/nvs_api.cpp.s
@@ -150,7 +150,7 @@ src/nvs_api.s: src/nvs_api.cpp.s
 
 # target to generate assembly for a file
 src/nvs_api.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_api.cpp.s
 .PHONY : src/nvs_api.cpp.s
 
 src/nvs_encr.obj: src/nvs_encr.cpp.obj
@@ -159,7 +159,7 @@ src/nvs_encr.obj: src/nvs_encr.cpp.obj
 
 # target to build an object file
 src/nvs_encr.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_encr.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_encr.cpp.obj
 .PHONY : src/nvs_encr.cpp.obj
 
 src/nvs_encr.i: src/nvs_encr.cpp.i
@@ -168,7 +168,7 @@ src/nvs_encr.i: src/nvs_encr.cpp.i
 
 # target to preprocess a source file
 src/nvs_encr.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_encr.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_encr.cpp.i
 .PHONY : src/nvs_encr.cpp.i
 
 src/nvs_encr.s: src/nvs_encr.cpp.s
@@ -177,7 +177,7 @@ src/nvs_encr.s: src/nvs_encr.cpp.s
 
 # target to generate assembly for a file
 src/nvs_encr.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_encr.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_encr.cpp.s
 .PHONY : src/nvs_encr.cpp.s
 
 src/nvs_item_hash_list.obj: src/nvs_item_hash_list.cpp.obj
@@ -186,7 +186,7 @@ src/nvs_item_hash_list.obj: src/nvs_item_hash_list.cpp.obj
 
 # target to build an object file
 src/nvs_item_hash_list.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj
 .PHONY : src/nvs_item_hash_list.cpp.obj
 
 src/nvs_item_hash_list.i: src/nvs_item_hash_list.cpp.i
@@ -195,7 +195,7 @@ src/nvs_item_hash_list.i: src/nvs_item_hash_list.cpp.i
 
 # target to preprocess a source file
 src/nvs_item_hash_list.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_item_hash_list.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_item_hash_list.cpp.i
 .PHONY : src/nvs_item_hash_list.cpp.i
 
 src/nvs_item_hash_list.s: src/nvs_item_hash_list.cpp.s
@@ -204,7 +204,7 @@ src/nvs_item_hash_list.s: src/nvs_item_hash_list.cpp.s
 
 # target to generate assembly for a file
 src/nvs_item_hash_list.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_item_hash_list.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_item_hash_list.cpp.s
 .PHONY : src/nvs_item_hash_list.cpp.s
 
 src/nvs_ops.obj: src/nvs_ops.cpp.obj
@@ -213,7 +213,7 @@ src/nvs_ops.obj: src/nvs_ops.cpp.obj
 
 # target to build an object file
 src/nvs_ops.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_ops.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_ops.cpp.obj
 .PHONY : src/nvs_ops.cpp.obj
 
 src/nvs_ops.i: src/nvs_ops.cpp.i
@@ -222,7 +222,7 @@ src/nvs_ops.i: src/nvs_ops.cpp.i
 
 # target to preprocess a source file
 src/nvs_ops.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_ops.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_ops.cpp.i
 .PHONY : src/nvs_ops.cpp.i
 
 src/nvs_ops.s: src/nvs_ops.cpp.s
@@ -231,7 +231,7 @@ src/nvs_ops.s: src/nvs_ops.cpp.s
 
 # target to generate assembly for a file
 src/nvs_ops.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_ops.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_ops.cpp.s
 .PHONY : src/nvs_ops.cpp.s
 
 src/nvs_page.obj: src/nvs_page.cpp.obj
@@ -240,7 +240,7 @@ src/nvs_page.obj: src/nvs_page.cpp.obj
 
 # target to build an object file
 src/nvs_page.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_page.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_page.cpp.obj
 .PHONY : src/nvs_page.cpp.obj
 
 src/nvs_page.i: src/nvs_page.cpp.i
@@ -249,7 +249,7 @@ src/nvs_page.i: src/nvs_page.cpp.i
 
 # target to preprocess a source file
 src/nvs_page.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_page.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_page.cpp.i
 .PHONY : src/nvs_page.cpp.i
 
 src/nvs_page.s: src/nvs_page.cpp.s
@@ -258,7 +258,7 @@ src/nvs_page.s: src/nvs_page.cpp.s
 
 # target to generate assembly for a file
 src/nvs_page.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_page.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_page.cpp.s
 .PHONY : src/nvs_page.cpp.s
 
 src/nvs_pagemanager.obj: src/nvs_pagemanager.cpp.obj
@@ -267,7 +267,7 @@ src/nvs_pagemanager.obj: src/nvs_pagemanager.cpp.obj
 
 # target to build an object file
 src/nvs_pagemanager.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_pagemanager.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_pagemanager.cpp.obj
 .PHONY : src/nvs_pagemanager.cpp.obj
 
 src/nvs_pagemanager.i: src/nvs_pagemanager.cpp.i
@@ -276,7 +276,7 @@ src/nvs_pagemanager.i: src/nvs_pagemanager.cpp.i
 
 # target to preprocess a source file
 src/nvs_pagemanager.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_pagemanager.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_pagemanager.cpp.i
 .PHONY : src/nvs_pagemanager.cpp.i
 
 src/nvs_pagemanager.s: src/nvs_pagemanager.cpp.s
@@ -285,7 +285,7 @@ src/nvs_pagemanager.s: src/nvs_pagemanager.cpp.s
 
 # target to generate assembly for a file
 src/nvs_pagemanager.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_pagemanager.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_pagemanager.cpp.s
 .PHONY : src/nvs_pagemanager.cpp.s
 
 src/nvs_storage.obj: src/nvs_storage.cpp.obj
@@ -294,7 +294,7 @@ src/nvs_storage.obj: src/nvs_storage.cpp.obj
 
 # target to build an object file
 src/nvs_storage.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_storage.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_storage.cpp.obj
 .PHONY : src/nvs_storage.cpp.obj
 
 src/nvs_storage.i: src/nvs_storage.cpp.i
@@ -303,7 +303,7 @@ src/nvs_storage.i: src/nvs_storage.cpp.i
 
 # target to preprocess a source file
 src/nvs_storage.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_storage.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_storage.cpp.i
 .PHONY : src/nvs_storage.cpp.i
 
 src/nvs_storage.s: src/nvs_storage.cpp.s
@@ -312,7 +312,7 @@ src/nvs_storage.s: src/nvs_storage.cpp.s
 
 # target to generate assembly for a file
 src/nvs_storage.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_storage.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_storage.cpp.s
 .PHONY : src/nvs_storage.cpp.s
 
 src/nvs_types.obj: src/nvs_types.cpp.obj
@@ -321,7 +321,7 @@ src/nvs_types.obj: src/nvs_types.cpp.obj
 
 # target to build an object file
 src/nvs_types.cpp.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_types.cpp.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_types.cpp.obj
 .PHONY : src/nvs_types.cpp.obj
 
 src/nvs_types.i: src/nvs_types.cpp.i
@@ -330,7 +330,7 @@ src/nvs_types.i: src/nvs_types.cpp.i
 
 # target to preprocess a source file
 src/nvs_types.cpp.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_types.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_types.cpp.i
 .PHONY : src/nvs_types.cpp.i
 
 src/nvs_types.s: src/nvs_types.cpp.s
@@ -339,7 +339,7 @@ src/nvs_types.s: src/nvs_types.cpp.s
 
 # target to generate assembly for a file
 src/nvs_types.cpp.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_types.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/idf_component_nvs_flash.dir/src/nvs_types.cpp.s
 .PHONY : src/nvs_types.cpp.s
 
 # Help Target
@@ -349,8 +349,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_nvs_flash"
 	@echo "... edit_cache"
+	@echo "... idf_component_nvs_flash"
 	@echo "... src/nvs_api.obj"
 	@echo "... src/nvs_api.i"
 	@echo "... src/nvs_api.s"
@@ -386,7 +386,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

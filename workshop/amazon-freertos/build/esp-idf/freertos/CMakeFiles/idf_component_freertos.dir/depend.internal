@@ -43,7 +43,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portasm.S
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S.obj
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/xtensa_config.h
@@ -87,7 +87,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_context.S
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S.obj
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/xtensa_config.h
@@ -129,7 +129,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr_asm.S
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S.obj
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/xtensa_config.h
@@ -177,7 +177,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vector_defaults.S
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S.obj
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/xtensa_config.h
@@ -232,7 +232,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/dport_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_vectors.S
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/croutine.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -244,6 +244,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -316,7 +317,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/croutine.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/croutine.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/event_groups.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -329,6 +330,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -401,7 +403,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/event_groups.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/event_groups.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/list.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -411,6 +413,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -483,7 +486,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/list.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/list.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -492,6 +495,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -564,7 +568,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/FreeRTOS-openocd.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -575,6 +579,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -652,9 +657,9 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portmux_impl.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portmux_impl.inc.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/port.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portmux_impl.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/portmux_impl.inc.h
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c.obj
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/xtensa_config.h
@@ -699,7 +704,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_init.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -708,6 +713,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -782,7 +788,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_intr.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -795,6 +801,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -867,7 +874,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/xtensa_overlay_os_hook.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/queue.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -880,6 +887,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/queue.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -954,7 +962,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/queue.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/queue.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/stream_buffer.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -966,6 +974,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/stream_buffer.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1040,7 +1049,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/stream_buffer.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/stream_buffer.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/tasks.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1053,6 +1062,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1128,7 +1138,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/tasks.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/tasks.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/timers.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1141,6 +1151,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1213,7 +1224,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/__/__/__/freertos_kernel/
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/timers.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/timers.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1225,6 +1236,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.obj
  ../freertos_kernel/include/queue.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1297,7 +1309,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/extra.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/freertos/extra.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/freertos/extra.c
  config/sdkconfig.h
 esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1310,6 +1322,7 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1389,5 +1402,5 @@ esp-idf/freertos/CMakeFiles/idf_component_freertos.dir/ringbuf.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/freertos/ringbuf.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/freertos/ringbuf.c
  config/sdkconfig.h

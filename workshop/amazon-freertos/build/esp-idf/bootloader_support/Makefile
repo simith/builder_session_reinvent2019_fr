@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/bootloader_support/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/bootloader_support/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/rule
 .PHONY : esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_bootloader_support: esp-idf/bootloader_support/CMakeFiles/idf_comp
 
 # fast build rule for target.
 idf_component_bootloader_support/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build
 .PHONY : idf_component_bootloader_support/fast
 
 src/bootloader_clock.obj: src/bootloader_clock.c.obj
@@ -132,7 +132,7 @@ src/bootloader_clock.obj: src/bootloader_clock.c.obj
 
 # target to build an object file
 src/bootloader_clock.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_clock.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_clock.c.obj
 .PHONY : src/bootloader_clock.c.obj
 
 src/bootloader_clock.i: src/bootloader_clock.c.i
@@ -141,7 +141,7 @@ src/bootloader_clock.i: src/bootloader_clock.c.i
 
 # target to preprocess a source file
 src/bootloader_clock.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_clock.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_clock.c.i
 .PHONY : src/bootloader_clock.c.i
 
 src/bootloader_clock.s: src/bootloader_clock.c.s
@@ -150,7 +150,7 @@ src/bootloader_clock.s: src/bootloader_clock.c.s
 
 # target to generate assembly for a file
 src/bootloader_clock.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_clock.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_clock.c.s
 .PHONY : src/bootloader_clock.c.s
 
 src/bootloader_common.obj: src/bootloader_common.c.obj
@@ -159,7 +159,7 @@ src/bootloader_common.obj: src/bootloader_common.c.obj
 
 # target to build an object file
 src/bootloader_common.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.obj
 .PHONY : src/bootloader_common.c.obj
 
 src/bootloader_common.i: src/bootloader_common.c.i
@@ -168,7 +168,7 @@ src/bootloader_common.i: src/bootloader_common.c.i
 
 # target to preprocess a source file
 src/bootloader_common.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.i
 .PHONY : src/bootloader_common.c.i
 
 src/bootloader_common.s: src/bootloader_common.c.s
@@ -177,7 +177,7 @@ src/bootloader_common.s: src/bootloader_common.c.s
 
 # target to generate assembly for a file
 src/bootloader_common.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.s
 .PHONY : src/bootloader_common.c.s
 
 src/bootloader_flash.obj: src/bootloader_flash.c.obj
@@ -186,7 +186,7 @@ src/bootloader_flash.obj: src/bootloader_flash.c.obj
 
 # target to build an object file
 src/bootloader_flash.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.obj
 .PHONY : src/bootloader_flash.c.obj
 
 src/bootloader_flash.i: src/bootloader_flash.c.i
@@ -195,7 +195,7 @@ src/bootloader_flash.i: src/bootloader_flash.c.i
 
 # target to preprocess a source file
 src/bootloader_flash.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.i
 .PHONY : src/bootloader_flash.c.i
 
 src/bootloader_flash.s: src/bootloader_flash.c.s
@@ -204,7 +204,7 @@ src/bootloader_flash.s: src/bootloader_flash.c.s
 
 # target to generate assembly for a file
 src/bootloader_flash.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.s
 .PHONY : src/bootloader_flash.c.s
 
 src/bootloader_flash_config.obj: src/bootloader_flash_config.c.obj
@@ -213,7 +213,7 @@ src/bootloader_flash_config.obj: src/bootloader_flash_config.c.obj
 
 # target to build an object file
 src/bootloader_flash_config.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.obj
 .PHONY : src/bootloader_flash_config.c.obj
 
 src/bootloader_flash_config.i: src/bootloader_flash_config.c.i
@@ -222,7 +222,7 @@ src/bootloader_flash_config.i: src/bootloader_flash_config.c.i
 
 # target to preprocess a source file
 src/bootloader_flash_config.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.i
 .PHONY : src/bootloader_flash_config.c.i
 
 src/bootloader_flash_config.s: src/bootloader_flash_config.c.s
@@ -231,7 +231,7 @@ src/bootloader_flash_config.s: src/bootloader_flash_config.c.s
 
 # target to generate assembly for a file
 src/bootloader_flash_config.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.s
 .PHONY : src/bootloader_flash_config.c.s
 
 src/bootloader_random.obj: src/bootloader_random.c.obj
@@ -240,7 +240,7 @@ src/bootloader_random.obj: src/bootloader_random.c.obj
 
 # target to build an object file
 src/bootloader_random.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.obj
 .PHONY : src/bootloader_random.c.obj
 
 src/bootloader_random.i: src/bootloader_random.c.i
@@ -249,7 +249,7 @@ src/bootloader_random.i: src/bootloader_random.c.i
 
 # target to preprocess a source file
 src/bootloader_random.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.i
 .PHONY : src/bootloader_random.c.i
 
 src/bootloader_random.s: src/bootloader_random.c.s
@@ -258,7 +258,7 @@ src/bootloader_random.s: src/bootloader_random.c.s
 
 # target to generate assembly for a file
 src/bootloader_random.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.s
 .PHONY : src/bootloader_random.c.s
 
 src/bootloader_sha.obj: src/bootloader_sha.c.obj
@@ -267,7 +267,7 @@ src/bootloader_sha.obj: src/bootloader_sha.c.obj
 
 # target to build an object file
 src/bootloader_sha.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.obj
 .PHONY : src/bootloader_sha.c.obj
 
 src/bootloader_sha.i: src/bootloader_sha.c.i
@@ -276,7 +276,7 @@ src/bootloader_sha.i: src/bootloader_sha.c.i
 
 # target to preprocess a source file
 src/bootloader_sha.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.i
 .PHONY : src/bootloader_sha.c.i
 
 src/bootloader_sha.s: src/bootloader_sha.c.s
@@ -285,7 +285,7 @@ src/bootloader_sha.s: src/bootloader_sha.c.s
 
 # target to generate assembly for a file
 src/bootloader_sha.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.s
 .PHONY : src/bootloader_sha.c.s
 
 src/bootloader_utility.obj: src/bootloader_utility.c.obj
@@ -294,7 +294,7 @@ src/bootloader_utility.obj: src/bootloader_utility.c.obj
 
 # target to build an object file
 src/bootloader_utility.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.obj
 .PHONY : src/bootloader_utility.c.obj
 
 src/bootloader_utility.i: src/bootloader_utility.c.i
@@ -303,7 +303,7 @@ src/bootloader_utility.i: src/bootloader_utility.c.i
 
 # target to preprocess a source file
 src/bootloader_utility.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.i
 .PHONY : src/bootloader_utility.c.i
 
 src/bootloader_utility.s: src/bootloader_utility.c.s
@@ -312,7 +312,7 @@ src/bootloader_utility.s: src/bootloader_utility.c.s
 
 # target to generate assembly for a file
 src/bootloader_utility.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.s
 .PHONY : src/bootloader_utility.c.s
 
 src/efuse.obj: src/efuse.c.obj
@@ -321,7 +321,7 @@ src/efuse.obj: src/efuse.c.obj
 
 # target to build an object file
 src/efuse.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.obj
 .PHONY : src/efuse.c.obj
 
 src/efuse.i: src/efuse.c.i
@@ -330,7 +330,7 @@ src/efuse.i: src/efuse.c.i
 
 # target to preprocess a source file
 src/efuse.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.i
 .PHONY : src/efuse.c.i
 
 src/efuse.s: src/efuse.c.s
@@ -339,7 +339,7 @@ src/efuse.s: src/efuse.c.s
 
 # target to generate assembly for a file
 src/efuse.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.s
 .PHONY : src/efuse.c.s
 
 src/esp_image_format.obj: src/esp_image_format.c.obj
@@ -348,7 +348,7 @@ src/esp_image_format.obj: src/esp_image_format.c.obj
 
 # target to build an object file
 src/esp_image_format.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.obj
 .PHONY : src/esp_image_format.c.obj
 
 src/esp_image_format.i: src/esp_image_format.c.i
@@ -357,7 +357,7 @@ src/esp_image_format.i: src/esp_image_format.c.i
 
 # target to preprocess a source file
 src/esp_image_format.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.i
 .PHONY : src/esp_image_format.c.i
 
 src/esp_image_format.s: src/esp_image_format.c.s
@@ -366,7 +366,7 @@ src/esp_image_format.s: src/esp_image_format.c.s
 
 # target to generate assembly for a file
 src/esp_image_format.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.s
 .PHONY : src/esp_image_format.c.s
 
 src/flash_encrypt.obj: src/flash_encrypt.c.obj
@@ -375,7 +375,7 @@ src/flash_encrypt.obj: src/flash_encrypt.c.obj
 
 # target to build an object file
 src/flash_encrypt.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.obj
 .PHONY : src/flash_encrypt.c.obj
 
 src/flash_encrypt.i: src/flash_encrypt.c.i
@@ -384,7 +384,7 @@ src/flash_encrypt.i: src/flash_encrypt.c.i
 
 # target to preprocess a source file
 src/flash_encrypt.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.i
 .PHONY : src/flash_encrypt.c.i
 
 src/flash_encrypt.s: src/flash_encrypt.c.s
@@ -393,7 +393,7 @@ src/flash_encrypt.s: src/flash_encrypt.c.s
 
 # target to generate assembly for a file
 src/flash_encrypt.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.s
 .PHONY : src/flash_encrypt.c.s
 
 src/flash_partitions.obj: src/flash_partitions.c.obj
@@ -402,7 +402,7 @@ src/flash_partitions.obj: src/flash_partitions.c.obj
 
 # target to build an object file
 src/flash_partitions.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.obj
 .PHONY : src/flash_partitions.c.obj
 
 src/flash_partitions.i: src/flash_partitions.c.i
@@ -411,7 +411,7 @@ src/flash_partitions.i: src/flash_partitions.c.i
 
 # target to preprocess a source file
 src/flash_partitions.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.i
 .PHONY : src/flash_partitions.c.i
 
 src/flash_partitions.s: src/flash_partitions.c.s
@@ -420,7 +420,7 @@ src/flash_partitions.s: src/flash_partitions.c.s
 
 # target to generate assembly for a file
 src/flash_partitions.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.s
 .PHONY : src/flash_partitions.c.s
 
 src/flash_qio_mode.obj: src/flash_qio_mode.c.obj
@@ -429,7 +429,7 @@ src/flash_qio_mode.obj: src/flash_qio_mode.c.obj
 
 # target to build an object file
 src/flash_qio_mode.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.obj
 .PHONY : src/flash_qio_mode.c.obj
 
 src/flash_qio_mode.i: src/flash_qio_mode.c.i
@@ -438,7 +438,7 @@ src/flash_qio_mode.i: src/flash_qio_mode.c.i
 
 # target to preprocess a source file
 src/flash_qio_mode.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.i
 .PHONY : src/flash_qio_mode.c.i
 
 src/flash_qio_mode.s: src/flash_qio_mode.c.s
@@ -447,7 +447,7 @@ src/flash_qio_mode.s: src/flash_qio_mode.c.s
 
 # target to generate assembly for a file
 src/flash_qio_mode.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.s
 .PHONY : src/flash_qio_mode.c.s
 
 src/secure_boot.obj: src/secure_boot.c.obj
@@ -456,7 +456,7 @@ src/secure_boot.obj: src/secure_boot.c.obj
 
 # target to build an object file
 src/secure_boot.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.obj
 .PHONY : src/secure_boot.c.obj
 
 src/secure_boot.i: src/secure_boot.c.i
@@ -465,7 +465,7 @@ src/secure_boot.i: src/secure_boot.c.i
 
 # target to preprocess a source file
 src/secure_boot.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.i
 .PHONY : src/secure_boot.c.i
 
 src/secure_boot.s: src/secure_boot.c.s
@@ -474,7 +474,7 @@ src/secure_boot.s: src/secure_boot.c.s
 
 # target to generate assembly for a file
 src/secure_boot.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.s
 .PHONY : src/secure_boot.c.s
 
 src/secure_boot_signatures.obj: src/secure_boot_signatures.c.obj
@@ -483,7 +483,7 @@ src/secure_boot_signatures.obj: src/secure_boot_signatures.c.obj
 
 # target to build an object file
 src/secure_boot_signatures.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.obj
 .PHONY : src/secure_boot_signatures.c.obj
 
 src/secure_boot_signatures.i: src/secure_boot_signatures.c.i
@@ -492,7 +492,7 @@ src/secure_boot_signatures.i: src/secure_boot_signatures.c.i
 
 # target to preprocess a source file
 src/secure_boot_signatures.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.i
 .PHONY : src/secure_boot_signatures.c.i
 
 src/secure_boot_signatures.s: src/secure_boot_signatures.c.s
@@ -501,7 +501,7 @@ src/secure_boot_signatures.s: src/secure_boot_signatures.c.s
 
 # target to generate assembly for a file
 src/secure_boot_signatures.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.s
 .PHONY : src/secure_boot_signatures.c.s
 
 # Help Target
@@ -511,8 +511,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_bootloader_support"
 	@echo "... edit_cache"
+	@echo "... idf_component_bootloader_support"
 	@echo "... src/bootloader_clock.obj"
 	@echo "... src/bootloader_clock.i"
 	@echo "... src/bootloader_clock.s"
@@ -566,7 +566,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

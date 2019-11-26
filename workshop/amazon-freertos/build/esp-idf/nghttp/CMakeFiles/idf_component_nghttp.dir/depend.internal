@@ -32,12 +32,12 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.obj
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -70,8 +70,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -104,8 +104,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.o
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -140,18 +140,18 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.o
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -184,15 +184,15 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.obj
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -225,13 +225,13 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffma
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -264,8 +264,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffma
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman_data.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman_data.c
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -298,10 +298,10 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -334,22 +334,22 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.ob
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -382,10 +382,10 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.obj
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -418,8 +418,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.obj
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -452,8 +452,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.obj
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_npn.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_npn.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_npn.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_npn.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -486,21 +486,21 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_option.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_option.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_option.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_option.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -533,15 +533,15 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -574,11 +574,11 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.obj
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -611,8 +611,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -645,8 +645,8 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.o
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -679,10 +679,10 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.o
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -715,26 +715,26 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_option.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_http.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_option.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -767,22 +767,22 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_debug.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -815,23 +815,23 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_submit.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_submit.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_frame.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd_huffman.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_int.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_map.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_mem.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_outbound_item.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_priority_spec.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_rcbuf.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_session.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_stream.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_submit.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_submit.h
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -864,7 +864,7 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c
  ../vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/includes/nghttp2/nghttp2.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/config.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_version.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/nghttp2/lib/nghttp2_version.c
  config/sdkconfig.h
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/xtensa/config/core-isa.h
@@ -894,5 +894,5 @@ esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/nghttp/port/include/http_parser.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/port/http_parser.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/nghttp/port/http_parser.c
  config/sdkconfig.h

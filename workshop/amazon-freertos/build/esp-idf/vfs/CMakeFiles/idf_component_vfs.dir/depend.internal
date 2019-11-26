@@ -12,6 +12,7 @@ esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -109,7 +110,7 @@ esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs.c.obj
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/ioctl.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/vfs/vfs.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/vfs/vfs.c
  config/sdkconfig.h
 esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -122,6 +123,7 @@ esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -230,5 +232,5 @@ esp-idf/vfs/CMakeFiles/idf_component_vfs.dir/vfs_uart.c.obj
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs_dev.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/vfs/vfs_uart.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/vfs/vfs_uart.c
  config/sdkconfig.h

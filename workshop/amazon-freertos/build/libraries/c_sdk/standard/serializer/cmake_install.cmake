@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/serializer
+# Install script for directory: /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/serializer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -17,6 +17,7 @@ CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_k
 CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -121,6 +122,7 @@ CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -222,6 +224,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/in
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -312,6 +315,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freer
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -420,6 +424,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -526,6 +531,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_ke
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -622,6 +628,7 @@ CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/incl
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -730,6 +737,7 @@ CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../fr
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -842,6 +850,7 @@ CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ..
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -970,6 +979,7 @@ CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_ke
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1068,6 +1078,7 @@ CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_util
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/include/portable.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1152,6 +1163,7 @@ CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_i
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/include/portable.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1244,6 +1256,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1529,6 +1542,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1661,6 +1675,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/include/timers.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

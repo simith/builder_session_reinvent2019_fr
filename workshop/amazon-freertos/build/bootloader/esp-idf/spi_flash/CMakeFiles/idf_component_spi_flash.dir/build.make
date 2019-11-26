@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/depend.make
@@ -58,17 +58,17 @@ include esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/progress.make
 include esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flags.make
 
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj: esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flags.make
-esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj: /home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj   -c /home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c
+esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj: /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c
 
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c > CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c > CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.i
 
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c -o CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash/spi_flash_rom_patch.c -o CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.s
 
 # Object files for target idf_component_spi_flash
 idf_component_spi_flash_OBJECTS = \
@@ -80,9 +80,9 @@ idf_component_spi_flash_EXTERNAL_OBJECTS =
 esp-idf/spi_flash/libspi_flash.a: esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj
 esp-idf/spi_flash/libspi_flash.a: esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make
 esp-idf/spi_flash/libspi_flash.a: esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libspi_flash.a"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_spi_flash.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_spi_flash.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libspi_flash.a"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_spi_flash.dir/cmake_clean_target.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_spi_flash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build: esp-idf/spi_flash/libspi_flash.a
@@ -90,10 +90,10 @@ esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build: esp-idf/spi_flas
 .PHONY : esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build
 
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_spi_flash.dir/cmake_clean.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_spi_flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/clean
 
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader/subproject /home/ubuntu/kevin/amazon-freertos-hello-world/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader/subproject /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spi_flash /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/depend
 

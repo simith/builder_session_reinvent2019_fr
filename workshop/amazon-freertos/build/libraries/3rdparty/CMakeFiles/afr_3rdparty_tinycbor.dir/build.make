@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 # Include any dependencies generated for this target.
 include libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/depend.make
@@ -59,81 +59,81 @@ include libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj: ../libraries/3rdparty/tinycbor/cborpretty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborpretty.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborpretty.c
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborpretty.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborpretty.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.i
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborpretty.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborpretty.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.s
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj: ../libraries/3rdparty/tinycbor/cborencoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder.c
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.i
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.s
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj: ../libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.i
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborencoder_close_container_checked.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.s
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj: ../libraries/3rdparty/tinycbor/cborerrorstrings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborerrorstrings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborerrorstrings.c
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborerrorstrings.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborerrorstrings.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.i
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborerrorstrings.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborerrorstrings.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.s
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj: ../libraries/3rdparty/tinycbor/cborparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser.c
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.i
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.s
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/flags.make
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj: ../libraries/3rdparty/tinycbor/cborparser_dup_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser_dup_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser_dup_string.c
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser_dup_string.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser_dup_string.c > CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.i
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser_dup_string.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty/tinycbor/cborparser_dup_string.c -o CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.s
 
 # Object files for target afr_3rdparty_tinycbor
 afr_3rdparty_tinycbor_OBJECTS = \
@@ -155,9 +155,9 @@ libraries/3rdparty/libafr_3rdparty_tinycbor.a: libraries/3rdparty/CMakeFiles/afr
 libraries/3rdparty/libafr_3rdparty_tinycbor.a: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj
 libraries/3rdparty/libafr_3rdparty_tinycbor.a: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make
 libraries/3rdparty/libafr_3rdparty_tinycbor.a: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libafr_3rdparty_tinycbor.a"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/afr_3rdparty_tinycbor.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/afr_3rdparty_tinycbor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libafr_3rdparty_tinycbor.a"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/afr_3rdparty_tinycbor.dir/cmake_clean_target.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/afr_3rdparty_tinycbor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build: libraries/3rdparty/libafr_3rdparty_tinycbor.a
@@ -165,10 +165,10 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build: libraries/3rdpart
 .PHONY : libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/afr_3rdparty_tinycbor.dir/cmake_clean.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/afr_3rdparty_tinycbor.dir/cmake_clean.cmake
 .PHONY : libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/clean
 
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/3rdparty /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/depend
 

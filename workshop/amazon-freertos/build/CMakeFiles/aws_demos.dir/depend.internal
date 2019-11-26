@@ -18,6 +18,7 @@ CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -105,7 +106,7 @@ CMakeFiles/aws_demos.dir/demos/ble/aws_ble_gatt_server_demo.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/ble/aws_ble_gatt_server_demo.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/ble/aws_ble_gatt_server_demo.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj
  ../demos/include/aws_clientcredential.h
@@ -122,6 +123,7 @@ CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -208,7 +210,7 @@ CMakeFiles/aws_demos.dir/demos/ble/iot_ble_numericComparison.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/ble/iot_ble_numericComparison.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/ble/iot_ble_numericComparison.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj
  ../demos/include/aws_clientcredential.h
@@ -223,6 +225,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -298,7 +301,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/aws_demo.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/aws_demo.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj
  ../demos/include/aws_clientcredential.h
@@ -313,6 +316,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -395,7 +399,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_network_addr.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/aws_demo_network_addr.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/aws_demo_network_addr.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_version.c.obj
  ../demos/include/aws_application_version.h
@@ -404,7 +408,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/aws_demo_version.c.obj
  ../vendors/espressif/esp-idf/components/newlib/include/stdint.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/_intsup.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/features.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/aws_demo_version.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/aws_demo_version.c
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj
  ../demos/include/aws_clientcredential.h
  ../demos/include/aws_clientcredential_keys.h
@@ -421,6 +425,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -510,7 +515,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_freertos.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/iot_demo_freertos.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/iot_demo_freertos.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj
  ../demos/include/aws_clientcredential.h
@@ -527,6 +532,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -607,7 +613,7 @@ CMakeFiles/aws_demos.dir/demos/demo_runner/iot_demo_runner.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/iot_demo_runner.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/demo_runner/iot_demo_runner.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj
  ../demos/include/aws_clientcredential.h
@@ -623,6 +629,7 @@ CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -714,7 +721,7 @@ CMakeFiles/aws_demos.dir/demos/mqtt/iot_demo_mqtt.c.obj
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_partition.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/mqtt/iot_demo_mqtt.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/mqtt/iot_demo_mqtt.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj
  ../demos/include/aws_clientcredential.h
@@ -731,6 +738,7 @@ CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -823,8 +831,8 @@ CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_demo_network.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/aws_iot_demo_network.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/iot_network_manager_private.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/aws_iot_demo_network.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/iot_network_manager_private.h
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj
  ../demos/include/aws_clientcredential.h
@@ -843,6 +851,7 @@ CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -950,8 +959,8 @@ CMakeFiles/aws_demos.dir/demos/network_manager/aws_iot_network_manager.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/aws_iot_network_manager.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/iot_network_manager_private.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/aws_iot_network_manager.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/network_manager/iot_network_manager_private.h
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj
  ../demos/include/aws_application_version.h
@@ -971,6 +980,7 @@ CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1060,7 +1070,7 @@ CMakeFiles/aws_demos.dir/demos/ota/aws_iot_ota_update_demo.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/ota/aws_iot_ota_update_demo.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos/ota/aws_iot_ota_update_demo.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1069,6 +1079,7 @@ CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_util
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1144,7 +1155,7 @@ CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_util
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1153,6 +1164,7 @@ CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_i
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1232,7 +1244,7 @@ CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_i
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/utils/src/iot_system_init.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/utils/src/iot_system_init.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -1245,6 +1257,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1334,7 +1347,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
  ../vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/include/mbedtls/config.h
@@ -1360,7 +1373,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/newlib/include/sys/sched.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/stdio.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
  ../vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/include/esp_mem.h
  ../vendors/espressif/esp-idf/components/esp32/include/esp_attr.h
@@ -1388,7 +1401,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/newlib/include/sys/reent.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/sched.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/check_config.h
@@ -1432,7 +1445,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/include/time.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/check_config.h
  ../libraries/3rdparty/mbedtls/include/mbedtls/config.h
@@ -1475,7 +1488,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/include/time.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/check_config.h
  ../libraries/3rdparty/mbedtls/include/mbedtls/config.h
@@ -1518,7 +1531,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/newlib/include/sys/string.h
  ../vendors/espressif/esp-idf/components/newlib/include/sys/types.h
  ../vendors/espressif/esp-idf/components/newlib/include/time.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
  ../freertos_kernel/include/FreeRTOS.h
  ../freertos_kernel/include/deprecated_definitions.h
@@ -1530,6 +1543,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1639,7 +1653,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c
  config/sdkconfig.h
 CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj
  ../demos/dev_mode_key_provisioning/include/aws_dev_mode_key_provisioning.h
@@ -1662,6 +1676,7 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1822,5 +1837,5 @@ CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_co
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_partition.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/main.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/main.c
  config/sdkconfig.h

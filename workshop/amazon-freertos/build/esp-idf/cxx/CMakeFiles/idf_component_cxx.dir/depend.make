@@ -14,6 +14,7 @@ esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_ker
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/include/semphr.h
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/include/task.h
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

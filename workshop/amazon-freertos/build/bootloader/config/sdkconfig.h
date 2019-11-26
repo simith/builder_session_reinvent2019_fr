@@ -30,8 +30,8 @@
 #define CONFIG_MONITOR_BAUD_OTHER_VAL 115200
 #define CONFIG_MONITOR_BAUD 115200
 #define CONFIG_PARTITION_TABLE_CUSTOM 1
-#define CONFIG_PARTITION_TABLE_CUSTOM_FILENAME "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
-#define CONFIG_PARTITION_TABLE_FILENAME "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
+#define CONFIG_PARTITION_TABLE_CUSTOM_FILENAME "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
+#define CONFIG_PARTITION_TABLE_FILENAME "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
 #define CONFIG_PARTITION_TABLE_OFFSET 0x8000
 #define CONFIG_PARTITION_TABLE_MD5 1
 #define CONFIG_OPTIMIZATION_LEVEL_DEBUG 1

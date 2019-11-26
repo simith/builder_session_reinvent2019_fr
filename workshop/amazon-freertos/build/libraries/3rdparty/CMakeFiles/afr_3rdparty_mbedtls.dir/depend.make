@@ -11,6 +11,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/b
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -297,6 +298,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/b
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -943,6 +945,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1051,6 +1054,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.o
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1288,6 +1292,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.o
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1440,6 +1445,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1582,6 +1588,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1692,6 +1699,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_p
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1804,6 +1812,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.o
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2036,6 +2045,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2341,6 +2351,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_bu
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2445,6 +2456,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_socke
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2571,6 +2583,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2764,6 +2777,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj:
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2871,6 +2885,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3022,6 +3037,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.o
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3136,6 +3152,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3252,6 +3269,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3401,6 +3419,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3543,6 +3562,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3659,6 +3679,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_inter
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3881,6 +3902,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4000,6 +4022,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphe
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4118,6 +4141,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4246,6 +4270,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cooki
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4374,6 +4399,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4502,6 +4528,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticke
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4621,6 +4648,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4750,6 +4778,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4938,6 +4967,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.ob
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5055,6 +5085,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crea
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5168,6 +5199,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5283,6 +5315,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5402,6 +5435,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5517,6 +5551,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5635,6 +5670,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5789,6 +5825,7 @@ libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_uti
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/include/semphr.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/include/task.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

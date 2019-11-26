@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/CMakeFiles/bootloader-flash.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/bootloader-flash.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/bootloader-flash.dir/rule
 .PHONY : esp-idf/CMakeFiles/bootloader-flash.dir/rule
 
 # Convenience name for target.
@@ -123,12 +123,12 @@ bootloader-flash: esp-idf/CMakeFiles/bootloader-flash.dir/rule
 
 # fast build rule for target.
 bootloader-flash/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/bootloader-flash.dir/build.make esp-idf/CMakeFiles/bootloader-flash.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/bootloader-flash.dir/build.make esp-idf/CMakeFiles/bootloader-flash.dir/build
 .PHONY : bootloader-flash/fast
 
 # Convenience name for target.
 esp-idf/CMakeFiles/app-flash.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/app-flash.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/app-flash.dir/rule
 .PHONY : esp-idf/CMakeFiles/app-flash.dir/rule
 
 # Convenience name for target.
@@ -138,87 +138,12 @@ app-flash: esp-idf/CMakeFiles/app-flash.dir/rule
 
 # fast build rule for target.
 app-flash/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/app-flash.dir/build.make esp-idf/CMakeFiles/app-flash.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/app-flash.dir/build.make esp-idf/CMakeFiles/app-flash.dir/build
 .PHONY : app-flash/fast
 
 # Convenience name for target.
-esp-idf/CMakeFiles/confserver.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/confserver.dir/rule
-.PHONY : esp-idf/CMakeFiles/confserver.dir/rule
-
-# Convenience name for target.
-confserver: esp-idf/CMakeFiles/confserver.dir/rule
-
-.PHONY : confserver
-
-# fast build rule for target.
-confserver/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/confserver.dir/build.make esp-idf/CMakeFiles/confserver.dir/build
-.PHONY : confserver/fast
-
-# Convenience name for target.
-esp-idf/CMakeFiles/menuconfig.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/menuconfig.dir/rule
-.PHONY : esp-idf/CMakeFiles/menuconfig.dir/rule
-
-# Convenience name for target.
-menuconfig: esp-idf/CMakeFiles/menuconfig.dir/rule
-
-.PHONY : menuconfig
-
-# fast build rule for target.
-menuconfig/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/menuconfig.dir/build.make esp-idf/CMakeFiles/menuconfig.dir/build
-.PHONY : menuconfig/fast
-
-# Convenience name for target.
-esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule
-.PHONY : esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule
-
-# Convenience name for target.
-gen_secure_boot_signing_key: esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule
-
-.PHONY : gen_secure_boot_signing_key
-
-# fast build rule for target.
-gen_secure_boot_signing_key/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build.make esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build
-.PHONY : gen_secure_boot_signing_key/fast
-
-# Convenience name for target.
-esp-idf/CMakeFiles/app.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/app.dir/rule
-.PHONY : esp-idf/CMakeFiles/app.dir/rule
-
-# Convenience name for target.
-app: esp-idf/CMakeFiles/app.dir/rule
-
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/app.dir/build.make esp-idf/CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-# Convenience name for target.
-esp-idf/CMakeFiles/bootloader.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/bootloader.dir/rule
-.PHONY : esp-idf/CMakeFiles/bootloader.dir/rule
-
-# Convenience name for target.
-bootloader: esp-idf/CMakeFiles/bootloader.dir/rule
-
-.PHONY : bootloader
-
-# fast build rule for target.
-bootloader/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/bootloader.dir/build.make esp-idf/CMakeFiles/bootloader.dir/build
-.PHONY : bootloader/fast
-
-# Convenience name for target.
 esp-idf/CMakeFiles/flash.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/flash.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/flash.dir/rule
 .PHONY : esp-idf/CMakeFiles/flash.dir/rule
 
 # Convenience name for target.
@@ -228,8 +153,83 @@ flash: esp-idf/CMakeFiles/flash.dir/rule
 
 # fast build rule for target.
 flash/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/flash.dir/build.make esp-idf/CMakeFiles/flash.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/flash.dir/build.make esp-idf/CMakeFiles/flash.dir/build
 .PHONY : flash/fast
+
+# Convenience name for target.
+esp-idf/CMakeFiles/app.dir/rule:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/app.dir/rule
+.PHONY : esp-idf/CMakeFiles/app.dir/rule
+
+# Convenience name for target.
+app: esp-idf/CMakeFiles/app.dir/rule
+
+.PHONY : app
+
+# fast build rule for target.
+app/fast:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/app.dir/build.make esp-idf/CMakeFiles/app.dir/build
+.PHONY : app/fast
+
+# Convenience name for target.
+esp-idf/CMakeFiles/bootloader.dir/rule:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/bootloader.dir/rule
+.PHONY : esp-idf/CMakeFiles/bootloader.dir/rule
+
+# Convenience name for target.
+bootloader: esp-idf/CMakeFiles/bootloader.dir/rule
+
+.PHONY : bootloader
+
+# fast build rule for target.
+bootloader/fast:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/bootloader.dir/build.make esp-idf/CMakeFiles/bootloader.dir/build
+.PHONY : bootloader/fast
+
+# Convenience name for target.
+esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule
+.PHONY : esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule
+
+# Convenience name for target.
+gen_secure_boot_signing_key: esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/rule
+
+.PHONY : gen_secure_boot_signing_key
+
+# fast build rule for target.
+gen_secure_boot_signing_key/fast:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build.make esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build
+.PHONY : gen_secure_boot_signing_key/fast
+
+# Convenience name for target.
+esp-idf/CMakeFiles/confserver.dir/rule:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/confserver.dir/rule
+.PHONY : esp-idf/CMakeFiles/confserver.dir/rule
+
+# Convenience name for target.
+confserver: esp-idf/CMakeFiles/confserver.dir/rule
+
+.PHONY : confserver
+
+# fast build rule for target.
+confserver/fast:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/confserver.dir/build.make esp-idf/CMakeFiles/confserver.dir/build
+.PHONY : confserver/fast
+
+# Convenience name for target.
+esp-idf/CMakeFiles/menuconfig.dir/rule:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/CMakeFiles/menuconfig.dir/rule
+.PHONY : esp-idf/CMakeFiles/menuconfig.dir/rule
+
+# Convenience name for target.
+menuconfig: esp-idf/CMakeFiles/menuconfig.dir/rule
+
+.PHONY : menuconfig
+
+# fast build rule for target.
+menuconfig/fast:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/CMakeFiles/menuconfig.dir/build.make esp-idf/CMakeFiles/menuconfig.dir/build
+.PHONY : menuconfig/fast
 
 # Help Target
 help:
@@ -241,12 +241,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... bootloader-flash"
 	@echo "... app-flash"
-	@echo "... confserver"
-	@echo "... menuconfig"
-	@echo "... gen_secure_boot_signing_key"
+	@echo "... flash"
 	@echo "... app"
 	@echo "... bootloader"
-	@echo "... flash"
+	@echo "... gen_secure_boot_signing_key"
+	@echo "... confserver"
+	@echo "... menuconfig"
 .PHONY : help
 
 
@@ -258,7 +258,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

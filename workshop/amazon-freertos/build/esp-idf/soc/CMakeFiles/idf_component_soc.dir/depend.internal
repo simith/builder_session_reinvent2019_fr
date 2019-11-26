@@ -36,7 +36,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/cpu_util.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/cpu.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/cpu_util.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/cpu_util.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -69,7 +69,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/gpio_periph.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/gpio_periph.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/gpio_periph.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -128,11 +128,11 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_clk.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/sens_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/i2c_apll.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/i2c_bbpll.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/i2c_rtc_clk.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_clk.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/soc_log.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/i2c_apll.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/i2c_bbpll.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/i2c_rtc_clk.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_clk.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/soc_log.h
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -179,7 +179,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_init.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_init.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_init.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -211,7 +211,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_periph.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/rtc_periph.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_periph.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_periph.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -240,7 +240,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_pm.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_pm.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_pm.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -291,7 +291,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_sleep.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_sleep.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_sleep.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -322,7 +322,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/rtc_time.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_time.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/rtc_time.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -353,7 +353,7 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/soc_memory_layout.c.obj
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/soc_memory_layout.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/soc_memory_layout.c
  config/sdkconfig.h
 esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -386,5 +386,5 @@ esp-idf/soc/CMakeFiles/idf_component_soc.dir/esp32/spi_periph.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_struct.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/spi_periph.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/spi_periph.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/soc/esp32/spi_periph.c
  config/sdkconfig.h

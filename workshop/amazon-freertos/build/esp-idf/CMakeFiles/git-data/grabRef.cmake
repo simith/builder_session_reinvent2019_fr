@@ -15,27 +15,27 @@
 
 set(HEAD_HASH)
 
-file(READ "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
+file(READ "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
 if(HEAD_CONTENTS MATCHES "ref")
 	# named branch
 	string(REPLACE "ref: " "" HEAD_REF "${HEAD_CONTENTS}")
-	if(EXISTS "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/.git/${HEAD_REF}")
-		configure_file("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/.git/${HEAD_REF}" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/head-ref" COPYONLY)
+	if(EXISTS "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/.git/${HEAD_REF}")
+		configure_file("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/.git/${HEAD_REF}" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/head-ref" COPYONLY)
 	else()
-		configure_file("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/.git/packed-refs" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/packed-refs" COPYONLY)
-		file(READ "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/packed-refs" PACKED_REFS)
+		configure_file("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/.git/packed-refs" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/packed-refs" COPYONLY)
+		file(READ "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/packed-refs" PACKED_REFS)
 		if(${PACKED_REFS} MATCHES "([0-9a-z]*) ${HEAD_REF}")
 			set(HEAD_HASH "${CMAKE_MATCH_1}")
 		endif()
 	endif()
 else()
 	# detached HEAD
-	configure_file("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/.git/HEAD" "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/head-ref" COPYONLY)
+	configure_file("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/.git/HEAD" "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/head-ref" COPYONLY)
 endif()
 
 if(NOT HEAD_HASH)
-	file(READ "/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
+	file(READ "/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
 	string(STRIP "${HEAD_HASH}" HEAD_HASH)
 endif()

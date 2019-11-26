@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/fatfs/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/fatfs/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/rule
 .PHONY : esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_fatfs: esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/rule
 
 # fast build rule for target.
 idf_component_fatfs/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build
 .PHONY : idf_component_fatfs/fast
 
 src/diskio.obj: src/diskio.c.obj
@@ -132,7 +132,7 @@ src/diskio.obj: src/diskio.c.obj
 
 # target to build an object file
 src/diskio.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.obj
 .PHONY : src/diskio.c.obj
 
 src/diskio.i: src/diskio.c.i
@@ -141,7 +141,7 @@ src/diskio.i: src/diskio.c.i
 
 # target to preprocess a source file
 src/diskio.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.i
 .PHONY : src/diskio.c.i
 
 src/diskio.s: src/diskio.c.s
@@ -150,7 +150,7 @@ src/diskio.s: src/diskio.c.s
 
 # target to generate assembly for a file
 src/diskio.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio.c.s
 .PHONY : src/diskio.c.s
 
 src/diskio_rawflash.obj: src/diskio_rawflash.c.obj
@@ -159,7 +159,7 @@ src/diskio_rawflash.obj: src/diskio_rawflash.c.obj
 
 # target to build an object file
 src/diskio_rawflash.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.obj
 .PHONY : src/diskio_rawflash.c.obj
 
 src/diskio_rawflash.i: src/diskio_rawflash.c.i
@@ -168,7 +168,7 @@ src/diskio_rawflash.i: src/diskio_rawflash.c.i
 
 # target to preprocess a source file
 src/diskio_rawflash.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.i
 .PHONY : src/diskio_rawflash.c.i
 
 src/diskio_rawflash.s: src/diskio_rawflash.c.s
@@ -177,7 +177,7 @@ src/diskio_rawflash.s: src/diskio_rawflash.c.s
 
 # target to generate assembly for a file
 src/diskio_rawflash.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_rawflash.c.s
 .PHONY : src/diskio_rawflash.c.s
 
 src/diskio_sdmmc.obj: src/diskio_sdmmc.c.obj
@@ -186,7 +186,7 @@ src/diskio_sdmmc.obj: src/diskio_sdmmc.c.obj
 
 # target to build an object file
 src/diskio_sdmmc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.obj
 .PHONY : src/diskio_sdmmc.c.obj
 
 src/diskio_sdmmc.i: src/diskio_sdmmc.c.i
@@ -195,7 +195,7 @@ src/diskio_sdmmc.i: src/diskio_sdmmc.c.i
 
 # target to preprocess a source file
 src/diskio_sdmmc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.i
 .PHONY : src/diskio_sdmmc.c.i
 
 src/diskio_sdmmc.s: src/diskio_sdmmc.c.s
@@ -204,7 +204,7 @@ src/diskio_sdmmc.s: src/diskio_sdmmc.c.s
 
 # target to generate assembly for a file
 src/diskio_sdmmc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_sdmmc.c.s
 .PHONY : src/diskio_sdmmc.c.s
 
 src/diskio_wl.obj: src/diskio_wl.c.obj
@@ -213,7 +213,7 @@ src/diskio_wl.obj: src/diskio_wl.c.obj
 
 # target to build an object file
 src/diskio_wl.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.obj
 .PHONY : src/diskio_wl.c.obj
 
 src/diskio_wl.i: src/diskio_wl.c.i
@@ -222,7 +222,7 @@ src/diskio_wl.i: src/diskio_wl.c.i
 
 # target to preprocess a source file
 src/diskio_wl.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.i
 .PHONY : src/diskio_wl.c.i
 
 src/diskio_wl.s: src/diskio_wl.c.s
@@ -231,7 +231,7 @@ src/diskio_wl.s: src/diskio_wl.c.s
 
 # target to generate assembly for a file
 src/diskio_wl.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/diskio_wl.c.s
 .PHONY : src/diskio_wl.c.s
 
 src/ff.obj: src/ff.c.obj
@@ -240,7 +240,7 @@ src/ff.obj: src/ff.c.obj
 
 # target to build an object file
 src/ff.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.obj
 .PHONY : src/ff.c.obj
 
 src/ff.i: src/ff.c.i
@@ -249,7 +249,7 @@ src/ff.i: src/ff.c.i
 
 # target to preprocess a source file
 src/ff.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.i
 .PHONY : src/ff.c.i
 
 src/ff.s: src/ff.c.s
@@ -258,7 +258,7 @@ src/ff.s: src/ff.c.s
 
 # target to generate assembly for a file
 src/ff.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ff.c.s
 .PHONY : src/ff.c.s
 
 src/ffsystem.obj: src/ffsystem.c.obj
@@ -267,7 +267,7 @@ src/ffsystem.obj: src/ffsystem.c.obj
 
 # target to build an object file
 src/ffsystem.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.obj
 .PHONY : src/ffsystem.c.obj
 
 src/ffsystem.i: src/ffsystem.c.i
@@ -276,7 +276,7 @@ src/ffsystem.i: src/ffsystem.c.i
 
 # target to preprocess a source file
 src/ffsystem.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.i
 .PHONY : src/ffsystem.c.i
 
 src/ffsystem.s: src/ffsystem.c.s
@@ -285,7 +285,7 @@ src/ffsystem.s: src/ffsystem.c.s
 
 # target to generate assembly for a file
 src/ffsystem.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffsystem.c.s
 .PHONY : src/ffsystem.c.s
 
 src/ffunicode.obj: src/ffunicode.c.obj
@@ -294,7 +294,7 @@ src/ffunicode.obj: src/ffunicode.c.obj
 
 # target to build an object file
 src/ffunicode.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.obj
 .PHONY : src/ffunicode.c.obj
 
 src/ffunicode.i: src/ffunicode.c.i
@@ -303,7 +303,7 @@ src/ffunicode.i: src/ffunicode.c.i
 
 # target to preprocess a source file
 src/ffunicode.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.i
 .PHONY : src/ffunicode.c.i
 
 src/ffunicode.s: src/ffunicode.c.s
@@ -312,7 +312,7 @@ src/ffunicode.s: src/ffunicode.c.s
 
 # target to generate assembly for a file
 src/ffunicode.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/ffunicode.c.s
 .PHONY : src/ffunicode.c.s
 
 src/vfs_fat.obj: src/vfs_fat.c.obj
@@ -321,7 +321,7 @@ src/vfs_fat.obj: src/vfs_fat.c.obj
 
 # target to build an object file
 src/vfs_fat.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.obj
 .PHONY : src/vfs_fat.c.obj
 
 src/vfs_fat.i: src/vfs_fat.c.i
@@ -330,7 +330,7 @@ src/vfs_fat.i: src/vfs_fat.c.i
 
 # target to preprocess a source file
 src/vfs_fat.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.i
 .PHONY : src/vfs_fat.c.i
 
 src/vfs_fat.s: src/vfs_fat.c.s
@@ -339,7 +339,7 @@ src/vfs_fat.s: src/vfs_fat.c.s
 
 # target to generate assembly for a file
 src/vfs_fat.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat.c.s
 .PHONY : src/vfs_fat.c.s
 
 src/vfs_fat_sdmmc.obj: src/vfs_fat_sdmmc.c.obj
@@ -348,7 +348,7 @@ src/vfs_fat_sdmmc.obj: src/vfs_fat_sdmmc.c.obj
 
 # target to build an object file
 src/vfs_fat_sdmmc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.obj
 .PHONY : src/vfs_fat_sdmmc.c.obj
 
 src/vfs_fat_sdmmc.i: src/vfs_fat_sdmmc.c.i
@@ -357,7 +357,7 @@ src/vfs_fat_sdmmc.i: src/vfs_fat_sdmmc.c.i
 
 # target to preprocess a source file
 src/vfs_fat_sdmmc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.i
 .PHONY : src/vfs_fat_sdmmc.c.i
 
 src/vfs_fat_sdmmc.s: src/vfs_fat_sdmmc.c.s
@@ -366,7 +366,7 @@ src/vfs_fat_sdmmc.s: src/vfs_fat_sdmmc.c.s
 
 # target to generate assembly for a file
 src/vfs_fat_sdmmc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_sdmmc.c.s
 .PHONY : src/vfs_fat_sdmmc.c.s
 
 src/vfs_fat_spiflash.obj: src/vfs_fat_spiflash.c.obj
@@ -375,7 +375,7 @@ src/vfs_fat_spiflash.obj: src/vfs_fat_spiflash.c.obj
 
 # target to build an object file
 src/vfs_fat_spiflash.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.obj
 .PHONY : src/vfs_fat_spiflash.c.obj
 
 src/vfs_fat_spiflash.i: src/vfs_fat_spiflash.c.i
@@ -384,7 +384,7 @@ src/vfs_fat_spiflash.i: src/vfs_fat_spiflash.c.i
 
 # target to preprocess a source file
 src/vfs_fat_spiflash.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.i
 .PHONY : src/vfs_fat_spiflash.c.i
 
 src/vfs_fat_spiflash.s: src/vfs_fat_spiflash.c.s
@@ -393,7 +393,7 @@ src/vfs_fat_spiflash.s: src/vfs_fat_spiflash.c.s
 
 # target to generate assembly for a file
 src/vfs_fat_spiflash.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/build.make esp-idf/fatfs/CMakeFiles/idf_component_fatfs.dir/src/vfs_fat_spiflash.c.s
 .PHONY : src/vfs_fat_spiflash.c.s
 
 # Help Target
@@ -403,8 +403,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_fatfs"
 	@echo "... edit_cache"
+	@echo "... idf_component_fatfs"
 	@echo "... src/diskio.obj"
 	@echo "... src/diskio.i"
 	@echo "... src/diskio.s"
@@ -446,7 +446,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

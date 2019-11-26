@@ -12,6 +12,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -84,7 +85,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/event_groups.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/event_groups.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/event_groups.c
  config/sdkconfig.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -94,6 +95,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj
  ../freertos_kernel/include/portable.h
  ../freertos_kernel/include/projdefs.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -166,7 +168,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/list.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/list.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/list.c
  config/sdkconfig.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -179,6 +181,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj
  ../freertos_kernel/include/queue.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -253,7 +256,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/queue.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/queue.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/queue.c
  config/sdkconfig.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -265,6 +268,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj
  ../freertos_kernel/include/stream_buffer.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -339,7 +343,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/stream_buffer.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/stream_buffer.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/stream_buffer.c
  config/sdkconfig.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -352,6 +356,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -427,7 +432,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/tasks.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/tasks.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/tasks.c
  config/sdkconfig.h
 CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -440,6 +445,7 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -512,5 +518,5 @@ CMakeFiles/afr_kernel.dir/freertos_kernel/timers.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/timers.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/freertos_kernel/timers.c
  config/sdkconfig.h

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 # Include any dependencies generated for this target.
 include esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/depend.make
@@ -59,29 +59,29 @@ include esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/flags.make
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.obj: esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/flags.make
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.obj: ../vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.obj -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.obj -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp > CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp > CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.i
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp -o CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_exception_stubs.cpp -o CMakeFiles/idf_component_cxx.dir/cxx_exception_stubs.cpp.s
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/flags.make
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj: ../vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.i"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp > CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp > CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.i
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.s"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp -o CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && /Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx/cxx_guards.cpp -o CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.s
 
 # Object files for target idf_component_cxx
 idf_component_cxx_OBJECTS = \
@@ -95,9 +95,9 @@ esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_exception
 esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/cxx_guards.cpp.obj
 esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/build.make
 esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcxx.a"
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_cxx.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_cxx.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcxx.a"
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_cxx.dir/cmake_clean_target.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idf_component_cxx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/build: esp-idf/cxx/libcxx.a
@@ -105,10 +105,10 @@ esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/build: esp-idf/cxx/libcxx.a
 .PHONY : esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/build
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_cxx.dir/cmake_clean.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/idf_component_cxx.dir/cmake_clean.cmake
 .PHONY : esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/clean
 
 esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/cxx /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/cxx/CMakeFiles/idf_component_cxx.dir/depend
 

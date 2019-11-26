@@ -46,7 +46,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_cert.c.obj
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_opt.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_cert.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_cert.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_lib.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -94,7 +94,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_lib.c.obj
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_opt.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_lib.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_lib.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_methods.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -137,7 +137,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_methods.c.obj
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_pm.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_methods.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_methods.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_pkey.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -182,7 +182,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_pkey.c.obj
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_opt.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_pkey.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_pkey.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_stack.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -226,7 +226,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_stack.c.obj
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_opt.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_stack.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_stack.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_x509.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -274,7 +274,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/library/ssl_x509.c.obj
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_opt.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_x509.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/library/ssl_x509.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_pm.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -287,6 +287,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_pm.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -419,7 +420,7 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_pm.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_pm.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_pm.c
  config/sdkconfig.h
 esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_port.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -455,5 +456,5 @@ esp-idf/openssl/CMakeFiles/idf_component_openssl.dir/platform/ssl_port.c.obj
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/openssl/include/platform/ssl_port.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_port.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/openssl/platform/ssl_port.c
  config/sdkconfig.h

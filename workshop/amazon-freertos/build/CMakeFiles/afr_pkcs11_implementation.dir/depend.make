@@ -14,6 +14,7 @@ CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/i
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/abstractions/pkcs11/mbedtls/iot_pkcs11_mbedtls.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -142,6 +143,7 @@ CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/include/portable.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -226,6 +228,7 @@ CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/include/portable.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -318,6 +321,7 @@ CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demo
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -603,6 +607,7 @@ CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demo
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -723,6 +728,7 @@ CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pk
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/include/projdefs.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/ports/pkcs11/iot_pkcs11_pal.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

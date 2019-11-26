@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,43 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bootloader.elf
+# Target rules for targets named size-components
 
 # Build rule for target.
-bootloader.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bootloader.elf
-.PHONY : bootloader.elf
+size-components: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 size-components
+.PHONY : size-components
 
 # fast build rule for target.
-bootloader.elf/fast:
-	$(MAKE) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/build
-.PHONY : bootloader.elf/fast
-
-#=============================================================================
-# Target rules for targets named mconf-idf
-
-# Build rule for target.
-mconf-idf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mconf-idf
-.PHONY : mconf-idf
-
-# fast build rule for target.
-mconf-idf/fast:
-	$(MAKE) -f CMakeFiles/mconf-idf.dir/build.make CMakeFiles/mconf-idf.dir/build
-.PHONY : mconf-idf/fast
-
-#=============================================================================
-# Target rules for targets named dummy_main_src
-
-# Build rule for target.
-dummy_main_src: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dummy_main_src
-.PHONY : dummy_main_src
-
-# fast build rule for target.
-dummy_main_src/fast:
-	$(MAKE) -f CMakeFiles/dummy_main_src.dir/build.make CMakeFiles/dummy_main_src.dir/build
-.PHONY : dummy_main_src/fast
+size-components/fast:
+	$(MAKE) -f CMakeFiles/size-components.dir/build.make CMakeFiles/size-components.dir/build
+.PHONY : size-components/fast
 
 #=============================================================================
 # Target rules for targets named size
@@ -176,17 +150,43 @@ size-files/fast:
 .PHONY : size-files/fast
 
 #=============================================================================
-# Target rules for targets named size-components
+# Target rules for targets named dummy_main_src
 
 # Build rule for target.
-size-components: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 size-components
-.PHONY : size-components
+dummy_main_src: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dummy_main_src
+.PHONY : dummy_main_src
 
 # fast build rule for target.
-size-components/fast:
-	$(MAKE) -f CMakeFiles/size-components.dir/build.make CMakeFiles/size-components.dir/build
-.PHONY : size-components/fast
+dummy_main_src/fast:
+	$(MAKE) -f CMakeFiles/dummy_main_src.dir/build.make CMakeFiles/dummy_main_src.dir/build
+.PHONY : dummy_main_src/fast
+
+#=============================================================================
+# Target rules for targets named bootloader.elf
+
+# Build rule for target.
+bootloader.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bootloader.elf
+.PHONY : bootloader.elf
+
+# fast build rule for target.
+bootloader.elf/fast:
+	$(MAKE) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/build
+.PHONY : bootloader.elf/fast
+
+#=============================================================================
+# Target rules for targets named mconf-idf
+
+# Build rule for target.
+mconf-idf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mconf-idf
+.PHONY : mconf-idf
+
+# fast build rule for target.
+mconf-idf/fast:
+	$(MAKE) -f CMakeFiles/mconf-idf.dir/build.make CMakeFiles/mconf-idf.dir/build
+.PHONY : mconf-idf/fast
 
 #=============================================================================
 # Target rules for targets named bootloader-flash
@@ -202,17 +202,17 @@ bootloader-flash/fast:
 .PHONY : bootloader-flash/fast
 
 #=============================================================================
-# Target rules for targets named menuconfig
+# Target rules for targets named app-flash
 
 # Build rule for target.
-menuconfig: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 menuconfig
-.PHONY : menuconfig
+app-flash: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app-flash
+.PHONY : app-flash
 
 # fast build rule for target.
-menuconfig/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/menuconfig.dir/build.make esp-idf/CMakeFiles/menuconfig.dir/build
-.PHONY : menuconfig/fast
+app-flash/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/app-flash.dir/build.make esp-idf/CMakeFiles/app-flash.dir/build
+.PHONY : app-flash/fast
 
 #=============================================================================
 # Target rules for targets named gen_secure_boot_signing_key
@@ -226,32 +226,6 @@ gen_secure_boot_signing_key: cmake_check_build_system
 gen_secure_boot_signing_key/fast:
 	$(MAKE) -f esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build.make esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build
 .PHONY : gen_secure_boot_signing_key/fast
-
-#=============================================================================
-# Target rules for targets named confserver
-
-# Build rule for target.
-confserver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 confserver
-.PHONY : confserver
-
-# fast build rule for target.
-confserver/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/confserver.dir/build.make esp-idf/CMakeFiles/confserver.dir/build
-.PHONY : confserver/fast
-
-#=============================================================================
-# Target rules for targets named app-flash
-
-# Build rule for target.
-app-flash: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app-flash
-.PHONY : app-flash
-
-# fast build rule for target.
-app-flash/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/app-flash.dir/build.make esp-idf/CMakeFiles/app-flash.dir/build
-.PHONY : app-flash/fast
 
 #=============================================================================
 # Target rules for targets named bootloader
@@ -278,6 +252,32 @@ flash: cmake_check_build_system
 flash/fast:
 	$(MAKE) -f esp-idf/CMakeFiles/flash.dir/build.make esp-idf/CMakeFiles/flash.dir/build
 .PHONY : flash/fast
+
+#=============================================================================
+# Target rules for targets named confserver
+
+# Build rule for target.
+confserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 confserver
+.PHONY : confserver
+
+# fast build rule for target.
+confserver/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/confserver.dir/build.make esp-idf/CMakeFiles/confserver.dir/build
+.PHONY : confserver/fast
+
+#=============================================================================
+# Target rules for targets named menuconfig
+
+# Build rule for target.
+menuconfig: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 menuconfig
+.PHONY : menuconfig
+
+# fast build rule for target.
+menuconfig/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/menuconfig.dir/build.make esp-idf/CMakeFiles/menuconfig.dir/build
+.PHONY : menuconfig/fast
 
 #=============================================================================
 # Target rules for targets named idf_component_soc
@@ -391,20 +391,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... bootloader.elf"
-	@echo "... mconf-idf"
-	@echo "... dummy_main_src"
+	@echo "... size-components"
 	@echo "... size"
 	@echo "... size-files"
-	@echo "... size-components"
+	@echo "... dummy_main_src"
+	@echo "... bootloader.elf"
+	@echo "... edit_cache"
+	@echo "... mconf-idf"
 	@echo "... bootloader-flash"
-	@echo "... menuconfig"
-	@echo "... gen_secure_boot_signing_key"
-	@echo "... confserver"
 	@echo "... app-flash"
+	@echo "... gen_secure_boot_signing_key"
 	@echo "... bootloader"
 	@echo "... flash"
+	@echo "... confserver"
+	@echo "... menuconfig"
 	@echo "... idf_component_soc"
 	@echo "... idf_component_log"
 	@echo "... idf_component_spi_flash"

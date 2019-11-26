@@ -45,5 +45,5 @@ esp-idf/esp_adc_cal/CMakeFiles/idf_component_esp_adc_cal.dir/esp_adc_cal.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/esp_adc_cal/esp_adc_cal.c
  config/sdkconfig.h

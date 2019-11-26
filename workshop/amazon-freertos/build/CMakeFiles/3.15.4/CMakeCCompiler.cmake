@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc")
+set(CMAKE_C_COMPILER "/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "5.2.0")
@@ -17,11 +17,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar")
-set(CMAKE_C_COMPILER_AR "/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar")
-set(CMAKE_RANLIB "/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib")
-set(CMAKE_LINKER "/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ld")
+set(CMAKE_AR "/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar")
+set(CMAKE_C_COMPILER_AR "/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar")
+set(CMAKE_RANLIB "/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib")
+set(CMAKE_LINKER "/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)

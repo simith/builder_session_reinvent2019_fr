@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -107,7 +107,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -151,6 +151,19 @@ afr_mqtt/fast:
 .PHONY : afr_mqtt/fast
 
 #=============================================================================
+# Target rules for targets named afr_https
+
+# Build rule for target.
+afr_https: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_https
+.PHONY : afr_https
+
+# fast build rule for target.
+afr_https/fast:
+	$(MAKE) -f CMakeFiles/afr_https.dir/build.make CMakeFiles/afr_https.dir/build
+.PHONY : afr_https/fast
+
+#=============================================================================
 # Target rules for targets named afr_ble_hal
 
 # Build rule for target.
@@ -175,201 +188,6 @@ afr_ble: cmake_check_build_system
 afr_ble/fast:
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/build
 .PHONY : afr_ble/fast
-
-#=============================================================================
-# Target rules for targets named afr_dev_mode_key_provisioning
-
-# Build rule for target.
-afr_dev_mode_key_provisioning: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_dev_mode_key_provisioning
-.PHONY : afr_dev_mode_key_provisioning
-
-# fast build rule for target.
-afr_dev_mode_key_provisioning/fast:
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/build
-.PHONY : afr_dev_mode_key_provisioning/fast
-
-#=============================================================================
-# Target rules for targets named afr_kernel
-
-# Build rule for target.
-afr_kernel: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_kernel
-.PHONY : afr_kernel
-
-# fast build rule for target.
-afr_kernel/fast:
-	$(MAKE) -f CMakeFiles/afr_kernel.dir/build.make CMakeFiles/afr_kernel.dir/build
-.PHONY : afr_kernel/fast
-
-#=============================================================================
-# Target rules for targets named afr_platform
-
-# Build rule for target.
-afr_platform: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_platform
-.PHONY : afr_platform
-
-# fast build rule for target.
-afr_platform/fast:
-	$(MAKE) -f CMakeFiles/afr_platform.dir/build.make CMakeFiles/afr_platform.dir/build
-.PHONY : afr_platform/fast
-
-#=============================================================================
-# Target rules for targets named afr_pkcs11_implementation
-
-# Build rule for target.
-afr_pkcs11_implementation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_pkcs11_implementation
-.PHONY : afr_pkcs11_implementation
-
-# fast build rule for target.
-afr_pkcs11_implementation/fast:
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/build
-.PHONY : afr_pkcs11_implementation/fast
-
-#=============================================================================
-# Target rules for targets named monitor
-
-# Build rule for target.
-monitor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 monitor
-.PHONY : monitor
-
-# fast build rule for target.
-monitor/fast:
-	$(MAKE) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
-.PHONY : monitor/fast
-
-#=============================================================================
-# Target rules for targets named afr_serializer
-
-# Build rule for target.
-afr_serializer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_serializer
-.PHONY : afr_serializer
-
-# fast build rule for target.
-afr_serializer/fast:
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/build
-.PHONY : afr_serializer/fast
-
-#=============================================================================
-# Target rules for targets named aws_demos
-
-# Build rule for target.
-aws_demos: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aws_demos
-.PHONY : aws_demos
-
-# fast build rule for target.
-aws_demos/fast:
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/build
-.PHONY : aws_demos/fast
-
-#=============================================================================
-# Target rules for targets named afr_wifi
-
-# Build rule for target.
-afr_wifi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_wifi
-.PHONY : afr_wifi
-
-# fast build rule for target.
-afr_wifi/fast:
-	$(MAKE) -f CMakeFiles/afr_wifi.dir/build.make CMakeFiles/afr_wifi.dir/build
-.PHONY : afr_wifi/fast
-
-#=============================================================================
-# Target rules for targets named afr_freertos_plus_tcp
-
-# Build rule for target.
-afr_freertos_plus_tcp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_freertos_plus_tcp
-.PHONY : afr_freertos_plus_tcp
-
-# fast build rule for target.
-afr_freertos_plus_tcp/fast:
-	$(MAKE) -f CMakeFiles/afr_freertos_plus_tcp.dir/build.make CMakeFiles/afr_freertos_plus_tcp.dir/build
-.PHONY : afr_freertos_plus_tcp/fast
-
-#=============================================================================
-# Target rules for targets named mconf-idf
-
-# Build rule for target.
-mconf-idf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mconf-idf
-.PHONY : mconf-idf
-
-# fast build rule for target.
-mconf-idf/fast:
-	$(MAKE) -f CMakeFiles/mconf-idf.dir/build.make CMakeFiles/mconf-idf.dir/build
-.PHONY : mconf-idf/fast
-
-#=============================================================================
-# Target rules for targets named afr_crypto
-
-# Build rule for target.
-afr_crypto: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_crypto
-.PHONY : afr_crypto
-
-# fast build rule for target.
-afr_crypto/fast:
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/build
-.PHONY : afr_crypto/fast
-
-#=============================================================================
-# Target rules for targets named afr_common
-
-# Build rule for target.
-afr_common: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_common
-.PHONY : afr_common
-
-# fast build rule for target.
-afr_common/fast:
-	$(MAKE) -f CMakeFiles/afr_common.dir/build.make CMakeFiles/afr_common.dir/build
-.PHONY : afr_common/fast
-
-#=============================================================================
-# Target rules for targets named afr_pkcs11
-
-# Build rule for target.
-afr_pkcs11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_pkcs11
-.PHONY : afr_pkcs11
-
-# fast build rule for target.
-afr_pkcs11/fast:
-	$(MAKE) -f CMakeFiles/afr_pkcs11.dir/build.make CMakeFiles/afr_pkcs11.dir/build
-.PHONY : afr_pkcs11/fast
-
-#=============================================================================
-# Target rules for targets named afr_secure_sockets
-
-# Build rule for target.
-afr_secure_sockets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_secure_sockets
-.PHONY : afr_secure_sockets
-
-# fast build rule for target.
-afr_secure_sockets/fast:
-	$(MAKE) -f CMakeFiles/afr_secure_sockets.dir/build.make CMakeFiles/afr_secure_sockets.dir/build
-.PHONY : afr_secure_sockets/fast
-
-#=============================================================================
-# Target rules for targets named afr_https
-
-# Build rule for target.
-afr_https: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_https
-.PHONY : afr_https
-
-# fast build rule for target.
-afr_https/fast:
-	$(MAKE) -f CMakeFiles/afr_https.dir/build.make CMakeFiles/afr_https.dir/build
-.PHONY : afr_https/fast
 
 #=============================================================================
 # Target rules for targets named afr_ble_wifi_provisioning
@@ -398,17 +216,186 @@ afr_tls/fast:
 .PHONY : afr_tls/fast
 
 #=============================================================================
-# Target rules for targets named afr_3rdparty_mbedtls
+# Target rules for targets named afr_serializer
 
 # Build rule for target.
-afr_3rdparty_mbedtls: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 afr_3rdparty_mbedtls
-.PHONY : afr_3rdparty_mbedtls
+afr_serializer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_serializer
+.PHONY : afr_serializer
 
 # fast build rule for target.
-afr_3rdparty_mbedtls/fast:
-	$(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build
-.PHONY : afr_3rdparty_mbedtls/fast
+afr_serializer/fast:
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/build
+.PHONY : afr_serializer/fast
+
+#=============================================================================
+# Target rules for targets named afr_pkcs11
+
+# Build rule for target.
+afr_pkcs11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_pkcs11
+.PHONY : afr_pkcs11
+
+# fast build rule for target.
+afr_pkcs11/fast:
+	$(MAKE) -f CMakeFiles/afr_pkcs11.dir/build.make CMakeFiles/afr_pkcs11.dir/build
+.PHONY : afr_pkcs11/fast
+
+#=============================================================================
+# Target rules for targets named afr_crypto
+
+# Build rule for target.
+afr_crypto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_crypto
+.PHONY : afr_crypto
+
+# fast build rule for target.
+afr_crypto/fast:
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/build
+.PHONY : afr_crypto/fast
+
+#=============================================================================
+# Target rules for targets named aws_demos
+
+# Build rule for target.
+aws_demos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aws_demos
+.PHONY : aws_demos
+
+# fast build rule for target.
+aws_demos/fast:
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/build
+.PHONY : aws_demos/fast
+
+#=============================================================================
+# Target rules for targets named afr_wifi
+
+# Build rule for target.
+afr_wifi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_wifi
+.PHONY : afr_wifi
+
+# fast build rule for target.
+afr_wifi/fast:
+	$(MAKE) -f CMakeFiles/afr_wifi.dir/build.make CMakeFiles/afr_wifi.dir/build
+.PHONY : afr_wifi/fast
+
+#=============================================================================
+# Target rules for targets named mconf-idf
+
+# Build rule for target.
+mconf-idf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mconf-idf
+.PHONY : mconf-idf
+
+# fast build rule for target.
+mconf-idf/fast:
+	$(MAKE) -f CMakeFiles/mconf-idf.dir/build.make CMakeFiles/mconf-idf.dir/build
+.PHONY : mconf-idf/fast
+
+#=============================================================================
+# Target rules for targets named afr_kernel
+
+# Build rule for target.
+afr_kernel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_kernel
+.PHONY : afr_kernel
+
+# fast build rule for target.
+afr_kernel/fast:
+	$(MAKE) -f CMakeFiles/afr_kernel.dir/build.make CMakeFiles/afr_kernel.dir/build
+.PHONY : afr_kernel/fast
+
+#=============================================================================
+# Target rules for targets named afr_common
+
+# Build rule for target.
+afr_common: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_common
+.PHONY : afr_common
+
+# fast build rule for target.
+afr_common/fast:
+	$(MAKE) -f CMakeFiles/afr_common.dir/build.make CMakeFiles/afr_common.dir/build
+.PHONY : afr_common/fast
+
+#=============================================================================
+# Target rules for targets named afr_freertos_plus_tcp
+
+# Build rule for target.
+afr_freertos_plus_tcp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_freertos_plus_tcp
+.PHONY : afr_freertos_plus_tcp
+
+# fast build rule for target.
+afr_freertos_plus_tcp/fast:
+	$(MAKE) -f CMakeFiles/afr_freertos_plus_tcp.dir/build.make CMakeFiles/afr_freertos_plus_tcp.dir/build
+.PHONY : afr_freertos_plus_tcp/fast
+
+#=============================================================================
+# Target rules for targets named afr_platform
+
+# Build rule for target.
+afr_platform: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_platform
+.PHONY : afr_platform
+
+# fast build rule for target.
+afr_platform/fast:
+	$(MAKE) -f CMakeFiles/afr_platform.dir/build.make CMakeFiles/afr_platform.dir/build
+.PHONY : afr_platform/fast
+
+#=============================================================================
+# Target rules for targets named afr_dev_mode_key_provisioning
+
+# Build rule for target.
+afr_dev_mode_key_provisioning: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_dev_mode_key_provisioning
+.PHONY : afr_dev_mode_key_provisioning
+
+# fast build rule for target.
+afr_dev_mode_key_provisioning/fast:
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/build
+.PHONY : afr_dev_mode_key_provisioning/fast
+
+#=============================================================================
+# Target rules for targets named afr_secure_sockets
+
+# Build rule for target.
+afr_secure_sockets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_secure_sockets
+.PHONY : afr_secure_sockets
+
+# fast build rule for target.
+afr_secure_sockets/fast:
+	$(MAKE) -f CMakeFiles/afr_secure_sockets.dir/build.make CMakeFiles/afr_secure_sockets.dir/build
+.PHONY : afr_secure_sockets/fast
+
+#=============================================================================
+# Target rules for targets named afr_pkcs11_implementation
+
+# Build rule for target.
+afr_pkcs11_implementation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_pkcs11_implementation
+.PHONY : afr_pkcs11_implementation
+
+# fast build rule for target.
+afr_pkcs11_implementation/fast:
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/build
+.PHONY : afr_pkcs11_implementation/fast
+
+#=============================================================================
+# Target rules for targets named monitor
+
+# Build rule for target.
+monitor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monitor
+.PHONY : monitor
+
+# fast build rule for target.
+monitor/fast:
+	$(MAKE) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
+.PHONY : monitor/fast
 
 #=============================================================================
 # Target rules for targets named afr_3rdparty_tinycbor
@@ -422,6 +409,19 @@ afr_3rdparty_tinycbor: cmake_check_build_system
 afr_3rdparty_tinycbor/fast:
 	$(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build
 .PHONY : afr_3rdparty_tinycbor/fast
+
+#=============================================================================
+# Target rules for targets named afr_3rdparty_mbedtls
+
+# Build rule for target.
+afr_3rdparty_mbedtls: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 afr_3rdparty_mbedtls
+.PHONY : afr_3rdparty_mbedtls
+
+# fast build rule for target.
+afr_3rdparty_mbedtls/fast:
+	$(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build
+.PHONY : afr_3rdparty_mbedtls/fast
 
 #=============================================================================
 # Target rules for targets named bootloader-flash
@@ -450,43 +450,17 @@ app-flash/fast:
 .PHONY : app-flash/fast
 
 #=============================================================================
-# Target rules for targets named confserver
+# Target rules for targets named flash
 
 # Build rule for target.
-confserver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 confserver
-.PHONY : confserver
+flash: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flash
+.PHONY : flash
 
 # fast build rule for target.
-confserver/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/confserver.dir/build.make esp-idf/CMakeFiles/confserver.dir/build
-.PHONY : confserver/fast
-
-#=============================================================================
-# Target rules for targets named menuconfig
-
-# Build rule for target.
-menuconfig: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 menuconfig
-.PHONY : menuconfig
-
-# fast build rule for target.
-menuconfig/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/menuconfig.dir/build.make esp-idf/CMakeFiles/menuconfig.dir/build
-.PHONY : menuconfig/fast
-
-#=============================================================================
-# Target rules for targets named gen_secure_boot_signing_key
-
-# Build rule for target.
-gen_secure_boot_signing_key: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gen_secure_boot_signing_key
-.PHONY : gen_secure_boot_signing_key
-
-# fast build rule for target.
-gen_secure_boot_signing_key/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build.make esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build
-.PHONY : gen_secure_boot_signing_key/fast
+flash/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/flash.dir/build.make esp-idf/CMakeFiles/flash.dir/build
+.PHONY : flash/fast
 
 #=============================================================================
 # Target rules for targets named app
@@ -515,17 +489,43 @@ bootloader/fast:
 .PHONY : bootloader/fast
 
 #=============================================================================
-# Target rules for targets named flash
+# Target rules for targets named gen_secure_boot_signing_key
 
 # Build rule for target.
-flash: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 flash
-.PHONY : flash
+gen_secure_boot_signing_key: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gen_secure_boot_signing_key
+.PHONY : gen_secure_boot_signing_key
 
 # fast build rule for target.
-flash/fast:
-	$(MAKE) -f esp-idf/CMakeFiles/flash.dir/build.make esp-idf/CMakeFiles/flash.dir/build
-.PHONY : flash/fast
+gen_secure_boot_signing_key/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build.make esp-idf/CMakeFiles/gen_secure_boot_signing_key.dir/build
+.PHONY : gen_secure_boot_signing_key/fast
+
+#=============================================================================
+# Target rules for targets named confserver
+
+# Build rule for target.
+confserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 confserver
+.PHONY : confserver
+
+# fast build rule for target.
+confserver/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/confserver.dir/build.make esp-idf/CMakeFiles/confserver.dir/build
+.PHONY : confserver/fast
+
+#=============================================================================
+# Target rules for targets named menuconfig
+
+# Build rule for target.
+menuconfig: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 menuconfig
+.PHONY : menuconfig
+
+# fast build rule for target.
+menuconfig/fast:
+	$(MAKE) -f esp-idf/CMakeFiles/menuconfig.dir/build.make esp-idf/CMakeFiles/menuconfig.dir/build
+.PHONY : menuconfig/fast
 
 #=============================================================================
 # Target rules for targets named idf_component_soc
@@ -710,19 +710,6 @@ partition_table/fast:
 .PHONY : partition_table/fast
 
 #=============================================================================
-# Target rules for targets named idf_component_app_update
-
-# Build rule for target.
-idf_component_app_update: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 idf_component_app_update
-.PHONY : idf_component_app_update
-
-# fast build rule for target.
-idf_component_app_update/fast:
-	$(MAKE) -f esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build.make esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build
-.PHONY : idf_component_app_update/fast
-
-#=============================================================================
 # Target rules for targets named blank_ota_data
 
 # Build rule for target.
@@ -734,6 +721,19 @@ blank_ota_data: cmake_check_build_system
 blank_ota_data/fast:
 	$(MAKE) -f esp-idf/app_update/CMakeFiles/blank_ota_data.dir/build.make esp-idf/app_update/CMakeFiles/blank_ota_data.dir/build
 .PHONY : blank_ota_data/fast
+
+#=============================================================================
+# Target rules for targets named idf_component_app_update
+
+# Build rule for target.
+idf_component_app_update: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 idf_component_app_update
+.PHONY : idf_component_app_update
+
+# fast build rule for target.
+idf_component_app_update/fast:
+	$(MAKE) -f esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build.make esp-idf/app_update/CMakeFiles/idf_component_app_update.dir/build
+.PHONY : idf_component_app_update/fast
 
 #=============================================================================
 # Target rules for targets named idf_component_ethernet
@@ -801,19 +801,6 @@ idf_component_wpa_supplicant/fast:
 .PHONY : idf_component_wpa_supplicant/fast
 
 #=============================================================================
-# Target rules for targets named idf_component_esp32
-
-# Build rule for target.
-idf_component_esp32: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 idf_component_esp32
-.PHONY : idf_component_esp32
-
-# fast build rule for target.
-idf_component_esp32/fast:
-	$(MAKE) -f esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/build.make esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/build
-.PHONY : idf_component_esp32/fast
-
-#=============================================================================
 # Target rules for targets named esp32_linker_script
 
 # Build rule for target.
@@ -825,6 +812,19 @@ esp32_linker_script: cmake_check_build_system
 esp32_linker_script/fast:
 	$(MAKE) -f esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build.make esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build
 .PHONY : esp32_linker_script/fast
+
+#=============================================================================
+# Target rules for targets named idf_component_esp32
+
+# Build rule for target.
+idf_component_esp32: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 idf_component_esp32
+.PHONY : idf_component_esp32
+
+# fast build rule for target.
+idf_component_esp32/fast:
+	$(MAKE) -f esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/build.make esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/build
+.PHONY : idf_component_esp32/fast
 
 #=============================================================================
 # Target rules for targets named idf_component_cxx
@@ -3041,10 +3041,10 @@ libraries/freertos_plus/standard/utils/src/iot_pki_utils.obj: libraries/freertos
 
 # target to build an object file
 libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj:
+	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
 	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
 	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
-	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
 .PHONY : libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.obj
 
 libraries/freertos_plus/standard/utils/src/iot_pki_utils.i: libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
@@ -3053,10 +3053,10 @@ libraries/freertos_plus/standard/utils/src/iot_pki_utils.i: libraries/freertos_p
 
 # target to preprocess a source file
 libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i:
+	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
 	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
 	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
-	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
 .PHONY : libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.i
 
 libraries/freertos_plus/standard/utils/src/iot_pki_utils.s: libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
@@ -3065,10 +3065,10 @@ libraries/freertos_plus/standard/utils/src/iot_pki_utils.s: libraries/freertos_p
 
 # target to generate assembly for a file
 libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s:
+	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
 	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
 	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
-	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
 .PHONY : libraries/freertos_plus/standard/utils/src/iot_pki_utils.c.s
 
 libraries/freertos_plus/standard/utils/src/iot_system_init.obj: libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
@@ -3077,10 +3077,10 @@ libraries/freertos_plus/standard/utils/src/iot_system_init.obj: libraries/freert
 
 # target to build an object file
 libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj:
+	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
 	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
 	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
-	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
 .PHONY : libraries/freertos_plus/standard/utils/src/iot_system_init.c.obj
 
 libraries/freertos_plus/standard/utils/src/iot_system_init.i: libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
@@ -3089,10 +3089,10 @@ libraries/freertos_plus/standard/utils/src/iot_system_init.i: libraries/freertos
 
 # target to preprocess a source file
 libraries/freertos_plus/standard/utils/src/iot_system_init.c.i:
+	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
 	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
 	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
-	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
 .PHONY : libraries/freertos_plus/standard/utils/src/iot_system_init.c.i
 
 libraries/freertos_plus/standard/utils/src/iot_system_init.s: libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
@@ -3101,10 +3101,10 @@ libraries/freertos_plus/standard/utils/src/iot_system_init.s: libraries/freertos
 
 # target to generate assembly for a file
 libraries/freertos_plus/standard/utils/src/iot_system_init.c.s:
+	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
 	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
 	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
-	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
 .PHONY : libraries/freertos_plus/standard/utils/src/iot_system_init.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
@@ -3118,13 +3118,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
@@ -3138,13 +3138,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
@@ -3158,13 +3158,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
@@ -3178,13 +3178,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
@@ -3198,13 +3198,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
@@ -3218,13 +3218,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
@@ -3238,13 +3238,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
@@ -3258,13 +3258,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
@@ -3278,13 +3278,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
@@ -3298,13 +3298,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
@@ -3318,13 +3318,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
@@ -3338,13 +3338,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
@@ -3358,13 +3358,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
@@ -3378,13 +3378,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
@@ -3398,13 +3398,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
@@ -3418,13 +3418,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
@@ -3438,13 +3438,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
@@ -3458,13 +3458,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.obj: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
@@ -3478,13 +3478,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.i: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
@@ -3498,13 +3498,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 
 vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.s: vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
@@ -3518,13 +3518,13 @@ vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls
 	$(MAKE) -f CMakeFiles/afr_mqtt.dir/build.make CMakeFiles/afr_mqtt.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_hal.dir/build.make CMakeFiles/afr_ble_hal.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 	$(MAKE) -f CMakeFiles/afr_ble.dir/build.make CMakeFiles/afr_ble.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
-	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
-	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
-	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
-	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
-	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 	$(MAKE) -f CMakeFiles/afr_ble_wifi_provisioning.dir/build.make CMakeFiles/afr_ble_wifi_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 	$(MAKE) -f CMakeFiles/afr_tls.dir/build.make CMakeFiles/afr_tls.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
+	$(MAKE) -f CMakeFiles/afr_serializer.dir/build.make CMakeFiles/afr_serializer.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
+	$(MAKE) -f CMakeFiles/afr_crypto.dir/build.make CMakeFiles/afr_crypto.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
+	$(MAKE) -f CMakeFiles/aws_demos.dir/build.make CMakeFiles/aws_demos.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
+	$(MAKE) -f CMakeFiles/afr_dev_mode_key_provisioning.dir/build.make CMakeFiles/afr_dev_mode_key_provisioning.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
+	$(MAKE) -f CMakeFiles/afr_pkcs11_implementation.dir/build.make CMakeFiles/afr_pkcs11_implementation.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 .PHONY : vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 
 vendors/espressif/boards/esp32/aws_demos/application_code/main.obj: vendors/espressif/boards/esp32/aws_demos/application_code/main.c.obj
@@ -3749,40 +3749,40 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... afr_ota"
 	@echo "... afr_greengrass"
 	@echo "... afr_mqtt"
+	@echo "... afr_https"
 	@echo "... afr_ble_hal"
 	@echo "... afr_ble"
-	@echo "... afr_dev_mode_key_provisioning"
-	@echo "... afr_kernel"
-	@echo "... afr_platform"
-	@echo "... afr_pkcs11_implementation"
-	@echo "... monitor"
-	@echo "... afr_serializer"
-	@echo "... aws_demos"
-	@echo "... afr_wifi"
-	@echo "... afr_freertos_plus_tcp"
-	@echo "... mconf-idf"
-	@echo "... afr_crypto"
-	@echo "... afr_common"
-	@echo "... afr_pkcs11"
-	@echo "... afr_secure_sockets"
-	@echo "... afr_https"
 	@echo "... afr_ble_wifi_provisioning"
 	@echo "... afr_tls"
-	@echo "... afr_3rdparty_mbedtls"
+	@echo "... afr_serializer"
+	@echo "... afr_pkcs11"
+	@echo "... afr_crypto"
+	@echo "... aws_demos"
+	@echo "... afr_wifi"
+	@echo "... mconf-idf"
+	@echo "... afr_kernel"
+	@echo "... afr_common"
+	@echo "... afr_freertos_plus_tcp"
+	@echo "... afr_platform"
+	@echo "... afr_dev_mode_key_provisioning"
+	@echo "... afr_secure_sockets"
+	@echo "... afr_pkcs11_implementation"
+	@echo "... monitor"
 	@echo "... afr_3rdparty_tinycbor"
+	@echo "... afr_3rdparty_mbedtls"
 	@echo "... bootloader-flash"
 	@echo "... app-flash"
-	@echo "... confserver"
-	@echo "... menuconfig"
-	@echo "... gen_secure_boot_signing_key"
+	@echo "... flash"
 	@echo "... app"
 	@echo "... bootloader"
-	@echo "... flash"
+	@echo "... gen_secure_boot_signing_key"
+	@echo "... confserver"
+	@echo "... menuconfig"
 	@echo "... idf_component_soc"
 	@echo "... idf_component_log"
 	@echo "... idf_component_heap"
@@ -3797,15 +3797,15 @@ help:
 	@echo "... idf_component_bootloader_support"
 	@echo "... idf_component_spi_flash"
 	@echo "... partition_table"
-	@echo "... idf_component_app_update"
 	@echo "... blank_ota_data"
+	@echo "... idf_component_app_update"
 	@echo "... idf_component_ethernet"
 	@echo "... idf_component_nvs_flash"
 	@echo "... idf_component_pthread"
 	@echo "... idf_component_smartconfig_ack"
 	@echo "... idf_component_wpa_supplicant"
-	@echo "... idf_component_esp32"
 	@echo "... esp32_linker_script"
+	@echo "... idf_component_esp32"
 	@echo "... idf_component_cxx"
 	@echo "... idf_component_bt"
 	@echo "... idf_component_console"
@@ -4106,7 +4106,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

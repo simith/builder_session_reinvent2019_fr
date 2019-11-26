@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/pthread/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/pthread/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/rule
 .PHONY : esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_pthread: esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/rule
 
 # fast build rule for target.
 idf_component_pthread/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build
 .PHONY : idf_component_pthread/fast
 
 pthread.obj: pthread.c.obj
@@ -132,7 +132,7 @@ pthread.obj: pthread.c.obj
 
 # target to build an object file
 pthread.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.obj
 .PHONY : pthread.c.obj
 
 pthread.i: pthread.c.i
@@ -141,7 +141,7 @@ pthread.i: pthread.c.i
 
 # target to preprocess a source file
 pthread.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.i
 .PHONY : pthread.c.i
 
 pthread.s: pthread.c.s
@@ -150,7 +150,7 @@ pthread.s: pthread.c.s
 
 # target to generate assembly for a file
 pthread.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread.c.s
 .PHONY : pthread.c.s
 
 pthread_cond_var.obj: pthread_cond_var.c.obj
@@ -159,7 +159,7 @@ pthread_cond_var.obj: pthread_cond_var.c.obj
 
 # target to build an object file
 pthread_cond_var.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj
 .PHONY : pthread_cond_var.c.obj
 
 pthread_cond_var.i: pthread_cond_var.c.i
@@ -168,7 +168,7 @@ pthread_cond_var.i: pthread_cond_var.c.i
 
 # target to preprocess a source file
 pthread_cond_var.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.i
 .PHONY : pthread_cond_var.c.i
 
 pthread_cond_var.s: pthread_cond_var.c.s
@@ -177,7 +177,7 @@ pthread_cond_var.s: pthread_cond_var.c.s
 
 # target to generate assembly for a file
 pthread_cond_var.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.s
 .PHONY : pthread_cond_var.c.s
 
 pthread_local_storage.obj: pthread_local_storage.c.obj
@@ -186,7 +186,7 @@ pthread_local_storage.obj: pthread_local_storage.c.obj
 
 # target to build an object file
 pthread_local_storage.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
 .PHONY : pthread_local_storage.c.obj
 
 pthread_local_storage.i: pthread_local_storage.c.i
@@ -195,7 +195,7 @@ pthread_local_storage.i: pthread_local_storage.c.i
 
 # target to preprocess a source file
 pthread_local_storage.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.i
 .PHONY : pthread_local_storage.c.i
 
 pthread_local_storage.s: pthread_local_storage.c.s
@@ -204,7 +204,7 @@ pthread_local_storage.s: pthread_local_storage.c.s
 
 # target to generate assembly for a file
 pthread_local_storage.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/build.make esp-idf/pthread/CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.s
 .PHONY : pthread_local_storage.c.s
 
 # Help Target
@@ -214,8 +214,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_pthread"
 	@echo "... edit_cache"
+	@echo "... idf_component_pthread"
 	@echo "... pthread.obj"
 	@echo "... pthread.i"
 	@echo "... pthread.s"
@@ -236,7 +236,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

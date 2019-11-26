@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos
+# Install script for directory: /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/demos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/ble/cmake_install.cmake")
-  include("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/dev_mode_key_provisioning/cmake_install.cmake")
-  include("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/mqtt/cmake_install.cmake")
-  include("/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/ota/cmake_install.cmake")
+  include("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/ble/cmake_install.cmake")
+  include("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/dev_mode_key_provisioning/cmake_install.cmake")
+  include("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/mqtt/cmake_install.cmake")
+  include("/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/demos/ota/cmake_install.cmake")
 
 endif()
 

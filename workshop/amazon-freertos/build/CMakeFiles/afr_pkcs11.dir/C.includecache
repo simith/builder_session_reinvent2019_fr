@@ -150,6 +150,8 @@ mpu_wrappers.h
 
 ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
 
+../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
+
 ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 
 ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
@@ -698,13 +700,13 @@ sdkconfig.h
 esp_attr.h
 ../vendors/espressif/esp-idf/components/soc/include/soc/esp_attr.h
 
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.c
 iot_pkcs11_config.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11_config.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11_config.h
 iot_pkcs11.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/iot_pkcs11.h
 FreeRTOS.h
-/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/FreeRTOS.h
+/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/FreeRTOS.h
 stdio.h
 -
 stdint.h

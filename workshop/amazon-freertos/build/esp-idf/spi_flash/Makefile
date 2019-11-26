@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/spi_flash/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/spi_flash/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/rule
 .PHONY : esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_spi_flash: esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.di
 
 # fast build rule for target.
 idf_component_spi_flash/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build
 .PHONY : idf_component_spi_flash/fast
 
 cache_utils.obj: cache_utils.c.obj
@@ -132,7 +132,7 @@ cache_utils.obj: cache_utils.c.obj
 
 # target to build an object file
 cache_utils.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.obj
 .PHONY : cache_utils.c.obj
 
 cache_utils.i: cache_utils.c.i
@@ -141,7 +141,7 @@ cache_utils.i: cache_utils.c.i
 
 # target to preprocess a source file
 cache_utils.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.i
 .PHONY : cache_utils.c.i
 
 cache_utils.s: cache_utils.c.s
@@ -150,7 +150,7 @@ cache_utils.s: cache_utils.c.s
 
 # target to generate assembly for a file
 cache_utils.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/cache_utils.c.s
 .PHONY : cache_utils.c.s
 
 flash_mmap.obj: flash_mmap.c.obj
@@ -159,7 +159,7 @@ flash_mmap.obj: flash_mmap.c.obj
 
 # target to build an object file
 flash_mmap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.obj
 .PHONY : flash_mmap.c.obj
 
 flash_mmap.i: flash_mmap.c.i
@@ -168,7 +168,7 @@ flash_mmap.i: flash_mmap.c.i
 
 # target to preprocess a source file
 flash_mmap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.i
 .PHONY : flash_mmap.c.i
 
 flash_mmap.s: flash_mmap.c.s
@@ -177,7 +177,7 @@ flash_mmap.s: flash_mmap.c.s
 
 # target to generate assembly for a file
 flash_mmap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_mmap.c.s
 .PHONY : flash_mmap.c.s
 
 flash_ops.obj: flash_ops.c.obj
@@ -186,7 +186,7 @@ flash_ops.obj: flash_ops.c.obj
 
 # target to build an object file
 flash_ops.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.obj
 .PHONY : flash_ops.c.obj
 
 flash_ops.i: flash_ops.c.i
@@ -195,7 +195,7 @@ flash_ops.i: flash_ops.c.i
 
 # target to preprocess a source file
 flash_ops.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.i
 .PHONY : flash_ops.c.i
 
 flash_ops.s: flash_ops.c.s
@@ -204,7 +204,7 @@ flash_ops.s: flash_ops.c.s
 
 # target to generate assembly for a file
 flash_ops.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/flash_ops.c.s
 .PHONY : flash_ops.c.s
 
 partition.obj: partition.c.obj
@@ -213,7 +213,7 @@ partition.obj: partition.c.obj
 
 # target to build an object file
 partition.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.obj
 .PHONY : partition.c.obj
 
 partition.i: partition.c.i
@@ -222,7 +222,7 @@ partition.i: partition.c.i
 
 # target to preprocess a source file
 partition.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.i
 .PHONY : partition.c.i
 
 partition.s: partition.c.s
@@ -231,7 +231,7 @@ partition.s: partition.c.s
 
 # target to generate assembly for a file
 partition.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/partition.c.s
 .PHONY : partition.c.s
 
 spi_flash_rom_patch.obj: spi_flash_rom_patch.c.obj
@@ -240,7 +240,7 @@ spi_flash_rom_patch.obj: spi_flash_rom_patch.c.obj
 
 # target to build an object file
 spi_flash_rom_patch.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.obj
 .PHONY : spi_flash_rom_patch.c.obj
 
 spi_flash_rom_patch.i: spi_flash_rom_patch.c.i
@@ -249,7 +249,7 @@ spi_flash_rom_patch.i: spi_flash_rom_patch.c.i
 
 # target to preprocess a source file
 spi_flash_rom_patch.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.i
 .PHONY : spi_flash_rom_patch.c.i
 
 spi_flash_rom_patch.s: spi_flash_rom_patch.c.s
@@ -258,7 +258,7 @@ spi_flash_rom_patch.s: spi_flash_rom_patch.c.s
 
 # target to generate assembly for a file
 spi_flash_rom_patch.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/idf_component_spi_flash.dir/spi_flash_rom_patch.c.s
 .PHONY : spi_flash_rom_patch.c.s
 
 # Help Target
@@ -268,8 +268,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_spi_flash"
 	@echo "... edit_cache"
+	@echo "... idf_component_spi_flash"
 	@echo "... cache_utils.obj"
 	@echo "... cache_utils.i"
 	@echo "... cache_utils.s"
@@ -296,7 +296,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

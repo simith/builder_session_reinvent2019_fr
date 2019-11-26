@@ -12,6 +12,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/esp-hci/src/esp_nimble_hci.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -149,6 +150,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/a
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -281,6 +283,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/b
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -413,6 +416,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/g
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -545,6 +549,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/g
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -677,6 +682,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/i
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -809,6 +815,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/l
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -941,6 +948,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/t
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1074,6 +1082,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_at
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1228,6 +1237,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_at
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_clt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1382,6 +1392,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_at
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_cmd.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1536,6 +1547,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_at
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_att_svr.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1690,6 +1702,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ed
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_eddystone.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1842,6 +1855,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ga
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1996,6 +2010,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ga
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gattc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2150,6 +2165,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ga
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2302,6 +2318,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ga
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_gatts_lcl.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2455,6 +2472,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2613,6 +2631,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_adv.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2767,6 +2786,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_atomic.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2919,6 +2939,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_cfg.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3049,6 +3070,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_conn.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3203,6 +3225,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_dbg.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3356,6 +3379,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_flow.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3509,6 +3533,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3666,6 +3691,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3822,6 +3848,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_evt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3977,6 +4004,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_hci_util.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4129,6 +4157,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_id.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4281,6 +4310,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_log.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4411,6 +4441,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mbuf.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4563,6 +4594,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_misc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4715,6 +4747,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_mqueue.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -4867,6 +4900,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_pvcy.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5019,6 +5053,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_shutdown.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5171,6 +5206,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_startup.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5323,6 +5359,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_hs_stop.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5476,6 +5513,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ib
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_ibeacon.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5628,6 +5666,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5782,6 +5821,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_coc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -5936,6 +5976,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -6090,6 +6131,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -6242,6 +6284,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_mo
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_monitor.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -6395,6 +6438,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -6549,6 +6593,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_alg.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -6731,6 +6776,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_cmd.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -6885,6 +6931,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_lgcy.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7039,6 +7086,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_sm_sc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7191,6 +7239,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_st
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7343,6 +7392,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_st
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_store_util.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7495,6 +7545,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uu
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/src/ble_uuid.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7649,6 +7700,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/conf
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_config.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7782,6 +7834,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/conf
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -7916,6 +7969,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8048,6 +8102,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/a
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/host/util/src/addr.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8179,6 +8234,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/nimble/src/ble_util.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8295,6 +8351,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/hal_timer.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8404,6 +8461,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/mem.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8511,6 +8569,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nim
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/nimble_port.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8643,6 +8702,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8751,6 +8811,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_cputime_pwr2.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8859,6 +8920,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mbuf.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -8966,6 +9028,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_mempool.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -9072,6 +9135,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/nimble/src/os_msys_init.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -9179,6 +9243,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/s
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -9276,6 +9341,7 @@ esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/s
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/include/task.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/nimble/CMakeFiles/idf_component_nimble.dir/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

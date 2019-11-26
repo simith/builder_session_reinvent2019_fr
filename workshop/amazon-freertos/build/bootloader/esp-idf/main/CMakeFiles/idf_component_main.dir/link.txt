@@ -1,2 +1,2 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libmain.a  CMakeFiles/idf_component_main.dir/bootloader_start.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libmain.a
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libmain.a  CMakeFiles/idf_component_main.dir/bootloader_start.c.obj
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libmain.a

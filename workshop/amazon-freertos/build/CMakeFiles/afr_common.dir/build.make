@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/afr_common.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/afr_common.dir/flags.make
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj: ../libraries/c_sdk/standard/common/iot_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.s
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj: ../libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.s
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj: ../libraries/c_sdk/standard/common/logging/iot_logging.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.s
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj: ../libraries/c_sdk/standard/common/iot_static_memory_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.s
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj: ../libraries/c_sdk/standard/common/iot_device_metrics.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.s
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj: ../libraries/c_sdk/standard/common/taskpool/iot_taskpool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.s
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: CMakeFiles/afr_common.dir/flags.make
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj: ../libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj   -c /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj"
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj   -c /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.i"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.i
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c > CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.i
 
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.s"
-	/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.s
+	/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c -o CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.s
 
 # Object files for target afr_common
 afr_common_OBJECTS = \
@@ -170,7 +170,7 @@ afr_common.a: CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool
 afr_common.a: CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj
 afr_common.a: CMakeFiles/afr_common.dir/build.make
 afr_common.a: CMakeFiles/afr_common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library afr_common.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library afr_common.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/afr_common.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/afr_common.dir/link.txt --verbose=$(VERBOSE)
 
@@ -184,6 +184,6 @@ CMakeFiles/afr_common.dir/clean:
 .PHONY : CMakeFiles/afr_common.dir/clean
 
 CMakeFiles/afr_common.dir/depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/afr_common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/afr_common.dir/depend
 

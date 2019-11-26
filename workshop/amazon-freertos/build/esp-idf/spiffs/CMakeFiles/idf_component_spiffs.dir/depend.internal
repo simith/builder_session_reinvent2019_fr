@@ -12,6 +12,7 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/esp_spiffs.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -116,8 +117,8 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/esp_spiffs.c.obj
  ../vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/esp_spiffs.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs_api.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/esp_spiffs.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs_api.h
  config/sdkconfig.h
 esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_cache.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -154,9 +155,9 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_cache.c.obj
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spiffs/include/spiffs_config.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
  config/sdkconfig.h
 esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_check.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -193,9 +194,9 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_check.c.obj
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spiffs/include/spiffs_config.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_check.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_check.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
  config/sdkconfig.h
 esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_gc.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -232,9 +233,9 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_gc.c.obj
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spiffs/include/spiffs_config.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
  config/sdkconfig.h
 esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -271,9 +272,9 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_hydrogen.c.
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spiffs/include/spiffs_config.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
  config/sdkconfig.h
 esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
  ../vendors/espressif/esp-idf/components/esp32/include/esp_assert.h
@@ -310,9 +311,9 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs/src/spiffs_nucleus.c.o
  ../vendors/espressif/esp-idf/components/newlib/platform_include/sys/unistd.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spiffs/include/spiffs_config.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
  config/sdkconfig.h
 esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs_api.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -325,6 +326,7 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs_api.c.obj
  ../freertos_kernel/include/semphr.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -420,6 +422,6 @@ esp-idf/spiffs/CMakeFiles/idf_component_spiffs.dir/spiffs_api.c.obj
  ../vendors/espressif/esp-idf/components/spiffs/spiffs/src/spiffs.h
  ../vendors/espressif/esp-idf/components/vfs/include/esp_vfs.h
  ../vendors/espressif/esp-idf/components/vfs/include/sys/dirent.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs_api.c
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs_api.h
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs_api.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/spiffs/spiffs_api.h
  config/sdkconfig.h

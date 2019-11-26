@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/libraries/3rdparty/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,38 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule
-.PHONY : libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule
-
-# Convenience name for target.
-afr_3rdparty_mbedtls: libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule
-
-.PHONY : afr_3rdparty_mbedtls
-
-# fast build rule for target.
-afr_3rdparty_mbedtls/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build
-.PHONY : afr_3rdparty_mbedtls/fast
-
-# Convenience name for target.
 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/rule
 .PHONY : libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/rule
 
 # Convenience name for target.
@@ -138,8 +123,23 @@ afr_3rdparty_tinycbor: libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/r
 
 # fast build rule for target.
 afr_3rdparty_tinycbor/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build
 .PHONY : afr_3rdparty_tinycbor/fast
+
+# Convenience name for target.
+libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule
+.PHONY : libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule
+
+# Convenience name for target.
+afr_3rdparty_mbedtls: libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/rule
+
+.PHONY : afr_3rdparty_mbedtls
+
+# fast build rule for target.
+afr_3rdparty_mbedtls/fast:
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build
+.PHONY : afr_3rdparty_mbedtls/fast
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 
@@ -147,7 +147,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
@@ -156,7 +156,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
@@ -165,7 +165,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.s
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
@@ -174,7 +174,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
@@ -183,7 +183,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
@@ -192,7 +192,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_hardware.c.s
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
@@ -201,7 +201,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
@@ -210,7 +210,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
@@ -219,7 +219,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_mem.c.s
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
@@ -228,7 +228,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
@@ -237,7 +237,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
@@ -246,7 +246,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha1.c.s
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
@@ -255,7 +255,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
@@ -264,7 +264,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
@@ -273,7 +273,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha256.c.s
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
@@ -282,7 +282,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
@@ -291,7 +291,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
@@ -300,7 +300,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_sha512.c.s
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.obj: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
@@ -309,7 +309,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to build an object file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.i: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
@@ -318,7 +318,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to preprocess a source file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.i
 
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.s: __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
@@ -327,7 +327,7 @@ __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/m
 
 # target to generate assembly for a file
 __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/__/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 .PHONY : __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.s
 
 mbedtls/library/aes.obj: mbedtls/library/aes.c.obj
@@ -336,7 +336,7 @@ mbedtls/library/aes.obj: mbedtls/library/aes.c.obj
 
 # target to build an object file
 mbedtls/library/aes.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aes.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aes.c.obj
 .PHONY : mbedtls/library/aes.c.obj
 
 mbedtls/library/aes.i: mbedtls/library/aes.c.i
@@ -345,7 +345,7 @@ mbedtls/library/aes.i: mbedtls/library/aes.c.i
 
 # target to preprocess a source file
 mbedtls/library/aes.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aes.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aes.c.i
 .PHONY : mbedtls/library/aes.c.i
 
 mbedtls/library/aes.s: mbedtls/library/aes.c.s
@@ -354,7 +354,7 @@ mbedtls/library/aes.s: mbedtls/library/aes.c.s
 
 # target to generate assembly for a file
 mbedtls/library/aes.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aes.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aes.c.s
 .PHONY : mbedtls/library/aes.c.s
 
 mbedtls/library/aesni.obj: mbedtls/library/aesni.c.obj
@@ -363,7 +363,7 @@ mbedtls/library/aesni.obj: mbedtls/library/aesni.c.obj
 
 # target to build an object file
 mbedtls/library/aesni.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aesni.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aesni.c.obj
 .PHONY : mbedtls/library/aesni.c.obj
 
 mbedtls/library/aesni.i: mbedtls/library/aesni.c.i
@@ -372,7 +372,7 @@ mbedtls/library/aesni.i: mbedtls/library/aesni.c.i
 
 # target to preprocess a source file
 mbedtls/library/aesni.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aesni.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aesni.c.i
 .PHONY : mbedtls/library/aesni.c.i
 
 mbedtls/library/aesni.s: mbedtls/library/aesni.c.s
@@ -381,7 +381,7 @@ mbedtls/library/aesni.s: mbedtls/library/aesni.c.s
 
 # target to generate assembly for a file
 mbedtls/library/aesni.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aesni.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/aesni.c.s
 .PHONY : mbedtls/library/aesni.c.s
 
 mbedtls/library/arc4.obj: mbedtls/library/arc4.c.obj
@@ -390,7 +390,7 @@ mbedtls/library/arc4.obj: mbedtls/library/arc4.c.obj
 
 # target to build an object file
 mbedtls/library/arc4.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/arc4.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/arc4.c.obj
 .PHONY : mbedtls/library/arc4.c.obj
 
 mbedtls/library/arc4.i: mbedtls/library/arc4.c.i
@@ -399,7 +399,7 @@ mbedtls/library/arc4.i: mbedtls/library/arc4.c.i
 
 # target to preprocess a source file
 mbedtls/library/arc4.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/arc4.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/arc4.c.i
 .PHONY : mbedtls/library/arc4.c.i
 
 mbedtls/library/arc4.s: mbedtls/library/arc4.c.s
@@ -408,7 +408,7 @@ mbedtls/library/arc4.s: mbedtls/library/arc4.c.s
 
 # target to generate assembly for a file
 mbedtls/library/arc4.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/arc4.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/arc4.c.s
 .PHONY : mbedtls/library/arc4.c.s
 
 mbedtls/library/asn1parse.obj: mbedtls/library/asn1parse.c.obj
@@ -417,7 +417,7 @@ mbedtls/library/asn1parse.obj: mbedtls/library/asn1parse.c.obj
 
 # target to build an object file
 mbedtls/library/asn1parse.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1parse.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1parse.c.obj
 .PHONY : mbedtls/library/asn1parse.c.obj
 
 mbedtls/library/asn1parse.i: mbedtls/library/asn1parse.c.i
@@ -426,7 +426,7 @@ mbedtls/library/asn1parse.i: mbedtls/library/asn1parse.c.i
 
 # target to preprocess a source file
 mbedtls/library/asn1parse.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1parse.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1parse.c.i
 .PHONY : mbedtls/library/asn1parse.c.i
 
 mbedtls/library/asn1parse.s: mbedtls/library/asn1parse.c.s
@@ -435,7 +435,7 @@ mbedtls/library/asn1parse.s: mbedtls/library/asn1parse.c.s
 
 # target to generate assembly for a file
 mbedtls/library/asn1parse.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1parse.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1parse.c.s
 .PHONY : mbedtls/library/asn1parse.c.s
 
 mbedtls/library/asn1write.obj: mbedtls/library/asn1write.c.obj
@@ -444,7 +444,7 @@ mbedtls/library/asn1write.obj: mbedtls/library/asn1write.c.obj
 
 # target to build an object file
 mbedtls/library/asn1write.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1write.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1write.c.obj
 .PHONY : mbedtls/library/asn1write.c.obj
 
 mbedtls/library/asn1write.i: mbedtls/library/asn1write.c.i
@@ -453,7 +453,7 @@ mbedtls/library/asn1write.i: mbedtls/library/asn1write.c.i
 
 # target to preprocess a source file
 mbedtls/library/asn1write.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1write.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1write.c.i
 .PHONY : mbedtls/library/asn1write.c.i
 
 mbedtls/library/asn1write.s: mbedtls/library/asn1write.c.s
@@ -462,7 +462,7 @@ mbedtls/library/asn1write.s: mbedtls/library/asn1write.c.s
 
 # target to generate assembly for a file
 mbedtls/library/asn1write.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1write.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/asn1write.c.s
 .PHONY : mbedtls/library/asn1write.c.s
 
 mbedtls/library/base64.obj: mbedtls/library/base64.c.obj
@@ -471,7 +471,7 @@ mbedtls/library/base64.obj: mbedtls/library/base64.c.obj
 
 # target to build an object file
 mbedtls/library/base64.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/base64.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/base64.c.obj
 .PHONY : mbedtls/library/base64.c.obj
 
 mbedtls/library/base64.i: mbedtls/library/base64.c.i
@@ -480,7 +480,7 @@ mbedtls/library/base64.i: mbedtls/library/base64.c.i
 
 # target to preprocess a source file
 mbedtls/library/base64.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/base64.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/base64.c.i
 .PHONY : mbedtls/library/base64.c.i
 
 mbedtls/library/base64.s: mbedtls/library/base64.c.s
@@ -489,7 +489,7 @@ mbedtls/library/base64.s: mbedtls/library/base64.c.s
 
 # target to generate assembly for a file
 mbedtls/library/base64.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/base64.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/base64.c.s
 .PHONY : mbedtls/library/base64.c.s
 
 mbedtls/library/bignum.obj: mbedtls/library/bignum.c.obj
@@ -498,7 +498,7 @@ mbedtls/library/bignum.obj: mbedtls/library/bignum.c.obj
 
 # target to build an object file
 mbedtls/library/bignum.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/bignum.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/bignum.c.obj
 .PHONY : mbedtls/library/bignum.c.obj
 
 mbedtls/library/bignum.i: mbedtls/library/bignum.c.i
@@ -507,7 +507,7 @@ mbedtls/library/bignum.i: mbedtls/library/bignum.c.i
 
 # target to preprocess a source file
 mbedtls/library/bignum.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/bignum.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/bignum.c.i
 .PHONY : mbedtls/library/bignum.c.i
 
 mbedtls/library/bignum.s: mbedtls/library/bignum.c.s
@@ -516,7 +516,7 @@ mbedtls/library/bignum.s: mbedtls/library/bignum.c.s
 
 # target to generate assembly for a file
 mbedtls/library/bignum.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/bignum.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/bignum.c.s
 .PHONY : mbedtls/library/bignum.c.s
 
 mbedtls/library/blowfish.obj: mbedtls/library/blowfish.c.obj
@@ -525,7 +525,7 @@ mbedtls/library/blowfish.obj: mbedtls/library/blowfish.c.obj
 
 # target to build an object file
 mbedtls/library/blowfish.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/blowfish.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/blowfish.c.obj
 .PHONY : mbedtls/library/blowfish.c.obj
 
 mbedtls/library/blowfish.i: mbedtls/library/blowfish.c.i
@@ -534,7 +534,7 @@ mbedtls/library/blowfish.i: mbedtls/library/blowfish.c.i
 
 # target to preprocess a source file
 mbedtls/library/blowfish.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/blowfish.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/blowfish.c.i
 .PHONY : mbedtls/library/blowfish.c.i
 
 mbedtls/library/blowfish.s: mbedtls/library/blowfish.c.s
@@ -543,7 +543,7 @@ mbedtls/library/blowfish.s: mbedtls/library/blowfish.c.s
 
 # target to generate assembly for a file
 mbedtls/library/blowfish.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/blowfish.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/blowfish.c.s
 .PHONY : mbedtls/library/blowfish.c.s
 
 mbedtls/library/camellia.obj: mbedtls/library/camellia.c.obj
@@ -552,7 +552,7 @@ mbedtls/library/camellia.obj: mbedtls/library/camellia.c.obj
 
 # target to build an object file
 mbedtls/library/camellia.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/camellia.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/camellia.c.obj
 .PHONY : mbedtls/library/camellia.c.obj
 
 mbedtls/library/camellia.i: mbedtls/library/camellia.c.i
@@ -561,7 +561,7 @@ mbedtls/library/camellia.i: mbedtls/library/camellia.c.i
 
 # target to preprocess a source file
 mbedtls/library/camellia.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/camellia.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/camellia.c.i
 .PHONY : mbedtls/library/camellia.c.i
 
 mbedtls/library/camellia.s: mbedtls/library/camellia.c.s
@@ -570,7 +570,7 @@ mbedtls/library/camellia.s: mbedtls/library/camellia.c.s
 
 # target to generate assembly for a file
 mbedtls/library/camellia.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/camellia.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/camellia.c.s
 .PHONY : mbedtls/library/camellia.c.s
 
 mbedtls/library/ccm.obj: mbedtls/library/ccm.c.obj
@@ -579,7 +579,7 @@ mbedtls/library/ccm.obj: mbedtls/library/ccm.c.obj
 
 # target to build an object file
 mbedtls/library/ccm.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ccm.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ccm.c.obj
 .PHONY : mbedtls/library/ccm.c.obj
 
 mbedtls/library/ccm.i: mbedtls/library/ccm.c.i
@@ -588,7 +588,7 @@ mbedtls/library/ccm.i: mbedtls/library/ccm.c.i
 
 # target to preprocess a source file
 mbedtls/library/ccm.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ccm.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ccm.c.i
 .PHONY : mbedtls/library/ccm.c.i
 
 mbedtls/library/ccm.s: mbedtls/library/ccm.c.s
@@ -597,7 +597,7 @@ mbedtls/library/ccm.s: mbedtls/library/ccm.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ccm.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ccm.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ccm.c.s
 .PHONY : mbedtls/library/ccm.c.s
 
 mbedtls/library/certs.obj: mbedtls/library/certs.c.obj
@@ -606,7 +606,7 @@ mbedtls/library/certs.obj: mbedtls/library/certs.c.obj
 
 # target to build an object file
 mbedtls/library/certs.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/certs.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/certs.c.obj
 .PHONY : mbedtls/library/certs.c.obj
 
 mbedtls/library/certs.i: mbedtls/library/certs.c.i
@@ -615,7 +615,7 @@ mbedtls/library/certs.i: mbedtls/library/certs.c.i
 
 # target to preprocess a source file
 mbedtls/library/certs.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/certs.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/certs.c.i
 .PHONY : mbedtls/library/certs.c.i
 
 mbedtls/library/certs.s: mbedtls/library/certs.c.s
@@ -624,7 +624,7 @@ mbedtls/library/certs.s: mbedtls/library/certs.c.s
 
 # target to generate assembly for a file
 mbedtls/library/certs.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/certs.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/certs.c.s
 .PHONY : mbedtls/library/certs.c.s
 
 mbedtls/library/cipher.obj: mbedtls/library/cipher.c.obj
@@ -633,7 +633,7 @@ mbedtls/library/cipher.obj: mbedtls/library/cipher.c.obj
 
 # target to build an object file
 mbedtls/library/cipher.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher.c.obj
 .PHONY : mbedtls/library/cipher.c.obj
 
 mbedtls/library/cipher.i: mbedtls/library/cipher.c.i
@@ -642,7 +642,7 @@ mbedtls/library/cipher.i: mbedtls/library/cipher.c.i
 
 # target to preprocess a source file
 mbedtls/library/cipher.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher.c.i
 .PHONY : mbedtls/library/cipher.c.i
 
 mbedtls/library/cipher.s: mbedtls/library/cipher.c.s
@@ -651,7 +651,7 @@ mbedtls/library/cipher.s: mbedtls/library/cipher.c.s
 
 # target to generate assembly for a file
 mbedtls/library/cipher.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher.c.s
 .PHONY : mbedtls/library/cipher.c.s
 
 mbedtls/library/cipher_wrap.obj: mbedtls/library/cipher_wrap.c.obj
@@ -660,7 +660,7 @@ mbedtls/library/cipher_wrap.obj: mbedtls/library/cipher_wrap.c.obj
 
 # target to build an object file
 mbedtls/library/cipher_wrap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher_wrap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher_wrap.c.obj
 .PHONY : mbedtls/library/cipher_wrap.c.obj
 
 mbedtls/library/cipher_wrap.i: mbedtls/library/cipher_wrap.c.i
@@ -669,7 +669,7 @@ mbedtls/library/cipher_wrap.i: mbedtls/library/cipher_wrap.c.i
 
 # target to preprocess a source file
 mbedtls/library/cipher_wrap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher_wrap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher_wrap.c.i
 .PHONY : mbedtls/library/cipher_wrap.c.i
 
 mbedtls/library/cipher_wrap.s: mbedtls/library/cipher_wrap.c.s
@@ -678,7 +678,7 @@ mbedtls/library/cipher_wrap.s: mbedtls/library/cipher_wrap.c.s
 
 # target to generate assembly for a file
 mbedtls/library/cipher_wrap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher_wrap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cipher_wrap.c.s
 .PHONY : mbedtls/library/cipher_wrap.c.s
 
 mbedtls/library/cmac.obj: mbedtls/library/cmac.c.obj
@@ -687,7 +687,7 @@ mbedtls/library/cmac.obj: mbedtls/library/cmac.c.obj
 
 # target to build an object file
 mbedtls/library/cmac.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cmac.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cmac.c.obj
 .PHONY : mbedtls/library/cmac.c.obj
 
 mbedtls/library/cmac.i: mbedtls/library/cmac.c.i
@@ -696,7 +696,7 @@ mbedtls/library/cmac.i: mbedtls/library/cmac.c.i
 
 # target to preprocess a source file
 mbedtls/library/cmac.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cmac.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cmac.c.i
 .PHONY : mbedtls/library/cmac.c.i
 
 mbedtls/library/cmac.s: mbedtls/library/cmac.c.s
@@ -705,7 +705,7 @@ mbedtls/library/cmac.s: mbedtls/library/cmac.c.s
 
 # target to generate assembly for a file
 mbedtls/library/cmac.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cmac.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/cmac.c.s
 .PHONY : mbedtls/library/cmac.c.s
 
 mbedtls/library/ctr_drbg.obj: mbedtls/library/ctr_drbg.c.obj
@@ -714,7 +714,7 @@ mbedtls/library/ctr_drbg.obj: mbedtls/library/ctr_drbg.c.obj
 
 # target to build an object file
 mbedtls/library/ctr_drbg.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.obj
 .PHONY : mbedtls/library/ctr_drbg.c.obj
 
 mbedtls/library/ctr_drbg.i: mbedtls/library/ctr_drbg.c.i
@@ -723,7 +723,7 @@ mbedtls/library/ctr_drbg.i: mbedtls/library/ctr_drbg.c.i
 
 # target to preprocess a source file
 mbedtls/library/ctr_drbg.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.i
 .PHONY : mbedtls/library/ctr_drbg.c.i
 
 mbedtls/library/ctr_drbg.s: mbedtls/library/ctr_drbg.c.s
@@ -732,7 +732,7 @@ mbedtls/library/ctr_drbg.s: mbedtls/library/ctr_drbg.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ctr_drbg.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ctr_drbg.c.s
 .PHONY : mbedtls/library/ctr_drbg.c.s
 
 mbedtls/library/debug.obj: mbedtls/library/debug.c.obj
@@ -741,7 +741,7 @@ mbedtls/library/debug.obj: mbedtls/library/debug.c.obj
 
 # target to build an object file
 mbedtls/library/debug.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.obj
 .PHONY : mbedtls/library/debug.c.obj
 
 mbedtls/library/debug.i: mbedtls/library/debug.c.i
@@ -750,7 +750,7 @@ mbedtls/library/debug.i: mbedtls/library/debug.c.i
 
 # target to preprocess a source file
 mbedtls/library/debug.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.i
 .PHONY : mbedtls/library/debug.c.i
 
 mbedtls/library/debug.s: mbedtls/library/debug.c.s
@@ -759,7 +759,7 @@ mbedtls/library/debug.s: mbedtls/library/debug.c.s
 
 # target to generate assembly for a file
 mbedtls/library/debug.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/debug.c.s
 .PHONY : mbedtls/library/debug.c.s
 
 mbedtls/library/des.obj: mbedtls/library/des.c.obj
@@ -768,7 +768,7 @@ mbedtls/library/des.obj: mbedtls/library/des.c.obj
 
 # target to build an object file
 mbedtls/library/des.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/des.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/des.c.obj
 .PHONY : mbedtls/library/des.c.obj
 
 mbedtls/library/des.i: mbedtls/library/des.c.i
@@ -777,7 +777,7 @@ mbedtls/library/des.i: mbedtls/library/des.c.i
 
 # target to preprocess a source file
 mbedtls/library/des.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/des.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/des.c.i
 .PHONY : mbedtls/library/des.c.i
 
 mbedtls/library/des.s: mbedtls/library/des.c.s
@@ -786,7 +786,7 @@ mbedtls/library/des.s: mbedtls/library/des.c.s
 
 # target to generate assembly for a file
 mbedtls/library/des.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/des.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/des.c.s
 .PHONY : mbedtls/library/des.c.s
 
 mbedtls/library/dhm.obj: mbedtls/library/dhm.c.obj
@@ -795,7 +795,7 @@ mbedtls/library/dhm.obj: mbedtls/library/dhm.c.obj
 
 # target to build an object file
 mbedtls/library/dhm.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/dhm.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/dhm.c.obj
 .PHONY : mbedtls/library/dhm.c.obj
 
 mbedtls/library/dhm.i: mbedtls/library/dhm.c.i
@@ -804,7 +804,7 @@ mbedtls/library/dhm.i: mbedtls/library/dhm.c.i
 
 # target to preprocess a source file
 mbedtls/library/dhm.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/dhm.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/dhm.c.i
 .PHONY : mbedtls/library/dhm.c.i
 
 mbedtls/library/dhm.s: mbedtls/library/dhm.c.s
@@ -813,7 +813,7 @@ mbedtls/library/dhm.s: mbedtls/library/dhm.c.s
 
 # target to generate assembly for a file
 mbedtls/library/dhm.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/dhm.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/dhm.c.s
 .PHONY : mbedtls/library/dhm.c.s
 
 mbedtls/library/ecdh.obj: mbedtls/library/ecdh.c.obj
@@ -822,7 +822,7 @@ mbedtls/library/ecdh.obj: mbedtls/library/ecdh.c.obj
 
 # target to build an object file
 mbedtls/library/ecdh.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdh.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdh.c.obj
 .PHONY : mbedtls/library/ecdh.c.obj
 
 mbedtls/library/ecdh.i: mbedtls/library/ecdh.c.i
@@ -831,7 +831,7 @@ mbedtls/library/ecdh.i: mbedtls/library/ecdh.c.i
 
 # target to preprocess a source file
 mbedtls/library/ecdh.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdh.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdh.c.i
 .PHONY : mbedtls/library/ecdh.c.i
 
 mbedtls/library/ecdh.s: mbedtls/library/ecdh.c.s
@@ -840,7 +840,7 @@ mbedtls/library/ecdh.s: mbedtls/library/ecdh.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ecdh.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdh.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdh.c.s
 .PHONY : mbedtls/library/ecdh.c.s
 
 mbedtls/library/ecdsa.obj: mbedtls/library/ecdsa.c.obj
@@ -849,7 +849,7 @@ mbedtls/library/ecdsa.obj: mbedtls/library/ecdsa.c.obj
 
 # target to build an object file
 mbedtls/library/ecdsa.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.obj
 .PHONY : mbedtls/library/ecdsa.c.obj
 
 mbedtls/library/ecdsa.i: mbedtls/library/ecdsa.c.i
@@ -858,7 +858,7 @@ mbedtls/library/ecdsa.i: mbedtls/library/ecdsa.c.i
 
 # target to preprocess a source file
 mbedtls/library/ecdsa.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.i
 .PHONY : mbedtls/library/ecdsa.c.i
 
 mbedtls/library/ecdsa.s: mbedtls/library/ecdsa.c.s
@@ -867,7 +867,7 @@ mbedtls/library/ecdsa.s: mbedtls/library/ecdsa.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ecdsa.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecdsa.c.s
 .PHONY : mbedtls/library/ecdsa.c.s
 
 mbedtls/library/ecjpake.obj: mbedtls/library/ecjpake.c.obj
@@ -876,7 +876,7 @@ mbedtls/library/ecjpake.obj: mbedtls/library/ecjpake.c.obj
 
 # target to build an object file
 mbedtls/library/ecjpake.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecjpake.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecjpake.c.obj
 .PHONY : mbedtls/library/ecjpake.c.obj
 
 mbedtls/library/ecjpake.i: mbedtls/library/ecjpake.c.i
@@ -885,7 +885,7 @@ mbedtls/library/ecjpake.i: mbedtls/library/ecjpake.c.i
 
 # target to preprocess a source file
 mbedtls/library/ecjpake.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecjpake.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecjpake.c.i
 .PHONY : mbedtls/library/ecjpake.c.i
 
 mbedtls/library/ecjpake.s: mbedtls/library/ecjpake.c.s
@@ -894,7 +894,7 @@ mbedtls/library/ecjpake.s: mbedtls/library/ecjpake.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ecjpake.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecjpake.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecjpake.c.s
 .PHONY : mbedtls/library/ecjpake.c.s
 
 mbedtls/library/ecp.obj: mbedtls/library/ecp.c.obj
@@ -903,7 +903,7 @@ mbedtls/library/ecp.obj: mbedtls/library/ecp.c.obj
 
 # target to build an object file
 mbedtls/library/ecp.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.obj
 .PHONY : mbedtls/library/ecp.c.obj
 
 mbedtls/library/ecp.i: mbedtls/library/ecp.c.i
@@ -912,7 +912,7 @@ mbedtls/library/ecp.i: mbedtls/library/ecp.c.i
 
 # target to preprocess a source file
 mbedtls/library/ecp.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.i
 .PHONY : mbedtls/library/ecp.c.i
 
 mbedtls/library/ecp.s: mbedtls/library/ecp.c.s
@@ -921,7 +921,7 @@ mbedtls/library/ecp.s: mbedtls/library/ecp.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ecp.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp.c.s
 .PHONY : mbedtls/library/ecp.c.s
 
 mbedtls/library/ecp_curves.obj: mbedtls/library/ecp_curves.c.obj
@@ -930,7 +930,7 @@ mbedtls/library/ecp_curves.obj: mbedtls/library/ecp_curves.c.obj
 
 # target to build an object file
 mbedtls/library/ecp_curves.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp_curves.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp_curves.c.obj
 .PHONY : mbedtls/library/ecp_curves.c.obj
 
 mbedtls/library/ecp_curves.i: mbedtls/library/ecp_curves.c.i
@@ -939,7 +939,7 @@ mbedtls/library/ecp_curves.i: mbedtls/library/ecp_curves.c.i
 
 # target to preprocess a source file
 mbedtls/library/ecp_curves.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp_curves.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp_curves.c.i
 .PHONY : mbedtls/library/ecp_curves.c.i
 
 mbedtls/library/ecp_curves.s: mbedtls/library/ecp_curves.c.s
@@ -948,7 +948,7 @@ mbedtls/library/ecp_curves.s: mbedtls/library/ecp_curves.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ecp_curves.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp_curves.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ecp_curves.c.s
 .PHONY : mbedtls/library/ecp_curves.c.s
 
 mbedtls/library/entropy.obj: mbedtls/library/entropy.c.obj
@@ -957,7 +957,7 @@ mbedtls/library/entropy.obj: mbedtls/library/entropy.c.obj
 
 # target to build an object file
 mbedtls/library/entropy.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.obj
 .PHONY : mbedtls/library/entropy.c.obj
 
 mbedtls/library/entropy.i: mbedtls/library/entropy.c.i
@@ -966,7 +966,7 @@ mbedtls/library/entropy.i: mbedtls/library/entropy.c.i
 
 # target to preprocess a source file
 mbedtls/library/entropy.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.i
 .PHONY : mbedtls/library/entropy.c.i
 
 mbedtls/library/entropy.s: mbedtls/library/entropy.c.s
@@ -975,7 +975,7 @@ mbedtls/library/entropy.s: mbedtls/library/entropy.c.s
 
 # target to generate assembly for a file
 mbedtls/library/entropy.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy.c.s
 .PHONY : mbedtls/library/entropy.c.s
 
 mbedtls/library/entropy_poll.obj: mbedtls/library/entropy_poll.c.obj
@@ -984,7 +984,7 @@ mbedtls/library/entropy_poll.obj: mbedtls/library/entropy_poll.c.obj
 
 # target to build an object file
 mbedtls/library/entropy_poll.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.obj
 .PHONY : mbedtls/library/entropy_poll.c.obj
 
 mbedtls/library/entropy_poll.i: mbedtls/library/entropy_poll.c.i
@@ -993,7 +993,7 @@ mbedtls/library/entropy_poll.i: mbedtls/library/entropy_poll.c.i
 
 # target to preprocess a source file
 mbedtls/library/entropy_poll.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.i
 .PHONY : mbedtls/library/entropy_poll.c.i
 
 mbedtls/library/entropy_poll.s: mbedtls/library/entropy_poll.c.s
@@ -1002,7 +1002,7 @@ mbedtls/library/entropy_poll.s: mbedtls/library/entropy_poll.c.s
 
 # target to generate assembly for a file
 mbedtls/library/entropy_poll.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/entropy_poll.c.s
 .PHONY : mbedtls/library/entropy_poll.c.s
 
 mbedtls/library/error.obj: mbedtls/library/error.c.obj
@@ -1011,7 +1011,7 @@ mbedtls/library/error.obj: mbedtls/library/error.c.obj
 
 # target to build an object file
 mbedtls/library/error.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.obj
 .PHONY : mbedtls/library/error.c.obj
 
 mbedtls/library/error.i: mbedtls/library/error.c.i
@@ -1020,7 +1020,7 @@ mbedtls/library/error.i: mbedtls/library/error.c.i
 
 # target to preprocess a source file
 mbedtls/library/error.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.i
 .PHONY : mbedtls/library/error.c.i
 
 mbedtls/library/error.s: mbedtls/library/error.c.s
@@ -1029,7 +1029,7 @@ mbedtls/library/error.s: mbedtls/library/error.c.s
 
 # target to generate assembly for a file
 mbedtls/library/error.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/error.c.s
 .PHONY : mbedtls/library/error.c.s
 
 mbedtls/library/gcm.obj: mbedtls/library/gcm.c.obj
@@ -1038,7 +1038,7 @@ mbedtls/library/gcm.obj: mbedtls/library/gcm.c.obj
 
 # target to build an object file
 mbedtls/library/gcm.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/gcm.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/gcm.c.obj
 .PHONY : mbedtls/library/gcm.c.obj
 
 mbedtls/library/gcm.i: mbedtls/library/gcm.c.i
@@ -1047,7 +1047,7 @@ mbedtls/library/gcm.i: mbedtls/library/gcm.c.i
 
 # target to preprocess a source file
 mbedtls/library/gcm.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/gcm.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/gcm.c.i
 .PHONY : mbedtls/library/gcm.c.i
 
 mbedtls/library/gcm.s: mbedtls/library/gcm.c.s
@@ -1056,7 +1056,7 @@ mbedtls/library/gcm.s: mbedtls/library/gcm.c.s
 
 # target to generate assembly for a file
 mbedtls/library/gcm.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/gcm.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/gcm.c.s
 .PHONY : mbedtls/library/gcm.c.s
 
 mbedtls/library/havege.obj: mbedtls/library/havege.c.obj
@@ -1065,7 +1065,7 @@ mbedtls/library/havege.obj: mbedtls/library/havege.c.obj
 
 # target to build an object file
 mbedtls/library/havege.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/havege.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/havege.c.obj
 .PHONY : mbedtls/library/havege.c.obj
 
 mbedtls/library/havege.i: mbedtls/library/havege.c.i
@@ -1074,7 +1074,7 @@ mbedtls/library/havege.i: mbedtls/library/havege.c.i
 
 # target to preprocess a source file
 mbedtls/library/havege.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/havege.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/havege.c.i
 .PHONY : mbedtls/library/havege.c.i
 
 mbedtls/library/havege.s: mbedtls/library/havege.c.s
@@ -1083,7 +1083,7 @@ mbedtls/library/havege.s: mbedtls/library/havege.c.s
 
 # target to generate assembly for a file
 mbedtls/library/havege.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/havege.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/havege.c.s
 .PHONY : mbedtls/library/havege.c.s
 
 mbedtls/library/hmac_drbg.obj: mbedtls/library/hmac_drbg.c.obj
@@ -1092,7 +1092,7 @@ mbedtls/library/hmac_drbg.obj: mbedtls/library/hmac_drbg.c.obj
 
 # target to build an object file
 mbedtls/library/hmac_drbg.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.obj
 .PHONY : mbedtls/library/hmac_drbg.c.obj
 
 mbedtls/library/hmac_drbg.i: mbedtls/library/hmac_drbg.c.i
@@ -1101,7 +1101,7 @@ mbedtls/library/hmac_drbg.i: mbedtls/library/hmac_drbg.c.i
 
 # target to preprocess a source file
 mbedtls/library/hmac_drbg.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.i
 .PHONY : mbedtls/library/hmac_drbg.c.i
 
 mbedtls/library/hmac_drbg.s: mbedtls/library/hmac_drbg.c.s
@@ -1110,7 +1110,7 @@ mbedtls/library/hmac_drbg.s: mbedtls/library/hmac_drbg.c.s
 
 # target to generate assembly for a file
 mbedtls/library/hmac_drbg.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/hmac_drbg.c.s
 .PHONY : mbedtls/library/hmac_drbg.c.s
 
 mbedtls/library/md.obj: mbedtls/library/md.c.obj
@@ -1119,7 +1119,7 @@ mbedtls/library/md.obj: mbedtls/library/md.c.obj
 
 # target to build an object file
 mbedtls/library/md.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md.c.obj
 .PHONY : mbedtls/library/md.c.obj
 
 mbedtls/library/md.i: mbedtls/library/md.c.i
@@ -1128,7 +1128,7 @@ mbedtls/library/md.i: mbedtls/library/md.c.i
 
 # target to preprocess a source file
 mbedtls/library/md.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md.c.i
 .PHONY : mbedtls/library/md.c.i
 
 mbedtls/library/md.s: mbedtls/library/md.c.s
@@ -1137,7 +1137,7 @@ mbedtls/library/md.s: mbedtls/library/md.c.s
 
 # target to generate assembly for a file
 mbedtls/library/md.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md.c.s
 .PHONY : mbedtls/library/md.c.s
 
 mbedtls/library/md2.obj: mbedtls/library/md2.c.obj
@@ -1146,7 +1146,7 @@ mbedtls/library/md2.obj: mbedtls/library/md2.c.obj
 
 # target to build an object file
 mbedtls/library/md2.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md2.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md2.c.obj
 .PHONY : mbedtls/library/md2.c.obj
 
 mbedtls/library/md2.i: mbedtls/library/md2.c.i
@@ -1155,7 +1155,7 @@ mbedtls/library/md2.i: mbedtls/library/md2.c.i
 
 # target to preprocess a source file
 mbedtls/library/md2.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md2.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md2.c.i
 .PHONY : mbedtls/library/md2.c.i
 
 mbedtls/library/md2.s: mbedtls/library/md2.c.s
@@ -1164,7 +1164,7 @@ mbedtls/library/md2.s: mbedtls/library/md2.c.s
 
 # target to generate assembly for a file
 mbedtls/library/md2.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md2.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md2.c.s
 .PHONY : mbedtls/library/md2.c.s
 
 mbedtls/library/md4.obj: mbedtls/library/md4.c.obj
@@ -1173,7 +1173,7 @@ mbedtls/library/md4.obj: mbedtls/library/md4.c.obj
 
 # target to build an object file
 mbedtls/library/md4.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md4.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md4.c.obj
 .PHONY : mbedtls/library/md4.c.obj
 
 mbedtls/library/md4.i: mbedtls/library/md4.c.i
@@ -1182,7 +1182,7 @@ mbedtls/library/md4.i: mbedtls/library/md4.c.i
 
 # target to preprocess a source file
 mbedtls/library/md4.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md4.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md4.c.i
 .PHONY : mbedtls/library/md4.c.i
 
 mbedtls/library/md4.s: mbedtls/library/md4.c.s
@@ -1191,7 +1191,7 @@ mbedtls/library/md4.s: mbedtls/library/md4.c.s
 
 # target to generate assembly for a file
 mbedtls/library/md4.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md4.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md4.c.s
 .PHONY : mbedtls/library/md4.c.s
 
 mbedtls/library/md5.obj: mbedtls/library/md5.c.obj
@@ -1200,7 +1200,7 @@ mbedtls/library/md5.obj: mbedtls/library/md5.c.obj
 
 # target to build an object file
 mbedtls/library/md5.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md5.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md5.c.obj
 .PHONY : mbedtls/library/md5.c.obj
 
 mbedtls/library/md5.i: mbedtls/library/md5.c.i
@@ -1209,7 +1209,7 @@ mbedtls/library/md5.i: mbedtls/library/md5.c.i
 
 # target to preprocess a source file
 mbedtls/library/md5.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md5.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md5.c.i
 .PHONY : mbedtls/library/md5.c.i
 
 mbedtls/library/md5.s: mbedtls/library/md5.c.s
@@ -1218,7 +1218,7 @@ mbedtls/library/md5.s: mbedtls/library/md5.c.s
 
 # target to generate assembly for a file
 mbedtls/library/md5.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md5.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md5.c.s
 .PHONY : mbedtls/library/md5.c.s
 
 mbedtls/library/md_wrap.obj: mbedtls/library/md_wrap.c.obj
@@ -1227,7 +1227,7 @@ mbedtls/library/md_wrap.obj: mbedtls/library/md_wrap.c.obj
 
 # target to build an object file
 mbedtls/library/md_wrap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md_wrap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md_wrap.c.obj
 .PHONY : mbedtls/library/md_wrap.c.obj
 
 mbedtls/library/md_wrap.i: mbedtls/library/md_wrap.c.i
@@ -1236,7 +1236,7 @@ mbedtls/library/md_wrap.i: mbedtls/library/md_wrap.c.i
 
 # target to preprocess a source file
 mbedtls/library/md_wrap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md_wrap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md_wrap.c.i
 .PHONY : mbedtls/library/md_wrap.c.i
 
 mbedtls/library/md_wrap.s: mbedtls/library/md_wrap.c.s
@@ -1245,7 +1245,7 @@ mbedtls/library/md_wrap.s: mbedtls/library/md_wrap.c.s
 
 # target to generate assembly for a file
 mbedtls/library/md_wrap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md_wrap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/md_wrap.c.s
 .PHONY : mbedtls/library/md_wrap.c.s
 
 mbedtls/library/memory_buffer_alloc.obj: mbedtls/library/memory_buffer_alloc.c.obj
@@ -1254,7 +1254,7 @@ mbedtls/library/memory_buffer_alloc.obj: mbedtls/library/memory_buffer_alloc.c.o
 
 # target to build an object file
 mbedtls/library/memory_buffer_alloc.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.obj
 .PHONY : mbedtls/library/memory_buffer_alloc.c.obj
 
 mbedtls/library/memory_buffer_alloc.i: mbedtls/library/memory_buffer_alloc.c.i
@@ -1263,7 +1263,7 @@ mbedtls/library/memory_buffer_alloc.i: mbedtls/library/memory_buffer_alloc.c.i
 
 # target to preprocess a source file
 mbedtls/library/memory_buffer_alloc.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.i
 .PHONY : mbedtls/library/memory_buffer_alloc.c.i
 
 mbedtls/library/memory_buffer_alloc.s: mbedtls/library/memory_buffer_alloc.c.s
@@ -1272,7 +1272,7 @@ mbedtls/library/memory_buffer_alloc.s: mbedtls/library/memory_buffer_alloc.c.s
 
 # target to generate assembly for a file
 mbedtls/library/memory_buffer_alloc.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/memory_buffer_alloc.c.s
 .PHONY : mbedtls/library/memory_buffer_alloc.c.s
 
 mbedtls/library/net_sockets.obj: mbedtls/library/net_sockets.c.obj
@@ -1281,7 +1281,7 @@ mbedtls/library/net_sockets.obj: mbedtls/library/net_sockets.c.obj
 
 # target to build an object file
 mbedtls/library/net_sockets.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.obj
 .PHONY : mbedtls/library/net_sockets.c.obj
 
 mbedtls/library/net_sockets.i: mbedtls/library/net_sockets.c.i
@@ -1290,7 +1290,7 @@ mbedtls/library/net_sockets.i: mbedtls/library/net_sockets.c.i
 
 # target to preprocess a source file
 mbedtls/library/net_sockets.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.i
 .PHONY : mbedtls/library/net_sockets.c.i
 
 mbedtls/library/net_sockets.s: mbedtls/library/net_sockets.c.s
@@ -1299,7 +1299,7 @@ mbedtls/library/net_sockets.s: mbedtls/library/net_sockets.c.s
 
 # target to generate assembly for a file
 mbedtls/library/net_sockets.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/net_sockets.c.s
 .PHONY : mbedtls/library/net_sockets.c.s
 
 mbedtls/library/oid.obj: mbedtls/library/oid.c.obj
@@ -1308,7 +1308,7 @@ mbedtls/library/oid.obj: mbedtls/library/oid.c.obj
 
 # target to build an object file
 mbedtls/library/oid.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.obj
 .PHONY : mbedtls/library/oid.c.obj
 
 mbedtls/library/oid.i: mbedtls/library/oid.c.i
@@ -1317,7 +1317,7 @@ mbedtls/library/oid.i: mbedtls/library/oid.c.i
 
 # target to preprocess a source file
 mbedtls/library/oid.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.i
 .PHONY : mbedtls/library/oid.c.i
 
 mbedtls/library/oid.s: mbedtls/library/oid.c.s
@@ -1326,7 +1326,7 @@ mbedtls/library/oid.s: mbedtls/library/oid.c.s
 
 # target to generate assembly for a file
 mbedtls/library/oid.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/oid.c.s
 .PHONY : mbedtls/library/oid.c.s
 
 mbedtls/library/padlock.obj: mbedtls/library/padlock.c.obj
@@ -1335,7 +1335,7 @@ mbedtls/library/padlock.obj: mbedtls/library/padlock.c.obj
 
 # target to build an object file
 mbedtls/library/padlock.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/padlock.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/padlock.c.obj
 .PHONY : mbedtls/library/padlock.c.obj
 
 mbedtls/library/padlock.i: mbedtls/library/padlock.c.i
@@ -1344,7 +1344,7 @@ mbedtls/library/padlock.i: mbedtls/library/padlock.c.i
 
 # target to preprocess a source file
 mbedtls/library/padlock.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/padlock.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/padlock.c.i
 .PHONY : mbedtls/library/padlock.c.i
 
 mbedtls/library/padlock.s: mbedtls/library/padlock.c.s
@@ -1353,7 +1353,7 @@ mbedtls/library/padlock.s: mbedtls/library/padlock.c.s
 
 # target to generate assembly for a file
 mbedtls/library/padlock.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/padlock.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/padlock.c.s
 .PHONY : mbedtls/library/padlock.c.s
 
 mbedtls/library/pem.obj: mbedtls/library/pem.c.obj
@@ -1362,7 +1362,7 @@ mbedtls/library/pem.obj: mbedtls/library/pem.c.obj
 
 # target to build an object file
 mbedtls/library/pem.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pem.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pem.c.obj
 .PHONY : mbedtls/library/pem.c.obj
 
 mbedtls/library/pem.i: mbedtls/library/pem.c.i
@@ -1371,7 +1371,7 @@ mbedtls/library/pem.i: mbedtls/library/pem.c.i
 
 # target to preprocess a source file
 mbedtls/library/pem.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pem.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pem.c.i
 .PHONY : mbedtls/library/pem.c.i
 
 mbedtls/library/pem.s: mbedtls/library/pem.c.s
@@ -1380,7 +1380,7 @@ mbedtls/library/pem.s: mbedtls/library/pem.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pem.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pem.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pem.c.s
 .PHONY : mbedtls/library/pem.c.s
 
 mbedtls/library/pk.obj: mbedtls/library/pk.c.obj
@@ -1389,7 +1389,7 @@ mbedtls/library/pk.obj: mbedtls/library/pk.c.obj
 
 # target to build an object file
 mbedtls/library/pk.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.obj
 .PHONY : mbedtls/library/pk.c.obj
 
 mbedtls/library/pk.i: mbedtls/library/pk.c.i
@@ -1398,7 +1398,7 @@ mbedtls/library/pk.i: mbedtls/library/pk.c.i
 
 # target to preprocess a source file
 mbedtls/library/pk.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.i
 .PHONY : mbedtls/library/pk.c.i
 
 mbedtls/library/pk.s: mbedtls/library/pk.c.s
@@ -1407,7 +1407,7 @@ mbedtls/library/pk.s: mbedtls/library/pk.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pk.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk.c.s
 .PHONY : mbedtls/library/pk.c.s
 
 mbedtls/library/pk_wrap.obj: mbedtls/library/pk_wrap.c.obj
@@ -1416,7 +1416,7 @@ mbedtls/library/pk_wrap.obj: mbedtls/library/pk_wrap.c.obj
 
 # target to build an object file
 mbedtls/library/pk_wrap.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.obj
 .PHONY : mbedtls/library/pk_wrap.c.obj
 
 mbedtls/library/pk_wrap.i: mbedtls/library/pk_wrap.c.i
@@ -1425,7 +1425,7 @@ mbedtls/library/pk_wrap.i: mbedtls/library/pk_wrap.c.i
 
 # target to preprocess a source file
 mbedtls/library/pk_wrap.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.i
 .PHONY : mbedtls/library/pk_wrap.c.i
 
 mbedtls/library/pk_wrap.s: mbedtls/library/pk_wrap.c.s
@@ -1434,7 +1434,7 @@ mbedtls/library/pk_wrap.s: mbedtls/library/pk_wrap.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pk_wrap.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pk_wrap.c.s
 .PHONY : mbedtls/library/pk_wrap.c.s
 
 mbedtls/library/pkcs12.obj: mbedtls/library/pkcs12.c.obj
@@ -1443,7 +1443,7 @@ mbedtls/library/pkcs12.obj: mbedtls/library/pkcs12.c.obj
 
 # target to build an object file
 mbedtls/library/pkcs12.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs12.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs12.c.obj
 .PHONY : mbedtls/library/pkcs12.c.obj
 
 mbedtls/library/pkcs12.i: mbedtls/library/pkcs12.c.i
@@ -1452,7 +1452,7 @@ mbedtls/library/pkcs12.i: mbedtls/library/pkcs12.c.i
 
 # target to preprocess a source file
 mbedtls/library/pkcs12.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs12.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs12.c.i
 .PHONY : mbedtls/library/pkcs12.c.i
 
 mbedtls/library/pkcs12.s: mbedtls/library/pkcs12.c.s
@@ -1461,7 +1461,7 @@ mbedtls/library/pkcs12.s: mbedtls/library/pkcs12.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pkcs12.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs12.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs12.c.s
 .PHONY : mbedtls/library/pkcs12.c.s
 
 mbedtls/library/pkcs5.obj: mbedtls/library/pkcs5.c.obj
@@ -1470,7 +1470,7 @@ mbedtls/library/pkcs5.obj: mbedtls/library/pkcs5.c.obj
 
 # target to build an object file
 mbedtls/library/pkcs5.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.obj
 .PHONY : mbedtls/library/pkcs5.c.obj
 
 mbedtls/library/pkcs5.i: mbedtls/library/pkcs5.c.i
@@ -1479,7 +1479,7 @@ mbedtls/library/pkcs5.i: mbedtls/library/pkcs5.c.i
 
 # target to preprocess a source file
 mbedtls/library/pkcs5.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.i
 .PHONY : mbedtls/library/pkcs5.c.i
 
 mbedtls/library/pkcs5.s: mbedtls/library/pkcs5.c.s
@@ -1488,7 +1488,7 @@ mbedtls/library/pkcs5.s: mbedtls/library/pkcs5.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pkcs5.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkcs5.c.s
 .PHONY : mbedtls/library/pkcs5.c.s
 
 mbedtls/library/pkparse.obj: mbedtls/library/pkparse.c.obj
@@ -1497,7 +1497,7 @@ mbedtls/library/pkparse.obj: mbedtls/library/pkparse.c.obj
 
 # target to build an object file
 mbedtls/library/pkparse.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.obj
 .PHONY : mbedtls/library/pkparse.c.obj
 
 mbedtls/library/pkparse.i: mbedtls/library/pkparse.c.i
@@ -1506,7 +1506,7 @@ mbedtls/library/pkparse.i: mbedtls/library/pkparse.c.i
 
 # target to preprocess a source file
 mbedtls/library/pkparse.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.i
 .PHONY : mbedtls/library/pkparse.c.i
 
 mbedtls/library/pkparse.s: mbedtls/library/pkparse.c.s
@@ -1515,7 +1515,7 @@ mbedtls/library/pkparse.s: mbedtls/library/pkparse.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pkparse.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkparse.c.s
 .PHONY : mbedtls/library/pkparse.c.s
 
 mbedtls/library/pkwrite.obj: mbedtls/library/pkwrite.c.obj
@@ -1524,7 +1524,7 @@ mbedtls/library/pkwrite.obj: mbedtls/library/pkwrite.c.obj
 
 # target to build an object file
 mbedtls/library/pkwrite.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.obj
 .PHONY : mbedtls/library/pkwrite.c.obj
 
 mbedtls/library/pkwrite.i: mbedtls/library/pkwrite.c.i
@@ -1533,7 +1533,7 @@ mbedtls/library/pkwrite.i: mbedtls/library/pkwrite.c.i
 
 # target to preprocess a source file
 mbedtls/library/pkwrite.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.i
 .PHONY : mbedtls/library/pkwrite.c.i
 
 mbedtls/library/pkwrite.s: mbedtls/library/pkwrite.c.s
@@ -1542,7 +1542,7 @@ mbedtls/library/pkwrite.s: mbedtls/library/pkwrite.c.s
 
 # target to generate assembly for a file
 mbedtls/library/pkwrite.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/pkwrite.c.s
 .PHONY : mbedtls/library/pkwrite.c.s
 
 mbedtls/library/platform.obj: mbedtls/library/platform.c.obj
@@ -1551,7 +1551,7 @@ mbedtls/library/platform.obj: mbedtls/library/platform.c.obj
 
 # target to build an object file
 mbedtls/library/platform.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform.c.obj
 .PHONY : mbedtls/library/platform.c.obj
 
 mbedtls/library/platform.i: mbedtls/library/platform.c.i
@@ -1560,7 +1560,7 @@ mbedtls/library/platform.i: mbedtls/library/platform.c.i
 
 # target to preprocess a source file
 mbedtls/library/platform.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform.c.i
 .PHONY : mbedtls/library/platform.c.i
 
 mbedtls/library/platform.s: mbedtls/library/platform.c.s
@@ -1569,7 +1569,7 @@ mbedtls/library/platform.s: mbedtls/library/platform.c.s
 
 # target to generate assembly for a file
 mbedtls/library/platform.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform.c.s
 .PHONY : mbedtls/library/platform.c.s
 
 mbedtls/library/platform_util.obj: mbedtls/library/platform_util.c.obj
@@ -1578,7 +1578,7 @@ mbedtls/library/platform_util.obj: mbedtls/library/platform_util.c.obj
 
 # target to build an object file
 mbedtls/library/platform_util.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.obj
 .PHONY : mbedtls/library/platform_util.c.obj
 
 mbedtls/library/platform_util.i: mbedtls/library/platform_util.c.i
@@ -1587,7 +1587,7 @@ mbedtls/library/platform_util.i: mbedtls/library/platform_util.c.i
 
 # target to preprocess a source file
 mbedtls/library/platform_util.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.i
 .PHONY : mbedtls/library/platform_util.c.i
 
 mbedtls/library/platform_util.s: mbedtls/library/platform_util.c.s
@@ -1596,7 +1596,7 @@ mbedtls/library/platform_util.s: mbedtls/library/platform_util.c.s
 
 # target to generate assembly for a file
 mbedtls/library/platform_util.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/platform_util.c.s
 .PHONY : mbedtls/library/platform_util.c.s
 
 mbedtls/library/ripemd160.obj: mbedtls/library/ripemd160.c.obj
@@ -1605,7 +1605,7 @@ mbedtls/library/ripemd160.obj: mbedtls/library/ripemd160.c.obj
 
 # target to build an object file
 mbedtls/library/ripemd160.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ripemd160.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ripemd160.c.obj
 .PHONY : mbedtls/library/ripemd160.c.obj
 
 mbedtls/library/ripemd160.i: mbedtls/library/ripemd160.c.i
@@ -1614,7 +1614,7 @@ mbedtls/library/ripemd160.i: mbedtls/library/ripemd160.c.i
 
 # target to preprocess a source file
 mbedtls/library/ripemd160.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ripemd160.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ripemd160.c.i
 .PHONY : mbedtls/library/ripemd160.c.i
 
 mbedtls/library/ripemd160.s: mbedtls/library/ripemd160.c.s
@@ -1623,7 +1623,7 @@ mbedtls/library/ripemd160.s: mbedtls/library/ripemd160.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ripemd160.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ripemd160.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ripemd160.c.s
 .PHONY : mbedtls/library/ripemd160.c.s
 
 mbedtls/library/rsa.obj: mbedtls/library/rsa.c.obj
@@ -1632,7 +1632,7 @@ mbedtls/library/rsa.obj: mbedtls/library/rsa.c.obj
 
 # target to build an object file
 mbedtls/library/rsa.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.obj
 .PHONY : mbedtls/library/rsa.c.obj
 
 mbedtls/library/rsa.i: mbedtls/library/rsa.c.i
@@ -1641,7 +1641,7 @@ mbedtls/library/rsa.i: mbedtls/library/rsa.c.i
 
 # target to preprocess a source file
 mbedtls/library/rsa.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.i
 .PHONY : mbedtls/library/rsa.c.i
 
 mbedtls/library/rsa.s: mbedtls/library/rsa.c.s
@@ -1650,7 +1650,7 @@ mbedtls/library/rsa.s: mbedtls/library/rsa.c.s
 
 # target to generate assembly for a file
 mbedtls/library/rsa.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa.c.s
 .PHONY : mbedtls/library/rsa.c.s
 
 mbedtls/library/rsa_internal.obj: mbedtls/library/rsa_internal.c.obj
@@ -1659,7 +1659,7 @@ mbedtls/library/rsa_internal.obj: mbedtls/library/rsa_internal.c.obj
 
 # target to build an object file
 mbedtls/library/rsa_internal.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.obj
 .PHONY : mbedtls/library/rsa_internal.c.obj
 
 mbedtls/library/rsa_internal.i: mbedtls/library/rsa_internal.c.i
@@ -1668,7 +1668,7 @@ mbedtls/library/rsa_internal.i: mbedtls/library/rsa_internal.c.i
 
 # target to preprocess a source file
 mbedtls/library/rsa_internal.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.i
 .PHONY : mbedtls/library/rsa_internal.c.i
 
 mbedtls/library/rsa_internal.s: mbedtls/library/rsa_internal.c.s
@@ -1677,7 +1677,7 @@ mbedtls/library/rsa_internal.s: mbedtls/library/rsa_internal.c.s
 
 # target to generate assembly for a file
 mbedtls/library/rsa_internal.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/rsa_internal.c.s
 .PHONY : mbedtls/library/rsa_internal.c.s
 
 mbedtls/library/sha1.obj: mbedtls/library/sha1.c.obj
@@ -1686,7 +1686,7 @@ mbedtls/library/sha1.obj: mbedtls/library/sha1.c.obj
 
 # target to build an object file
 mbedtls/library/sha1.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha1.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha1.c.obj
 .PHONY : mbedtls/library/sha1.c.obj
 
 mbedtls/library/sha1.i: mbedtls/library/sha1.c.i
@@ -1695,7 +1695,7 @@ mbedtls/library/sha1.i: mbedtls/library/sha1.c.i
 
 # target to preprocess a source file
 mbedtls/library/sha1.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha1.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha1.c.i
 .PHONY : mbedtls/library/sha1.c.i
 
 mbedtls/library/sha1.s: mbedtls/library/sha1.c.s
@@ -1704,7 +1704,7 @@ mbedtls/library/sha1.s: mbedtls/library/sha1.c.s
 
 # target to generate assembly for a file
 mbedtls/library/sha1.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha1.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha1.c.s
 .PHONY : mbedtls/library/sha1.c.s
 
 mbedtls/library/sha256.obj: mbedtls/library/sha256.c.obj
@@ -1713,7 +1713,7 @@ mbedtls/library/sha256.obj: mbedtls/library/sha256.c.obj
 
 # target to build an object file
 mbedtls/library/sha256.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha256.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha256.c.obj
 .PHONY : mbedtls/library/sha256.c.obj
 
 mbedtls/library/sha256.i: mbedtls/library/sha256.c.i
@@ -1722,7 +1722,7 @@ mbedtls/library/sha256.i: mbedtls/library/sha256.c.i
 
 # target to preprocess a source file
 mbedtls/library/sha256.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha256.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha256.c.i
 .PHONY : mbedtls/library/sha256.c.i
 
 mbedtls/library/sha256.s: mbedtls/library/sha256.c.s
@@ -1731,7 +1731,7 @@ mbedtls/library/sha256.s: mbedtls/library/sha256.c.s
 
 # target to generate assembly for a file
 mbedtls/library/sha256.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha256.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha256.c.s
 .PHONY : mbedtls/library/sha256.c.s
 
 mbedtls/library/sha512.obj: mbedtls/library/sha512.c.obj
@@ -1740,7 +1740,7 @@ mbedtls/library/sha512.obj: mbedtls/library/sha512.c.obj
 
 # target to build an object file
 mbedtls/library/sha512.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha512.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha512.c.obj
 .PHONY : mbedtls/library/sha512.c.obj
 
 mbedtls/library/sha512.i: mbedtls/library/sha512.c.i
@@ -1749,7 +1749,7 @@ mbedtls/library/sha512.i: mbedtls/library/sha512.c.i
 
 # target to preprocess a source file
 mbedtls/library/sha512.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha512.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha512.c.i
 .PHONY : mbedtls/library/sha512.c.i
 
 mbedtls/library/sha512.s: mbedtls/library/sha512.c.s
@@ -1758,7 +1758,7 @@ mbedtls/library/sha512.s: mbedtls/library/sha512.c.s
 
 # target to generate assembly for a file
 mbedtls/library/sha512.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha512.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/sha512.c.s
 .PHONY : mbedtls/library/sha512.c.s
 
 mbedtls/library/ssl_cache.obj: mbedtls/library/ssl_cache.c.obj
@@ -1767,7 +1767,7 @@ mbedtls/library/ssl_cache.obj: mbedtls/library/ssl_cache.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_cache.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.obj
 .PHONY : mbedtls/library/ssl_cache.c.obj
 
 mbedtls/library/ssl_cache.i: mbedtls/library/ssl_cache.c.i
@@ -1776,7 +1776,7 @@ mbedtls/library/ssl_cache.i: mbedtls/library/ssl_cache.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_cache.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.i
 .PHONY : mbedtls/library/ssl_cache.c.i
 
 mbedtls/library/ssl_cache.s: mbedtls/library/ssl_cache.c.s
@@ -1785,7 +1785,7 @@ mbedtls/library/ssl_cache.s: mbedtls/library/ssl_cache.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_cache.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cache.c.s
 .PHONY : mbedtls/library/ssl_cache.c.s
 
 mbedtls/library/ssl_ciphersuites.obj: mbedtls/library/ssl_ciphersuites.c.obj
@@ -1794,7 +1794,7 @@ mbedtls/library/ssl_ciphersuites.obj: mbedtls/library/ssl_ciphersuites.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_ciphersuites.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.obj
 .PHONY : mbedtls/library/ssl_ciphersuites.c.obj
 
 mbedtls/library/ssl_ciphersuites.i: mbedtls/library/ssl_ciphersuites.c.i
@@ -1803,7 +1803,7 @@ mbedtls/library/ssl_ciphersuites.i: mbedtls/library/ssl_ciphersuites.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_ciphersuites.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.i
 .PHONY : mbedtls/library/ssl_ciphersuites.c.i
 
 mbedtls/library/ssl_ciphersuites.s: mbedtls/library/ssl_ciphersuites.c.s
@@ -1812,7 +1812,7 @@ mbedtls/library/ssl_ciphersuites.s: mbedtls/library/ssl_ciphersuites.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_ciphersuites.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ciphersuites.c.s
 .PHONY : mbedtls/library/ssl_ciphersuites.c.s
 
 mbedtls/library/ssl_cli.obj: mbedtls/library/ssl_cli.c.obj
@@ -1821,7 +1821,7 @@ mbedtls/library/ssl_cli.obj: mbedtls/library/ssl_cli.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_cli.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.obj
 .PHONY : mbedtls/library/ssl_cli.c.obj
 
 mbedtls/library/ssl_cli.i: mbedtls/library/ssl_cli.c.i
@@ -1830,7 +1830,7 @@ mbedtls/library/ssl_cli.i: mbedtls/library/ssl_cli.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_cli.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.i
 .PHONY : mbedtls/library/ssl_cli.c.i
 
 mbedtls/library/ssl_cli.s: mbedtls/library/ssl_cli.c.s
@@ -1839,7 +1839,7 @@ mbedtls/library/ssl_cli.s: mbedtls/library/ssl_cli.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_cli.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cli.c.s
 .PHONY : mbedtls/library/ssl_cli.c.s
 
 mbedtls/library/ssl_cookie.obj: mbedtls/library/ssl_cookie.c.obj
@@ -1848,7 +1848,7 @@ mbedtls/library/ssl_cookie.obj: mbedtls/library/ssl_cookie.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_cookie.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.obj
 .PHONY : mbedtls/library/ssl_cookie.c.obj
 
 mbedtls/library/ssl_cookie.i: mbedtls/library/ssl_cookie.c.i
@@ -1857,7 +1857,7 @@ mbedtls/library/ssl_cookie.i: mbedtls/library/ssl_cookie.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_cookie.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.i
 .PHONY : mbedtls/library/ssl_cookie.c.i
 
 mbedtls/library/ssl_cookie.s: mbedtls/library/ssl_cookie.c.s
@@ -1866,7 +1866,7 @@ mbedtls/library/ssl_cookie.s: mbedtls/library/ssl_cookie.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_cookie.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_cookie.c.s
 .PHONY : mbedtls/library/ssl_cookie.c.s
 
 mbedtls/library/ssl_srv.obj: mbedtls/library/ssl_srv.c.obj
@@ -1875,7 +1875,7 @@ mbedtls/library/ssl_srv.obj: mbedtls/library/ssl_srv.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_srv.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.obj
 .PHONY : mbedtls/library/ssl_srv.c.obj
 
 mbedtls/library/ssl_srv.i: mbedtls/library/ssl_srv.c.i
@@ -1884,7 +1884,7 @@ mbedtls/library/ssl_srv.i: mbedtls/library/ssl_srv.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_srv.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.i
 .PHONY : mbedtls/library/ssl_srv.c.i
 
 mbedtls/library/ssl_srv.s: mbedtls/library/ssl_srv.c.s
@@ -1893,7 +1893,7 @@ mbedtls/library/ssl_srv.s: mbedtls/library/ssl_srv.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_srv.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_srv.c.s
 .PHONY : mbedtls/library/ssl_srv.c.s
 
 mbedtls/library/ssl_ticket.obj: mbedtls/library/ssl_ticket.c.obj
@@ -1902,7 +1902,7 @@ mbedtls/library/ssl_ticket.obj: mbedtls/library/ssl_ticket.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_ticket.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.obj
 .PHONY : mbedtls/library/ssl_ticket.c.obj
 
 mbedtls/library/ssl_ticket.i: mbedtls/library/ssl_ticket.c.i
@@ -1911,7 +1911,7 @@ mbedtls/library/ssl_ticket.i: mbedtls/library/ssl_ticket.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_ticket.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.i
 .PHONY : mbedtls/library/ssl_ticket.c.i
 
 mbedtls/library/ssl_ticket.s: mbedtls/library/ssl_ticket.c.s
@@ -1920,7 +1920,7 @@ mbedtls/library/ssl_ticket.s: mbedtls/library/ssl_ticket.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_ticket.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_ticket.c.s
 .PHONY : mbedtls/library/ssl_ticket.c.s
 
 mbedtls/library/ssl_tls.obj: mbedtls/library/ssl_tls.c.obj
@@ -1929,7 +1929,7 @@ mbedtls/library/ssl_tls.obj: mbedtls/library/ssl_tls.c.obj
 
 # target to build an object file
 mbedtls/library/ssl_tls.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.obj
 .PHONY : mbedtls/library/ssl_tls.c.obj
 
 mbedtls/library/ssl_tls.i: mbedtls/library/ssl_tls.c.i
@@ -1938,7 +1938,7 @@ mbedtls/library/ssl_tls.i: mbedtls/library/ssl_tls.c.i
 
 # target to preprocess a source file
 mbedtls/library/ssl_tls.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.i
 .PHONY : mbedtls/library/ssl_tls.c.i
 
 mbedtls/library/ssl_tls.s: mbedtls/library/ssl_tls.c.s
@@ -1947,7 +1947,7 @@ mbedtls/library/ssl_tls.s: mbedtls/library/ssl_tls.c.s
 
 # target to generate assembly for a file
 mbedtls/library/ssl_tls.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/ssl_tls.c.s
 .PHONY : mbedtls/library/ssl_tls.c.s
 
 mbedtls/library/threading.obj: mbedtls/library/threading.c.obj
@@ -1956,7 +1956,7 @@ mbedtls/library/threading.obj: mbedtls/library/threading.c.obj
 
 # target to build an object file
 mbedtls/library/threading.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.obj
 .PHONY : mbedtls/library/threading.c.obj
 
 mbedtls/library/threading.i: mbedtls/library/threading.c.i
@@ -1965,7 +1965,7 @@ mbedtls/library/threading.i: mbedtls/library/threading.c.i
 
 # target to preprocess a source file
 mbedtls/library/threading.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.i
 .PHONY : mbedtls/library/threading.c.i
 
 mbedtls/library/threading.s: mbedtls/library/threading.c.s
@@ -1974,7 +1974,7 @@ mbedtls/library/threading.s: mbedtls/library/threading.c.s
 
 # target to generate assembly for a file
 mbedtls/library/threading.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/threading.c.s
 .PHONY : mbedtls/library/threading.c.s
 
 mbedtls/library/timing.obj: mbedtls/library/timing.c.obj
@@ -1983,7 +1983,7 @@ mbedtls/library/timing.obj: mbedtls/library/timing.c.obj
 
 # target to build an object file
 mbedtls/library/timing.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/timing.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/timing.c.obj
 .PHONY : mbedtls/library/timing.c.obj
 
 mbedtls/library/timing.i: mbedtls/library/timing.c.i
@@ -1992,7 +1992,7 @@ mbedtls/library/timing.i: mbedtls/library/timing.c.i
 
 # target to preprocess a source file
 mbedtls/library/timing.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/timing.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/timing.c.i
 .PHONY : mbedtls/library/timing.c.i
 
 mbedtls/library/timing.s: mbedtls/library/timing.c.s
@@ -2001,7 +2001,7 @@ mbedtls/library/timing.s: mbedtls/library/timing.c.s
 
 # target to generate assembly for a file
 mbedtls/library/timing.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/timing.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/timing.c.s
 .PHONY : mbedtls/library/timing.c.s
 
 mbedtls/library/version.obj: mbedtls/library/version.c.obj
@@ -2010,7 +2010,7 @@ mbedtls/library/version.obj: mbedtls/library/version.c.obj
 
 # target to build an object file
 mbedtls/library/version.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version.c.obj
 .PHONY : mbedtls/library/version.c.obj
 
 mbedtls/library/version.i: mbedtls/library/version.c.i
@@ -2019,7 +2019,7 @@ mbedtls/library/version.i: mbedtls/library/version.c.i
 
 # target to preprocess a source file
 mbedtls/library/version.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version.c.i
 .PHONY : mbedtls/library/version.c.i
 
 mbedtls/library/version.s: mbedtls/library/version.c.s
@@ -2028,7 +2028,7 @@ mbedtls/library/version.s: mbedtls/library/version.c.s
 
 # target to generate assembly for a file
 mbedtls/library/version.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version.c.s
 .PHONY : mbedtls/library/version.c.s
 
 mbedtls/library/version_features.obj: mbedtls/library/version_features.c.obj
@@ -2037,7 +2037,7 @@ mbedtls/library/version_features.obj: mbedtls/library/version_features.c.obj
 
 # target to build an object file
 mbedtls/library/version_features.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version_features.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version_features.c.obj
 .PHONY : mbedtls/library/version_features.c.obj
 
 mbedtls/library/version_features.i: mbedtls/library/version_features.c.i
@@ -2046,7 +2046,7 @@ mbedtls/library/version_features.i: mbedtls/library/version_features.c.i
 
 # target to preprocess a source file
 mbedtls/library/version_features.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version_features.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version_features.c.i
 .PHONY : mbedtls/library/version_features.c.i
 
 mbedtls/library/version_features.s: mbedtls/library/version_features.c.s
@@ -2055,7 +2055,7 @@ mbedtls/library/version_features.s: mbedtls/library/version_features.c.s
 
 # target to generate assembly for a file
 mbedtls/library/version_features.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version_features.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/version_features.c.s
 .PHONY : mbedtls/library/version_features.c.s
 
 mbedtls/library/x509.obj: mbedtls/library/x509.c.obj
@@ -2064,7 +2064,7 @@ mbedtls/library/x509.obj: mbedtls/library/x509.c.obj
 
 # target to build an object file
 mbedtls/library/x509.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.obj
 .PHONY : mbedtls/library/x509.c.obj
 
 mbedtls/library/x509.i: mbedtls/library/x509.c.i
@@ -2073,7 +2073,7 @@ mbedtls/library/x509.i: mbedtls/library/x509.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.i
 .PHONY : mbedtls/library/x509.c.i
 
 mbedtls/library/x509.s: mbedtls/library/x509.c.s
@@ -2082,7 +2082,7 @@ mbedtls/library/x509.s: mbedtls/library/x509.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509.c.s
 .PHONY : mbedtls/library/x509.c.s
 
 mbedtls/library/x509_create.obj: mbedtls/library/x509_create.c.obj
@@ -2091,7 +2091,7 @@ mbedtls/library/x509_create.obj: mbedtls/library/x509_create.c.obj
 
 # target to build an object file
 mbedtls/library/x509_create.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.obj
 .PHONY : mbedtls/library/x509_create.c.obj
 
 mbedtls/library/x509_create.i: mbedtls/library/x509_create.c.i
@@ -2100,7 +2100,7 @@ mbedtls/library/x509_create.i: mbedtls/library/x509_create.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509_create.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.i
 .PHONY : mbedtls/library/x509_create.c.i
 
 mbedtls/library/x509_create.s: mbedtls/library/x509_create.c.s
@@ -2109,7 +2109,7 @@ mbedtls/library/x509_create.s: mbedtls/library/x509_create.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509_create.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_create.c.s
 .PHONY : mbedtls/library/x509_create.c.s
 
 mbedtls/library/x509_crl.obj: mbedtls/library/x509_crl.c.obj
@@ -2118,7 +2118,7 @@ mbedtls/library/x509_crl.obj: mbedtls/library/x509_crl.c.obj
 
 # target to build an object file
 mbedtls/library/x509_crl.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.obj
 .PHONY : mbedtls/library/x509_crl.c.obj
 
 mbedtls/library/x509_crl.i: mbedtls/library/x509_crl.c.i
@@ -2127,7 +2127,7 @@ mbedtls/library/x509_crl.i: mbedtls/library/x509_crl.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509_crl.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.i
 .PHONY : mbedtls/library/x509_crl.c.i
 
 mbedtls/library/x509_crl.s: mbedtls/library/x509_crl.c.s
@@ -2136,7 +2136,7 @@ mbedtls/library/x509_crl.s: mbedtls/library/x509_crl.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509_crl.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crl.c.s
 .PHONY : mbedtls/library/x509_crl.c.s
 
 mbedtls/library/x509_crt.obj: mbedtls/library/x509_crt.c.obj
@@ -2145,7 +2145,7 @@ mbedtls/library/x509_crt.obj: mbedtls/library/x509_crt.c.obj
 
 # target to build an object file
 mbedtls/library/x509_crt.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.obj
 .PHONY : mbedtls/library/x509_crt.c.obj
 
 mbedtls/library/x509_crt.i: mbedtls/library/x509_crt.c.i
@@ -2154,7 +2154,7 @@ mbedtls/library/x509_crt.i: mbedtls/library/x509_crt.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509_crt.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.i
 .PHONY : mbedtls/library/x509_crt.c.i
 
 mbedtls/library/x509_crt.s: mbedtls/library/x509_crt.c.s
@@ -2163,7 +2163,7 @@ mbedtls/library/x509_crt.s: mbedtls/library/x509_crt.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509_crt.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_crt.c.s
 .PHONY : mbedtls/library/x509_crt.c.s
 
 mbedtls/library/x509_csr.obj: mbedtls/library/x509_csr.c.obj
@@ -2172,7 +2172,7 @@ mbedtls/library/x509_csr.obj: mbedtls/library/x509_csr.c.obj
 
 # target to build an object file
 mbedtls/library/x509_csr.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.obj
 .PHONY : mbedtls/library/x509_csr.c.obj
 
 mbedtls/library/x509_csr.i: mbedtls/library/x509_csr.c.i
@@ -2181,7 +2181,7 @@ mbedtls/library/x509_csr.i: mbedtls/library/x509_csr.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509_csr.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.i
 .PHONY : mbedtls/library/x509_csr.c.i
 
 mbedtls/library/x509_csr.s: mbedtls/library/x509_csr.c.s
@@ -2190,7 +2190,7 @@ mbedtls/library/x509_csr.s: mbedtls/library/x509_csr.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509_csr.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509_csr.c.s
 .PHONY : mbedtls/library/x509_csr.c.s
 
 mbedtls/library/x509write_crt.obj: mbedtls/library/x509write_crt.c.obj
@@ -2199,7 +2199,7 @@ mbedtls/library/x509write_crt.obj: mbedtls/library/x509write_crt.c.obj
 
 # target to build an object file
 mbedtls/library/x509write_crt.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.obj
 .PHONY : mbedtls/library/x509write_crt.c.obj
 
 mbedtls/library/x509write_crt.i: mbedtls/library/x509write_crt.c.i
@@ -2208,7 +2208,7 @@ mbedtls/library/x509write_crt.i: mbedtls/library/x509write_crt.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509write_crt.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.i
 .PHONY : mbedtls/library/x509write_crt.c.i
 
 mbedtls/library/x509write_crt.s: mbedtls/library/x509write_crt.c.s
@@ -2217,7 +2217,7 @@ mbedtls/library/x509write_crt.s: mbedtls/library/x509write_crt.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509write_crt.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_crt.c.s
 .PHONY : mbedtls/library/x509write_crt.c.s
 
 mbedtls/library/x509write_csr.obj: mbedtls/library/x509write_csr.c.obj
@@ -2226,7 +2226,7 @@ mbedtls/library/x509write_csr.obj: mbedtls/library/x509write_csr.c.obj
 
 # target to build an object file
 mbedtls/library/x509write_csr.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.obj
 .PHONY : mbedtls/library/x509write_csr.c.obj
 
 mbedtls/library/x509write_csr.i: mbedtls/library/x509write_csr.c.i
@@ -2235,7 +2235,7 @@ mbedtls/library/x509write_csr.i: mbedtls/library/x509write_csr.c.i
 
 # target to preprocess a source file
 mbedtls/library/x509write_csr.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.i
 .PHONY : mbedtls/library/x509write_csr.c.i
 
 mbedtls/library/x509write_csr.s: mbedtls/library/x509write_csr.c.s
@@ -2244,7 +2244,7 @@ mbedtls/library/x509write_csr.s: mbedtls/library/x509write_csr.c.s
 
 # target to generate assembly for a file
 mbedtls/library/x509write_csr.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/x509write_csr.c.s
 .PHONY : mbedtls/library/x509write_csr.c.s
 
 mbedtls/library/xtea.obj: mbedtls/library/xtea.c.obj
@@ -2253,7 +2253,7 @@ mbedtls/library/xtea.obj: mbedtls/library/xtea.c.obj
 
 # target to build an object file
 mbedtls/library/xtea.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/xtea.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/xtea.c.obj
 .PHONY : mbedtls/library/xtea.c.obj
 
 mbedtls/library/xtea.i: mbedtls/library/xtea.c.i
@@ -2262,7 +2262,7 @@ mbedtls/library/xtea.i: mbedtls/library/xtea.c.i
 
 # target to preprocess a source file
 mbedtls/library/xtea.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/xtea.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/xtea.c.i
 .PHONY : mbedtls/library/xtea.c.i
 
 mbedtls/library/xtea.s: mbedtls/library/xtea.c.s
@@ -2271,7 +2271,7 @@ mbedtls/library/xtea.s: mbedtls/library/xtea.c.s
 
 # target to generate assembly for a file
 mbedtls/library/xtea.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/xtea.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/library/xtea.c.s
 .PHONY : mbedtls/library/xtea.c.s
 
 mbedtls/utils/mbedtls_utils.obj: mbedtls/utils/mbedtls_utils.c.obj
@@ -2280,7 +2280,7 @@ mbedtls/utils/mbedtls_utils.obj: mbedtls/utils/mbedtls_utils.c.obj
 
 # target to build an object file
 mbedtls/utils/mbedtls_utils.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.obj
 .PHONY : mbedtls/utils/mbedtls_utils.c.obj
 
 mbedtls/utils/mbedtls_utils.i: mbedtls/utils/mbedtls_utils.c.i
@@ -2289,7 +2289,7 @@ mbedtls/utils/mbedtls_utils.i: mbedtls/utils/mbedtls_utils.c.i
 
 # target to preprocess a source file
 mbedtls/utils/mbedtls_utils.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.i
 .PHONY : mbedtls/utils/mbedtls_utils.c.i
 
 mbedtls/utils/mbedtls_utils.s: mbedtls/utils/mbedtls_utils.c.s
@@ -2298,7 +2298,7 @@ mbedtls/utils/mbedtls_utils.s: mbedtls/utils/mbedtls_utils.c.s
 
 # target to generate assembly for a file
 mbedtls/utils/mbedtls_utils.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_mbedtls.dir/mbedtls/utils/mbedtls_utils.c.s
 .PHONY : mbedtls/utils/mbedtls_utils.c.s
 
 tinycbor/cborencoder.obj: tinycbor/cborencoder.c.obj
@@ -2307,7 +2307,7 @@ tinycbor/cborencoder.obj: tinycbor/cborencoder.c.obj
 
 # target to build an object file
 tinycbor/cborencoder.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.obj
 .PHONY : tinycbor/cborencoder.c.obj
 
 tinycbor/cborencoder.i: tinycbor/cborencoder.c.i
@@ -2316,7 +2316,7 @@ tinycbor/cborencoder.i: tinycbor/cborencoder.c.i
 
 # target to preprocess a source file
 tinycbor/cborencoder.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.i
 .PHONY : tinycbor/cborencoder.c.i
 
 tinycbor/cborencoder.s: tinycbor/cborencoder.c.s
@@ -2325,7 +2325,7 @@ tinycbor/cborencoder.s: tinycbor/cborencoder.c.s
 
 # target to generate assembly for a file
 tinycbor/cborencoder.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder.c.s
 .PHONY : tinycbor/cborencoder.c.s
 
 tinycbor/cborencoder_close_container_checked.obj: tinycbor/cborencoder_close_container_checked.c.obj
@@ -2334,7 +2334,7 @@ tinycbor/cborencoder_close_container_checked.obj: tinycbor/cborencoder_close_con
 
 # target to build an object file
 tinycbor/cborencoder_close_container_checked.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.obj
 .PHONY : tinycbor/cborencoder_close_container_checked.c.obj
 
 tinycbor/cborencoder_close_container_checked.i: tinycbor/cborencoder_close_container_checked.c.i
@@ -2343,7 +2343,7 @@ tinycbor/cborencoder_close_container_checked.i: tinycbor/cborencoder_close_conta
 
 # target to preprocess a source file
 tinycbor/cborencoder_close_container_checked.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.i
 .PHONY : tinycbor/cborencoder_close_container_checked.c.i
 
 tinycbor/cborencoder_close_container_checked.s: tinycbor/cborencoder_close_container_checked.c.s
@@ -2352,7 +2352,7 @@ tinycbor/cborencoder_close_container_checked.s: tinycbor/cborencoder_close_conta
 
 # target to generate assembly for a file
 tinycbor/cborencoder_close_container_checked.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborencoder_close_container_checked.c.s
 .PHONY : tinycbor/cborencoder_close_container_checked.c.s
 
 tinycbor/cborerrorstrings.obj: tinycbor/cborerrorstrings.c.obj
@@ -2361,7 +2361,7 @@ tinycbor/cborerrorstrings.obj: tinycbor/cborerrorstrings.c.obj
 
 # target to build an object file
 tinycbor/cborerrorstrings.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.obj
 .PHONY : tinycbor/cborerrorstrings.c.obj
 
 tinycbor/cborerrorstrings.i: tinycbor/cborerrorstrings.c.i
@@ -2370,7 +2370,7 @@ tinycbor/cborerrorstrings.i: tinycbor/cborerrorstrings.c.i
 
 # target to preprocess a source file
 tinycbor/cborerrorstrings.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.i
 .PHONY : tinycbor/cborerrorstrings.c.i
 
 tinycbor/cborerrorstrings.s: tinycbor/cborerrorstrings.c.s
@@ -2379,7 +2379,7 @@ tinycbor/cborerrorstrings.s: tinycbor/cborerrorstrings.c.s
 
 # target to generate assembly for a file
 tinycbor/cborerrorstrings.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborerrorstrings.c.s
 .PHONY : tinycbor/cborerrorstrings.c.s
 
 tinycbor/cborparser.obj: tinycbor/cborparser.c.obj
@@ -2388,7 +2388,7 @@ tinycbor/cborparser.obj: tinycbor/cborparser.c.obj
 
 # target to build an object file
 tinycbor/cborparser.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.obj
 .PHONY : tinycbor/cborparser.c.obj
 
 tinycbor/cborparser.i: tinycbor/cborparser.c.i
@@ -2397,7 +2397,7 @@ tinycbor/cborparser.i: tinycbor/cborparser.c.i
 
 # target to preprocess a source file
 tinycbor/cborparser.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.i
 .PHONY : tinycbor/cborparser.c.i
 
 tinycbor/cborparser.s: tinycbor/cborparser.c.s
@@ -2406,7 +2406,7 @@ tinycbor/cborparser.s: tinycbor/cborparser.c.s
 
 # target to generate assembly for a file
 tinycbor/cborparser.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser.c.s
 .PHONY : tinycbor/cborparser.c.s
 
 tinycbor/cborparser_dup_string.obj: tinycbor/cborparser_dup_string.c.obj
@@ -2415,7 +2415,7 @@ tinycbor/cborparser_dup_string.obj: tinycbor/cborparser_dup_string.c.obj
 
 # target to build an object file
 tinycbor/cborparser_dup_string.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.obj
 .PHONY : tinycbor/cborparser_dup_string.c.obj
 
 tinycbor/cborparser_dup_string.i: tinycbor/cborparser_dup_string.c.i
@@ -2424,7 +2424,7 @@ tinycbor/cborparser_dup_string.i: tinycbor/cborparser_dup_string.c.i
 
 # target to preprocess a source file
 tinycbor/cborparser_dup_string.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.i
 .PHONY : tinycbor/cborparser_dup_string.c.i
 
 tinycbor/cborparser_dup_string.s: tinycbor/cborparser_dup_string.c.s
@@ -2433,7 +2433,7 @@ tinycbor/cborparser_dup_string.s: tinycbor/cborparser_dup_string.c.s
 
 # target to generate assembly for a file
 tinycbor/cborparser_dup_string.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborparser_dup_string.c.s
 .PHONY : tinycbor/cborparser_dup_string.c.s
 
 tinycbor/cborpretty.obj: tinycbor/cborpretty.c.obj
@@ -2442,7 +2442,7 @@ tinycbor/cborpretty.obj: tinycbor/cborpretty.c.obj
 
 # target to build an object file
 tinycbor/cborpretty.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.obj
 .PHONY : tinycbor/cborpretty.c.obj
 
 tinycbor/cborpretty.i: tinycbor/cborpretty.c.i
@@ -2451,7 +2451,7 @@ tinycbor/cborpretty.i: tinycbor/cborpretty.c.i
 
 # target to preprocess a source file
 tinycbor/cborpretty.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.i
 .PHONY : tinycbor/cborpretty.c.i
 
 tinycbor/cborpretty.s: tinycbor/cborpretty.c.s
@@ -2460,7 +2460,7 @@ tinycbor/cborpretty.s: tinycbor/cborpretty.c.s
 
 # target to generate assembly for a file
 tinycbor/cborpretty.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/build.make libraries/3rdparty/CMakeFiles/afr_3rdparty_tinycbor.dir/tinycbor/cborpretty.c.s
 .PHONY : tinycbor/cborpretty.c.s
 
 # Help Target
@@ -2469,10 +2469,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... afr_3rdparty_mbedtls"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... afr_3rdparty_tinycbor"
+	@echo "... afr_3rdparty_mbedtls"
 	@echo "... __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.obj"
 	@echo "... __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.i"
 	@echo "... __/__/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.s"
@@ -2742,7 +2742,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

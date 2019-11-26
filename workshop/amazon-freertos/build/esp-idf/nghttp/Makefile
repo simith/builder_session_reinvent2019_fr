@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.15.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
+CMAKE_SOURCE_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
+CMAKE_BINARY_DIR = /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/wor
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/nghttp/CMakeFiles/progress.marks
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/esp-idf/nghttp/CMakeFiles/progress.marks
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/clean
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,23 +97,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/preinstall
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/rule:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/rule
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/rule
 .PHONY : esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ idf_component_nghttp: esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/rule
 
 # fast build rule for target.
 idf_component_nghttp/fast:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build
 .PHONY : idf_component_nghttp/fast
 
 nghttp2/lib/nghttp2_buf.obj: nghttp2/lib/nghttp2_buf.c.obj
@@ -132,7 +132,7 @@ nghttp2/lib/nghttp2_buf.obj: nghttp2/lib/nghttp2_buf.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_buf.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.obj
 .PHONY : nghttp2/lib/nghttp2_buf.c.obj
 
 nghttp2/lib/nghttp2_buf.i: nghttp2/lib/nghttp2_buf.c.i
@@ -141,7 +141,7 @@ nghttp2/lib/nghttp2_buf.i: nghttp2/lib/nghttp2_buf.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_buf.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.i
 .PHONY : nghttp2/lib/nghttp2_buf.c.i
 
 nghttp2/lib/nghttp2_buf.s: nghttp2/lib/nghttp2_buf.c.s
@@ -150,7 +150,7 @@ nghttp2/lib/nghttp2_buf.s: nghttp2/lib/nghttp2_buf.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_buf.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_buf.c.s
 .PHONY : nghttp2/lib/nghttp2_buf.c.s
 
 nghttp2/lib/nghttp2_callbacks.obj: nghttp2/lib/nghttp2_callbacks.c.obj
@@ -159,7 +159,7 @@ nghttp2/lib/nghttp2_callbacks.obj: nghttp2/lib/nghttp2_callbacks.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_callbacks.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.obj
 .PHONY : nghttp2/lib/nghttp2_callbacks.c.obj
 
 nghttp2/lib/nghttp2_callbacks.i: nghttp2/lib/nghttp2_callbacks.c.i
@@ -168,7 +168,7 @@ nghttp2/lib/nghttp2_callbacks.i: nghttp2/lib/nghttp2_callbacks.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_callbacks.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.i
 .PHONY : nghttp2/lib/nghttp2_callbacks.c.i
 
 nghttp2/lib/nghttp2_callbacks.s: nghttp2/lib/nghttp2_callbacks.c.s
@@ -177,7 +177,7 @@ nghttp2/lib/nghttp2_callbacks.s: nghttp2/lib/nghttp2_callbacks.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_callbacks.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.s
 .PHONY : nghttp2/lib/nghttp2_callbacks.c.s
 
 nghttp2/lib/nghttp2_debug.obj: nghttp2/lib/nghttp2_debug.c.obj
@@ -186,7 +186,7 @@ nghttp2/lib/nghttp2_debug.obj: nghttp2/lib/nghttp2_debug.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_debug.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.obj
 .PHONY : nghttp2/lib/nghttp2_debug.c.obj
 
 nghttp2/lib/nghttp2_debug.i: nghttp2/lib/nghttp2_debug.c.i
@@ -195,7 +195,7 @@ nghttp2/lib/nghttp2_debug.i: nghttp2/lib/nghttp2_debug.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_debug.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.i
 .PHONY : nghttp2/lib/nghttp2_debug.c.i
 
 nghttp2/lib/nghttp2_debug.s: nghttp2/lib/nghttp2_debug.c.s
@@ -204,7 +204,7 @@ nghttp2/lib/nghttp2_debug.s: nghttp2/lib/nghttp2_debug.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_debug.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_debug.c.s
 .PHONY : nghttp2/lib/nghttp2_debug.c.s
 
 nghttp2/lib/nghttp2_frame.obj: nghttp2/lib/nghttp2_frame.c.obj
@@ -213,7 +213,7 @@ nghttp2/lib/nghttp2_frame.obj: nghttp2/lib/nghttp2_frame.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_frame.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.obj
 .PHONY : nghttp2/lib/nghttp2_frame.c.obj
 
 nghttp2/lib/nghttp2_frame.i: nghttp2/lib/nghttp2_frame.c.i
@@ -222,7 +222,7 @@ nghttp2/lib/nghttp2_frame.i: nghttp2/lib/nghttp2_frame.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_frame.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.i
 .PHONY : nghttp2/lib/nghttp2_frame.c.i
 
 nghttp2/lib/nghttp2_frame.s: nghttp2/lib/nghttp2_frame.c.s
@@ -231,7 +231,7 @@ nghttp2/lib/nghttp2_frame.s: nghttp2/lib/nghttp2_frame.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_frame.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_frame.c.s
 .PHONY : nghttp2/lib/nghttp2_frame.c.s
 
 nghttp2/lib/nghttp2_hd.obj: nghttp2/lib/nghttp2_hd.c.obj
@@ -240,7 +240,7 @@ nghttp2/lib/nghttp2_hd.obj: nghttp2/lib/nghttp2_hd.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_hd.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.obj
 .PHONY : nghttp2/lib/nghttp2_hd.c.obj
 
 nghttp2/lib/nghttp2_hd.i: nghttp2/lib/nghttp2_hd.c.i
@@ -249,7 +249,7 @@ nghttp2/lib/nghttp2_hd.i: nghttp2/lib/nghttp2_hd.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_hd.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.i
 .PHONY : nghttp2/lib/nghttp2_hd.c.i
 
 nghttp2/lib/nghttp2_hd.s: nghttp2/lib/nghttp2_hd.c.s
@@ -258,7 +258,7 @@ nghttp2/lib/nghttp2_hd.s: nghttp2/lib/nghttp2_hd.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_hd.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd.c.s
 .PHONY : nghttp2/lib/nghttp2_hd.c.s
 
 nghttp2/lib/nghttp2_hd_huffman.obj: nghttp2/lib/nghttp2_hd_huffman.c.obj
@@ -267,7 +267,7 @@ nghttp2/lib/nghttp2_hd_huffman.obj: nghttp2/lib/nghttp2_hd_huffman.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_hd_huffman.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.obj
 .PHONY : nghttp2/lib/nghttp2_hd_huffman.c.obj
 
 nghttp2/lib/nghttp2_hd_huffman.i: nghttp2/lib/nghttp2_hd_huffman.c.i
@@ -276,7 +276,7 @@ nghttp2/lib/nghttp2_hd_huffman.i: nghttp2/lib/nghttp2_hd_huffman.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_hd_huffman.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.i
 .PHONY : nghttp2/lib/nghttp2_hd_huffman.c.i
 
 nghttp2/lib/nghttp2_hd_huffman.s: nghttp2/lib/nghttp2_hd_huffman.c.s
@@ -285,7 +285,7 @@ nghttp2/lib/nghttp2_hd_huffman.s: nghttp2/lib/nghttp2_hd_huffman.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_hd_huffman.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.s
 .PHONY : nghttp2/lib/nghttp2_hd_huffman.c.s
 
 nghttp2/lib/nghttp2_hd_huffman_data.obj: nghttp2/lib/nghttp2_hd_huffman_data.c.obj
@@ -294,7 +294,7 @@ nghttp2/lib/nghttp2_hd_huffman_data.obj: nghttp2/lib/nghttp2_hd_huffman_data.c.o
 
 # target to build an object file
 nghttp2/lib/nghttp2_hd_huffman_data.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.obj
 .PHONY : nghttp2/lib/nghttp2_hd_huffman_data.c.obj
 
 nghttp2/lib/nghttp2_hd_huffman_data.i: nghttp2/lib/nghttp2_hd_huffman_data.c.i
@@ -303,7 +303,7 @@ nghttp2/lib/nghttp2_hd_huffman_data.i: nghttp2/lib/nghttp2_hd_huffman_data.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_hd_huffman_data.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.i
 .PHONY : nghttp2/lib/nghttp2_hd_huffman_data.c.i
 
 nghttp2/lib/nghttp2_hd_huffman_data.s: nghttp2/lib/nghttp2_hd_huffman_data.c.s
@@ -312,7 +312,7 @@ nghttp2/lib/nghttp2_hd_huffman_data.s: nghttp2/lib/nghttp2_hd_huffman_data.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_hd_huffman_data.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.s
 .PHONY : nghttp2/lib/nghttp2_hd_huffman_data.c.s
 
 nghttp2/lib/nghttp2_helper.obj: nghttp2/lib/nghttp2_helper.c.obj
@@ -321,7 +321,7 @@ nghttp2/lib/nghttp2_helper.obj: nghttp2/lib/nghttp2_helper.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_helper.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.obj
 .PHONY : nghttp2/lib/nghttp2_helper.c.obj
 
 nghttp2/lib/nghttp2_helper.i: nghttp2/lib/nghttp2_helper.c.i
@@ -330,7 +330,7 @@ nghttp2/lib/nghttp2_helper.i: nghttp2/lib/nghttp2_helper.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_helper.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.i
 .PHONY : nghttp2/lib/nghttp2_helper.c.i
 
 nghttp2/lib/nghttp2_helper.s: nghttp2/lib/nghttp2_helper.c.s
@@ -339,7 +339,7 @@ nghttp2/lib/nghttp2_helper.s: nghttp2/lib/nghttp2_helper.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_helper.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_helper.c.s
 .PHONY : nghttp2/lib/nghttp2_helper.c.s
 
 nghttp2/lib/nghttp2_http.obj: nghttp2/lib/nghttp2_http.c.obj
@@ -348,7 +348,7 @@ nghttp2/lib/nghttp2_http.obj: nghttp2/lib/nghttp2_http.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_http.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.obj
 .PHONY : nghttp2/lib/nghttp2_http.c.obj
 
 nghttp2/lib/nghttp2_http.i: nghttp2/lib/nghttp2_http.c.i
@@ -357,7 +357,7 @@ nghttp2/lib/nghttp2_http.i: nghttp2/lib/nghttp2_http.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_http.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.i
 .PHONY : nghttp2/lib/nghttp2_http.c.i
 
 nghttp2/lib/nghttp2_http.s: nghttp2/lib/nghttp2_http.c.s
@@ -366,7 +366,7 @@ nghttp2/lib/nghttp2_http.s: nghttp2/lib/nghttp2_http.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_http.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_http.c.s
 .PHONY : nghttp2/lib/nghttp2_http.c.s
 
 nghttp2/lib/nghttp2_map.obj: nghttp2/lib/nghttp2_map.c.obj
@@ -375,7 +375,7 @@ nghttp2/lib/nghttp2_map.obj: nghttp2/lib/nghttp2_map.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_map.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.obj
 .PHONY : nghttp2/lib/nghttp2_map.c.obj
 
 nghttp2/lib/nghttp2_map.i: nghttp2/lib/nghttp2_map.c.i
@@ -384,7 +384,7 @@ nghttp2/lib/nghttp2_map.i: nghttp2/lib/nghttp2_map.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_map.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.i
 .PHONY : nghttp2/lib/nghttp2_map.c.i
 
 nghttp2/lib/nghttp2_map.s: nghttp2/lib/nghttp2_map.c.s
@@ -393,7 +393,7 @@ nghttp2/lib/nghttp2_map.s: nghttp2/lib/nghttp2_map.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_map.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_map.c.s
 .PHONY : nghttp2/lib/nghttp2_map.c.s
 
 nghttp2/lib/nghttp2_mem.obj: nghttp2/lib/nghttp2_mem.c.obj
@@ -402,7 +402,7 @@ nghttp2/lib/nghttp2_mem.obj: nghttp2/lib/nghttp2_mem.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_mem.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.obj
 .PHONY : nghttp2/lib/nghttp2_mem.c.obj
 
 nghttp2/lib/nghttp2_mem.i: nghttp2/lib/nghttp2_mem.c.i
@@ -411,7 +411,7 @@ nghttp2/lib/nghttp2_mem.i: nghttp2/lib/nghttp2_mem.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_mem.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.i
 .PHONY : nghttp2/lib/nghttp2_mem.c.i
 
 nghttp2/lib/nghttp2_mem.s: nghttp2/lib/nghttp2_mem.c.s
@@ -420,7 +420,7 @@ nghttp2/lib/nghttp2_mem.s: nghttp2/lib/nghttp2_mem.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_mem.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_mem.c.s
 .PHONY : nghttp2/lib/nghttp2_mem.c.s
 
 nghttp2/lib/nghttp2_npn.obj: nghttp2/lib/nghttp2_npn.c.obj
@@ -429,7 +429,7 @@ nghttp2/lib/nghttp2_npn.obj: nghttp2/lib/nghttp2_npn.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_npn.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.obj
 .PHONY : nghttp2/lib/nghttp2_npn.c.obj
 
 nghttp2/lib/nghttp2_npn.i: nghttp2/lib/nghttp2_npn.c.i
@@ -438,7 +438,7 @@ nghttp2/lib/nghttp2_npn.i: nghttp2/lib/nghttp2_npn.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_npn.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.i
 .PHONY : nghttp2/lib/nghttp2_npn.c.i
 
 nghttp2/lib/nghttp2_npn.s: nghttp2/lib/nghttp2_npn.c.s
@@ -447,7 +447,7 @@ nghttp2/lib/nghttp2_npn.s: nghttp2/lib/nghttp2_npn.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_npn.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_npn.c.s
 .PHONY : nghttp2/lib/nghttp2_npn.c.s
 
 nghttp2/lib/nghttp2_option.obj: nghttp2/lib/nghttp2_option.c.obj
@@ -456,7 +456,7 @@ nghttp2/lib/nghttp2_option.obj: nghttp2/lib/nghttp2_option.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_option.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.obj
 .PHONY : nghttp2/lib/nghttp2_option.c.obj
 
 nghttp2/lib/nghttp2_option.i: nghttp2/lib/nghttp2_option.c.i
@@ -465,7 +465,7 @@ nghttp2/lib/nghttp2_option.i: nghttp2/lib/nghttp2_option.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_option.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.i
 .PHONY : nghttp2/lib/nghttp2_option.c.i
 
 nghttp2/lib/nghttp2_option.s: nghttp2/lib/nghttp2_option.c.s
@@ -474,7 +474,7 @@ nghttp2/lib/nghttp2_option.s: nghttp2/lib/nghttp2_option.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_option.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_option.c.s
 .PHONY : nghttp2/lib/nghttp2_option.c.s
 
 nghttp2/lib/nghttp2_outbound_item.obj: nghttp2/lib/nghttp2_outbound_item.c.obj
@@ -483,7 +483,7 @@ nghttp2/lib/nghttp2_outbound_item.obj: nghttp2/lib/nghttp2_outbound_item.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_outbound_item.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.obj
 .PHONY : nghttp2/lib/nghttp2_outbound_item.c.obj
 
 nghttp2/lib/nghttp2_outbound_item.i: nghttp2/lib/nghttp2_outbound_item.c.i
@@ -492,7 +492,7 @@ nghttp2/lib/nghttp2_outbound_item.i: nghttp2/lib/nghttp2_outbound_item.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_outbound_item.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.i
 .PHONY : nghttp2/lib/nghttp2_outbound_item.c.i
 
 nghttp2/lib/nghttp2_outbound_item.s: nghttp2/lib/nghttp2_outbound_item.c.s
@@ -501,7 +501,7 @@ nghttp2/lib/nghttp2_outbound_item.s: nghttp2/lib/nghttp2_outbound_item.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_outbound_item.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.s
 .PHONY : nghttp2/lib/nghttp2_outbound_item.c.s
 
 nghttp2/lib/nghttp2_pq.obj: nghttp2/lib/nghttp2_pq.c.obj
@@ -510,7 +510,7 @@ nghttp2/lib/nghttp2_pq.obj: nghttp2/lib/nghttp2_pq.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_pq.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.obj
 .PHONY : nghttp2/lib/nghttp2_pq.c.obj
 
 nghttp2/lib/nghttp2_pq.i: nghttp2/lib/nghttp2_pq.c.i
@@ -519,7 +519,7 @@ nghttp2/lib/nghttp2_pq.i: nghttp2/lib/nghttp2_pq.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_pq.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.i
 .PHONY : nghttp2/lib/nghttp2_pq.c.i
 
 nghttp2/lib/nghttp2_pq.s: nghttp2/lib/nghttp2_pq.c.s
@@ -528,7 +528,7 @@ nghttp2/lib/nghttp2_pq.s: nghttp2/lib/nghttp2_pq.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_pq.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_pq.c.s
 .PHONY : nghttp2/lib/nghttp2_pq.c.s
 
 nghttp2/lib/nghttp2_priority_spec.obj: nghttp2/lib/nghttp2_priority_spec.c.obj
@@ -537,7 +537,7 @@ nghttp2/lib/nghttp2_priority_spec.obj: nghttp2/lib/nghttp2_priority_spec.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_priority_spec.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.obj
 .PHONY : nghttp2/lib/nghttp2_priority_spec.c.obj
 
 nghttp2/lib/nghttp2_priority_spec.i: nghttp2/lib/nghttp2_priority_spec.c.i
@@ -546,7 +546,7 @@ nghttp2/lib/nghttp2_priority_spec.i: nghttp2/lib/nghttp2_priority_spec.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_priority_spec.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.i
 .PHONY : nghttp2/lib/nghttp2_priority_spec.c.i
 
 nghttp2/lib/nghttp2_priority_spec.s: nghttp2/lib/nghttp2_priority_spec.c.s
@@ -555,7 +555,7 @@ nghttp2/lib/nghttp2_priority_spec.s: nghttp2/lib/nghttp2_priority_spec.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_priority_spec.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.s
 .PHONY : nghttp2/lib/nghttp2_priority_spec.c.s
 
 nghttp2/lib/nghttp2_queue.obj: nghttp2/lib/nghttp2_queue.c.obj
@@ -564,7 +564,7 @@ nghttp2/lib/nghttp2_queue.obj: nghttp2/lib/nghttp2_queue.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_queue.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.obj
 .PHONY : nghttp2/lib/nghttp2_queue.c.obj
 
 nghttp2/lib/nghttp2_queue.i: nghttp2/lib/nghttp2_queue.c.i
@@ -573,7 +573,7 @@ nghttp2/lib/nghttp2_queue.i: nghttp2/lib/nghttp2_queue.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_queue.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.i
 .PHONY : nghttp2/lib/nghttp2_queue.c.i
 
 nghttp2/lib/nghttp2_queue.s: nghttp2/lib/nghttp2_queue.c.s
@@ -582,7 +582,7 @@ nghttp2/lib/nghttp2_queue.s: nghttp2/lib/nghttp2_queue.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_queue.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_queue.c.s
 .PHONY : nghttp2/lib/nghttp2_queue.c.s
 
 nghttp2/lib/nghttp2_rcbuf.obj: nghttp2/lib/nghttp2_rcbuf.c.obj
@@ -591,7 +591,7 @@ nghttp2/lib/nghttp2_rcbuf.obj: nghttp2/lib/nghttp2_rcbuf.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_rcbuf.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.obj
 .PHONY : nghttp2/lib/nghttp2_rcbuf.c.obj
 
 nghttp2/lib/nghttp2_rcbuf.i: nghttp2/lib/nghttp2_rcbuf.c.i
@@ -600,7 +600,7 @@ nghttp2/lib/nghttp2_rcbuf.i: nghttp2/lib/nghttp2_rcbuf.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_rcbuf.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.i
 .PHONY : nghttp2/lib/nghttp2_rcbuf.c.i
 
 nghttp2/lib/nghttp2_rcbuf.s: nghttp2/lib/nghttp2_rcbuf.c.s
@@ -609,7 +609,7 @@ nghttp2/lib/nghttp2_rcbuf.s: nghttp2/lib/nghttp2_rcbuf.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_rcbuf.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.s
 .PHONY : nghttp2/lib/nghttp2_rcbuf.c.s
 
 nghttp2/lib/nghttp2_session.obj: nghttp2/lib/nghttp2_session.c.obj
@@ -618,7 +618,7 @@ nghttp2/lib/nghttp2_session.obj: nghttp2/lib/nghttp2_session.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_session.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.obj
 .PHONY : nghttp2/lib/nghttp2_session.c.obj
 
 nghttp2/lib/nghttp2_session.i: nghttp2/lib/nghttp2_session.c.i
@@ -627,7 +627,7 @@ nghttp2/lib/nghttp2_session.i: nghttp2/lib/nghttp2_session.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_session.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.i
 .PHONY : nghttp2/lib/nghttp2_session.c.i
 
 nghttp2/lib/nghttp2_session.s: nghttp2/lib/nghttp2_session.c.s
@@ -636,7 +636,7 @@ nghttp2/lib/nghttp2_session.s: nghttp2/lib/nghttp2_session.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_session.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_session.c.s
 .PHONY : nghttp2/lib/nghttp2_session.c.s
 
 nghttp2/lib/nghttp2_stream.obj: nghttp2/lib/nghttp2_stream.c.obj
@@ -645,7 +645,7 @@ nghttp2/lib/nghttp2_stream.obj: nghttp2/lib/nghttp2_stream.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_stream.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.obj
 .PHONY : nghttp2/lib/nghttp2_stream.c.obj
 
 nghttp2/lib/nghttp2_stream.i: nghttp2/lib/nghttp2_stream.c.i
@@ -654,7 +654,7 @@ nghttp2/lib/nghttp2_stream.i: nghttp2/lib/nghttp2_stream.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_stream.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.i
 .PHONY : nghttp2/lib/nghttp2_stream.c.i
 
 nghttp2/lib/nghttp2_stream.s: nghttp2/lib/nghttp2_stream.c.s
@@ -663,7 +663,7 @@ nghttp2/lib/nghttp2_stream.s: nghttp2/lib/nghttp2_stream.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_stream.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_stream.c.s
 .PHONY : nghttp2/lib/nghttp2_stream.c.s
 
 nghttp2/lib/nghttp2_submit.obj: nghttp2/lib/nghttp2_submit.c.obj
@@ -672,7 +672,7 @@ nghttp2/lib/nghttp2_submit.obj: nghttp2/lib/nghttp2_submit.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_submit.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.obj
 .PHONY : nghttp2/lib/nghttp2_submit.c.obj
 
 nghttp2/lib/nghttp2_submit.i: nghttp2/lib/nghttp2_submit.c.i
@@ -681,7 +681,7 @@ nghttp2/lib/nghttp2_submit.i: nghttp2/lib/nghttp2_submit.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_submit.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.i
 .PHONY : nghttp2/lib/nghttp2_submit.c.i
 
 nghttp2/lib/nghttp2_submit.s: nghttp2/lib/nghttp2_submit.c.s
@@ -690,7 +690,7 @@ nghttp2/lib/nghttp2_submit.s: nghttp2/lib/nghttp2_submit.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_submit.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_submit.c.s
 .PHONY : nghttp2/lib/nghttp2_submit.c.s
 
 nghttp2/lib/nghttp2_version.obj: nghttp2/lib/nghttp2_version.c.obj
@@ -699,7 +699,7 @@ nghttp2/lib/nghttp2_version.obj: nghttp2/lib/nghttp2_version.c.obj
 
 # target to build an object file
 nghttp2/lib/nghttp2_version.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.obj
 .PHONY : nghttp2/lib/nghttp2_version.c.obj
 
 nghttp2/lib/nghttp2_version.i: nghttp2/lib/nghttp2_version.c.i
@@ -708,7 +708,7 @@ nghttp2/lib/nghttp2_version.i: nghttp2/lib/nghttp2_version.c.i
 
 # target to preprocess a source file
 nghttp2/lib/nghttp2_version.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.i
 .PHONY : nghttp2/lib/nghttp2_version.c.i
 
 nghttp2/lib/nghttp2_version.s: nghttp2/lib/nghttp2_version.c.s
@@ -717,7 +717,7 @@ nghttp2/lib/nghttp2_version.s: nghttp2/lib/nghttp2_version.c.s
 
 # target to generate assembly for a file
 nghttp2/lib/nghttp2_version.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/nghttp2/lib/nghttp2_version.c.s
 .PHONY : nghttp2/lib/nghttp2_version.c.s
 
 port/http_parser.obj: port/http_parser.c.obj
@@ -726,7 +726,7 @@ port/http_parser.obj: port/http_parser.c.obj
 
 # target to build an object file
 port/http_parser.c.obj:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.obj
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.obj
 .PHONY : port/http_parser.c.obj
 
 port/http_parser.i: port/http_parser.c.i
@@ -735,7 +735,7 @@ port/http_parser.i: port/http_parser.c.i
 
 # target to preprocess a source file
 port/http_parser.c.i:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.i
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.i
 .PHONY : port/http_parser.c.i
 
 port/http_parser.s: port/http_parser.c.s
@@ -744,7 +744,7 @@ port/http_parser.s: port/http_parser.c.s
 
 # target to generate assembly for a file
 port/http_parser.c.s:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.s
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(MAKE) -f esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/build.make esp-idf/nghttp/CMakeFiles/idf_component_nghttp.dir/port/http_parser.c.s
 .PHONY : port/http_parser.c.s
 
 # Help Target
@@ -754,8 +754,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... idf_component_nghttp"
 	@echo "... edit_cache"
+	@echo "... idf_component_nghttp"
 	@echo "... nghttp2/lib/nghttp2_buf.obj"
 	@echo "... nghttp2/lib/nghttp2_buf.i"
 	@echo "... nghttp2/lib/nghttp2_buf.s"
@@ -836,7 +836,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -P /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

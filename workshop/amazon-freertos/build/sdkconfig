@@ -12,8 +12,8 @@ CONFIG_MAKE_WARN_UNDEFINED_VARIABLES=y
 # CONFIG_PARTITION_TABLE_SINGLE_APP is not set
 # CONFIG_PARTITION_TABLE_TWO_OTA is not set
 CONFIG_PARTITION_TABLE_CUSTOM=y
-CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
-CONFIG_PARTITION_TABLE_FILENAME="/home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
+CONFIG_PARTITION_TABLE_FILENAME="/Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/partition-table.csv"
 CONFIG_PARTITION_TABLE_OFFSET=0x8000
 CONFIG_PARTITION_TABLE_MD5=y
 # CONFIG_LOG_BOOTLOADER_LEVEL_NONE is not set

@@ -15,6 +15,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.o
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -96,7 +97,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_device_metrics.c.o
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_device_metrics.c
  config/sdkconfig.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj
  ../demos/include/aws_clientcredential.h
@@ -112,6 +113,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -197,7 +199,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_init.c.obj
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_init.c
  config/sdkconfig.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_common.c.obj
  ../demos/include/aws_clientcredential.h
@@ -212,6 +214,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_comm
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -293,7 +296,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/iot_static_memory_comm
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/iot_static_memory_common.c
  config/sdkconfig.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.obj
  ../demos/include/aws_clientcredential.h
@@ -308,6 +311,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -390,7 +394,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging.c.
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging.c
  config/sdkconfig.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c.obj
  ../freertos_kernel/include/FreeRTOS.h
@@ -402,6 +406,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_ta
  ../freertos_kernel/include/queue.h
  ../freertos_kernel/include/task.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -477,7 +482,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/logging/iot_logging_ta
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/logging/iot_logging_task_dynamic_buffers.c
  config/sdkconfig.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c.obj
  ../demos/include/aws_clientcredential.h
@@ -492,6 +497,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -580,7 +586,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool.
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool.c
  config/sdkconfig.h
 CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c.obj
  ../demos/include/aws_clientcredential.h
@@ -595,6 +601,7 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_
  ../freertos_kernel/include/task.h
  ../freertos_kernel/include/timers.h
  ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+ ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
  ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
  ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -681,5 +688,5 @@ CMakeFiles/afr_common.dir/libraries/c_sdk/standard/common/taskpool/iot_taskpool_
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/touch_channel.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/soc_memory_layout.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/libraries/c_sdk/standard/common/taskpool/iot_taskpool_static_memory.c
  config/sdkconfig.h

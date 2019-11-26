@@ -58,6 +58,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_ker
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/brownout.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -143,6 +144,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freerto
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cache_err_int.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -327,6 +329,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_ke
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/core_dump.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -426,6 +429,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_ke
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/cpu_start.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -595,6 +599,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freerto
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/crosscore_int.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -731,6 +736,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/dport_access.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -830,6 +836,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freer
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/include/queue.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_err_to_name.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -948,6 +955,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_ke
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1047,6 +1055,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freer
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/esp_timer_esp32.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1142,6 +1151,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../free
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ets_timer_legacy.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1236,6 +1246,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: .
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_default_handlers.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1350,6 +1361,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_k
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/event_loop.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1527,6 +1539,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freert
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/freertos_hooks.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1722,6 +1735,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/aes.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1825,6 +1839,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/hwcrypto/sha.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -1922,6 +1937,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kern
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/int_wdt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2018,6 +2034,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_k
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/intr_alloc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2111,6 +2128,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/i
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/ipc.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2233,6 +2251,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/panic.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2337,6 +2356,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_ker
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/include/queue.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/phy_init.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2461,6 +2481,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_ker
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_esp32.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2564,6 +2585,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_ker
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/pm_locks.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2699,6 +2721,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kern
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/include/queue.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/restore.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2801,6 +2824,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/sleep_modes.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -2909,6 +2933,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kerne
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/spiram.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3147,6 +3172,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_k
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/include/queue.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/system_api.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3270,6 +3296,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_ker
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/task_wdt.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3374,6 +3401,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_ke
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/include/queue.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_init.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -3488,6 +3516,7 @@ esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freer
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/include/task.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/include/timers.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/esp32/CMakeFiles/idf_component_esp32.dir/wifi_os_adapter.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

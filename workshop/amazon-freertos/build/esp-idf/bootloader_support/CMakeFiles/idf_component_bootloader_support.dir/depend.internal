@@ -49,7 +49,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_clock.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_clock.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_common.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/bootloader_common.h
@@ -102,7 +102,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_common.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_common.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h
@@ -158,7 +158,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_flash.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_flash.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_flash_config.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/bootloader_flash_config.h
@@ -211,7 +211,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_pins.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_flash_config.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_flash_config.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_random.c.obj
  ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/xtensa_api.h
@@ -288,7 +288,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/wdev_reg.h
  ../vendors/espressif/esp-idf/components/soc/include/soc/gpio_periph.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_random.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_random.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_sha.c.obj
  ../libraries/3rdparty/mbedtls/include/mbedtls/check_config.h
@@ -346,7 +346,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_sha.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_sha.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/bootloader_utility.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/bootloader_common.h
@@ -431,7 +431,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/b
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_utility.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/bootloader_utility.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/efuse.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_efuse.h
@@ -469,7 +469,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/e
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/efuse_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/efuse.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/efuse.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/esp_image_format.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/bootloader_util.h
@@ -527,7 +527,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/e
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/efuse_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/esp_image_format.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/esp_image_format.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_encrypt.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_efuse.h
@@ -589,7 +589,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/f
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/flash_encrypt.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/flash_encrypt.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_partitions.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -630,7 +630,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/f
  ../vendors/espressif/esp-idf/components/newlib/platform_include/assert.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/flash_partitions.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/flash_partitions.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/flash_qio_mode.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include_priv/flash_qio_mode.h
@@ -670,7 +670,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/f
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/spi_struct.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/flash_qio_mode.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/flash_qio_mode.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_efuse.h
@@ -736,7 +736,7 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/s
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/uart_reg.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/secure_boot.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/secure_boot.c
  config/sdkconfig.h
 esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/secure_boot_signatures.c.obj
  ../vendors/espressif/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -781,5 +781,5 @@ esp-idf/bootloader_support/CMakeFiles/idf_component_bootloader_support.dir/src/s
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/efuse_reg.h
  ../vendors/espressif/esp-idf/components/soc/esp32/include/soc/soc.h
  ../vendors/espressif/esp-idf/components/spi_flash/include/esp_spi_flash.h
- /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/secure_boot_signatures.c
+ /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/esp-idf/components/bootloader_support/src/secure_boot_signatures.c
  config/sdkconfig.h

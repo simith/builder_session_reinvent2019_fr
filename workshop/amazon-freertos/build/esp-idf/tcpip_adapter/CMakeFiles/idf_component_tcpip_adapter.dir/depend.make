@@ -8,6 +8,7 @@ esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/tcpip_adapter/CMakeFiles/idf_component_tcpip_adapter.dir/tcpip_adapter.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

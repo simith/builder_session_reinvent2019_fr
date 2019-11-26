@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/reinvent2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/smartconfig_ack
+# Install script for directory: /Users/simithn/Development/reinvent2019/20-11-2019/builder_session_reinvent2019_fr/workshop/amazon-freertos/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/smartconfig_ack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

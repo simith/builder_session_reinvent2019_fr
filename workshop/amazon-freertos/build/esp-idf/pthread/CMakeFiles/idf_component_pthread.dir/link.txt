@@ -1,2 +1,2 @@
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libpthread.a  CMakeFiles/idf_component_pthread.dir/pthread.c.obj CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
-/home/ubuntu/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libpthread.a
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libpthread.a  CMakeFiles/idf_component_pthread.dir/pthread.c.obj CMakeFiles/idf_component_pthread.dir/pthread_cond_var.c.obj CMakeFiles/idf_component_pthread.dir/pthread_local_storage.c.obj
+/Users/simithn/Development/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libpthread.a

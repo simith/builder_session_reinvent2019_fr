@@ -15,6 +15,7 @@ CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_gre
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_greengrass_discovery.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -113,6 +114,7 @@ CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_hel
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/libraries/freertos_plus/aws/greengrass/src/aws_helper_secure_connect.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -209,6 +211,7 @@ CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/applicati
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/esp_bignum.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -494,6 +497,7 @@ CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/applicati
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/semphr.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/include/task.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 CMakeFiles/afr_greengrass.dir/vendors/espressif/boards/esp32/aws_demos/application_code/espressif_code/mbedtls/port/mbedtls_debug.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h

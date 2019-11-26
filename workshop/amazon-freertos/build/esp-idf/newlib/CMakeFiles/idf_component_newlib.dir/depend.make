@@ -11,6 +11,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kern
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/include/task.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/locks.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -129,6 +130,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_ker
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/include/task.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/select.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -233,6 +235,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freer
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/include/semphr.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/include/task.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscall_table.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -334,6 +337,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_k
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/include/portable.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/syscalls.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
@@ -425,6 +429,7 @@ esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kerne
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/include/projdefs.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/include/task.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/PC/prtmacro.h
+esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/portable/BCC/16BitDOS/flsh186/prtmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/portable/GCC/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/portable/IAR/ATMega323/portmacro.h
 esp-idf/newlib/CMakeFiles/idf_component_newlib.dir/time.c.obj: ../freertos_kernel/portable/ThirdParty/GCC/Xtensa_ESP32/include/portbenchmark.h
