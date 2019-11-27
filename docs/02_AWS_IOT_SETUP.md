@@ -52,7 +52,7 @@ The script creates a few files on disk in the tools directory by making calls to
 The script also activates the certificate, creates an IoT policy, attaches an IoT Policy to the Certificate, creates a Thing and associates the Thing with the Certificate on AWS IoT Core. The following are also created during the script execution,
 
 1. IoT Policy: {certificate-id}-policy
-2. Thing name: {certificate-id}-thing
+2. Thing name: thing
 
 ## 2. Code signing
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS. 
@@ -62,10 +62,41 @@ The Code signing Certificate and Key have been created by the script for you, ho
 From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
 
 ```
-workshop/tools (master) $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
+workshop/tools (master)$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
 ```
 
+## 4. Granting access to Code signing for the IAM User
+In order for the logged in IAM user to use the code signing feature of Amazon FreeRTOS, the IAM user needs to hava a Policy attached,
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "signer:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+This Policy has been already attached to the logged in IAM user for this workshop and **does not need to be attached** for this workshop.
+
 ## 3. Creating an S3 bucket for storing firmware 
+
+```
+aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
+```
+
+
+Let us enable versioning on the bucket
+
+```
+aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-configuration Status=Enabled
+```
 
 
 ## 4. Creating a Job signing profile
