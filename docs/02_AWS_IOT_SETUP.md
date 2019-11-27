@@ -85,7 +85,9 @@ In order for the logged in IAM user to use the code signing feature of Amazon Fr
 
 This Policy has been already attached to the logged in IAM user for this workshop and **does not need to be attached** for this workshop.
 
-## 3. Creating an S3 bucket for storing firmware 
+## 3. Creating an S3 bucket for storing firmware images
+
+Create an S3 bucket using the AWS CLI
 
 ```
 aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
