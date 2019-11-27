@@ -30,7 +30,7 @@ To make the OTA process secure the Firmware that will be sent to the device need
 
 To automate the creation of the Thing, Certificate, Keys, IoT Policy and the Code signing certificate a script has been provided to you in the **workshop/toools/** directory called **setup.sh**. When you are ready, please execute the script,
 
-$**./create_keys_and_certificate.sh**
+$**./setup.sh**
 
 Please go through the script to get an understanding of what is going on under the hood. The script also creates a partition.bin file for storing all the Device Certificate,Key and Code-signing certificates. More details on how the partition.bin is generated is covered in the net section of the workshop [Link to next section]
 
