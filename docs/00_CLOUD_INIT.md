@@ -40,6 +40,7 @@ $git clone https://github.com/simith/builder_session_reinvent2019_fr
 The repository has 2 directories,
 
 **workshop/amazon-freertos**: Amazon FreeRTOS source code
+
 **workshop/tools**: Tools to automate the Thing creation and a few other things (More later)
 
 
