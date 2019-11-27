@@ -27,9 +27,12 @@ The above Cloud9 interface has a Text editor at the top and a terminal at the bo
 
 ## 2. Downloading the repository for the workshop
 
+Please note, from the **environment** directory, 
+
 Git repository: https://github.com/simith/builder_session_reinvent2019_fr
 
 $git clone https://github.com/simith/builder_session_reinvent2019_fr
+
  ![](ws_git_clone.png?raw=true)
 
 The repository has 2 directories,
