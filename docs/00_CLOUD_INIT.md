@@ -1,7 +1,7 @@
 ## 1. Setup the Cloud environment by logging in to the AWS Console
 
 Using the provided username,password and AWS Console URL,login to the AWS Console. 
-[Console](ws_console_login.png)
+![Console](ws_console_login.png?raw=true)
 
 
 
