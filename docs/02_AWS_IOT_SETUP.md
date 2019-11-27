@@ -4,7 +4,7 @@
 
 In order to connect succesfully to AWS IoT, a X.509 certificate, Private key and an IoT Policy attached to the Certificate is required. We will create this first.
 
-Go to _builder_session_reinvent2019_fr/workshop/tools/_ directory of the git repository and execute **create_keys_and_certificate.sh** as below,
+Go to _builder_session_reinvent2019_fr/workshop/tools/_ directory of the git repository and execute **setup.sh** as below,
 
 ```
 builder_session_reinvent2019_fr/workshop/tools$./create_keys_and_certificate.sh
@@ -27,5 +27,11 @@ The script also activates the certificate, creates an IoT policy, attaches an Io
 
 ## 2. Code signing keys
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS. 
+
+To automate the creation of the Thing, Certificate, Keys, IoT Policy and the Code signing certificate a script has been provided to you in the **workshop/toools/** directory called **setup.sh**. When you are ready, please execute the script,
+
+$**./create_keys_and_certificate.sh**
+
+Please go through the script to get an understanding of what is going on under the hood.
 
 
