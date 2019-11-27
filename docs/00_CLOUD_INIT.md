@@ -14,6 +14,7 @@ After logging in succesfully, select Cloud9 from the Services menu as shown belo
 
 
 You should be able to see an environment configured for you, something like the below, (If you do not see one, click on the menu bar on the left and choose "Your environments")
+
  ![Cloud9 Console](ws_cloud_9_console.png?raw=true) 
 
 
