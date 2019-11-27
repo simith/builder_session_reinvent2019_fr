@@ -17,6 +17,10 @@ The Marketing team has received feedback from Customers that what is said in the
 
 # Workshop contents
 
+The high-level workshop flow is shown below,
+
+![workshow workflow?](docs/workflow_for_workshop.png)
+
 ### 1. Workshop setup
 The workshop build environment is setup on a Cloud9 environment and will be provided to you by the instructor. ESP-IDF and the xtensa toolchain will be already setup. Login to your Cloud9 environment using the information provided by the instructor. Follow instructions for setting up the required software on the Laptop by clicking [here]() 
 
