@@ -20,6 +20,7 @@ You should be able to see an environment configured for you, something like the 
 
 
 Finally, click on the Open IDE button to go straight into your Cloud9 environment,
+
 ![](ws_cloud9_interface.png?raw=true)
 
 
@@ -38,8 +39,8 @@ $git clone https://github.com/simith/builder_session_reinvent2019_fr
 
 The repository has 2 directories,
 
-workshop/amazon-freertos: Amazon FreeRTOS source code
-workshop/tools: Tools to automate the Thing creation and a few other things (More later)
+**workshop/amazon-freertos**: Amazon FreeRTOS source code
+**workshop/tools**: Tools to automate the Thing creation and a few other things (More later)
 
 
 
