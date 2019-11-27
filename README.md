@@ -4,15 +4,15 @@ This repository was created to run the re:Invent 2019 Builder session on Amazon 
 
 ## Pre-requisites
 
-A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on thier laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/. The instructor will provide
+A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on thier laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/ and a fully configured build environment will be provided to participants.
 
 ## Where are we?
 
-Cakematic (change name and slide) is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through thier pilot and have sent out 1000+ appliances to customers across the US.
+Cakematic is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through thier pilot and have sent out 1000+ appliances to customers across the US.
 
 ![where?](docs/where_are_we.png)
 
-The Marketing team has received feedback from Customers that what is said in the User Manual and the actual Appliance LED's do not match up. The Firmware development team has come up with a new image tht need to be deployed to the Wireless module. In this workshop you are going to lear how this is done in the real world using Amazon FreeRTOS and AWS IoT Core.
+The Marketing team has received feedback from Customers that there is a bug with regards to the LED indicator when a Cake is fully baked, the User manual states it should light up the **GREEN** LED, but the **RED** LED is turning ON. The Firmware development team has come up with a new firmware that fixes this bug and this needs to be deployed to Cakematic. In this workshop you are going to learn about Cakematic's device lifecycle right from Factory based Provisioning to Connecting to AWS IoT cloud and finally deploying an OTA updated to Cakematic, Enjoy!.
 
 
 # Workshop contents
