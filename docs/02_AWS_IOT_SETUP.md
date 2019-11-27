@@ -32,6 +32,6 @@ To automate the creation of the Thing, Certificate, Keys, IoT Policy and the Cod
 
 $**./create_keys_and_certificate.sh**
 
-Please go through the script to get an understanding of what is going on under the hood.
+Please go through the script to get an understanding of what is going on under the hood. The script also creates a partition.bin file for storing all the Device Certificate,Key and Code-signing certificates. More details on how the partition.bin is generated is covered in the net section of the workshop [Link to next section]
 
 
