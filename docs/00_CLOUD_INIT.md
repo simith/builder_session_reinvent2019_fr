@@ -29,6 +29,12 @@ The above Cloud9 interface has a Text editor at the top and a terminal at the bo
 
 ## 2. Downloading the repository for the workshop
 
+Execute the following command to setup the environment variables, 
+
+``` 
+$source ~/.bash_profile
+```
+
 Please note, from the **environment** directory, 
 
 Git repository: https://github.com/simith/builder_session_reinvent2019_fr
