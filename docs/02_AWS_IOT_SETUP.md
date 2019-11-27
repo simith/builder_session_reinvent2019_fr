@@ -65,10 +65,8 @@ From the **worksop/tools** directory let us use the AWS CLI ACM command to impor
 workshop/tools (master) $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
 ```
 
+## 3. Creating an S3 bucket for storing firmware 
 
 
-$**./setup.sh**
-
-Please go through the script to get an understanding of what is going on under the hood. The script also creates a partition.bin file for storing all the Device Certificate,Key and Code-signing certificates. More details on how the partition.bin is generated is covered in the net section of the workshop [Link to next section]
-
+## 4. Creating a Job signing profile
 
