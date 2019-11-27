@@ -28,10 +28,10 @@ The workshop build environment is setup on a Cloud9 environment and will be prov
 In this step you will create the Certificates, Keys and code signing certificate required for Over-the-Air updates. Get started by [clicking here for Step 2](docs/02_AWS_IOT_SETUP.md)
 
 ### 3. Factory setup and Production firmware build on Cloud9
-In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3]()
+In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
 
 ### 4. Flash firmware and monitor
-In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4]()
+In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)
 
 ### 5. OTA update
 Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5]() 
