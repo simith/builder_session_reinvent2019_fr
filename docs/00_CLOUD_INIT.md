@@ -19,6 +19,7 @@ You should be able to see an environment configured for you, something like the 
 Finally, click on the Open IDE button to go straight into your Cloud9 environment,
 ![](ws_cloud9_interface.png?raw=true)
 
+
 The above Cloud9 interface has a Text editor at the top and a terminal at the bottom!
 
 
