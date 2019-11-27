@@ -32,7 +32,7 @@ The above Cloud9 interface has a Text editor at the top and a terminal at the bo
 Execute the following command to setup the environment variables, 
 
 ``` 
-$source ~/.bash_profile
+environment$ source ~/.bash_profile
 ```
 
 Please note, from the **environment** directory, 
@@ -47,9 +47,9 @@ $git clone https://github.com/simith/builder_session_reinvent2019_fr
 
 The **builder_session_reinvent2019_fr** repository has 2 directories,
 
-**workshop/amazon-freertos**: Amazon FreeRTOS source code
+1. **workshop/amazon-freertos**: Amazon FreeRTOS source code
 
-**workshop/tools**: Tools to automate the Thing creation and a few other things (More later)
+2. **workshop/tools**: Tools to automate the Thing creation and a few other things (More later)
 
 
 
