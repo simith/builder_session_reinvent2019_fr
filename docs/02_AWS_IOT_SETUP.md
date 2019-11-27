@@ -1,4 +1,4 @@
-# AWS IoT Setup**
+# AWS IoT Setup 
 
 ## 1. X.509 Device certificate,keys,IoT Policy,Thing and Code signing keys
 
