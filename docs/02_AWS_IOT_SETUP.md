@@ -62,7 +62,7 @@ The Code signing Certificate and Key have been created by the script for you, ho
 From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
 
 ```
-environment/builder_session_reinvent2019_fr/workshop/tools (master) $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
+workshop/tools (master) $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
 ```
 
 
