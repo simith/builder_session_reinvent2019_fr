@@ -7,8 +7,8 @@ Using the provided username,password and AWS Console URL,login to the AWS Consol
 
 
 
-After logging in succesfully, select Cloud9 from the Services menu as shown below,
- ![Select Cloud9](ws_select_cloud9.png?raw=true]
+After logging in succesfully, select Cloud9 from the Services menu as shown below, 
+![Select Cloud9](ws_select_cloud9.png?raw=true)
 
 
 You should be able to see an environment configured for you, something like the below, (If you do not see one, click on the menu bar on the left and choose "Your environments")
