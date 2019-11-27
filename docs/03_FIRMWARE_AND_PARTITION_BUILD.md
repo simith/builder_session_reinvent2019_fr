@@ -16,9 +16,10 @@ storage,  data, nvs,  ,         0x10000
 
 The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-vlatile storage) partition for storing certificates and configuration. The production firmware is flashed at ota_0. You can use code signing through the AWS IoT Device Management console to sign your code images before deploying them using an over-the-air (OTA) update job.
 
-## Create X.509 Certificate and keys
 
 ## Creating a Code-Signing Certificate for the Espressif ESP32
+
+###Please note all these steps have been performed already by the ./setup.sh script, it is here for information purposes only.
 
 1. In your working directory, use the following text to create a file named cert_config.txt. Replace test_signer@amazon.com with your email address:
 
@@ -28,7 +29,7 @@ prompt             = no
 distinguished_name = my_dn
 					
 [ my_dn ]
-commonName = test_signer@amazon.com
+commonName = test_signer@your_domain.com
 					
 [ my_exts ]
 keyUsage         = digitalSignature
