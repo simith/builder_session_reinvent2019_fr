@@ -37,7 +37,7 @@ $git clone https://github.com/simith/builder_session_reinvent2019_fr
 
  ![](ws_git_clone.png?raw=true)
 
-The repository has 2 directories,
+The **builder_session_reinvent2019_fr** repository has 2 directories,
 
 **workshop/amazon-freertos**: Amazon FreeRTOS source code
 
