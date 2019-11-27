@@ -7,7 +7,9 @@ Using the provided username,password and AWS Console URL,login to the AWS Consol
 
 
 
-After logging in succesfully, select Cloud9 from the Services menu as shown below, 
+After logging in succesfully, select Cloud9 from the Services menu as shown below,
+
+
 ![Select Cloud9](ws_select_cloud9.png?raw=true)
 
 
