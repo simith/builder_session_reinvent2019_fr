@@ -4,7 +4,7 @@ This repository was created to run the re:Invent 2019 Builder session on Amazon 
 
 ## Pre-requisites
 
-ESP32 Devkit-C boards configured with AWS IoT certificates, endpoints will be provided during the session to participants to practise the sesison. Pre-configured AWS Accounts will be provided to participants for building the demos using a cloud9 environment. All the steps that have been done prior to the workshop will be explained by the instructor and relevant steps/ code will be available in this repository.
+A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on thier laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/. The instructor will provide
 
 ## Where are we?
 
