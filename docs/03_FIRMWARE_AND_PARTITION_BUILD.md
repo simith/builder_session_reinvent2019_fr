@@ -80,5 +80,22 @@ Scanning dependencies of target blank_ota_data
 
 
 
+## Setup your Laptop for flashing firmware and configuration
+
+1. Setup the Toolchain (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
+
+
+
+## Download the Firmware and configuration from Cloud9
+
+
+
+## Flash configuration 
+
+
+## Flash Firmware
+
+
+## Monitor the ESP32
 
 
