@@ -13,6 +13,7 @@ certificateArnVar=$(echo ${json_output} | jq  .certificateArn |  sed 's/\\n/\n/g
 certificateIdVar=$(cat certificateId)
 echo "Certificate ID: ${certificateIdVar}"
 echo "Certificate stored in cert.pem, privatekey in privatekey.pem"
+echo $certificateIdVar > certificateId
 
 # updating certificate to active state
 echo "Updating certificate state to ACTIVE"
