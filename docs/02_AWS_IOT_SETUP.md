@@ -54,10 +54,14 @@ Please go through the script to get an understanding of what is going on under t
 From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
 
 ```
-$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
+$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key 2>&1 | tee  acmCertificateId   
 ```
 
+The **acmCertificateId** file will have the certificate id for the Code signing certificate, we will need to select it in the OTA Job workflow when we push an OTA update to the Cakematic device.
+
 ## 3. Creating an S3 bucket for storing firmware images
+
+Let us create an S# bucket for storing the firmware image when we do an OTA update.
 
 Create an S3 bucket using the AWS CLI
 
@@ -73,7 +77,8 @@ $aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-c
 
 ## 4. Creating an IAM Policy and a Role for OTA update
 
-For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy. ***You do not need to perform this step***.
+***Note ou do not need to perform this step***
+For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy. .
 
 ```
 {
