@@ -2,7 +2,7 @@
 ## Factory provisioning
 The factory provisioning of the ESP32 module involved provisioning it with AWSI IoT certificates
 
-## The partition table 
+## The partition table
 
 ```
 # Name,   Type, SubType, Offset,  Size, Flags
@@ -14,7 +14,7 @@ ota_1,    0,    ota_1,   ,         1500K
 storage,  data, nvs,  ,         0x10000
 ```
 
-The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-vlatile storage) partition for storing certificates and configuration. The production firmware is flashed at ota_0. You can use code signing through the AWS IoT Device Management console to sign your code images before deploying them using an over-the-air (OTA) update job.
+The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-volatile storage) partition for storing certificates and configuration. The production firmware is flashed at ota_0. You can use code signing through the AWS IoT Device Management console to sign your code images before deploying them using an over-the-air (OTA) update job.
 
 
 ## Creating a Code-Signing Certificate for the Espressif ESP32
@@ -27,10 +27,10 @@ The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and 
 [ req ]
 prompt             = no
 distinguished_name = my_dn
-					
+
 [ my_dn ]
 commonName = test_signer@your_domain.com
-					
+
 [ my_exts ]
 keyUsage         = digitalSignature
 extendedKeyUsage = codeSigning
@@ -47,7 +47,7 @@ openssl req -new -x509 -config cert_config.txt -extensions my_exts -nodes -days 
 ```
 
 4. Import the certificate into ACM (Amazon Certificate Manager)
-Note: Show steps to import the certificat to ACM (snapshots already there in docs)
+Note: Show steps to import the certificate to ACM (snapshots already there in docs)
 
 ![ACM Dashboard?](acm_dashboard.png)
 
@@ -56,8 +56,3 @@ Paste the contents of the certificate and private key into the text area (create
 ![Import certificate](acm_import_certificate.png)
 
 5. Create an IAM policy to grant access to Code signing for AWS IoT
-
-
-
-
-

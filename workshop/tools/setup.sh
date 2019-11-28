@@ -15,29 +15,32 @@ certificateArnVar=$(echo ${json_output} | jq  .certificateArn |  sed 's/\\n/\n/g
 echo ${certificateArnVar}
 certificateIdVar=$(cat certificateId)
 echo "Certificate Id: ${certificateIdVar}"
-echo "[OK]] Certitficate stored in cert.pem, privatekey in privatekey.pem"
+echo "[OK] Certitficate stored in cert.pem, privatekey in privatekey.pem"
 
-thingName=$(cat certificateId | cut -c1-10 | tr [a-z] [A-Z]) 
-echo $thingName
+# print out the thing name
+thingName=$(cat certificateId | cut -c1-10 | tr [a-z] [A-Z])
+echo $thingName > thingName
 
-# creae a code signing certificate
-echo "Creating Code signing Key and Certificate"
+# create a code signing certificate
+echo "Creating Code Signing Key and Certificate"
 openssl genpkey -algorithm EC -pkeyopt ec_paramgen_curve:P-256 -pkeyopt ec_param_enc:named_curve -outform PEM -out ecdsasigner.key
 openssl req -new -x509 -config code_signing_cert_config.txt -extensions my_exts -nodes -days 365 -key ecdsasigner.key -out ecdsasigner.crt
 
 # Create PEM to DER conversion
-echo "Converting certificate,private key and code signing key from PEM to DER format"
+echo "Converting Certificate, Private Key and Code Signing Key from PEM to DER format"
 openssl rsa -inform PEM -outform der   <privatekey.pem >privatekey.der
 openssl x509 -outform der -in cert.pem -out cert.der
 openssl x509 -outform der -in ecdsasigner.crt -out csk.der
 
-echo "Copying certificate,private key and code signing key to ${WORKSHOP_PARTITION_WRITER_DIR}"
+echo "Copying Certificate, Private Key and Code Signing Key to ${WORKSHOP_PARTITION_WRITER_DIR}"
 cp privatekey.der cert.der csk.der ${WORKSHOP_PARTITION_WRITER_DIR}
 cd ${WORKSHOP_NVS_PARTITION_FLASHER_TOOL_DIR}
+
 echo "Creating partition.bin with Key, Device certificate and Code signing certificate"
-python  nvs_partition_gen.py  --version v2 partition.csv ${WORKSHOP_PARTITION_WRITER_DIR}/partition.bin
+python nvs_partition_gen.py  --version v2 input partition.csv output ${WORKSHOP_PARTITION_WRITER_DIR}/partition.bin
 echo "Copying partition.bin in ${WORKSHOP_PARTITION_WRITER_DIR} to Workshop Tools directory ${WORKSHOP_TOOLS_DIR}"
 cp ${WORKSHOP_PARTITION_WRITER_DIR}/partition.bin ${WORKSHOP_TOOLS_DIR}/partition.bin
+
 cd ${WORKSHOP_TOOLS_DIR}
 echo "Updating certificate state to ACTIVE"
 $(aws iot update-certificate --certificate-id ${certificateIdVar} --new-status=ACTIVE)

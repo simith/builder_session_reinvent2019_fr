@@ -265,7 +265,7 @@ class Page(object):
 
             # Compute CRC of data chunk
             struct.pack_into('<H', entry_struct, 24, chunk_size)
-            
+
             if type(data) != bytes:
                 data_chunk = bytes(data_chunk, encoding='utf8')
             crc = zlib.crc32(data_chunk, 0xFFFFFFFF)
@@ -604,7 +604,7 @@ def nvs_part_gen(input_filename=None, output_filename=None, key_gen=None, encryp
     :return: None
     """
     global version, is_encrypt_data, key_input, key_len_needed
-    
+
     key_len_needed = 64
     version = version_no
     key_input = None
@@ -614,7 +614,7 @@ def nvs_part_gen(input_filename=None, output_filename=None, key_gen=None, encryp
         version = Page.VERSION1
     elif version == 'v2':
         version = Page.VERSION2
-    
+
     if is_encrypt_data == 'True':
         is_encrypt_data = True
     elif is_encrypt_data == 'False':
@@ -644,7 +644,7 @@ def nvs_part_gen(input_filename=None, output_filename=None, key_gen=None, encryp
             key_input = key_f.readline()
             key_input = key_input.strip()
 
-    input_file = open(input_filename, 'rb')
+    input_file = open(input_filename, 'rt')
     output_file = open(output_filename, 'wb')
 
     with nvs_open(output_file) as nvs_obj:
