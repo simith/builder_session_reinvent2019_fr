@@ -64,7 +64,7 @@ Let us increment the version change from version 5 to version 6.
 #define APP_VERSION_BUILD 6
 ```
 
-Let us run make command from the build directory to build a new binary file for the OTA update, 
+Let us run make command from the build directory to build a new binary file for the OTA update, from the **amazon-freertos/build** directory,
 
 ```
 build$ make
