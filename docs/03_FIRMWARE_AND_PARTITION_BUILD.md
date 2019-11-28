@@ -55,9 +55,9 @@ We are now set to build the code, from the amazon-freertos directory under tools
 amazon-freertos$ /snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -DCOMPILER=xtensa-esp32 -B build
 ```
 
-This will create the build file in the build directory for us to build the firmware image.
+This will create make files in the **build** directory for us to build the firmware image.
 
-From the **build** directory, execute the make command,
+From the **build** directory in **amazon-freertos**, execute the make command,
 
 ```
 build$ make
