@@ -25,7 +25,14 @@ The above Cloud9 interface has a Text editor at the top and a terminal at the bo
 ## 2. Downloading the repository for the workshop
 
 Git repository: https://github.com/simith/builder_session_reinvent2019_fr
+
+You can clone the git repository by running the following command.
+
+```
 $git clone https://github.com/simith/builder_session_reinvent2019_fr
+```
+
+You should see an output as follows.
 
  ![Git Clone](ws_git_clone.png?raw=true)
 
