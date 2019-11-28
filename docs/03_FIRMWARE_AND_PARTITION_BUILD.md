@@ -44,7 +44,7 @@ The instructor will provide you with the Wi-Fi credentials for the workshop, you
 
 Update the AWS IoT Endpoint,Thing name and Wi-fi credentials in the "aws_clientcredentials.h" file as shown below.
 
-(ws_client_credential_update.png)
+![](ws_client_credential_update.png)
 
 
 ## Build 
