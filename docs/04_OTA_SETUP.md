@@ -70,7 +70,25 @@ Let us run make command from the build directory to build a new binary file for 
 build$ make
 ```
 
-If everything runs without any errors you should see something like the below,
+You should now have the latest frmware ready to be deployed via AWS IoT Device Management. We will now go through the OTA workflow to deploy the firmware update to your thing. Before that we need to upload the firmware to the S3 bucket we created before. 
+
+```
+$aws s3 cp firmware.bin s3://<BUCKET_NAME>/furmware_v_1_1.bin
+upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin 
+
+```
+
+## Deploying the update
+
+We are now all set to deploy the update to the Cakematic device. Head to the AWS IoT Console and then select AWS IoT from the Services menu. Select *Manag* eand then *Jobs* from the Sidebar,
+
+![Job create welcome](ws_create_job_welcome.png)
+
+
+Choose **Create OTA update** job, OTA jobs are used for Firmware updates. **Create custom job** is used for sending commands or configuration to the devices. 
+
+![Job create welcome](ws_create_ota_job.png)
+
 
 
 
