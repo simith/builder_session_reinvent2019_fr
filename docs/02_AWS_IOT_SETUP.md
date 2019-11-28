@@ -3,7 +3,7 @@
 Before setting up everything, we need to setup the Workshop Root directory **WORKSHOP_ROOT_DIR** environment variable, from the **builder_session_reinvent2019_fr**,
 
 ```
-builder_session_reinvent2019_fr $export WORKSHOP_ROOT_DIR=$PWD
+builder_session_reinvent2019_fr$ export WORKSHOP_ROOT_DIR=$PWD
 ```
 
 ## 1. X.509 Device certificate,keys,IoT Policy,Thing and Code signing keys
