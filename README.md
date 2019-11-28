@@ -1,4 +1,6 @@
-﻿## Introduction
+# AWS IoT OTA Workshop
+
+## Introduction
 
 This repository was created to run the re:Invent 2019 Builder session on Amazon FreeRTOS (https://aws.amazon.com/freertos/).
 
@@ -8,12 +10,11 @@ A laptop is required for this session. To be able to flash the firmware and conf
 
 ## Where are we?
 
-Cakematic is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through thier pilot and have sent out 1000+ appliances to customers across the US.
+Cakematic is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through their pilot and have sent out 1000+ appliances to customers across the US.
 
 ![where?](docs/where_are_we.png)
 
 The Marketing team has received feedback from Customers that there is a bug with regards to the LED indicator when a Cake is fully baked, the User manual states it should light up the **GREEN** LED, but the **RED** LED is turning ON. The Firmware development team has come up with a new firmware that fixes this bug and this needs to be deployed to Cakematic. In this workshop you are going to learn about Cakematic's device lifecycle right from Factory based Provisioning to Connecting to AWS IoT cloud and finally deploying an OTA updated to Cakematic, Enjoy!.
-
 
 # Workshop contents
 
@@ -34,4 +35,4 @@ In this step we are going to create the required assets and production firmware 
 In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)
 
 ### 5. OTA update
-Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5]()
+Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5](docs/05_FLASH_FIRMWARE_OTA_UPDATE.md)
