@@ -34,7 +34,15 @@ $git clone https://github.com/simith/builder_session_reinvent2019_fr
 
 You should see an output as follows.
 
- ![Git Clone](ws_git_clone.png?raw=true)
+```
+Cloning into 'builder_session_reinvent2019_fr'...
+remote: Enumerating objects: 54, done.
+remote: Counting objects: 100% (54/54), done.
+remote: Compressing objects: 100% (54/54), done.
+remote: Total 8293 (delta 28), reused 0 (delta 0), pack-reused 8239
+Receiving objects: 100% (8293/8293), 30.41 MiB | 22.52 MiB/s, done.
+Resolving deltas: 100% (2621/2621), done.
+```
 
 The repository has 2 directories,
 
