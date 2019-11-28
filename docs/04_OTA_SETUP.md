@@ -54,7 +54,7 @@ uint32_t xGpioPin = GPIO_GREEN;
 
 Amazon FreeRTOS compares the build version of the current running firmware to the one received via an OTA update. The build number should be higher than the firmware running on the MCU currently to update the firmware to the new version, hence we need to update the BUILD_VERSION_NUMBER as well.
 
-![Build version change](ws_client_credential_update.png?raw=true)
+![Build version change](ws_app_version_change.png?raw=true)
 
 Let us increment the version change from version 5 to version 6.
 
