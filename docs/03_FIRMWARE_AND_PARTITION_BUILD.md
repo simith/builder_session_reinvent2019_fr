@@ -144,3 +144,5 @@ firmware.bin
 
 
 ## Monitor the ESP32 (From Laptop)
+
+| [Previous section](./02_AWS_IOT_SETUP.md) | [Main](../README.md) | [Next section](./04_OTA_SETUP.md) |

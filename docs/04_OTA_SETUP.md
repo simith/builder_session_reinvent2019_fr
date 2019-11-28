@@ -1,5 +1,7 @@
+# OTA Setup
 
+## Step 1
 
-## Setup your Laptop for flashing firmware and configuration
+## Step 2
 
-1. ![Setup the Toolchain](https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
+| [Previous section](./03_FIRMWARE_AND_PARTITION_BUILD.md) | [Main](../README.md) | [Next section](./05_FLASH_FIRMWARE_OTA_UPDATE.md) |

@@ -113,4 +113,4 @@ For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to
 }
 ```
 
-Click [here](./03_FIRMWARE_AND_PARTITION_BUILD.md) to continue to the next section.
+| [Previous section](./01_CLOUD_INIT.md) | [Main](../README.md) | [Next section](./03_FIRMWARE_AND_PARTITION_BUILD.md) |

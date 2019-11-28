@@ -51,4 +51,4 @@ The repository has 2 directories,
 workshop/amazon-freertos: Amazon FreeRTOS source code
 workshop/tools: Tools to automate the Thing creation and a few other things (More later)
 
-Click [here](./02_AWS_IOT_SETUP.md) to continue to the next section.
+ | [Previous section](../READ.md) | [Main](../README.md) | [Next section](./02_AWS_IOT_SETUP.md) |
