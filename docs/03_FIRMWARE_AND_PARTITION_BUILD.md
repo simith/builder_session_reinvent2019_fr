@@ -90,12 +90,12 @@ Scanning dependencies of target blank_ota_data
 
 
 
-## Flash configuration 
+## Flash configuration (From Laptopm)
 
 
-## Flash Firmware
+## Flash Firmware (From Laptopm)
 
 
-## Monitor the ESP32
+## Monitor the ESP32 (From Laptopm)
 
 
