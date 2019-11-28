@@ -1,4 +1,4 @@
-# AWS IoT OTA Workshop
+# re:Invent 2009 Builder Session - AWS IoT OTA Workshop
 
 ## Introduction
 
@@ -6,9 +6,9 @@ This repository was created to run the re:Invent 2019 Builder session on Amazon 
 
 ## Pre-requisites
 
-A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on thier laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/ and a fully configured build environment will be provided to participants.
+A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on their laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/ and a fully configured build environment will be provided to participants.
 
-## Where are we?
+### Where are we?
 
 Cakematic is a modern oven which has state-of-the-art features for baking cakes. Cakematic is currently going through their pilot and have sent out 1000+ appliances to customers across the US.
 
@@ -16,7 +16,7 @@ Cakematic is a modern oven which has state-of-the-art features for baking cakes.
 
 The Marketing team has received feedback from Customers that there is a bug with regards to the LED indicator when a Cake is fully baked, the User manual states it should light up the **GREEN** LED, but the **RED** LED is turning ON. The Firmware development team has come up with a new firmware that fixes this bug and this needs to be deployed to Cakematic. In this workshop you are going to learn about Cakematic's device lifecycle right from Factory based Provisioning to Connecting to AWS IoT cloud and finally deploying an OTA updated to Cakematic, Enjoy!.
 
-# Workshop contents
+## Workshop contents
 
 The high-level workshop flow is shown below,
 
@@ -29,10 +29,7 @@ The workshop build environment is setup on a Cloud9 environment and will be prov
 In this step you will create the Certificates, Keys and code signing certificate required for Over-the-Air updates. Get started by [clicking here for Step 2](docs/02_AWS_IOT_SETUP.md).
 
 ### 3. Factory Provisioning
-In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
+In this step we are going to create the required assets and production firmware to provision the ESP32 module. Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
 
-### 4. OTA Setup
-In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)
-
-### 5. OTA update
-Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5](docs/05_FLASH_FIRMWARE_OTA_UPDATE.md)
+### 4. OTA Update
+Finally, we are going to fix the bug in the firmware that was reported to the Marketing team and perform and over-the-air update. Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)

@@ -1,7 +1,24 @@
 # OTA Setup
 
-## Step 1
+In this section, we will first fix the issue reported by the Marketing team. Then we will build the fix and issue and OTA update.
 
-## Step 2
+## Bug Fix in Firmware
 
-| [Previous section](./03_FIRMWARE_AND_PARTITION_BUILD.md) | [Main](../README.md) | [Next section](./05_FLASH_FIRMWARE_OTA_UPDATE.md) |
+
+
+## Rebuild firmware
+
+
+
+## Upload to S3 bucket
+
+
+
+## Create an OTA job
+
+
+
+## OTA Update!!!
+
+
+| [Previous section](./03_FIRMWARE_AND_PARTITION_BUILD.md) | [Main](../README.md) | | [Next section](../README.md) |
