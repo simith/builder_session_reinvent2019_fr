@@ -58,7 +58,7 @@ Before building the factory firmware image, we need to update the firmware image
 
  ![Firmware Client Update](ws_client_credential_update.png?raw=true)
 
-We are going to use the Amazon FreeRTOS OTA demo for this workshop. You can find the OTA Demo code in the demos directory of Amazon FreeRTOS git repository,
+We are going to use the Amazon FreeRTOS OTA demo for this workshop. You can find the OTA Demo code in the demos directory of Amazon FreeRTOS git repository.
 
 ### AWS IoT Endpoint
 
@@ -71,7 +71,7 @@ $aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-west-2
 }
 ```
 
-Update **clientcredentialMQTT_BROKER_ENDPOINT** in aws_clientcredential.h with the endpointAddress value.
+Update **clientcredentialMQTT_BROKER_ENDPOINT** in `aws_clientcredential.h` with the `endpointAddress` value.
 
 ### Thing Name
 
@@ -122,6 +122,14 @@ Scanning dependencies of target blank_ota_data
 
 1. Setup the Toolchain (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
 
+2. Execute the **get_bin.sh** script to get all built binaries into the bin folder.
+
+```
+$ ./get_bin.sh
+ota_data_initial.bin
+bootloader.bin
+firmware.bin
+```
 
 ## Download the Firmware and configuration from Cloud9
 
