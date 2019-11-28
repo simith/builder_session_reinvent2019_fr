@@ -54,7 +54,7 @@ Please go through the script to get an understanding of what is going on under t
 From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
 
 ```
-workshop/tools (master)$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
+$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
 ```
 
 ## 3. Creating an S3 bucket for storing firmware images
@@ -62,13 +62,13 @@ workshop/tools (master)$ aws acm import-certificate --certificate file://ecdsasi
 Create an S3 bucket using the AWS CLI
 
 ```
-aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
+$aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
 ```
 
 Let us enable versioning on the bucket,
 
 ```
-aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-configuration Status=Enabled
+$aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-configuration Status=Enabled
 ```
 
 ## 4. Creating an IAM Policy and a Role for OTA update
