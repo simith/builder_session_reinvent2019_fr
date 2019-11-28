@@ -37,7 +37,7 @@ cp privatekey.der cert.der csk.der ${WORKSHOP_PARTITION_WRITER_DIR}
 cd ${WORKSHOP_NVS_PARTITION_FLASHER_TOOL_DIR}
 
 echo "Creating partition.bin with Key, Device certificate and Code signing certificate"
-python nvs_partition_gen.py  --version v2 input partition.csv output ${WORKSHOP_PARTITION_WRITER_DIR}/partition.bin
+python nvs_partition_gen.py  --version v2 --input partition.csv --output partition.bin
 echo "Copying partition.bin in ${WORKSHOP_PARTITION_WRITER_DIR} to Workshop Tools directory ${WORKSHOP_TOOLS_DIR}"
 cp ${WORKSHOP_PARTITION_WRITER_DIR}/partition.bin ${WORKSHOP_TOOLS_DIR}/partition.bin
 

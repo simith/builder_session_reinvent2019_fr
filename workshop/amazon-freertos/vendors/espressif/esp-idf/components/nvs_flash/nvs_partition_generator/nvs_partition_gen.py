@@ -685,12 +685,12 @@ def nvs_part_gen(input_filename=None, output_filename=None, key_gen=None, encryp
 def main():
     parser = argparse.ArgumentParser(description="ESP32 NVS partition generation utility")
     parser.add_argument(
-            "input",
+            "--input",
             help="Path to CSV file to parse. Will use stdin if omitted",
             default=sys.stdin)
 
     parser.add_argument(
-            "output",
+            "--output",
             help='Path to output converted binary file. Will use stdout if omitted',
             default=sys.stdout)
 
