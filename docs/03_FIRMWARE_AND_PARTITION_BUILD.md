@@ -22,17 +22,41 @@ Before building the factory firmware image, we need to update the firmware image
 
 We are going to use the Amazon FreeRTOS ota demo for this workshop. You can find the OTA Demo code in the demos directory of Amazon FreeRTOS git repository,
 
-![](ws_client_credential_update.png)
+### AWS IoT Endpoint
 
+To get you AWS IoT endpoint, execute the following command,
 
+```
+$aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-west-2
+{
+    "endpointAddress": "xxxxxxxxxxxxx-ats.iot.us-west-2.amazonaws.com"
+}
+```
+Update **clientcredentialMQTT_BROKER_ENDPOINT** in aws_clientcredential.h with the endpointAddress value.
 
+### Thing name
 
+The output of ./setup.sh should have provided you with a Thing name which you have noted down, or you can still find it in the tools directory in the file **thingName**.
 
+### Wi-Fi credentials
+
+The instructor will provide you with the Wi-Fi credentials for the workshop, you could use an available Wi-Fi access point for this demo, even your mobile hotspot.
 
 ## Build 
 
+We are now set to build the code, from the amazon-freertos directory under tools,
 
+```
+amazon-freertos$ /snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -DCOMPILER=xtensa-esp32 -B build
+```
 
+This will create the build file in the build directory for us to build the firmware image.
+
+From the build directory, execute the make command,
+
+```
+/snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -DCOMPILER=xtensa-esp32 -B build
+```
 
 
 
