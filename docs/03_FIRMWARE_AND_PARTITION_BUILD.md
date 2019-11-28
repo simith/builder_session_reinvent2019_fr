@@ -52,12 +52,31 @@ amazon-freertos$ /snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -
 
 This will create the build file in the build directory for us to build the firmware image.
 
-From the build directory, execute the make command,
+From the **build** directory, execute the make command,
 
 ```
-/snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -DCOMPILER=xtensa-esp32 -B build
+build$ make
 ```
+If everything went well, you should see an output like the following,
 
+```
+[ 90%] Linking C static library libbootloader_support.a
+[ 90%] Built target idf_component_bootloader_support
+Scanning dependencies of target bootloader.elf
+[ 92%] Building C object CMakeFiles/bootloader.elf.dir/dummy_main_src.c.obj
+[ 95%] Linking C executable bootloader.elf
+[ 97%] Built target bootloader.elf
+Scanning dependencies of target bootloader
+[100%] Generating ../bootloader.bin
+esptool.py v2.6
+[100%] Built target bootloader
+[100%] No install step for 'bootloader'
+[100%] Completed 'bootloader'
+[100%] Built target bootloader
+Scanning dependencies of target blank_ota_data
+[100%] Generating ../../ota_data_initial.bin
+[100%] Built target blank_ota_data
+```
 
 
 
