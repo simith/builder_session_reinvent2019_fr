@@ -80,14 +80,16 @@ upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
 
 ## Deploying the update
 
-We are now all set to deploy the update to the Cakematic device. Head to the AWS IoT Console and then select AWS IoT from the Services menu. Select *Manag* eand then *Jobs* from the Sidebar,
+We are now all set to deploy the update to the Cakematic device. Head to the AWS IoT Console and then select AWS IoT from the Services menu. Select **Manage** eand then **Jobs** from the Sidebar,
 
 ![Job create welcome](ws_create_job_welcome.png)
 
 
 Choose **Create OTA update** job, OTA jobs are used for Firmware updates. **Create custom job** is used for sending commands or configuration to the devices. 
 
-![Job create welcome](ws_create_ota_job.png)
+![Job create welcome](ws_creat_ota_job.png)
+
+
 
 
 
