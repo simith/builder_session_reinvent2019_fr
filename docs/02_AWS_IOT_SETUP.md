@@ -65,27 +65,7 @@ From the **worksop/tools** directory let us use the AWS CLI ACM command to impor
 workshop/tools (master)$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
 ```
 
-## 3. Granting access to Code signing for the IAM User
-In order for the logged in IAM user to use the code signing feature of Amazon FreeRTOS, the IAM user needs to hava a Policy attached,
-
-```
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "signer:*"
-      ],
-      "Resource": "*"
-    }
-  ]
-}
-```
-
-This Policy has been already attached to the logged in IAM user for this workshop and **does not need to be attached** for this workshop.
-
-## 4. Creating an S3 bucket for storing firmware images
+## 3. Creating an S3 bucket for storing firmware images
 
 Create an S3 bucket using the AWS CLI
 
@@ -94,16 +74,16 @@ aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
 ```
 
 
-Let us enable versioning on the bucket
+Let us enable versioning on the bucket,
 
 ```
 aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-configuration Status=Enabled
 ```
 
 
-## 5. Creating an IAM Policy and a Role for OTA update
+## 4. Creating an IAM Policy and a Role for OTA update
 
-For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy.
+For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy. ***You do not need to perform this step***.
 
 ```
 {
@@ -146,5 +126,6 @@ For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to
 }
 ```
 
+We are all set now for building the firmware image on Cloud 9 and flashing the firmware image and configuration onto the ESP32.
 
 
