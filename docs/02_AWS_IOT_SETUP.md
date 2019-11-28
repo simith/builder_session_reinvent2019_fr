@@ -1,13 +1,14 @@
 # AWS IoT Setup 
 
-Before setting up everything, we need to setup the Workshop Root directory, from the builder_session_reinvent2019_fr,
+Before setting up everything, we need to setup the Workshop Root directory **WORKSHOP_ROOT_DIR** environment variable, from the **builder_session_reinvent2019_fr**,
 
-**builder_session_reinvent2019_fr**$export WORKSHOP_ROOT_DIR=$PWD
-
+```
+builder_session_reinvent2019_fr $export WORKSHOP_ROOT_DIR=$PWD
+```
 
 ## 1. X.509 Device certificate,keys,IoT Policy,Thing and Code signing keys
 
-In order to connect succesfully to AWS IoT, a X.509 certificate, Private key and an IoT Policy attached to the Certificate is required. We will create this first.
+In order to connect succesfully to AWS IoT and perform an OTA update an X.509 certificate, Private key,IoT Policy and Code  signing certificate is required. We will create this first.
 
 cd to **builder_session_reinvent2019_fr/workshop/tools/** directory of the git repository and execute **setup.sh** as below,
 
