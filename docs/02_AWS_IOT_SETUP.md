@@ -18,7 +18,7 @@ Creating Thing with thing name: <THING_NAME>
 Attaching Thing with thing name <THING_NAME> to certificate <CERTIFICATE_ID>
 ```
 
-Note down the Certificate ID printed on the console.
+
 
 The script creates 3 files in the tools directory by making calls to AWS IoT Core in the us-west-2 region,
 
@@ -26,10 +26,11 @@ The script creates 3 files in the tools directory by making calls to AWS IoT Cor
 2. privatekey.pem (Private Key)
 3. certificateId (Certificate ID)
 
-The script also activates the certificate, creates an IoT policy, attaches an IoT Policy to the Certificate, creates a Thing and associates the Thing with the Certificate. The following are also created during the script execution,
+The script also activates the certificate, creates an IoT policy, attaches an IoT Policy to the Certificate, creates a Thing and associates the Thing with the Certificate. The following files are also created during the script execution,
 
 1. iot_policy.json (IoT Policy)
 2. thingName (Thing Name)
+
 
 ## 2. Generating Code Signing Keys and Certificates
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS.
