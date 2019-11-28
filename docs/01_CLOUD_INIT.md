@@ -53,7 +53,18 @@ Resolving deltas: 100% (2621/2621), done.
 
 The repository has 2 directories,
 
-workshop/amazon-freertos: Amazon FreeRTOS source code
-workshop/tools: Tools to automate the Thing creation and a few other things (More later)
+**workshop/amazon-freertos**: Amazon FreeRTOS source code
+
+**workshop/tools**: Tools to automate the Thing creation and a few other things (More later)
+
+### Setting up the workshop root directory
+
+We need to setup the WORKSHOP_ROOT_DIR environment variable, which is referenced by the scripts used in this workshop, you can set the variable by following the below,
+
+```
+cd builder_session_reinvent2019_fr
+$WORKSHOP_ROOT_DIR=$PWD
+```
+
 
  | [Previous section](../READ.md) | [Main](../README.md) | [Next section](./02_AWS_IOT_SETUP.md) |
