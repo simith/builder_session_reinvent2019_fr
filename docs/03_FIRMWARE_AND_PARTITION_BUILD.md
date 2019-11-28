@@ -122,27 +122,48 @@ Scanning dependencies of target blank_ota_data
 
 1. Setup the Toolchain (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
 
-2. Execute the **get_bin.sh** script to get all built binaries into the bin folder.
+2. Execute the **get_bin.sh** script from the **workshop/tools** to get all built binaries into the bin folder.
 
 ```
 $ ./get_bin.sh
-ota_data_initial.bin
-bootloader.bin
-firmware.bin
+Copied partition-table.bin,bootloader.bin,ota_data_initial.bin and firmware.bin to ./bin folder
 ```
 
 ## Download the Firmware and configuration from Cloud9
 
+We are now all set to download the .bin files to your laptop and start flashing the binaries to the ESP32 MCU. From the workshop/tools/bin folder download the .bin files to you laptop as shown below,
+
+![Firmware Client Update](ws_binary_download.png?raw=true)
 
 
 ## Flash configuration (From Laptop)
 
+Please make sure the **esptool.py** is in the path before executing the next command,
+
+```
+$=
+```
+**0x31700** address in flash is where the storage partition is located. The partition.bin has the Certificate, Key and Cosde signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
 
 
 ## Flash Firmware (From Laptop)
 
+Please make sure the **esptool.py** is in the path before executing the next command,
+
+```
+$esptool.py --chip esp32 -p /dev/cu.SLAB_USBtoUART -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin  0x20000 firmware.bin
+```
 
 
 ## Monitor the ESP32 (From Laptop)
+
+
+For Mac users, use the screen command,
+
+```
+$screen /dev/cu.SLAB_USBtoUART 115200
+```
+
+Windows users can use the Putty terminal software, (TBD)
 
 | [Previous section](./02_AWS_IOT_SETUP.md) | [Main](../README.md) | [Next section](./04_OTA_SETUP.md) |
