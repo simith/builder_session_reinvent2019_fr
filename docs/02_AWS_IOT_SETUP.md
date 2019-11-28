@@ -31,6 +31,8 @@ The script also activates the certificate, creates an IoT policy, attaches an Io
 1. iot_policy.json (IoT Policy)
 2. thingName (Thing Name)
 
+At this point, please navigate to the AWS Console > AWS IoT > Manage > Things to find your thing. See how the thing is setup. If you would like to know your Thing name, it will be printed during the above script execution, or you could look at the thingName file to find your thing name. The thing has a Certificate, and the certificate is setup with an IoT Policy for receiving a Job and doing an OTA update. 
+
 
 ## 2. Generating Code Signing Keys and Certificates
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS.
@@ -38,7 +40,7 @@ To make the OTA process secure the Firmware that will be sent to the device need
 To automate the creation of the Thing, Certificate, Keys, IoT Policy and the Code signing certificate a script has been provided to you in the **workshop/tools/** directory called **create_code_signing_cert.sh**. When you are ready, please execute the script,
 
 ```
-$ ./create_code_signing_cert.sh**
+$ ./create_code_signing_cert.sh
 Creating Code Signing Key and Certificate
 ```
 
