@@ -15,7 +15,7 @@ Updating certificate state to ACTIVE
 Creating IoT Policy with name [<CERTIFICATE_ID>-iot-policy]
 Attaching IoT Policy [<CERTIFICATE_ID>-iot-policy] to certificate
 Creating Thing with thing name: <THING_NAME>
-Attaching Thing with thing name <THING_NAME> to certificate 81ba243aa45f857fe369701287caff639cd363edb372b50bb943d3a5cfd4421b
+Attaching Thing with thing name <THING_NAME> to certificate <CERTIFICATE_ID>
 ```
 
 Note down the Certificate ID printed on the console.
@@ -46,6 +46,71 @@ The script generates a key and certificate that will be used for code signing.
 1. ecdsasigner.key (Signing Key)
 2. ecdsasigner.crt (Public Certificate)
 
-Please go through the script to get an understanding of what is going on under the hood.
+Please go through the script to get an understanding of what is going on under the hood. Now that the code signing certificate and key have been created, they need to be uploaded to the AWS Cloud for Firmware signing. To upload the certificate and private key to the Amazon Certificate Manager, please follow the instructions below,
+
+From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
+
+```
+workshop/tools (master)$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
+```
+
+## 3. Creating an S3 bucket for storing firmware images
+
+Create an S3 bucket using the AWS CLI
+
+```
+aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
+```
+
+Let us enable versioning on the bucket,
+
+```
+aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-configuration Status=Enabled
+```
+
+## 4. Creating an IAM Policy and a Role for OTA update
+
+For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy. ***You do not need to perform this step***.
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*",
+                "acm:ImportCertificate",
+                "acm:ListCertificates",
+                "iot:*",
+                "iam:ListRoles",
+                "freertos:ListHardwarePlatforms",
+                "freertos:DescribeHardwarePlatform"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "signer:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::ACCOUNT_ID:role/ota-update-reinvent-role"
+        }
+    ]
+}
+```
 
 Click [here](./03_FIRMWARE_AND_PARTITION_BUILD.md) to continue to the next section.

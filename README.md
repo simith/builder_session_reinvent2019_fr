@@ -22,19 +22,16 @@ The high-level workshop flow is shown below,
 ![workshow workflow?](docs/workflow_for_workshop.png)
 
 ### 1. Workshop Setup
-The workshop build environment is setup on a Cloud9 environment and will be provided to you by the instructor. ESP-IDF and the xtensa toolchain will be already setup. Login to your Cloud9 environment using the information provided by the instructor. Follow instructions for setting up the required software on the Laptop by clicking [here](docs/00_CLOUD_INIT.md).
+The workshop build environment is setup on a Cloud9 environment and will be provided to you by the instructor. ESP-IDF and the xtensa toolchain will be already setup. Login to your Cloud9 environment using the information provided by the instructor. Follow instructions for setting up the required software on the Laptop by clicking [here](docs/01_CLOUD_INIT.md).
 
-### 2. AWS-IoT-Setup
+### 2. AWS IoT Setup
 In this step you will create the Certificates, Keys and code signing certificate required for Over-the-Air updates. Get started by [clicking here for Step 2](docs/02_AWS_IOT_SETUP.md).
 
-### 3. Factory setup and Production firmware build on Cloud9
+### 3. Factory Provisioning
 In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
 
-### 4. Flash firmware and monitor
+### 4. OTA Setup
 In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)
-
-[Test](#1.-workshop-setup-5)
-[Test2](#2.-aws-iot-setup-6)
 
 ### 5. OTA update
 Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5]()

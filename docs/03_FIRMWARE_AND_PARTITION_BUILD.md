@@ -46,7 +46,7 @@ row[key]{'type': 'namespace', 'value': '', 'key': 'creds', 'encoding': ''}
 row[key]{'type': 'file', 'value': 'testdata/cert.der', 'key': 'P11_Cert', 'encoding': 'binary'}
 row[key]{'type': 'file', 'value': 'testdata/privatekey.der', 'key': 'P11_Key', 'encoding': 'binary'}
 row[key]{'type': 'file', 'value': 'testdata/csk.der', 'key': 'P11_CSK', 'encoding': 'binary'}
-Copying partition.bin to Workshop Tools directory /home/ubuntu/environment/builder_session_reinvent2019_fr/workshop/tools
+Copying partition.bin to Workshop Tools directory
 partition.bin is ready for download.
 ```
 
@@ -54,7 +54,9 @@ This command invokes the NVS Partition Generator tool and create **partition.bin
 
 ## Update the Firmware code with the IoT Endpoint, Thing name and Wi-fi credentials
 
-Before building the factory firmware image, we need to update the firmware image with the AWS IoT Endpoint, Thing name of the Thing your script just created and Wi-Fi credentials. Ideally, IoT Endpoint information can go into the storage partition as part of the configuration, however, for the purposes of this workshop let us update the file **aws_clientcredential.h** with the endpoint information. **This approach is not recommended for Production**.
+Before building the factory firmware image, we need to update the firmware image with the AWS IoT Endpoint, Thing name of the Thing your script just created and Wi-Fi credentials. Ideally, IoT Endpoint information can go into the storage partition as part of the configuration, however, for the purposes of this workshop let us update the file **aws_clientcredential.h** with the endpoint information as shown below. **This approach is not recommended for Production**. The information that you need to fill in are in the subsection below.
+
+ ![Firmware Client Update](ws_client_credential_update.png?raw=true)
 
 We are going to use the Amazon FreeRTOS OTA demo for this workshop. You can find the OTA Demo code in the demos directory of Amazon FreeRTOS git repository,
 
@@ -115,7 +117,6 @@ Scanning dependencies of target blank_ota_data
 [100%] Generating ../../ota_data_initial.bin
 [100%] Built target blank_ota_data
 ```
-
 
 ## Setup your Laptop for flashing firmware and configuration
 
