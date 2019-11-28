@@ -218,7 +218,6 @@ CK_OBJECT_HANDLE PKCS11_PAL_FindObject( uint8_t * pcLabel,
  
     memset(label,'\0',100);
     memcpy(label,pcLabel,usLength);   
-    ESP_LOGE( TAG, "Entering PKCS11_PAL_FindObject [%s]\n",label);
     initialize_nvs_partition();
 
     /* Translate from the PKCS#11 label to local storage file name. */
@@ -228,7 +227,6 @@ CK_OBJECT_HANDLE PKCS11_PAL_FindObject( uint8_t * pcLabel,
 
     if( pcFileName != NULL )
     {
-        ESP_LOGE( TAG, "Finding file %s", pcFileName );
         nvs_handle handle;
         esp_err_t err = nvs_open_from_partition(NVS_PART_NAME, NAMESPACE, NVS_READONLY, &handle);
         if (err != ESP_OK) {
@@ -279,7 +277,6 @@ CK_RV PKCS11_PAL_GetObjectValue( CK_OBJECT_HANDLE xHandle,
                                  uint32_t * pulDataSize,
                                  CK_BBOOL * pIsPrivate )
 {
-    printf( "Entering PKCS11_PAL_GetObjectValue");
     initialize_nvs_partition();
     char * pcFileName = NULL;
     CK_RV ulReturn = CKR_OK;
@@ -312,7 +309,6 @@ CK_RV PKCS11_PAL_GetObjectValue( CK_OBJECT_HANDLE xHandle,
 
     if (ulReturn == CKR_OK)
     {
-        ESP_LOGE(TAG, "Reading file %s", pcFileName);
         nvs_handle handle;
         esp_err_t err = nvs_open_from_partition(NVS_PART_NAME, NAMESPACE, NVS_READONLY, &handle);
         if (err != ESP_OK) {
@@ -350,7 +346,6 @@ done:
         nvs_close(handle);
     }
 
-    ESP_LOGE(TAG, "Leaving PKCS11_PAL_GetObjectValue");
     return ulReturn;
 }
 

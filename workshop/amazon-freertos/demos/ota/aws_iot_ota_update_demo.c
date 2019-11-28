@@ -79,8 +79,10 @@ static void prvNetworkStateChangeCallback(uint32_t ulNetworkType,
 /* For the LED task routine - START*/
 static void pBlinkOnCakeReady(void *);
 static void pGpioSetAllLow();
-#define GPIO_RED 14
-#define GPIO_GREEN 15
+
+#define GPIO_GREEN 14
+#define GPIO_RED 15
+
 
 /*For the LED task routine Task- END*/
 /*-----------------------------------------------------------*/
@@ -444,7 +446,7 @@ static void pGpioSetAllLow()
 
 static void pBlinkOnCakeReady(void *pParam)
 {
-    uint32_t xGpioPin = GPIO_GREEN;
+    uint32_t xGpioPin = GPIO_RED;
 
     vTaskDelay(10000 / portTICK_PERIOD_MS);
     gpio_pad_select_gpio(xGpioPin);
@@ -456,10 +458,10 @@ static void pBlinkOnCakeReady(void *pParam)
         /* Blink off (output low) */
         printf("Turning off the LED\n");
         gpio_set_level(xGpioPin, 0);
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(200 / portTICK_PERIOD_MS);
         /* Blink on (output high) */
         printf("Turning on the LED\n");
         gpio_set_level(xGpioPin, 1);
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(200 / portTICK_PERIOD_MS);
     }
 }
