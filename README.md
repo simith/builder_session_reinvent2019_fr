@@ -30,7 +30,7 @@ In this step you will create the Certificates, Keys and code signing certificate
 ### 3. Factory setup and Production firmware build on Cloud9
 In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
 
-### 4. Firmware signing setup and Factory process
+### 4. Download and flash firmware and configuration on to the device at the Factory
 In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)
 
 ### 5. OTA update
