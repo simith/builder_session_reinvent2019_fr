@@ -1,6 +1,6 @@
 # Factory Provisioning
 
-The factory provisioning of the ESP32 module involved provisioning it with AWSI IoT certificates, keys, Code signing certificate and any other configuration that you would like to provide to the Device.
+The factory provisioning of the ESP32 module involves provisioning it with AWSI IoT certificates, keys, Code signing certificate and any other configuration that you would like to provide to the Device.
 
 ## The Partition Table
 
