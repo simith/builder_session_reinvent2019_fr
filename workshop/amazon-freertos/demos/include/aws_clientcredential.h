@@ -52,14 +52,14 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "";
  *
  * @todo If you are using Wi-Fi, set this to your network name.
  */
-#define clientcredentialWIFI_SSID "Guest"
+#define clientcredentialWIFI_SSID ""
 
 /*
  * @brief Password needed to join Wi-Fi network.
  *
  * @todo If you are using WPA, set this to your network password.
  */
-#define clientcredentialWIFI_PASSWORD "BrokenWires@@2019"
+#define clientcredentialWIFI_PASSWORD ""
 
 /*
  * @brief Wi-Fi network security type.
