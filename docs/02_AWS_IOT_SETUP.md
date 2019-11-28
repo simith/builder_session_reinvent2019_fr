@@ -65,7 +65,7 @@ From the **worksop/tools** directory let us use the AWS CLI ACM command to impor
 workshop/tools (master)$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key
 ```
 
-## 4. Granting access to Code signing for the IAM User
+## 3. Granting access to Code signing for the IAM User
 In order for the logged in IAM user to use the code signing feature of Amazon FreeRTOS, the IAM user needs to hava a Policy attached,
 
 ```
@@ -85,7 +85,7 @@ In order for the logged in IAM user to use the code signing feature of Amazon Fr
 
 This Policy has been already attached to the logged in IAM user for this workshop and **does not need to be attached** for this workshop.
 
-## 3. Creating an S3 bucket for storing firmware images
+## 4. Creating an S3 bucket for storing firmware images
 
 Create an S3 bucket using the AWS CLI
 
@@ -101,5 +101,50 @@ aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-co
 ```
 
 
-## 4. Creating a Job signing profile
+## 5. Creating an IAM Policy and a Role for OTA update
+
+For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy.
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*",
+                "acm:ImportCertificate",
+                "acm:ListCertificates",
+                "iot:*",
+                "iam:ListRoles",
+                "freertos:ListHardwarePlatforms",
+                "freertos:DescribeHardwarePlatform"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "signer:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::ACCOUNT_ID:role/ota-update-reinvent-role"
+        }
+    ]
+}
+```
+
+
 
