@@ -32,7 +32,6 @@ $aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-west-2
     "endpointAddress": "xxxxxxxxxxxxx-ats.iot.us-west-2.amazonaws.com"
 }
 ```
-Update **clientcredentialMQTT_BROKER_ENDPOINT** in aws_clientcredential.h with the endpointAddress value.
 
 ### Thing name
 
@@ -41,6 +40,12 @@ The output of ./setup.sh should have provided you with a Thing name which you ha
 ### Wi-Fi credentials
 
 The instructor will provide you with the Wi-Fi credentials for the workshop, you could use an available Wi-Fi access point for this demo, even your mobile hotspot.
+
+
+Update the AWS IoT Endpoint,Thing name and Wi-fi credentials in the "aws_clientcredentials.h" file as shown below.
+
+(ws_client_credential_update.png)
+
 
 ## Build 
 
