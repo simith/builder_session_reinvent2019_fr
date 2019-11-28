@@ -57,7 +57,7 @@ The repository has 2 directories,
 
 **workshop/tools**: Tools to automate the Thing creation and a few other things (More later)
 
-### Setting up the workshop root directory
+### 2.1 Setting up the workshop root directory
 
 We need to setup the WORKSHOP_ROOT_DIR environment variable, which is referenced by the scripts used in this workshop, you can set the variable by following the below,
 
