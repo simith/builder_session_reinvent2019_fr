@@ -1,10 +1,10 @@
-## Introduction
+# Introduction
 
 This repository was created to run the re:Invent 2019 Builder session on Amazon FreeRTOS (https://aws.amazon.com/freertos/).
 
 ## Pre-requisites
 
-A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on thier laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/ and a fully configured build environment will be provided to participants.
+A laptop is required for this session. To be able to flash the firmware and configuration, the participants would need to have ESP-IDF installed on their laptop. Instructions to do so will be provided in the documentation. The Firmware build will be done on Cloud 9 https://aws.amazon.com/cloud9/ and a fully configured build environment will be provided to participants.
 
 ## Where are we?
 
@@ -27,13 +27,8 @@ The workshop build environment is setup on a Cloud9 environment and will be prov
 ### 2. AWS IoT Setup
 In this step you will create the Certificates, Keys and code signing certificate required for Over-the-Air updates. Get started by [clicking here for Step 2](docs/02_AWS_IOT_SETUP.md)
 
-### 3. Factory setup and Production firmware build on Cloud9
-In this step we are going to create the required assets and production firmware to provision the ESP32 module.Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
+### 3. Factory Provisioning
+In this step we are going to create the required assets and production firmware to provision the ESP32 module. Also, we are going to are going to flash the firmware and configuration to the ESP32 module. Get started by [clicking here for Step 3](docs/03_FIRMWARE_AND_PARTITION_BUILD.md)
 
-### 4. Download and flash firmware and configuration on to the device at the Factory
-In this step we are going to are going to flash the firmware and configuration to the ESP32 module .Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)
-
-### 5. OTA update
-Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. Get started by [clicking here for Step 5]() 
-
-
+### 4. OTA Update
+Finally, we are going to do an OTA update to fix a bug that was reported to the Marketing team. And then launch an OTA job to deploy the firmware in the field. Get started by [clicking here for Step 4](docs/04_OTA_SETUP.md)

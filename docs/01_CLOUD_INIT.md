@@ -5,12 +5,12 @@
 Using the provided username, password and AWS Console URL, login to the AWS Console.
 
  ![Console](ws_console_login.png?raw=true)
- 
+
 
 After logging in successfully, select the correct region "Oregon" (us-west-2) from the top as shown in below.
 
  ![Select Region](ws_region_select.png?raw=true)
- 
+
 
 Then select Cloud9 from the Services menu as shown below,
 
@@ -36,7 +36,7 @@ Git repository: https://github.com/simith/builder_session_reinvent2019_fr
 You can clone the git repository by running the following command.
 
 ```
-$git clone https://github.com/simith/builder_session_reinvent2019_fr
+$ git clone https://github.com/simith/builder_session_reinvent2019_fr
 ```
 
 You should see an output as follows.
@@ -62,9 +62,8 @@ The repository has 2 directories,
 We need to setup the WORKSHOP_ROOT_DIR environment variable, which is referenced by the scripts used in this workshop, you can set the variable by following the below,
 
 ```
-cd builder_session_reinvent2019_fr
-$WORKSHOP_ROOT_DIR=$PWD
+$ cd builder_session_reinvent2019_fr
+$ export WORKSHOP_ROOT_DIR=$PWD
 ```
 
-
- | [Previous section](../READ.md) | [Main](../README.md) | [Next section](./02_AWS_IOT_SETUP.md) |
+| [Previous section](../READ.md) | [Main](../README.md) | [Next section](./02_AWS_IOT_SETUP.md) |
