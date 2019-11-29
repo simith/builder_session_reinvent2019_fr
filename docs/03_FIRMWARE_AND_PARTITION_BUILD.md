@@ -16,18 +16,6 @@ storage,  data, nvs,     ,         0x10000
 
 The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-volatile storage) ***storage*** partition for storing certificates and configuration. The production firmware is flashed at ota_0 in the factory. As you deploy your updates the firmware images will be written to ota_1 and ota_0 based on which is the primary at that point. Amazon FreeRTOS has a few conventions that you can use to program certificates, keys, code-signing certificates, Just-in-time Registration certificates etc. so that it makes it easy to program thises devices with the required configuration. If you abide by those conventions, everything should work as expected when Amazon FreeRTOS looks for the configuration it on the flash or filesystem.
 
- ![Firmware Client Update](ws_partition_layout.png?raw=true)
- 
- The partition.csv file is located in the **amazon-freertos/vendors/espressif/esp-idf/components/nvs_flash/nvs_partition_generator**
-
-```
-key,type,encoding,value
-creds,namespace,,
-P11_Cert,file,binary,testdata/cert.der
-P11_Key,file,binary,testdata/privatekey.der
-P11_CSK,file,binary,testdata/csk.der
-```
-
 
 ### Converting certificates from PEM to DER
 
@@ -50,13 +38,21 @@ As a result, three DER files have been created.
 To generate the storage partition, we use the Espressif NVS Partition Generator tool. This tools is located in the _builder_session_reinvent2019_fr\workshop\amazon-freertos\vendors\espressif\esp-idf\components\nvs_flash\nvs_partition_generator_ directory. The partition layout is defined in **partiton.csv** file.
 
 The configuration we will write into the storage partition looks like the below,
-
- ![Firmware Client Update](ws_partition_layout.png?raw=true)
  
- you can find the file in :** **
+![Firmware Client Update](ws_partition_layout.png?raw=true)
+ 
+The partition.csv file is located in the **amazon-freertos/vendors/espressif/esp-idf/components/nvs_flash/nvs_partition_generator**
 
+```
+key,type,encoding,value
+creds,namespace,,
+P11_Cert,file,binary,testdata/cert.der
+P11_Key,file,binary,testdata/privatekey.der
+P11_CSK,file,binary,testdata/csk.der
+```
+Esentially, the certificate, key, code signing certificate which we converted to DER format is being packaged into a binary file to be stored on on the nvs storage partition.
 
-However, in order to simplify, execute the command **./create_partition.sh** from the _builder_session_reinvent2019_fr/workshop/tools/_ directory. You will get the following:
+In order to simplify, execute the command **./create_partition.sh** from the _builder_session_reinvent2019_fr/workshop/tools/_ directory. You will get the following:
 
 ```
 $ ./create_partition.sh Copying Certificate, Private Key and Code Signing Key
