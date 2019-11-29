@@ -18,8 +18,6 @@ Creating Thing with thing name: <THING_NAME>
 Attaching Thing with thing name <THING_NAME> to certificate <CERTIFICATE_ID>
 ```
 
-
-
 The script creates 3 files in the tools directory by making calls to AWS IoT Core in the us-west-2 region,
 
 1. cert.pem (Device Certificate)
@@ -31,13 +29,13 @@ The script also activates the certificate, creates an IoT policy, attaches an Io
 1. iot_policy.json (IoT Policy)
 2. thingName (Thing Name)
 
-At this point, please navigate to the AWS Console > AWS IoT > Manage > Things to find your thing. See how the thing is setup. If you would like to know your Thing name, it will be printed during the above script execution, or you could look at the thingName file to find your thing name. The thing has a Certificate, and the certificate is setup with an IoT Policy for receiving a Job and doing an OTA update. 
-
+At this point, please navigate to the AWS Console > AWS IoT > Manage > Things to find your thing. See how the thing is setup. If you would like to know your Thing name, it will be printed during the above script execution, or you could look at the thingName file to find your thing name. The thing has a Certificate, and the certificate is setup with an IoT Policy for receiving a Job and doing an OTA update.
 
 ## 2. Generating Code Signing Keys and Certificates
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS.
 
 To automate the creation of the Thing, Certificate, Keys, IoT Policy and the Code signing certificate a script has been provided to you in the **workshop/tools/** directory called **create_code_signing_cert.sh**. When you are ready, please execute the script,
+
 
 ```
 $ ./create_code_signing_cert.sh
@@ -54,31 +52,40 @@ Please go through the script to get an understanding of what is going on under t
 From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
 
 ```
-$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key 2>&1 | tee  acmCertificateId   
+$ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key 2>&1 | tee  acmCertificateId
+{
+    "CertificateArn": "arn:aws:acm:us-west-2:<ACCOUNT_ID>:certificate/<GUID>"
+}   
 ```
 
 The **acmCertificateId** file will have the certificate id for the Code signing certificate, we will need to select it in the OTA Job workflow when we push an OTA update to the Cakematic device.
 
 ## 3. Creating an S3 bucket for storing firmware images
 
-Let us create an S# bucket for storing the firmware image when we do an OTA update.
-
-Create an S3 bucket using the AWS CLI
+First let us create a unique name for your S3 bucket. Let us do the following
 
 ```
-$aws s3 mb s3://<your_new_bucket_name> --region=us-west-2
+<BUCKET_NAME> : account-id-<ACCOUNT_ID>-<SOME_RANDOM_STRING>
 ```
 
-Let us enable versioning on the bucket,
+Let us create an S3 bucket for storing the firmware image when we do an OTA update.
+
+Create an S3 bucket using the AWS CLI using the following command.
 
 ```
-$aws s3api put-bucket-versioning --bucket <your_new_bucket_name>  --versioning-configuration Status=Enabled
+$ aws s3 mb s3://<BUCKET_NAME> --region=us-west-2
+```
+
+And then enable versioning on the bucket.
+
+```
+$ aws s3api put-bucket-versioning --bucket <BUCKET_NAME>  --versioning-configuration Status=Enabled
 ```
 
 ## 4. Creating an IAM Policy and a Role for OTA update
 
-***Note ou do not need to perform this step***
-For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy. .
+***Note you do not need to perform this step***
+For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy.
 
 ```
 {

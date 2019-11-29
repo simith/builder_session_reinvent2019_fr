@@ -38,9 +38,9 @@ As a result, three DER files have been created.
 To generate the storage partition, we use the Espressif NVS Partition Generator tool. This tools is located in the _builder_session_reinvent2019_fr\workshop\amazon-freertos\vendors\espressif\esp-idf\components\nvs_flash\nvs_partition_generator_ directory. The partition layout is defined in **partiton.csv** file.
 
 The configuration we will write into the storage partition looks like the below,
- 
+
 ![Firmware Client Update](ws_partition_layout.png?raw=true)
- 
+
 The partition.csv file is located in the **amazon-freertos/vendors/espressif/esp-idf/components/nvs_flash/nvs_partition_generator**
 
 ```
@@ -81,7 +81,7 @@ We are going to use the Amazon FreeRTOS OTA demo for this workshop. You can find
 To get you AWS IoT endpoint, execute the following command,
 
 ```
-$aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-west-2
+$ aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-west-2
 {
     "endpointAddress": "xxxxxxxxxxxxx-ats.iot.us-west-2.amazonaws.com"
 }
@@ -99,10 +99,20 @@ The instructor will provide you with the Wi-Fi credentials for the workshop, you
 
 ## Build
 
-We are now set to build the code, from the amazon-freeRTOS directory under tools,
+We are now set to build the code. Now from the _amazon-freeRTOS_ directory under tools,
 
 ```
-amazon-freertos$ /snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -DCOMPILER=xtensa-esp32 -B build
+amazon-freertos $ /snap/bin/cmake  -DVENDOR=espressif -DBOARD=esp32_wrover_kit  -DCOMPILER=xtensa-esp32 -B build
+```
+
+The last few lines of the output should be as follows:
+
+```
+=========================================================================
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/builder_session_reinvent2019_fr/workshop/amazon-freertos/build
 ```
 
 This will create the build file in the build directory for us to build the firmware image.
@@ -110,7 +120,7 @@ This will create the build file in the build directory for us to build the firmw
 From the **build** directory, execute the make command,
 
 ```
-build$ make
+build $ make
 ```
 
 If everything went well, you should see an output like the following,
@@ -157,9 +167,10 @@ We are now all set to download the .bin files to your laptop and start flashing 
 Please make sure the **esptool.py** is in the path before executing the next command,
 
 ```
-$=
+$ esptool.py --chip esp32 -p COM4 -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x31700 partition.bin
 ```
-**0x31700** address in flash is where the storage partition is located. The partition.bin has the Certificate, Key and Cosde signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
+
+Flash address `0x31700` address in flash is where the storage partition is located. The **partition.bin** has the Certificate, Key and Code signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
 
 
 ## Flash Firmware (From Laptop)
@@ -167,19 +178,17 @@ $=
 Please make sure the **esptool.py** is in the path before executing the next command,
 
 ```
-$esptool.py --chip esp32 -p /dev/cu.SLAB_USBtoUART -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin  0x20000 firmware.bin
+$ esptool.py --chip esp32 -p /dev/cu.SLAB_USBtoUART -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin
 ```
 
-
 ## Monitor the ESP32 (From Laptop)
-
 
 For Mac users, use the screen command,
 
 ```
-$screen /dev/cu.SLAB_USBtoUART 115200
+$ screen /dev/cu.SLAB_USBtoUART 115200
 ```
 
-Windows users can use the Putty terminal software, (TBD)
+Windows users can use the Putty terminal software.
 
 | [Previous section](./02_AWS_IOT_SETUP.md) | [Main](../README.md) | [Next section](./04_OTA_SETUP.md) |
