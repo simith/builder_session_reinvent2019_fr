@@ -67,12 +67,11 @@ Let us run make command from the build directory to build a new binary file for 
 build$ make
 ```
 
-You should now have the latest frmware ready to be deployed via AWS IoT Device Management. We will now go through the OTA workflow to deploy the firmware update to your thing. Before that we need to upload the firmware to the S3 bucket we created before.
+You should now have the latest firmware ready to be deployed via AWS IoT Device Management. We will now go through the OTA workflow to deploy the firmware update to your thing. Before that we need to upload the firmware to the S3 bucket we created before.
 
 ```
-$aws s3 cp firmware.bin s3://<BUCKET_NAME>/furmware_v_1_1.bin
+$ aws s3 cp aws_demos.bin s3://<BUCKET_NAME>/firmware_v_1_1.bin
 upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
-
 ```
 
 ## Deploying the update
@@ -110,9 +109,9 @@ Fill in the required fields like below,
 
 ![Select thing](ws_ota_info_provided.png?raw=true)
 
-1. the firmware image in S3 - Location where you uploaded the new firmware
-2. /var in the Pathname of the firmware image on the device - This does not apply as we do not have a filesystem, but the filed is mandatory, hence just put in a string.
-3.IAM Role for an OTA Job - We have actual created an IAM Role for this workshop: **ota-update-reinvent-role**, just select that!
+1. The firmware image in S3 - Location where you uploaded the new firmware
+2. `/var` in the Pathname of the firmware image on the device - This does not apply as we do not have a filesystem, but the filed is mandatory, hence just put in a string.
+3. IAM Role for an OTA Job - We have actual created an IAM Role for this workshop: **ota-update-reinvent-role**, just select that!
 
 The policy attached to the IAM Role **ota-update-reinvent-role** looks like this,
 

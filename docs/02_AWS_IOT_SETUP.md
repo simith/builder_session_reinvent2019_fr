@@ -49,7 +49,7 @@ The script generates a key and certificate that will be used for code signing.
 
 Please go through the script to get an understanding of what is going on under the hood. Now that the code signing certificate and key have been created, they need to be uploaded to the AWS Cloud for Firmware signing. To upload the certificate and private key to the Amazon Certificate Manager, please follow the instructions below,
 
-From the **worksop/tools** directory let us use the AWS CLI ACM command to import the certificate,
+From the **workshop/tools** directory let us use the AWS CLI ACM command to import the certificate,
 
 ```
 $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key 2>&1 | tee  acmCertificateId
