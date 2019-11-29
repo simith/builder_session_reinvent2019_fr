@@ -167,10 +167,10 @@ We are now all set to download the .bin files to your laptop and start flashing 
 Please make sure the **esptool.py** is in the path before executing the next command,
 
 ```
-$ esptool.py --chip esp32 -p COM4 -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x31700 partition.bin
+$ esptool.py --chip esp32 -p <COM_PORT> -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x317000 partition.bin
 ```
 
-Flash address `0x31700` address in flash is where the storage partition is located. The **partition.bin** has the Certificate, Key and Code signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
+Flash address `0x317000` address in flash is where the storage partition is located. The **partition.bin** has the Certificate, Key and Code signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
 
 
 ## Flash Firmware (From Laptop)
@@ -178,17 +178,18 @@ Flash address `0x31700` address in flash is where the storage partition is locat
 Please make sure the **esptool.py** is in the path before executing the next command,
 
 ```
-$ esptool.py --chip esp32 -p /dev/cu.SLAB_USBtoUART -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin
+$ esptool.py --chip esp32 -p <COM_PORT> -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin
 ```
 
 ## Monitor the ESP32 (From Laptop)
 
+Now we can connect to the COM port with baud rate 115200, 8-bit, No-Parity, 1-stop bit to monitor.
 For Mac users, use the screen command,
 
 ```
 $ screen /dev/cu.SLAB_USBtoUART 115200
 ```
 
-Windows users can use the Putty terminal software.
+Windows users can use the Putty terminal software or TeraTerm.
 
 | [Previous section](./02_AWS_IOT_SETUP.md) | [Main](../README.md) | [Next section](./04_OTA_SETUP.md) |

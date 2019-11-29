@@ -1,5 +1,0 @@
-key,type,encoding,value
-creds,namespace,,
-P11_Cert,file,binary,testdata/cert.der
-P11_Key,file,binary,testdata/privatekey.der
-P11_CSK,file,binary,testdata/csk.der
