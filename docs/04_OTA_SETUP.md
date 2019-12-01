@@ -206,12 +206,13 @@ else
 }
          
 ```
-## The OTA Agent explained
+## The OTA(Over-the-air) Agent explained
 
 **OTA_AgentInit** function is the initialisation function of the OTA Agent which is responsible for managing the complexity of the OTA Job on behalf of the Application. On startup, it queries for Jobs being Queued for the Device on the cloud, Subscribes to MQTT topics, retreieves the firmware image via MQTT and also updates the Job progress and final status to the Cloud. 
 
 ```
-  OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0)
+  OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), 
+                App_OTACompleteCallback, (TickType_t)~0)
 ```
 
 The OTA Agent also provides callbacks to the Application via the **App_OTACompleteCallback** (in the above example), this is a user defined function which will receive the following events,
@@ -231,7 +232,6 @@ For more information, please refer to the documentation here:
 
 https://docs.aws.amazon.com/freertos/latest/userguide/freertos-ota-dev.html
 https://docs.aws.amazon.com/freertos/latest/userguide/ota-agent-library.html
-
 
 
 
