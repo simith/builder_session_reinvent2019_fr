@@ -58,7 +58,7 @@ $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key
 }
 ```
 
-The **acmCertificateId** file will have the certificate id for the Code signing certificate, we will need to select it in the OTA Job workflow when we push an OTA update to the Cakematic device.
+The **acmCertificateId** file will have the certificate id for the Code signing certificate, we will need to select it in the OTA Job workflow when we push an OTA update to the Kakematic device.
 
 ## 3. Creating an S3 bucket for storing firmware images
 
