@@ -14,7 +14,7 @@ Several scripts are provided for Thing, Certificate, IoT Policy creation and the
 
 Kakematic is a modern oven which has state-of-the-art features for baking cakes. Kakematic is currently going through thier pilot and have sent out 1000+ appliances to customers across the US.
 
-![where?](docs/ws_where_are_we.png)
+![where?](docs/where_are_we.png)
 
 The Marketing team has received feedback from Customers that there is a bug with regards to the LED indicator when a Cake is fully baked, the User manual states that Kakematic would light up the **GREEN** LED, but the **RED** LED is blinking instead. The Firmware development team has come up with a new firmware that fixes this bug and this needs to be deployed to Kakematic. In this workshop you are going to learn about Kakematic's device lifecycle right from Factory based Provisioning to Connecting to AWS IoT cloud and finally deploying an OTA updated to Kakematic to fix the bug. Enjoy!.
 
