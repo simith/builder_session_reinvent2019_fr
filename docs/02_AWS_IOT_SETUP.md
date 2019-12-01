@@ -84,7 +84,8 @@ $ aws s3api put-bucket-versioning --bucket <BUCKET_NAME>  --versioning-configura
 
 ## 4. Creating an IAM Policy and a Role for OTA update
 
-**_Note you do not need to perform this step_**
+**_Note: you do not need to perform this step_**
+
 For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy.
 
 ```
