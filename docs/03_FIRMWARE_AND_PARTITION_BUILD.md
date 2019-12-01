@@ -106,6 +106,12 @@ The instructor will provide you with the Wi-Fi credentials for the workshop, you
 
 ## Build
 
+Before we build. let us make sure the toolchain path is setup in the PATH environment variable, the install.sh script in the repo's workshop/tools floder has been used to setup the toolchain, we need tp make it avaiable in the PATH for the shell you are on. Let us do that by executing the following command,
+
+```
+$ . ~/.bash_profile
+```
+
 We are now set to build the code. Now from the _amazon-freeRTOS_ directory under tools,
 
 ```
