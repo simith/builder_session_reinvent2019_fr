@@ -35,7 +35,9 @@ As a result, three DER files have been created.
 
 ### Generating storage partition
 
-We are not going to store the Certificate, private key and Code siging certificate in the header file or as a part of the source code of the firmware, as that is not going to be a scalable way of doing things in the factory. Hence, we need to write this configuration seperately to flash during production. We retrieved the Certificate and Private key from AWS IoT for this workshop, however, in production, it is not considered to be a good practise to download private key over the wire and store it on the disk. In such situations Just-in-time Registration/Just-in-time Provisioning flows needs to be used, where the certificate can be provisioned on the device and a CSR can be sent out which will be signed by the CA (on the Factory PC) and the Certificate returned back to the device, this way the Private key never leaves the device.
+We are not going to store the Certificate, private key and Code siging certificate in the header file or as a part of the source code of the firmware, as that is not going to be a scalable way of doing things in the factory. Hence, we need to write this configuration seperately to flash during production. 
+
+We retrieved the Certificate and Private key from AWS IoT (Amazon CA issued certificates) for this workshop, however, in production, it is not considered to be a good practise to download private key over the wire and store it on the disk. In such situations Just-in-time Registration/Just-in-time Provisioning flows needs to be used, where the certificate can be provisioned on the device and a CSR can be sent out which will be signed by the CA (on the Factory PC) and the Certificate returned back to the device, this way the Private key never leaves the device.
 
 JITP flow: https://aws.amazon.com/blogs/iot/setting-up-just-in-time-provisioning-with-aws-iot-core/
 
