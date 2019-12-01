@@ -14,7 +14,7 @@ echo "Creating partition.bin with Key, Device Certificate and Code Signing Certi
 echo python nvs_partition_gen.py --version v2 input partition.csv output partition.bin
 python nvs_partition_gen.py --version v2 --input partition.csv --output partition.bin
 
-echo "Copying partition.bin to Workshop Tools directory"
+echo "Copying partition.bin to workshop/tools/bin directory"
 mv partition.bin ${WORKSHOP_TOOLS_DIR}/bin/partition.bin
 
 cd ${WORKSHOP_PARTITION_WRITER_DIR}
