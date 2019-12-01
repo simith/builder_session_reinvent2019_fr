@@ -206,6 +206,7 @@ else
 }
          
 ```
+## The OTA Agent explained
 
 **OTA_AgentInit** function is the initialisation function of the OTA Agent which is responsible for managing the complexity of the OTA Job on behalf of the Application. On startup, it queries for Jobs being Queued for the Device on the cloud, Subscribes to MQTT topics, retreieves the firmware image via MQTT and also updates the Job progress and final status to the Cloud. 
 
