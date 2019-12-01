@@ -174,44 +174,63 @@ Hurray!!!
 
 **How does it work?**
 
-Please look at 
+Please look at the below code fro aws_iot_ota_update_demo.c from the **amazon-freertos/demos/ota** directory,
 
 ```
-           /* Connect to the broker. */
-            if (IotMqtt_Connect(&(xConnection.xNetworkInfo),
-                                &xConnectInfo,
-                                otaDemoCONN_TIMEOUT_MS, &(xConnection.xMqttConnection)) == IOT_MQTT_SUCCESS)
-            {
-                configPRINTF(("Connected to broker.\r\n"));
-                OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0);
-                xTaskCreate(pBlinkOnCakeReady,
-                            "REd Blinker Task",
-                            democonfigDEMO_STACKSIZE,
-                            (void *)NULL,
-                            democonfigDEMO_PRIORITY,
-                            &xHandle);
-                while ((eState = OTA_GetAgentState()) != eOTA_AgentState_NotReady)
-                {
-                    /* Wait forever for OTA traffic but allow other tasks to run and output statistics only once per second. */
-                    vTaskDelay(myappONE_SECOND_DELAY_IN_TICKS);
-                    configPRINTF(("State: %s  Received: %u   Queued: %u   Processed: %u   Dropped: %u\r\n", pcStateStr[eState],
-                                  OTA_GetPacketsReceived(), OTA_GetPacketsQueued(), OTA_GetPacketsProcessed(), OTA_GetPacketsDropped()));
-                }
-
-                IotMqtt_Disconnect(xConnection.xMqttConnection, false);
-            }
-            else
-            {
-                configPRINTF(("ERROR:  MQTT_AGENT_Connect() Failed.\r\n"));
-            }
-
-#if defined(CONFIG_OTA_UPDATE_DEMO_ENABLED)
-            vMqttDemoDeleteNetworkConnection(&xConnection);
-#endif
-            /* After failure to connect or a disconnect, wait an arbitrary one second before retry. */
+/* Connect to the broker. */
+if (IotMqtt_Connect(&(xConnection.xNetworkInfo),
+    &xConnectInfo,
+    otaDemoCONN_TIMEOUT_MS, &(xConnection.xMqttConnection)) == IOT_MQTT_SUCCESS)
+    {
+        configPRINTF(("Connected to broker.\r\n"));
+        OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0);
+        xTaskCreate(pBlinkOnCakeReady,
+                    "RED Blinker Task",
+                    democonfigDEMO_STACKSIZE,
+                    (void *)NULL,
+                    democonfigDEMO_PRIORITY,
+                    &xHandle);
+        while ((eState = OTA_GetAgentState()) != eOTA_AgentState_NotReady)
+        {
+            /* Wait forever for OTA traffic but allow other tasks to run and output statistics only once per second. */
             vTaskDelay(myappONE_SECOND_DELAY_IN_TICKS);
+            configPRINTF(("State: %s  Received: %u   Queued: %u   Processed: %u   Dropped: %u\r\n", pcStateStr[eState],
+                            OTA_GetPacketsReceived(), OTA_GetPacketsQueued(), OTA_GetPacketsProcessed(), OTA_GetPacketsDropped()));
         }
+
+    IotMqtt_Disconnect(xConnection.xMqttConnection, false);
+}
+else
+{
+    configPRINTF(("ERROR:  MQTT_AGENT_Connect() Failed.\r\n"));
+}
+         
 ```
+
+**OTA_AgentInit** function is the initialisation function of the OTA Agent which is responsible for managing the complexity of the OTA Job on behalf of the Application. On startup, it queries for Jobs being Queued for the Device on the cloud, Subscribes to MQTT topics, retreieves the firmware image via MQTT and also updates the Job progress and final status to the Cloud. 
+
+```
+  OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0)
+```
+
+The OTA Agent also provides callbacks to the Application via the **App_OTACompleteCallback** (in the above example), this is a user defined function which will receive the following events,
+
+```
+typedef enum
+{
+    eOTA_JobEvent_Activate = 0,  /*!< OTA receive is authenticated and ready to activate. */
+    eOTA_JobEvent_Fail = 1,      /*!< OTA receive failed. Unable to use this update. */
+    eOTA_JobEvent_StartTest = 2, /*!< OTA job is now in self test, perform user tests. */
+    eOTA_LastJobEvent = eOTA_JobEvent_StartTest
+} OTA_JobEvent_t;
+```
+The Application can decide how it wants to handle these Events. Please go through the **App_OTACompleteCallback** to get an understanding how these events are handled in this workshop. 
+
+For more information, please refer to the documentation here:
+
+https://docs.aws.amazon.com/freertos/latest/userguide/freertos-ota-dev.html
+https://docs.aws.amazon.com/freertos/latest/userguide/ota-agent-library.html
+
 
 
 
