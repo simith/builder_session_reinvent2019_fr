@@ -183,19 +183,24 @@ if (IotMqtt_Connect(&(xConnection.xNetworkInfo),
     otaDemoCONN_TIMEOUT_MS, &(xConnection.xMqttConnection)) == IOT_MQTT_SUCCESS)
     {
         configPRINTF(("Connected to broker.\r\n"));
-        OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0);
+        OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), 
+                      App_OTACompleteCallback, (TickType_t)~0);
+                      
         xTaskCreate(pBlinkOnCakeReady,
                     "RED Blinker Task",
                     democonfigDEMO_STACKSIZE,
                     (void *)NULL,
                     democonfigDEMO_PRIORITY,
                     &xHandle);
+                    
         while ((eState = OTA_GetAgentState()) != eOTA_AgentState_NotReady)
         {
             /* Wait forever for OTA traffic but allow other tasks to run and output statistics only once per second. */
             vTaskDelay(myappONE_SECOND_DELAY_IN_TICKS);
-            configPRINTF(("State: %s  Received: %u   Queued: %u   Processed: %u   Dropped: %u\r\n", pcStateStr[eState],
-                            OTA_GetPacketsReceived(), OTA_GetPacketsQueued(), OTA_GetPacketsProcessed(), OTA_GetPacketsDropped()));
+            configPRINTF(("State: %s  Received: %u   Queued: %u   Processed: %u   Dropped: %u\r\n", 
+                           pcStateStr[eState],
+                           OTA_GetPacketsReceived(), OTA_GetPacketsQueued(), 
+                           OTA_GetPacketsProcessed(), OTA_GetPacketsDropped()));
         }
 
     IotMqtt_Disconnect(xConnection.xMqttConnection, false);
