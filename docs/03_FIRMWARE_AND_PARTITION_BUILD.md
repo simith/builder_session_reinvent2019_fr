@@ -69,7 +69,7 @@ row[key]{'type': 'namespace', 'value': '', 'key': 'creds', 'encoding': ''}
 row[key]{'type': 'file', 'value': 'testdata/cert.der', 'key': 'P11_Cert', 'encoding': 'binary'}
 row[key]{'type': 'file', 'value': 'testdata/privatekey.der', 'key': 'P11_Key', 'encoding': 'binary'}
 row[key]{'type': 'file', 'value': 'testdata/csk.der', 'key': 'P11_CSK', 'encoding': 'binary'}
-Copying partition.bin to Workshop Tools directory
+Copying partition.bin to workshop/tools/bin directory
 partition.bin is ready for download.
 ```
 
