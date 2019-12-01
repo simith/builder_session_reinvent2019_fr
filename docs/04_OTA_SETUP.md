@@ -1,9 +1,10 @@
 # OTA Setup
 
-## Build the new firmware
+## Build the new firmware to fix the
 
-### Fix the Bug
-We now need to make some code changes to get the GREEN light flashing instead of the RED light and build the firmware and deploy it to the Cakematic device. The changes need to be done in the **ota** directory of **demos** in the file **aws_iot_ota_demo.c**,
+### 1. Let us fix the Bug
+
+We now need to make some code changes to get the GREEN light flashing instead of the RED light,build the firmware and deploy it to the Kakematic device. The changes need to be done in the **ota** directory of **demos** in the file **aws_iot_ota_demo.c**,
 
 The path to the file within amazon-freertos will be as shown below,
 
@@ -13,6 +14,7 @@ amazon-freertos/demos/ota
 
 ![OTA Red to Green](ws_ota_red_to_green.png?raw=true)
 
+At the end of the file there is a function named **pBlinkOnCakeReady**, this is esentially the task that runs when a cake is fully baked.
 
 ```
 static void pBlinkOnCakeReady(void *pParam)
@@ -39,7 +41,7 @@ static void pBlinkOnCakeReady(void *pParam)
 
 ```
 
-We need to modify the line which sets the xGpioPin variable from GPIO_RED to GPIO_GREEN. Alternatively, if this was part of the configuration on what LED needs to blink on cake ready, this information could have been updated via an OTA Custom job in the NVS storage partition which we are using for storing certificate, keys and other configuration, but that is left as a exercise for participants.
+We need to modify the line which sets the xGpioPin variable from GPIO_RED to GPIO_GREEN. Alternatively, if this was part of the Application configuration on what LED needs to blink on cake ready, this information could have been updated via an OTA Custom job which in turn would update the NVS storage partition which we are currently using only for storing certificate, keys and other configuration. That is left as an exercise to the participants.
 
 Let us go ahead and make the code changes,
 
@@ -47,7 +49,7 @@ Let us go ahead and make the code changes,
 uint32_t xGpioPin = GPIO_GREEN;
 ```
 
-### Update Version Number
+### 2. Update Version Number
 
 Amazon FreeRTOS compares the build version of the current running firmware to the one received via an OTA update. The build number should be higher than the firmware running on the MCU currently to update the firmware to the new version, hence we need to update the BUILD_VERSION_NUMBER as well.
 
@@ -76,27 +78,23 @@ upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
 
 ## Deploying the update
 
-### Setup the OTA Job
+### 1. Setup the OTA Job
 
-We are now all set to deploy the update to the Cakematic device. Head to the AWS IoT Console and then select AWS IoT from the Services menu. Select **Manage** eand then **Jobs** from the Sidebar,
+We are now all set to deploy the update to the Kakematic device. Head to the AWS IoT Console and then select AWS IoT from the Services menu. Select **Manage** and then **Jobs** from the side menu and hit **Create a job**,
 
 ![Job create welcome](ws_create_job_welcome.png?raw=true)
 
-
-Choose **Create OTA update** job, OTA jobs are used for Firmware updates. **Create custom job** is used for sending commands or configuration to the devices.
+Choose **Create OTA update job**, OTA jobs are used for Firmware updates. **Create custom job** option is used for sending commands or configuration to the devices.
 
 ![Job create welcome](ws_creat_ota_job.png?raw=true)
-
 
 Select your thing from the list or search for your thing. You can find your thing name at the workshop/tools/thingName file if you have forgotten the name.
 
 ![Job create welcome](ws_select_thing_for_ota.png?raw=true)
 
-
 Select your thing as shown below, hit Next
 
 ![Select thing](ws_thing_selected_for_ota.png?raw=true)
-
 
 Select "Sign new firmware image for me",
 
@@ -104,16 +102,19 @@ Select "Create" for Code signing profile, and enter the information as shown bel
 
 ![Select thing](ws_code_signing_profile.png?raw=true)
 
-
-Fill in the required fields like below,
+Fill in the required fields as shown below,
 
 ![Select thing](ws_ota_info_provided.png?raw=true)
 
 1. The firmware image in S3 - Location where you uploaded the new firmware
-2. `/var` in the Pathname of the firmware image on the device - This does not apply as we do not have a filesystem, but the filed is mandatory, hence just put in a string.
-3. IAM Role for an OTA Job - We have actual created an IAM Role for this workshop: **ota-update-reinvent-role**, just select that!
+2. `/var` in the Pathname of the firmware image on the device - This does not apply to this workshop as we do not have a filesystem in flash, but the field is mandatory, let us just put in a string.
+3. IAM Role for an OTA Job - We have created an IAM Role for this workshop named **ota-update-reinvent-role**, let us just select that.
 
-The policy attached to the IAM Role **ota-update-reinvent-role** looks like this,
+The policy attached to the IAM Role **ota-update-reinvent-role** looks like the below, it provides access to the AWS Services that are required,
+
+1. S3 - For access to the firmware and storung the signed images
+2. ACM (Amazon Certificate Manager) for signing the firmware, remember we put our Code siging certificate there
+3. AWS IoT core, IAM and Freertos for the various operations required to be done during the Job creation step.
 
 ```
 {
@@ -156,15 +157,19 @@ The policy attached to the IAM Role **ota-update-reinvent-role** looks like this
 }
 ```
 
-Finally fill in the fields for creating an OTA update job,
+Finally, let us fill in the fields for creating an OTA update job,
 
 ![Create OTA Job](ws_final_ota_step.png?raw=true)
 
-### OTA Firmware Update
+Before you hit the Create button make sure you have the Kakematic device already connected to the network and running the Production formware we flashed at the Factory. Even if it is not connected the Jobs are queued on the Device in the cloud, the next time it connects and subscribes to the Job topics it will receive the queued job. Hence, the device will never **_lose a Job ;-)_**
 
-Now we monitor the firmware being updated on the remote device. Once the update completes, the downloaded OTA is verified and is successful, then it takes effect.
+### 2. OTA firmware update
 
-Now our Green LED Blinks instead of the RED LED in our Cakematic when baking is completed.
+We are currently running the Production firmware flashed at the factory. The firmware has already subscribed to MQTT topics to listen to new Jobs being targeted at our Thing. So, if everything was setup correctly, we should see a new Job PUBLISH being received and the OTA Agent doing the firmware download.
+
+Let us monitor the firmware being updated on the device. Once the update completes, the downloaded OTA is verified and is successful, then it takes effect.
+
+Now our Green LED Blinks instead of the RED LED on our Kakematic device when the baking is completed.
 Hurray!!!
 
 | [Previous section](./03_FIRMWARE_AND_PARTITION_BUILD.md) | [Main](../README.md) | [Next section](../README.md) |

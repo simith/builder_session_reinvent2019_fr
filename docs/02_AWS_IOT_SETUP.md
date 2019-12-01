@@ -1,8 +1,8 @@
 # AWS IoT Setup
 
-## 1. X.509 Device Certificate, Keys, IoT Policy and Thing
+### 1. Create X.509 Device Certificate, Keys, Code sigining certificate, IoT Policy and Thing
 
-In order to connect successfully to AWS IoT, a X.509 certificate, Private key and an IoT Policy attached to the Certificate is required. We will create this first.
+In order to connect successfully to AWS IoT, a X.509 certificate, Private key and an IoT Policy attached to the Certificate is required. We will create this first via a script.
 
 Go to _builder_session_reinvent2019_fr/workshop/tools/_ directory of the git repository and execute **create_thing.sh** as below,
 
@@ -32,10 +32,10 @@ The script also activates the certificate, creates an IoT policy, attaches an Io
 At this point, please navigate to the AWS Console > AWS IoT > Manage > Things to find your thing. See how the thing is setup. If you would like to know your Thing name, it will be printed during the above script execution, or you could look at the thingName file to find your thing name. The thing has a Certificate, and the certificate is setup with an IoT Policy for receiving a Job and doing an OTA update.
 
 ## 2. Generating Code Signing Keys and Certificates
+
 To make the OTA process secure the Firmware that will be sent to the device needs to be signed by the Code signing Key on AWS. The Code Signing Certificate is loaded on the device as well to check the firmware is signed by the right key on AWS.
 
 To automate the creation of the Thing, Certificate, Keys, IoT Policy and the Code signing certificate a script has been provided to you in the **workshop/tools/** directory called **create_code_signing_cert.sh**. When you are ready, please execute the script,
-
 
 ```
 $ ./create_code_signing_cert.sh
@@ -55,7 +55,7 @@ From the **workshop/tools** directory let us use the AWS CLI ACM command to impo
 $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key 2>&1 | tee  acmCertificateId
 {
     "CertificateArn": "arn:aws:acm:us-west-2:<ACCOUNT_ID>:certificate/<GUID>"
-}   
+}
 ```
 
 The **acmCertificateId** file will have the certificate id for the Code signing certificate, we will need to select it in the OTA Job workflow when we push an OTA update to the Cakematic device.
@@ -84,7 +84,7 @@ $ aws s3api put-bucket-versioning --bucket <BUCKET_NAME>  --versioning-configura
 
 ## 4. Creating an IAM Policy and a Role for OTA update
 
-***Note you do not need to perform this step***
+**_Note you do not need to perform this step_**
 For uploading firmware to S3 bucket, sign the firmware and deploy it, we need to create an IAM Policy and attach it to a Role. In this workshop the Role and IAM Policy has been created for you and attached to your IAM username, the following is the IAM policy.
 
 ```
