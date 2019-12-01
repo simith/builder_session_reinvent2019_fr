@@ -172,4 +172,48 @@ Let us monitor the firmware being updated on the device. Once the update complet
 Now our Green LED Blinks instead of the RED LED on our Kakematic device when the baking is completed.
 Hurray!!!
 
+**How does it work?**
+
+Please look at 
+
+```
+           /* Connect to the broker. */
+            if (IotMqtt_Connect(&(xConnection.xNetworkInfo),
+                                &xConnectInfo,
+                                otaDemoCONN_TIMEOUT_MS, &(xConnection.xMqttConnection)) == IOT_MQTT_SUCCESS)
+            {
+                configPRINTF(("Connected to broker.\r\n"));
+                OTA_AgentInit(xConnection.xMqttConnection, (const uint8_t *)(clientcredentialIOT_THING_NAME), App_OTACompleteCallback, (TickType_t)~0);
+                xTaskCreate(pBlinkOnCakeReady,
+                            "REd Blinker Task",
+                            democonfigDEMO_STACKSIZE,
+                            (void *)NULL,
+                            democonfigDEMO_PRIORITY,
+                            &xHandle);
+                while ((eState = OTA_GetAgentState()) != eOTA_AgentState_NotReady)
+                {
+                    /* Wait forever for OTA traffic but allow other tasks to run and output statistics only once per second. */
+                    vTaskDelay(myappONE_SECOND_DELAY_IN_TICKS);
+                    configPRINTF(("State: %s  Received: %u   Queued: %u   Processed: %u   Dropped: %u\r\n", pcStateStr[eState],
+                                  OTA_GetPacketsReceived(), OTA_GetPacketsQueued(), OTA_GetPacketsProcessed(), OTA_GetPacketsDropped()));
+                }
+
+                IotMqtt_Disconnect(xConnection.xMqttConnection, false);
+            }
+            else
+            {
+                configPRINTF(("ERROR:  MQTT_AGENT_Connect() Failed.\r\n"));
+            }
+
+#if defined(CONFIG_OTA_UPDATE_DEMO_ENABLED)
+            vMqttDemoDeleteNetworkConnection(&xConnection);
+#endif
+            /* After failure to connect or a disconnect, wait an arbitrary one second before retry. */
+            vTaskDelay(myappONE_SECOND_DELAY_IN_TICKS);
+        }
+```
+
+
+
+
 | [Previous section](./03_FIRMWARE_AND_PARTITION_BUILD.md) | [Main](../README.md) | [Next section](../README.md) |
