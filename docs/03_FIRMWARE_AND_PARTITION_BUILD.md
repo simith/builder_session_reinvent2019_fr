@@ -61,7 +61,8 @@ Esentially, the certificate, key, code signing certificate which we converted to
 In order to simplify, execute the command **./create_partition.sh** from the _builder_session_reinvent2019_fr/workshop/tools/_ directory. You will get the following:
 
 ```
-$ ./create_partition.sh Copying Certificate, Private Key and Code Signing Key
+$ ./create_partition.sh 
+Copying Certificate, Private Key and Code Signing Key
 Creating partition.bin with Key, Device Certificate and Code Signing Certificate
 python nvs_partition_gen.py --version v2 input partition.csv output partition.bin
 row[key]{'type': 'namespace', 'value': '', 'key': 'creds', 'encoding': ''}
