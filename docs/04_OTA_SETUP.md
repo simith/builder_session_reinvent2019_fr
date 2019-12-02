@@ -83,7 +83,7 @@ upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
 
 ### 1. Setup the OTA Job
 
-We are now all set to deploy the update to the Kakematic device. Head to the AWS IoT Console and then select AWS IoT from the Services menu. Select **Manage** and then **Jobs** from the side menu and hit **Create a job**,
+We are now all set to deploy the update to the Kakematic device. Head to the AWS IoT Console and then select **IoT Core** from the Services menu. Select **Manage** and then **Jobs** from the side menu and hit **Create a job**,
 
 ![Job create welcome](ws_create_job_welcome.png?raw=true)
 
