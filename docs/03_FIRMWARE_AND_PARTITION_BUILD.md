@@ -159,7 +159,13 @@ Scanning dependencies of target blank_ota_data
 
 ## Setup your Laptop for flashing firmware and configuration
 
-1. Setup the Toolchain (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
+1. Setup the esptool (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
+
+If you have Python installed, the below command should do the job,
+
+```
+pip install esptool
+```
 
 2. Execute the **get_bin.sh** script from the **workshop/tools** to get all built binaries into the bin folder.
 
@@ -179,8 +185,11 @@ We are now all set to download the .bin files to your laptop and start flashing 
 
 Please make sure the **esptool.py** is in the path before executing the next command,
 
+Let us erase the flash first before writing the firmware and configuration,
+
+
 ```
-$ esptool.py --chip esp32 -p <COM_PORT> -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x317000 partition.bin
+$ esptool.py write_flash 0x317000  partition.bin
 ```
 
 Flash address `0x317000` address in flash is where the storage partition is located. The **partition.bin** has the Certificate, Key and Code signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
@@ -191,7 +200,7 @@ Flash address `0x317000` address in flash is where the storage partition is loca
 Please make sure the **esptool.py** is in the path before executing the next command,
 
 ```
-$ esptool.py --chip esp32 -p <COM_PORT> -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin
+$  esptool.py --chip esp32 -p [PORT] -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin 
 ```
 
 ## Monitor the ESP32 (From Laptop)
