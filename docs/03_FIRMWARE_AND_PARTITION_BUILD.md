@@ -165,7 +165,7 @@ The RGB LED's need to be attached to the ESP32 MCU GPIO so that you can see the 
 
 The following is the RGB LED's that needs to be attached to the GPIO pins of the ESP32 MCU.
 
-![RGB LED](ws_esp32_back.png?raw=true)
+![RGB LED](ws_rgb_led.png?raw=true)
 
 
 The GPIO pins for the colors are defined in the **aws_iot_ota_update_demo.c** file in **amazon-freertos/demos/ota** directory for this workshop,
