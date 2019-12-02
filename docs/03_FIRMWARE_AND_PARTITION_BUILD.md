@@ -157,6 +157,30 @@ Scanning dependencies of target blank_ota_data
 [100%] Built target blank_ota_data
 ```
 
+## Setup the ESP32 MCU with the LED's
+
+The RGB LED's need to be attached to the ESP32 MCU GPIO so that you can see the factory firmware behaviour of RED LED Flashing before you flash the firmware in the next step. 
+
+![ESP32 MCU Back](ws_esp32_back.png?raw=true)
+
+The following is the RGB LED's that needs to be attached to the GPIO pins of the ESP32 MCU.
+
+![RGB LED](ws_esp32_back.png?raw=true)
+
+
+The GPIO pins for the colors are defined in the **aws_iot_ota_update_demo.c** file in **amazon-freertos/demos/ota** directory for this workshop,
+
+```
+#define GPIO_GREEN 14
+#define GPIO_RED 15
+```
+
+Here is how you have to connect the Red, Green and GND pins,
+
+![GPIO setup](ws_esp32_gpio_setup.png?raw=true)
+
+
+
 ## Setup your Laptop for flashing firmware and configuration
 
 1. Setup the esptool (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
