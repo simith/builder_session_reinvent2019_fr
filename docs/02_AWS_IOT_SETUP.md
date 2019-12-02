@@ -76,7 +76,7 @@ Create an S3 bucket using the AWS CLI using the following command.
 $ aws s3 mb s3://<BUCKET_NAME> --region=us-west-2
 ```
 
-And then enable versioning on the bucket.
+And then enable versioning on the bucket, please note s3:// is not required for this command before the <BUCKET_NAME>,
 
 ```
 $ aws s3api put-bucket-versioning --bucket <BUCKET_NAME>  --versioning-configuration Status=Enabled
