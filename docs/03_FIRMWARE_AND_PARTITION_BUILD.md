@@ -237,6 +237,6 @@ For Mac users, use the screen command,
 $ screen /dev/cu.SLAB_USBtoUART 115200
 ```
 
-Windows users can use the Putty terminal software or TeraTerm.
+Windows users can use the Putty terminal software or TeraTerm. You should now be able to see the console output of connecting to AWS IoT and after a few seconds when our virtual cake is baked, the RED LED should start flashing continiously.
 
 | [Previous section](./02_AWS_IOT_SETUP.md) | [Main](../README.md) | [Next section](./04_OTA_SETUP.md) |
