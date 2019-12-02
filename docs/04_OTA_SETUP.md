@@ -71,8 +71,11 @@ build$ make
 
 You should now have the latest firmware ready to be deployed via AWS IoT Device Management. We will now go through the OTA workflow to deploy the firmware update to your thing. Before that we need to upload the firmware to the S3 bucket we created before.
 
+From the build directory in ***amazon-freertos***,
+
 ```
-$ aws s3 cp aws_demos.bin s3://<BUCKET_NAME>/firmware_v_1_1.bin
+$cp aws_demos.bin firmware_v_1_1.bin
+$ aws s3 cp firmware_v1_1.bin   s3://<BUCKET_NAME>
 upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
 ```
 
