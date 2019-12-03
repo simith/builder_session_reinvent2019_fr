@@ -157,6 +157,15 @@ Scanning dependencies of target blank_ota_data
 [100%] Built target blank_ota_data
 ```
 
+Finally, execute the **get_bin.sh** script from the **workshop/tools** to get all built binaries into the bin folder.
+
+```
+$ ./get_bin.sh
+Copied partition-table.bin,bootloader.bin,ota_data_initial.bin and firmware.bin to ./bin folder
+```
+
+This will copy all the files that need to be downloaded to **tools/bin** directory
+
 ## Setup the ESP32 MCU with the LED's
 
 The RGB LED's need to be attached to the ESP32 MCU GPIO so that you can see the factory firmware behaviour of RED LED Flashing before you flash the firmware in the next step. The Pin marked in RED color on the ESP32 will be connected to the **R** on the RGB LED, Green to **G** and White color to **GND**. GND stands for Ground. Please note there is a PIN nameed CMD, which looks very similar to GND, so please be careful when connecting the PINS to the RGB LED's and make sure you have it correctly wired up.
@@ -192,12 +201,6 @@ If you have Python installed, the below command should do the job,
 pip install esptool
 ```
 
-2. Execute the **get_bin.sh** script from the **workshop/tools** to get all built binaries into the bin folder.
-
-```
-$ ./get_bin.sh
-Copied partition-table.bin,bootloader.bin,ota_data_initial.bin and firmware.bin to ./bin folder
-```
 
 ## Download the Firmware and configuration from Cloud9
 
