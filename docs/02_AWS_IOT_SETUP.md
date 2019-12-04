@@ -18,7 +18,7 @@ Creating Thing with thing name: <THING_NAME>
 Attaching Thing with thing name <THING_NAME> to certificate <CERTIFICATE_ID>
 ```
 
-The script creates 3 files in the tools directory by making calls to AWS IoT Core in the us-west-2 region,
+The script creates 3 files in the tools directory by making calls to AWS IoT Core in the us-east-1 region,
 
 1. cert.pem (Device Certificate)
 2. privatekey.pem (Private Key)
@@ -54,7 +54,7 @@ From the **workshop/tools** directory let us use the AWS CLI ACM command to impo
 ```
 $ aws acm import-certificate --certificate file://ecdsasigner.crt  --private-key file://ecdsasigner.key 2>&1 | tee  acmCertificateId
 {
-    "CertificateArn": "arn:aws:acm:us-west-2:<ACCOUNT_ID>:certificate/<GUID>"
+    "CertificateArn": "arn:aws:acm:us-east-1:<ACCOUNT_ID>:certificate/<GUID>"
 }
 ```
 
@@ -73,7 +73,7 @@ Let us create an S3 bucket for storing the firmware image when we do an OTA upda
 Create an S3 bucket using the AWS CLI using the following command.
 
 ```
-$ aws s3 mb s3://<BUCKET_NAME> --region=us-west-2
+$ aws s3 mb s3://<BUCKET_NAME> --region=us-east-1
 ```
 
 And then enable versioning on the bucket, please note s3:// is not required for this command before the <BUCKET_NAME>,

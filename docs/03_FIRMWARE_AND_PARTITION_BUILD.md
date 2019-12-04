@@ -14,8 +14,7 @@ ota_1,    0,    ota_1,   ,         1500K
 storage,  data, nvs,     ,         0x10000
 ```
 
-The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-volatile storage) ***storage*** partition for storing certificates and configuration. The production firmware is flashed at ota_0 in the factory. As you deploy your updates the firmware images will be written to ota_1 and ota_0 based on which is the primary at that point. Amazon FreeRTOS has a few conventions that you can use to program certificates, keys, code-signing certificates, Just-in-time Registration certificates etc. so that it makes it easy to program thises devices with the required configuration. If you abide by those conventions, everything should work as expected when Amazon FreeRTOS looks for the configuration it on the flash or filesystem.
-
+The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-volatile storage) **_storage_** partition for storing certificates and configuration. The production firmware is flashed at ota_0 in the factory. As you deploy your updates the firmware images will be written to ota_1 and ota_0 based on which is the primary at that point. Amazon FreeRTOS has a few conventions that you can use to program certificates, keys, code-signing certificates, Just-in-time Registration certificates etc. so that it makes it easy to program thises devices with the required configuration. If you abide by those conventions, everything should work as expected when Amazon FreeRTOS looks for the configuration it on the flash or filesystem.
 
 ### Converting certificates from PEM to DER
 
@@ -35,7 +34,7 @@ As a result, three DER files have been created.
 
 ### Generating storage partition
 
-We are not going to store the Certificate, private key and Code siging certificate in the header file or as a part of the source code of the firmware, as that is not going to be a scalable way of doing things in the factory. Hence, we need to write this configuration seperately to flash during production. 
+We are not going to store the Certificate, private key and Code siging certificate in the header file or as a part of the source code of the firmware, as that is not going to be a scalable way of doing things in the factory. Hence, we need to write this configuration seperately to flash during production.
 
 We retrieved the Certificate and Private key from AWS IoT (Amazon CA issued certificates) for this workshop, however, in production, it is not considered to be a good practise to download private key over the wire and store it on the disk. In such situations Just-in-time Registration/Just-in-time Provisioning flows needs to be used, where the certificate can be provisioned on the device and a CSR can be sent out which will be signed by the CA (on the Factory PC) and the Certificate returned back to the device, this way the Private key never leaves the device.
 
@@ -56,12 +55,13 @@ P11_Cert,file,binary,testdata/cert.der
 P11_Key,file,binary,testdata/privatekey.der
 P11_CSK,file,binary,testdata/csk.der
 ```
+
 Esentially, the certificate, key, code signing certificate which we converted to DER format is being packaged into a binary file to be stored on on the nvs storage partition.
 
 In order to simplify, execute the command **./create_partition.sh** from the _builder_session_reinvent2019_fr/workshop/tools/_ directory. You will get the following:
 
 ```
-$ ./create_partition.sh 
+$ ./create_partition.sh
 Copying Certificate, Private Key and Code Signing Key
 Creating partition.bin with Key, Device Certificate and Code Signing Certificate
 python nvs_partition_gen.py --version v2 input partition.csv output partition.bin
@@ -79,7 +79,7 @@ This command invokes the NVS Partition Generator tool and create **partition.bin
 
 Before building the factory firmware image, we need to update the firmware image with the AWS IoT Endpoint, Thing name of the Thing your script just created and Wi-Fi credentials. Ideally, IoT Endpoint information can go into the storage partition as part of the configuration, however, for the purposes of this workshop let us update the file **aws_clientcredential.h** with the endpoint information as shown below. **This approach is not recommended for Production**. The information that you need to fill in are in the subsection below.
 
- ![Firmware Client Update](ws_client_credential_update.png?raw=true)
+![Firmware Client Update](ws_client_credential_update.png?raw=true)
 
 We are going to use the Amazon FreeRTOS OTA demo for this workshop. You can find the OTA Demo code in the demos directory of Amazon FreeRTOS git repository.
 
@@ -88,9 +88,9 @@ We are going to use the Amazon FreeRTOS OTA demo for this workshop. You can find
 To get you AWS IoT endpoint, execute the following command,
 
 ```
-$ aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-west-2
+$ aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-east-1
 {
-    "endpointAddress": "xxxxxxxxxxxxx-ats.iot.us-west-2.amazonaws.com"
+    "endpointAddress": "xxxxxxxxxxxxx-ats.iot.us-east-1.amazonaws.com"
 }
 ```
 
@@ -170,13 +170,11 @@ This will copy all the files that need to be downloaded to **tools/bin** directo
 
 The RGB LED's need to be attached to the ESP32 MCU GPIO so that you can see the factory firmware behaviour of RED LED Flashing before you flash the firmware in the next step. The Pin marked in RED color on the ESP32 will be connected to the **R** on the RGB LED, Green to **G** and White color to **GND**. GND stands for Ground. Please note there is a PIN nameed CMD, which looks very similar to GND, so please be careful when connecting the PINS to the RGB LED's and make sure you have it correctly wired up.
 
-
 ![ESP32 MCU Back](ws_esp32_back.png?raw=true)
 
 The following is the RGB LED's that needs to be attached to the GPIO pins of the ESP32 MCU.
 
 ![RGB LED](ws_rgb_led.png?raw=true)
-
 
 The GPIO pins for the colors are defined in the **aws_iot_ota_update_demo.c** file in **amazon-freertos/demos/ota** directory for this workshop,
 
@@ -189,8 +187,6 @@ Here is how you have to connect the Red, Green and GND pins,
 
 ![GPIO setup](ws_esp32_gpio_setup.png?raw=true)
 
-
-
 ## Setup your Laptop for flashing firmware and configuration
 
 1. Setup the esptool (https://docs.espressif.com/projects/esp-idf/en/v3.1.5/get-started-cmake/index.html#get-started-setup-toolchain-cmake)
@@ -201,13 +197,11 @@ If you have Python installed, the below command should do the job,
 pip install esptool
 ```
 
-
 ## Download the Firmware and configuration from Cloud9
 
 We are now all set to download the .bin files to your laptop and start flashing the binaries to the ESP32 MCU. From the workshop/tools/bin folder download the .bin files to you laptop as shown below,
 
 ![Firmware Client Update](ws_binary_download.png?raw=true)
-
 
 ## Flash configuration (From Laptop)
 
@@ -215,20 +209,18 @@ Please make sure the **esptool.py** is in the path before executing the next com
 
 Let us erase the flash first before writing the firmware and configuration,
 
-
 ```
 $ esptool.py write_flash 0x317000  partition.bin
 ```
 
 Flash address `0x317000` address in flash is where the storage partition is located. The **partition.bin** has the Certificate, Key and Code signing certificate. You could use it to store more configuration information like IoT endpoint, and application specific configuration.
 
-
 ## Flash Firmware (From Laptop)
 
 Please make sure the **esptool.py** is in the path before executing the next command,
 
 ```
-$  esptool.py --chip esp32 -p [PORT] -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin 
+$  esptool.py --chip esp32 -p [PORT] -b 460800 write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader.bin 0x8000 partition-table.bin 0x16000 ota_data_initial.bin 0x20000 firmware.bin
 ```
 
 ## Monitor the ESP32 (From Laptop)
