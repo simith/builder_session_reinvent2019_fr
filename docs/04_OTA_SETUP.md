@@ -76,7 +76,7 @@ From the build directory in ***amazon-freertos***,
 ```
 $cp aws_demos.bin firmware_v_1_1.bin
 $ aws s3 cp firmware_v_1_1.bin   s3://<BUCKET_NAME>
-upload: ./firmware.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
+upload: ./firmware_v_1_1.bin to s3://<BUCKET_NAME>/firmware_v_1_1.bin
 ```
 
 ## Deploying the update
