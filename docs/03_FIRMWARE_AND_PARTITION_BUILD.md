@@ -14,7 +14,7 @@ ota_1,    0,    ota_1,   ,         1500K
 storage,  data, nvs,     ,         0x10000
 ```
 
-The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-volatile storage) **_storage_** partition for storing certificates and configuration. The production firmware is flashed at ota_0 in the factory. As you deploy your updates the firmware images will be written to ota_1 and ota_0 based on which is the primary at that point. Amazon FreeRTOS has a few conventions that you can use to program certificates, keys, code-signing certificates, Just-in-time Registration certificates etc. so that it makes it easy to program thises devices with the required configuration. If you abide by those conventions, everything should work as expected when Amazon FreeRTOS looks for the configuration on the flash or filesystem.
+The above partition table represents 2 OTA partitions and (ota_0 and ota_1) and a NVS (non-volatile storage) **_storage_** partition for storing certificates and configuration. The production firmware is flashed at ota_0 in the factory. As you deploy your updates the firmware images will be written to ota_1 and ota_0 based on which is active at that point. Amazon FreeRTOS has a few conventions that you can use to program certificates, keys, code-signing certificates, Just-in-time Registration certificates etc. so that it makes it easy to program thises devices with the required configuration. If you abide by those conventions, everything should work as expected when Amazon FreeRTOS looks for the configuration on the flash or filesystem.
 
 ### Converting certificates from PEM to DER
 
