@@ -2,6 +2,8 @@
 
 ## 1. Setup the Cloud environment by logging in to the AWS Console
 
+Please note, if the workshop has not provided a Cloud9 environment, please follow the instructions for setting up your Cloud9 environment for this workshop here: [Setup Cloud9](../Setup_Cloud9.md)
+
 Using the provided username, password and AWS Console URL, login to the AWS Console.
 
 ![Console](ws_console_login.png?raw=true)
