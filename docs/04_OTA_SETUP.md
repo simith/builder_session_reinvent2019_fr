@@ -1,6 +1,6 @@
 # OTA Setup
 
-## Build the new firmware to fix the
+## Build the new firmware to fix the Bug
 
 ### 1. Let us fix the Bug
 
